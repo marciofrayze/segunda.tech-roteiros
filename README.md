@@ -1,2 +1,3 @@
-# comecandoaterminar
-Começando a Terminar (scripts e matérias em geral dos videos)
+# Começando a Terminar
+
+Scripts e material em geral dos vídeos.
