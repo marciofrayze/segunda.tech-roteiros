@@ -1,0 +1,183 @@
+Começando a Terminar - #00
+Introdução a Programação Orientada a Objetos - Parte 1 (episódio Piloto)
+
+E ai pessoal!
+
+Meu nome é Marcio e você está assistindo ao episódio piloto deste
+
+novo canal no youtube.
+
+Neste primeiro video nos vamos conversar um pouco sobre os conceitos básicos por
+
+trás da Programação Orientada a Objetos.
+
+Este é um tema bastante extenso, e eu poderia passar dias falando sobre
+
+caaaada detalhe... mas o objetivo aqui é dar um ponta pé inicial e introduzir
+
+os principais conceitos de uma forma simples e clara.
+
+Pra facilitar as coisas, eu vou dividir o conteúdo em uma série de
+
+pequenos vídeos, ta?
+
+Depois de assistir a todos eles, você deve ter uma base sólida o suficiente para
+
+ser capaz de continuar seus estudos com temas mais avançados através de
+
+outras fontes, beleza?
+
+Minha principal motivação para criar este conteúdo foi o fato de não encontrar
+
+muito material de boa qualidade e em português que servisse como
+
+porta de entrada pra esse tema.
+
+Existem muitos artigos, muitos livros que partem direto pra tópicos como
+
+padrões de projetos, boas práticas de programação, refatoração de código, ...
+
+E tudo isso é muito importante, né?
+
+Mas sem ter uma boa base teórica sobre o assunto,
+
+seu estudo se torna pouco produtivo e até um pouco desestimulante as vezes.
+
+Então meu objetivo com essa série de videos é tentar suprir esta deficiência.
+
+Bom, pra uma boa compreensão você não precisa ter muito conhecimentos prévios
+
+sobre o tema
+
+mas é interessante que já tenha tido alguma experiência com algum tipo de programação.
+
+Se você já desenvolveu algum software em qualquer linguagem de programação
+
+então já deve ter o conhecimento necessário para acompanhar sem problemas.
+
+Mas na verdade neste primeiro video a gente ainda não vai conversar sobre
+
+programação orientada a objetos, vamos abordar um tema anterior.
+
+Hoje eu vou falar sobre O que é um Paradigma de Programação.
+
+Porque antes de falar sobre Programação Orientada a Objetos é preciso entender o
+
+conceito de Paradigma de Programação.
+
+Então, bora começar?
+
+Paradigmas de programação são formas ou modelos de como implementar softwares.
+
+Você pode encarar o conceito de paradigma como sendo uma abstração da
+
+estrutura básica que direciona a forma de pensamento na atividade de
+
+desenvolvimento de software.
+
+*** Pera ai Marcio, já não to entendendo mais nada do que c ta falando cara...
+
+Calma.
+
+O que eu quero dizer é que um mesmo problema pode ser resolvido utilizando
+
+diversas abordagens diferentes e dependendo da situação um determinado
+
+paradigma ou uma determinada forma de abstração e representação do problema
+
+pode trazer vantagens ou desvantagens.
+
+A Programação Orientada a Objetos é um dos diversos paradigmas de programação
+
+existentes, ou seja, é uma das formas de encarar e organizar nossas ideias para
+
+abordar o problema que a gente quer resolver.
+
+*** Mas cara, quais são então os paradigmas existentes?
+
+*** Programação Orientada a objetos é o MELHOR deles, né?
+
+Existem vários paradigmas.
+
+E Não. Programação Orientada a Objetos não é nem melhor nem pior que os demais.
+
+É importante ter em mente que não existe uma abordagem que seja perfeita para
+
+todos os tipos de problemas.
+
+Desenvolver um sistema de Inteligência Artificial pra
+
+previsão do tempo provavelmente vai exigir uma abordagen completamente
+
+diferente da utilizada para se desenvolver um site na internet por exemplo.
+
+*** É.. faz sentido...
+
+E hoje em dia podemos dizer que existem 5 principais paradigmas de programação:
+
+Procedural, Orientado a Objetos, Funcional, Imperativo e o Lógico.
+
+A gente vai abordar apenas um deles, mas é importante saber que uma linguagem
+
+de programação não precisa necessariamente se restringir a apenas um destes paradigmas.
+
+Existem várias linguagem que permitem que o programador misture
+
+dois ou até mesmo váarios paradigmas livremente.
+
+Estes tipos de linguagens são chamadas de
+
+(close)
+multiparadigmas.
+
+Um exemplo é a linguagem Scala:
+
+Ela permite que você misture programação orientada a objetos, funcional e imperativa.
+
+Outros exemplos de linguagens multiparadigmas são:
+
+Java, C#, Swift, C++, Visual Basic, hum.. Common Lisp e muitas outras.
+
+E exemplos de linguagens considerada estritamente orientada a objetos seriam:
+
+Smalltalk, NewtonScript, Self, IO, entre outras.
+
+Pow Marcio, mas eu achava que Java e C# fossem orientadas a objetos!
+
+É, a gente pode dizer que as linguagens como Java e C# são predominantementes
+
+orientadas a objetos já que na maior parte do tempo é este paradigma que você
+
+mais vai usar enquanto estiver programando nestas linguagens,
+
+mas cada vez mais as pessoas estão começando a misturar outros paradigmas,
+
+principalmente o funcional.
+
+Então é isso pessoal.
+
+Sei que esse é um tema beem abstrato mas acho que agora vocês já tem pelo
+
+menos uma noção do que é um paradigma de programação, né?
+
+E com isso chegamos ao fim desta primeira video-aula.
+
+Nos próximos videos vou definir o que é a Programação Orientada a Objetos,
+
+vou contar um pouquinho da historia de onde surgiu essa ideia e daqui a alguns
+
+videos a gente vai conversar sobre tópicos como o que são classes, métodos,
+
+construtores, polimorfismo e muitos outros temas bacanas da
+
+programação orientada a objetos, blz?
+
+E se você curtiu esse primeiro episódio piloto e quer que eu continue fazendo mais
+
+video-aulas, se inscreve ai no canal, da um like nesse video e... até a próximo!
+
+(final do video)
+
+*** pow cara, esse negocio é muito louco mano. Vo aprende tudo as parada ai de
+
+programação e tal, da hora.
