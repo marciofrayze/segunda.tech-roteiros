@@ -124,15 +124,13 @@ Hoje em dia não só o hardware evoluiu,
 
 mas evoluiram também as técnicas de otimização utilizadas para implementar essas soluções.
 
-Os programadores que estão lá trabalhando na implementação
+Existem programadores que estão diariamente pensando em formas pra melhorar a performance
 
-dos compiladores e das máquinas virtuais das linguagens de programação
+e a cada nova versão das linguagens de programação,
 
-estão diariamente pensando em formas pra melhorar a performance
+técnicas cada vez mais avançadas são construidas pra deixar mais rapida
 
-e a cada nova versão, novas técnicas cada vez mais avançadas são construidas
-
-pra deixar mais rapida a execução dos sofwares implementados utilizando essas tenologias.
+a execução dos sofwares implementados utilizando essas tenologias.
 
 Isso permite que se tenha uma performance muuuito superior do que era algumas decadas atrás.
 
@@ -160,7 +158,7 @@ Ai lá pra meados da década de 90
 
 a adoção da programação orientada a objetos começou a ganhar cada vez mais força.
 
-e foi quando em 1995 nasceu o Java.
+até que em 1995 nasceu o Java.
 
 Acho que todo mundo já ouviu falar nessa linguagem, né?
 
@@ -170,13 +168,11 @@ e desta forma a maioria dos programadores
 
 se sentiam mais a vontade pra explorar e experimentar esta nova linguagem.
 
-Eu poderia contar aqui toda a história do Java,
-
-todos os motivos que levaram ela a ser a linguagem mais utilizada no mundo atualmente,
+Eu poderia ficar aqui contando todos os motivos que levaram ela a ser a linguagem mais utilizada no mundo atualmente,
 
 mas o video ia ficar muito longo e cansativo.
 
-Talvez no futuro eu conte tudo isso com detalhes pra vocês em uma outra ocasião, beleza?
+Talvez no futuro eu volte a falar sobre esse tema com detalhes, beleza?
 
 *** Ok ok.. mas afinal de contas, por quê criaram esse novo paradigma?
 
@@ -186,9 +182,17 @@ Talvez no futuro eu conte tudo isso com detalhes pra vocês em uma outra ocasiã
 
 Bom... eu queria muito falar mais sobre isso com vocês,
 
-mas ai a gente já está fugindo um pouco do escopo desse video...
+maaas ai a gente já estaria fugindo um pouco do escopo...
 
-No próximo video a gente conversa sobre isso, beleza?!
+Então no próximo video a gente conversa sobre isso, beleza?!
+
+E isso ai.
+
+Espero que vocês estejam gostando das video-aulas e.... até a próxima.
+
+Ah pessoal! Não esquece de se inscrever aqui canal e dar um like nesse video, beleza?!
+
+Até mais!
 
 
 
