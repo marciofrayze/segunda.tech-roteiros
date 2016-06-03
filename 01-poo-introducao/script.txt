@@ -1,0 +1,421 @@
+[O que é a Programação orientada a Objetos?]
+
+Sei que você deve estar morrendo de vontade de partir logo pra temas mais avançados, né?
+
+E gente chega lá, beleza?
+
+Mas aaantes... eu quero contar pra vocês um pouquinho da *história* da programação orientada a objetos,
+
+pra que a gente possa se contextualizar um pouco melhor,
+
+ai fica mais fácil entender os motivos que levaram a criação desde paradigma
+
+e que tipo de problemas ele tenta resolver.
+
+Então, o tema desse segundo video vai ser esse: A História da Programação Orientada a Objetos.
+
+Bora começar?
+
+Tudo começou lá no início da decada de 70
+
+[Incluir efeito sonoro / video / efeito?]
+
+quando uma das equipes da famosa Xerox PARC lançou uma nova linguagem de programação.
+
+[Image: Palo Alto Research Center]
+
+Provavelmente você já deve ter ouvido falar desse lugar já que
+
+eles foram pioneiros em diveeersas áreas importantes da computação.
+
+Sabe essa interface grafica ai que você ta usando? Com mouse, janelas, icones?
+
+Pois é, eles que inventaram tudo isso.
+
+Além das redes ethernet, impressora laser e muita muita coisa legal.
+
+Bom, foi lá também que surgiu a linguagem de programação Smalltalk.
+
+Um dos principais responsáveis por esse projeto foi o Alan Kay.
+
+Se você ainda nunca tinha ouvido falar da Xerox Parc ou do Alan Kay,
+
+anota ai esses nomes e depois da uma pesquisada sobre eles na internet;
+
+com certeza você vai achar muita coisa interessante...
+
+Bom, voltando pra linguagem Smalltalk...
+
+junto com ela podemos dizer que também foi concebido o termo "Programação Orientada a Objetos".
+
+É difícil dizer com precisão em que momento exato este paradigma foi criado
+
+porque parte dos conceitos já eram aplicados em outras linguagens.
+
+Provavelmente a primeira a utilizar algumas destas idéias foi a Simula 67,
+
+que foi uma linguagem criada em 1967.
+
+*** 1967?! Mas esse negocio é velho pra caramba então!
+
+Pois é. Este paradigma de programação já é bastante antigo né
+
+mas demorou pra começar a se difundir nas grandes empresas de desenvolvimento de software.
+
+Até o final da decada de 80 a maior parte dos programadores utilizavam linguagens como
+
+C, Clipper, variantes do Basic e outras linguagens procedurais.
+
+*** Como assim mano?! Por quê isso?
+
+São vários os motivos...
+
+e cada pessoa que você perguntar vai te dar uma resposta diferente.
+
+Mas pelo que andei pesquisando,
+
+era muito dificil convencer os profissionais da epoca
+
+a migrar para um paradigma orientado a objetos
+
+da forma como era oferecido pelo Smalltalk.
+
+Isso exigia que o programador tivesse um profundo conhecimento sobre orientação a objetos,
+
+e além disso, não era só o paradigma que mudava.
+
+Toda a sintaxe e o ambiente de desenvolvimento utilizados pelo Smalltalk
+
+em nada lembrava as demais linguagens que a maioria dos programadores já estavam acostumados.
+
+Talvez dê pra dizer que eles estavam muito a frente do tempo deles
+
+<< Imagem da IDE >>
+
+e isso fez com que a adoção desse paradigma tenha demorado um pouco.
+
+Pra piorar, pelo que eu li por ai, existia mais de uma versão do Smalltalk sendo vendidas na época
+
+mas todas tinham um preço bem salgado...
+
+Hoje em dia a realidade é outra e existem várias implementações dessa linguagem que são gratuitas e open-source
+
+mas elas só foram lançadas muito tempo depois,
+
+e ai... já era tarde.
+
+E a gente tem que lembrar também que naquela época os hardwares eram bem mais limitados
+
+e a tecnologia por trás do Smalltalk, embora trouxessem diversas novidades e vantagens
+
+também tinham um custo alto em termos de performance.
+
+Ou seja, softwares construidos em Smalltalk costumavam ter um desempenho ruim.
+
+*** Pow, quer dizer que se eu desenvolver meus softwares usando Programação Orientada a objetos
+
+*** eles vão ficar lentos?! Ah, nem quero mais aprender esse negocio ai.
+
+Calma cara! Volta ai, volta ai... relaxa...
+
+*** Vai, diz ai então.
+
+Hoje em dia não só o hardware evoluiu,
+
+mas evoluiram também as técnicas de otimização utilizadas para implementar essas soluções.
+
+Os programadores que estão lá trabalhando na implementação
+
+dos compiladores e das máquinas virtuais das linguagens de programação
+
+estão diariamente pensando em formas pra melhorar a performance
+
+e a cada nova versão, novas técnicas cada vez mais avançadas são construidas
+
+pra deixar mais rapida a execução dos sofwares implementados utilizando essas tenologias.
+
+Isso permite que se tenha uma performance muuuito superior do que era algumas decadas atrás.
+
+*** Ta bom vai.. então, conta mais ai.
+
+Então vamo lá.
+
+Com o tempo várias linguagens procedurais pré-existentes
+
+começaram a incluir aos poucos alguns conceitos da programação orientada a objetos
+
+e este paradigma foi ganhando cada vez mais força.
+
+Em 1983, quando eu tinha 1 aninho de idade...
+
+<< foto bebê >>
+
+tivemos a criação do C++ e do Objective C.
+
+Em 86 foi a vez do Object Pascal,
+
+e em 87 veio o Common Lisp Object System
+
+Ai lá pra meados da década de 90
+
+a adoção da programação orientada a objetos começou a ganhar cada vez mais força.
+
+e foi quando em 1995 nasceu o Java.
+
+Acho que todo mundo já ouviu falar nessa linguagem, né?
+
+Bom, a sintaxe do Java foi inspirada na linguagem C
+
+e desta forma a maioria dos programadores
+
+se sentiam mais a vontade pra explorar e experimentar esta nova linguagem.
+
+Eu poderia contar aqui toda a história do Java,
+
+todos os motivos que levaram ela a ser a linguagem mais utilizada no mundo atualmente,
+
+mas o video ia ficar muito longo e cansativo.
+
+Talvez no futuro eu conte tudo isso com detalhes pra vocês em uma outra ocasião, beleza?
+
+*** Ok ok.. mas afinal de contas, por quê criaram esse novo paradigma?
+
+*** To achando esse negocio todo complicado demais cara...
+
+*** Qual era o objetivo dessa mudança toda?
+
+Bom... eu queria muito falar mais sobre isso com vocês,
+
+mas ai a gente já está fugindo um pouco do escopo desse video...
+
+No próximo video a gente conversa sobre isso, beleza?!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+As principais linguagens usadas antes da criação da Programação Orientada a Objetos eram procedurais.
+
+Pra sistema pequenos e não muito complexos, esse paradigma atende muito bem.
+
+E talvez até dê pra dizer que ele é inclusive mais simples de entender e aprender.
+
+O problema é que com a evolução da computação, os sistemas foram ficando cada vez maiores e mais complexos.
+
+E ai meu amigo... a coisa ficou sério.
+
+Aos poucos as limitações deste paradigma começaram a aparecer...
+
+De uma forma geral, é relativamente comum sistemas implementados seguindo este paradigma
+
+acabarem se tornando muito dificeis de estender e dar manutenção.
+
+E os programadores começaram a sentir falta de mecanismos que ajudassem a evitar esses problemas.
+
+Ao desenvolver de uma forma procedural, se você não tomar muito cuidado,
+
+é comum uma pequena alteração no código ter impactos inesperados em diversas outras partes do sistema.
+
+Então um dos objetivos da programação orientada a objetos
+
+era tentar melhorar o isolamento entre as diversas partes do sistema.
+
+Isso permite que o programador elabore códigos com menor acoplamento
+
+ou seja, trexos de códigos mais independentes uns dos outros.
+
+E também permite que se re-apreveite partes do sistema de forma mais simples.
+
+Não vou entrar em muitos detalhes agora, mas a gente vai conversar sobre tudo isso nos próximos vídeos, beleza?
+
+*** Mas pera ai, hoje em dia ninguêm mais programa de forma procedural né?!
+
+Então... não é bem assim.
+
+Como eu disse no video anterior, não existe uma solução que seja perfeita pra todos os casos.
+
+Existem inúmeros exemplos de excelentes softwares escritos de forma procedural.
+
+E existem situações onde a programações orientada a objetos pode nem fazer muito sentido...
+
+Bom, pra você ter uma ideia,
+
+existe um indice que sai periodicamente mostrando quais são as linguagens mais utilizadas.
+
+Vamo da uma olhada?
+
+Bom, a primeira coisa que chama atenção é que Java é disparada a mais usada.
+
+Mas olha só quem está em *segundo* lugar. Ela mesma, a famosa linguagem C.
+
+E a gente sabe que C é uma linguagem considerada procedural né.
+
+Pra explicar melhor esse tema teria que começar a entrar em muitos detalhes tecnicos
+
+e a gente estaria fugindo muito do tema deste video.
+
+Mas o que gostaria de deixar claro pra vocês é que
+
+existe uma tendência forte em se utilizar programação orientada a objetos
+
+no lugar do paradigma procedural.
+
+Mas isso não quer dizer que as linguagens procedurais estejam mortas tá.
+
+
+
+
+
+
+
+
+
+
+Mas as semelhanças paravam por ai.
+
+Quando comparada com C, Java era uma linguagem muito mais moderna, apresentando várias novidades pra época.
+
+Podemos destacar as duas principais como sendo:
+
+- Utilização de máquina virtual (JVM - Java Virtual Machine),
+
+que prometia facilitar a criação de aplicações multi-plataformas.
+
+O slogan "Write once, run anywhere" ou "escreva uma vez, execute em qualquer lugar"
+
+foi adotado pela Sun na época pra tentar frisar esta suposta vantagem.
+
+Outra coisa bem bacana era que Java já implementava o conceito de
+
+Garbage Collector ou coletor automatico de lixo,
+
+que facilitava muito a vida do programador ao fazer automaticamente o gerenciamento de memória,
+
+algo que era bastante chato de gerenciar em outras linguagens da época.
+
+Mas... pra falar a verdade, Java não era assim tãããão inovadora.
+
+Existiam outras linguagens da época já traziam também estas novidades,
+
+inclusive o próprio Smalltalk, que já fazia tudo isso e muitas outras.
+
+Mas Java tinha 3 vantagens cruciais:
+
+-era parecida com outras linguagens de programação que diversos programadores já estavam acostumados...
+
+-era gratuita.
+
+E pelo que andei pesquisando aqui,
+
+a licença pra poder programar em Smalltalk nessa época era muito cara.
+
+-e a terceira grande vantagem foi que Java conseguiu se integrar nos principais navegadores de internet
+
+na época. Se você for um pouco mais velho, com certeza já se deparou alguma vez com aqueles applets Java...
+
+Durante algum tempo era muito comum encontrar essa tecnologia nos sites,
+
+e isso também ajudou bastante a popularização do Java.
+
+Bom, eu ia contar aqui toda a história do Java, mas acho que
+
+O objetivo da Sun ao criar o Java era usa-la para sistemas embarcados.
+
+>>> Pra quem ai não conhece esse termo,
+
+
+Um sistema embarcado (ou sistema embutido) é um sistema microprocessado no qual o computador é completamente encapsulado ou dedicado ao dispositivo ou sistema que ele controla. Diferente de computadores de propósito geral, como o computador pessoal, um sistema embarcado realiza um conjunto de tarefas predefinidas, geralmente com requisitos específicos. Já que o sistema é dedicado a tarefas específicas, através de engenharia pode-se otimizar o projeto reduzindo tamanho, recursos computacionais e custo do produto.
+
+
+
+
+
+
+
+
+e com uma performance bastante ruim,
+
+mas com o tempo a Sun foi incluindo mais recursos e melhorando a sua máquina virtual e
+a linguagem foi ganhando cada vez mais adeptos.
+Outro fator importante para ascensão do Java foi o fato dela ter sido integrada nos principais browsers da época,
+possibilitando a criação dos famosos Applets Java que foram muito populares (embora odiados por muitos) nos anos 90.
+
+Isso tudo ajudou a popularizar deste paradigma de programação
+
+que hoje domina diversos setores de desenvolvimento de software.
+
+Em 2000 foi a vez da Microsoft lançar a linguagem C# e logo em seguida, em 2001,
+
+fazer uma reformulação geral em sua então popular linguagem Visual Basic,
+
+lançando o Visual Basic .NET, adicionando suporte a orientação a objetos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Como já conversamos no video anterior,
+
+programação orientada a objetos nada mais é do que um dos vários paradigmas de programação.
+
+Ele foi criada com o objetivo de tentar aproximar o mundo virtual do mundo real.
+
+A idéia fundamental é tentar fazer modelos computacionais
+
+de uma forma mais próxima da nossa realidade.
+
+Para isso nada mais natural do que utilizar objetos, afinal,
+
+nosso mundo é composto por eles, né?
+
+Neste paradigma o programador é responsável por criar os objetos
+
+e determinar como eles devem interagir.
+
+Os objetos "conversam" uns com os outros através da troca de mensagens e
+
+para que isso seja possível é necessário especificarmos quais serão
+
+as mensagens que cada objeto pode receber e também
+
+qual a ação que cada objeto deve realizar ao receber uma determinado tipo de mensagem.
+
+*** Esse negocio ta parecendo muito abstrato pra minha cabeça...
+
+*** pra que complicar tanto?!
+
+Se você ficou confuso, não se preocupe,
+
+daqui a pouco a gente vai ver alguns exemplos e tudo vai ficar mais claro.
+
+Mas antes eu queria contar pra vocês um pouquinho sobre a história da POO.
