@@ -80,8 +80,6 @@ e só a partir de 81, quando Alan Kay saiu do projeto,
 
 é que o foco dela mudou para ser uma linguagem mais voltada para a industria.
 
-Então até meados da década de 80 a maior parte dos programadores utilizavam linguagens procedurais mesmo.
-
 Lá pro final da década de oitenta e durante o década de noventa
 
 Smalltalk atééé que chegou a se tornar uma linguagem relativamente popular.
@@ -110,13 +108,15 @@ Toda a sintaxe e o ambiente de desenvolvimento utilizados pelo Smalltalk
 
 em nada lembrava as demais linguagens que a maioria dos programadores já estavam acostumados.
 
+Saca só como era o Smalltalk, em 1983.
+
 [ Imagem da IDE: https://maciaszek.net/wp-content/uploads/2006/08/Smalltalk-80.png ]
 
 Bom, talvez eu até me arrisque a dizer que Smalltalk estava muito a frente do seu tempo...
 
-Pra piorar, pelo que eu li por ai, no final da decada de 80 e durante a década de 90
+Pra piorar, pelo que eu li por ai, no final da década de 80 e durante a década de 90
 
-existiam mais de uma versão do Smalltalk sendo vendidas mas tinham um preço... um pouco salgado...
+o preço da licença para poder usar Smalltalk era... um pouco salgado...
 
 além de uma política de marketing que não era lá... muito eficiente.
 
@@ -134,13 +134,11 @@ também tinham um alto custo em termos de performance.
 
 Ou seja, no começo, softwares construídos em Smalltalk costumavam ter um desempenho... um pouco ruim.
 
-*** Pow, quer dizer que se eu desenvolver meus softwares usando Programação Orientada a objetos
+*** Pera ai, quer dizer que se eu desenvolver meus softwares usando Programação Orientada a objetos
 
-*** eles vão ficar lentos?! Ah, nem quero mais aprender esse negocio ai.
+*** eles vão ficar lentos?!
 
-Calma cara! Calma. Relaxa...
-
-*** Vai, diz ai então.
+Calma, não é bem assim...
 
 Hoje em dia não só o hardware evoluiu,
 
@@ -156,7 +154,7 @@ a execução dos softwares implementados utilizando essas tecnologias.
 
 Isso permite que hoje em dia se tenha um desempenho muuuito superior ao que era algumas décadas atrás.
 
-*** Ta bom vai.. conta mais ai. Mas além de Smalltalk, não existiam outras linguagens?!
+*** Ta bom vai.. conta mais ai. Além de Smalltalk, não existiam outras linguagens orientadas a objetos?!
 
 Então, vamo lá.
 
@@ -186,19 +184,25 @@ até que em 95 nasceu o Java.
 
 Acho que todo mundo já ouviu falar nessa linguagem, né?
 
-Bom, a sintaxe do Java foi inspirada no C, que já era uma linguagem consagrada.
+Bom, a sintaxe do Java foi inspirada principalmente no C e Objetive-C,
 
 Desta forma a maioria dos programadores
 
 se sentiam a vontade pra explorar e experimentar esta nova linguagem.
 
-Java também tinha 2 grandes vantagens em relação os concorrentes da época:
+E pra completar Java era multi-plataforma e gratuita.
 
-- Era gratuita e multiplataforma.
+Alias, a campanha de marketing deles insistia bastante no fato dela ser multi-plataforma.
 
-Hoje em dia é comum termos linguagens gratuitas e multiplataforma de excelente qualidade.
+O slogan deles era "Escreva uma vez, execute em qualquer lugar",
 
-Mas na década de 90 isso ainda não era tão comum.
+se referindo ao fato de que você poderia por exemplo escrever um software no Windows
+
+e depois executa-lo em um computador com sistema operacional da Apple sem precisa fazer nenhuma alteração.
+
+Tudo bem que cá entre nós, isso não funcionava muito bem não,
+
+mas não da pra negar que era uma ótima campanha de marketing.
 
 E foi assim que a programação orientada a objetivos foi ganhando seu espaço
 
@@ -214,15 +218,17 @@ Mas além do C#, com o .NET a Microsoft também apostou em uma reformulação ge
 
 em sua então muito popular linguagem Visual Basic, adicionando um melhor suporte a orientação a objetos.
 
-Bom, eu poderia ficar aqui listando todas as linguagens que foram criadas
+Bom, eu poderia ficar aqui listando todas as linguagens
 
-e todos os motivos que levaram Java a ser a linguagem mais utilizada no mundo atualmente,
+que foram criadas com algum suporte a orientação a objetos
+
+e todas as vantagens e desvantagens de cada uma delas,
 
 mas o video ia ficar muito longo e cansativo.
 
 E eu acho que você já entendeu qual era o contexto da época né.
 
-O que queria também deixar claro
+O que queria também deixar claro pra vocês
 
 é que orientação a objetos vem mostrando que veio pra ficar...
 
@@ -246,7 +252,7 @@ ele tem ganhado bastaste espaço e pode ser uma boa alternativa.
 
 Além do paradigma Lógico, que eu não vejo sendo muito usado no dia-a-dia,
 
-mas que pode ser uma excelente escolha em determinadas situaçõs.
+mas que pode ser uma excelente escolha em determinadas situações.
 
 Lembrando sempre, como também já disse no video anterior, que o uso de um paradigma
 
@@ -262,9 +268,9 @@ Em muitas linguagens é possível misturar os paradigmas e tentar tirar o melhor
 
 Bom... eu queria muito falar mais sobre isso com vocês,
 
-maaas esse video já está ficando meio longo e
+maaas esse video já está ficando meio longo
 
-também a gente já estaria fugindo um pouquinho do escopo...
+e também a gente já ta fugindo um pouco do escopo...
 
 Então... no próximo video a gente conversa mais sobre isso, beleza?!
 
