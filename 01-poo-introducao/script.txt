@@ -8,77 +8,97 @@ Mas aaantes... eu quero contar pra vocês um pouquinho da *história* da program
 
 pra que a gente possa se contextualizar um pouco melhor,
 
-ai fica mais fácil entender os motivos que levaram a criação desde paradigma
+e ai vai fica mais fácil entender os motivos que levaram a criação desde paradigma
 
-e que tipo de problemas ele tenta resolver.
+e que tipos de problemas ele tenta resolver.
 
 Então, o tema desse segundo video vai ser esse: A História da Programação Orientada a Objetos.
 
 Bora começar?
 
-Tudo começou lá no início da decada de 70
-
-[Incluir efeito sonoro / video / efeito?]
+Bom, tudo começou lá na década de 70
 
 quando uma das equipes da famosa Xerox PARC lançou uma nova linguagem de programação.
 
 [Image: Palo Alto Research Center]
 
-Provavelmente você já deve ter ouvido falar desse lugar já que
+Provavelmente você já deve ter ouvido falar desse lugar
 
-eles foram pioneiros em diveeersas áreas importantes da computação.
+já que eles foram pioneiros em diveeersas áreas importantes da computação.
 
-Sabe essa interface grafica ai que você ta usando? Com mouse, janelas, icones?
+Sabe essa interface gráfica ai que você tá usando? Com mouse, janelas, ícones?
 
 Pois é, eles que inventaram tudo isso.
 
-Além das redes ethernet, impressora laser e muita muita coisa legal.
+Além das redes ethernet, impressoras laser e muitas outras coisas legais.
 
-Bom, foi lá também que surgiu a linguagem de programação Smalltalk.
+E foi lá também que surgiu a linguagem de programação Smalltalk.
 
-Um dos principais responsáveis por esse projeto foi o Alan Kay.
+Um dos principais responsáveis por iniciar este projeto foi o Alan Kay.
 
-Se você ainda nunca tinha ouvido falar da Xerox Parc ou do Alan Kay,
+Se você ainda não tinha ouvido falar da Xerox Parc ou do Alan Kay,
 
 anota ai esses nomes e depois da uma pesquisada sobre eles na internet;
 
-com certeza você vai achar muita coisa interessante...
+com certeza vai achar muita coisa interessante...
 
-Bom, voltando pra linguagem Smalltalk...
+Tem inclusive aquele famosa história que conta que quando a Apple ainda tava começando
+
+o Steve Jobs fez uma visita na Xerox Parc e acabou usando muita coisa que viu por lá como inspiração.
+
+Maaas voltando pra linguagem Smalltalk...
 
 junto com ela podemos dizer que também foi concebido o termo "Programação Orientada a Objetos".
 
 É difícil dizer com precisão em que momento exato este paradigma foi criado
 
-porque parte dos conceitos já eram aplicados em outras linguagens.
+mas a gente sabe que parte dos conceitos na verdade já eram aplicados
 
-Provavelmente a primeira a utilizar algumas destas idéias foi a Simula 67,
+em outras linguagens que vieram antes do Smalltalk.
 
-que foi uma linguagem criada em 1967.
+Provavelmente a primeira mesmo a utilizar algumas destas idéias foi a Simula 67,
 
-*** 1967?! Mas esse negocio é velho pra caramba então!
+uma linguagem criada pelo Centro Norueguês de Computação, em Oslo, no ano de 1967.
+
+*** mano, 1967?! Mas esse negocio é velho pra caramba então!
 
 Pois é. Este paradigma de programação já é bastante antigo né
 
 mas demorou pra começar a se difundir nas grandes empresas de desenvolvimento de software.
 
-Até o final da decada de 80 a maior parte dos programadores utilizavam linguagens como
+E embora Simula 67 já trouxesse alguns conceitos da orientação a objetos,
 
-C, Clipper, variantes do Basic e outras linguagens procedurais.
+Smalltalk elevou essas ideias a um novo patamar.
 
-*** Como assim mano?! Por quê isso?
+Mas pelo que andei pesquisando,
+
+as primeiras versões do Smalltalk tinham como objetivo ser uma ferramenta educacional
+
+e só a partir de 81, quando Alan Kay saiu do projeto,
+
+é que o foco dela mudou para ser uma linguagem mais voltada para a industria mesmo.
+
+Então até meados da década de 80 a maior parte dos programadores utilizavam linguagens procedurais mesmo.
+
+Lá pro final da década de oitenta e durante o década de noventa
+
+Smalltalk até chegou a se tornar uma linguagem relativamente popular.
+
+Mas devido a diversos fatores, ela acabou perdendo espaço pra outras linguagens,
+
+principalmente no final da década de 90 e início dos anos 2000.
+
+*** Como assim cara?! Por quê isso?
 
 São vários os motivos...
 
 e cada pessoa que você perguntar vai te dar uma resposta diferente.
 
-Mas pelo que andei pesquisando,
+Mas, na minha opinião..
 
-era muito dificil convencer os profissionais da epoca
+era um pouco difícil convencer os profissionais da época
 
-a migrar para um paradigma orientado a objetos
-
-da forma como era oferecido pelo Smalltalk.
+a migrar para um paradigma orientado a objetos da forma como era oferecido pelo Smalltalk.
 
 Isso exigia que o programador tivesse um profundo conhecimento sobre orientação a objetos,
 
@@ -88,93 +108,153 @@ Toda a sintaxe e o ambiente de desenvolvimento utilizados pelo Smalltalk
 
 em nada lembrava as demais linguagens que a maioria dos programadores já estavam acostumados.
 
-Talvez dê pra dizer que eles estavam muito a frente do tempo deles
+<< Imagem da IDE: https://maciaszek.net/wp-content/uploads/2006/08/Smalltalk-80.png >>
 
-<< Imagem da IDE >>
+Bom, talvez eu até me arrisque a dizer que Smalltalk estava muito a frente do seu tempo...
 
-e isso fez com que a adoção desse paradigma tenha demorado um pouco.
+Pra piorar, pelo que eu li por ai, no final da decada de 80 e durante a década de 90
 
-Pra piorar, pelo que eu li por ai, existia mais de uma versão do Smalltalk sendo vendidas na época
+existiam mais de uma versão do Smalltalk sendo vendidas mas tinham um preço... um pouco salgado...
 
-mas todas tinham um preço bem salgado...
+além de uma política de marketing que não era lá... muito eficiente.
 
-Hoje em dia a realidade é outra e existem várias implementações dessa linguagem que são gratuitas e open-source
+Hoje em dia a realidade é outra
 
-mas elas só foram lançadas muito tempo depois,
+e existem várias implementações dessa linguagem que são gratuitas e open-source
 
-e ai... já era tarde.
+mas elas só foram lançadas muito tempo depois, e ai meu irmão... já era tarde.
 
-E a gente tem que lembrar também que naquela época os hardwares eram bem mais limitados
+A gente tem que lembrar também que naquela época os hardwares eram bem mais limitados
 
 e a tecnologia por trás do Smalltalk, embora trouxessem diversas novidades e vantagens
 
-também tinham um custo alto em termos de performance.
+também tinham um alto custo em termos de performance.
 
-Ou seja, softwares construidos em Smalltalk costumavam ter um desempenho ruim.
+Ou seja, no começo, softwares construídos em Smalltalk costumavam ter um desempenho um pouco ruim.
 
 *** Pow, quer dizer que se eu desenvolver meus softwares usando Programação Orientada a objetos
 
 *** eles vão ficar lentos?! Ah, nem quero mais aprender esse negocio ai.
 
-Calma cara! Volta ai, volta ai... relaxa...
+Calma cara! Calma. Relaxa...
 
 *** Vai, diz ai então.
 
 Hoje em dia não só o hardware evoluiu,
 
-mas evoluiram também as técnicas de otimização utilizadas para implementar essas soluções.
+mas evoluíram também as técnicas de otimização utilizadas para implementar essas soluções.
 
-Existem programadores que estão diariamente pensando em formas pra melhorar a performance
+Existem programadores que estão diariamente pensando em formas de melhorar a performance
 
 e a cada nova versão das linguagens de programação,
 
-técnicas cada vez mais avançadas são construidas pra deixar mais rapida
+técnicas cada vez mais avançadas são construídas
 
-a execução dos sofwares implementados utilizando essas tenologias.
+com o objetivo deixar mais rápida
 
-Isso permite que se tenha uma performance muuuito superior do que era algumas decadas atrás.
+a execução dos softwares implementados utilizando essas tecnologias.
 
-*** Ta bom vai.. então, conta mais ai.
+Isso permite que hoje em dia se tenha um desempenho muuuito superior ao que era algumas décadas atrás.
 
-Então vamo lá.
+*** Ta bom vai.. conta mais ai.
 
-Com o tempo várias linguagens procedurais pré-existentes
+Então, vamo lá.
 
-começaram a incluir aos poucos alguns conceitos da programação orientada a objetos
+Paralelamente a tudo isso, com o tempo, várias linguagens procedurais pré-existentes
 
-e este paradigma foi ganhando cada vez mais força.
+começaram a incluir alguns conceitos da programação orientada a objetos
 
-Em 1983, quando eu tinha 1 aninho de idade...
+e este paradigma, aos poucos, foi ganhando cada vez mais força.
+
+Por exemplo, em 1983, quando eu tinha 1 aninho de idade...
 
 << foto bebê >>
 
-tivemos a criação do C++ e do Objective C.
+tivemos a criação do C++ e do Objective C, ambas derivadas da linguagem C.
 
-Em 86 foi a vez do Object Pascal,
+Em 86 foi a vez do Pascal ganhar uma versão com suporte a objetos, chamada Object Pascal.
 
-e em 87 veio o Common Lisp Object System
+Em 87 veio o Common Lisp Object System, uma evolução do Common Lisp.
 
-Ai lá pra meados da década de 90
+E por ai vai...
+
+Lá pra meados da década de 90
 
 a adoção da programação orientada a objetos começou a ganhar cada vez mais força.
 
-até que em 1995 nasceu o Java.
+até que em 95 nasceu o Java.
 
 Acho que todo mundo já ouviu falar nessa linguagem, né?
 
-Bom, a sintaxe do Java foi inspirada na linguagem C
+Bom, a sintaxe do Java foi inspirada no C, que já era uma linguagem consagrada.
 
-e desta forma a maioria dos programadores
+Desta forma a maioria dos programadores
 
-se sentiam mais a vontade pra explorar e experimentar esta nova linguagem.
+se sentiam a vontade pra explorar e experimentar esta nova linguagem.
 
-Eu poderia ficar aqui contando todos os motivos que levaram ela a ser a linguagem mais utilizada no mundo atualmente,
+Java também tinha 2 grandes vantagens em relação os concorrentes da época:
+
+- Era gratuita e multiplataforma.
+
+Hoje em dia é comum termos linguagens gratuitas e multiplataforma de excelente qualidade.
+
+Mas na década de 90 isso ainda não era tão comum.
+
+E foi assim que a programação orientada a objetivos foi ganhando seu espaço
+
+e conquistando cada vez mais programadores...
+
+Em 2002 foi a vez da Microsoft.
+
+Junto com o lançamento do framework .NET ela nos apresentou também a linguagem C#,
+
+que em diversos aspectos era... bastante similar ao Java.
+
+Mas além do C#, com o .NET a Microsoft também apostou em uma reformulação geral de
+
+em sua então muito popular linguagem Visual Basic, adicionando um melhor suporte a orientação a objetos.
+
+Bom, eu poderia ficar aqui listando todas as linguagens que foram criadas
+
+e todos os motivos que levaram Java a ser a linguagem mais utilizada no mundo atualmente,
 
 mas o video ia ficar muito longo e cansativo.
 
-Talvez no futuro eu volte a falar sobre esse tema com detalhes, beleza?
+E eu acho que você já entendeu qual era o contexto da época né.
 
-*** Ok ok.. mas afinal de contas, por quê criaram esse novo paradigma?
+Mas o que queria também deixar claro
+
+é que orientação a objetos vem mostrando que veio pra ficar.
+
+Mas isso não quer dizer que os demais paradigmas, como o procedural, o funcional e o lógico
+
+estejam mortos, ta?
+
+Tem muito software de qualidade que até hoje, por diversas razões, ainda são escritos de forma procedural.
+
+Só pra citar um exemplo, o kernel do sistema operacional Linux é todo feito em C.
+
+Se você tiver curiosidade, tem umas discussões até meio engraçadas em que o Linus Torvalds,
+
+que é o criador do Linux, explica os motivos dele odiar C++
+
+e ser contra o uso de orientação a objetos nos sistemas em que ele trabalha.
+
+E além disso, o paradigma funcional, como eu já havia dito no video anterior
+
+tem ganhado bastaste espaço e pode ser uma boa alternativa.
+
+Além do paradigma Lógico, que eu não vejo sendo muito usado no dia-a-dia,
+
+mas que pode ser uma excelente escolha em determinadas situaçõs.
+
+Lembrando sempre, como também já disse no video anterior, que o uso de um paradigma
+
+não necessariamente exclui os demais.
+
+Em muitas linguagens é possível misturar os paradigmas e tentar tirar o melhor proveito de cada um deles.
+
+*** Ok ok.. mas afinal de contas, por quê criaram a programação orientada a objetos?
 
 *** To achando esse negocio todo complicado demais cara...
 
@@ -182,15 +262,17 @@ Talvez no futuro eu volte a falar sobre esse tema com detalhes, beleza?
 
 Bom... eu queria muito falar mais sobre isso com vocês,
 
-maaas ai a gente já estaria fugindo um pouco do escopo...
+maaas esse video já está ficando meio longo e
 
-Então no próximo video a gente conversa sobre isso, beleza?!
+também a gente já estaria fugindo um pouquinho do escopo...
 
-E isso ai.
+Então... no próximo video a gente conversa mais sobre isso, beleza?!
+
+E é isso ai.
 
 Espero que vocês estejam gostando das video-aulas e.... até a próxima.
 
-Ah pessoal! Não esquece de se inscrever aqui canal e dar um like nesse video, beleza?!
+Ah pessoal! Não esquece de se inscrever aqui canal, dar um like nesse video e me seguir lá no twitter, beleza?!
 
 Até mais!
 
@@ -357,11 +439,7 @@ Isso tudo ajudou a popularizar deste paradigma de programação
 
 que hoje domina diversos setores de desenvolvimento de software.
 
-Em 2000 foi a vez da Microsoft lançar a linguagem C# e logo em seguida, em 2001,
 
-fazer uma reformulação geral em sua então popular linguagem Visual Basic,
-
-lançando o Visual Basic .NET, adicionando suporte a orientação a objetos.
 
 
 
@@ -423,3 +501,7 @@ Se você ficou confuso, não se preocupe,
 daqui a pouco a gente vai ver alguns exemplos e tudo vai ficar mais claro.
 
 Mas antes eu queria contar pra vocês um pouquinho sobre a história da POO.
+
+
+
+http://www.i-programmer.info/history/computer-languages/474-towards-objects-and-functions-1980s.html?start=1
