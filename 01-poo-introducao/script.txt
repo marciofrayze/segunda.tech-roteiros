@@ -1,16 +1,18 @@
 [O que é a Programação orientada a Objetos?]
 
+E ai pessoal!
+
+Meu nome é Marcio e você está assistindo ao segundo episódio deste
+
+novo canal no youtube.
+
 Sei que você deve estar morrendo de vontade de partir logo pra temas mais avançados, né?
 
 E gente chega lá, beleza?
 
-Mas aaantes... eu quero contar pra vocês um pouquinho da *história* da programação orientada a objetos,
+Mas aaantes... eu quero contar pra vocês um pouquinho sobre a *história* da programação orientada a objetos,
 
-pra que a gente possa se contextualizar um pouco melhor,
-
-e ai vai fica mais fácil entender os motivos que levaram a criação desde paradigma
-
-e que tipos de problemas ele tenta resolver.
+pra que a gente possa se contextualizar um pouco melhor.
 
 Então, o tema desse segundo video vai ser esse: A História da Programação Orientada a Objetos.
 
@@ -50,13 +52,13 @@ Maaas voltando pra linguagem Smalltalk...
 
 junto com ela podemos dizer que também foi concebido o termo "Programação Orientada a Objetos".
 
-É difícil dizer com precisão em que momento exato este paradigma foi criado
+É difícil dizer com precisão em que momento este paradigma foi criado
 
 mas a gente sabe que parte dos conceitos na verdade já eram aplicados
 
 em outras linguagens que vieram antes do Smalltalk.
 
-Provavelmente a primeira mesmo a utilizar algumas destas idéias foi a Simula 67,
+Provavelmente a primeira mesmo a utilizar algumas dessas idéias foi a Simula 67,
 
 uma linguagem criada pelo Centro Norueguês de Computação, em Oslo, no ano de 1967.
 
@@ -76,13 +78,13 @@ as primeiras versões do Smalltalk tinham como objetivo ser uma ferramenta educa
 
 e só a partir de 81, quando Alan Kay saiu do projeto,
 
-é que o foco dela mudou para ser uma linguagem mais voltada para a industria mesmo.
+é que o foco dela mudou para ser uma linguagem mais voltada para a industria.
 
 Então até meados da década de 80 a maior parte dos programadores utilizavam linguagens procedurais mesmo.
 
 Lá pro final da década de oitenta e durante o década de noventa
 
-Smalltalk até chegou a se tornar uma linguagem relativamente popular.
+Smalltalk atééé que chegou a se tornar uma linguagem relativamente popular.
 
 Mas devido a diversos fatores, ela acabou perdendo espaço pra outras linguagens,
 
@@ -108,7 +110,7 @@ Toda a sintaxe e o ambiente de desenvolvimento utilizados pelo Smalltalk
 
 em nada lembrava as demais linguagens que a maioria dos programadores já estavam acostumados.
 
-<< Imagem da IDE: https://maciaszek.net/wp-content/uploads/2006/08/Smalltalk-80.png >>
+[ Imagem da IDE: https://maciaszek.net/wp-content/uploads/2006/08/Smalltalk-80.png ]
 
 Bom, talvez eu até me arrisque a dizer que Smalltalk estava muito a frente do seu tempo...
 
@@ -122,7 +124,7 @@ Hoje em dia a realidade é outra
 
 e existem várias implementações dessa linguagem que são gratuitas e open-source
 
-mas elas só foram lançadas muito tempo depois, e ai meu irmão... já era tarde.
+mas elas só foram lançadas muito tempo depois, e ai... já era tarde.
 
 A gente tem que lembrar também que naquela época os hardwares eram bem mais limitados
 
@@ -130,7 +132,7 @@ e a tecnologia por trás do Smalltalk, embora trouxessem diversas novidades e va
 
 também tinham um alto custo em termos de performance.
 
-Ou seja, no começo, softwares construídos em Smalltalk costumavam ter um desempenho um pouco ruim.
+Ou seja, no começo, softwares construídos em Smalltalk costumavam ter um desempenho... um pouco ruim.
 
 *** Pow, quer dizer que se eu desenvolver meus softwares usando Programação Orientada a objetos
 
@@ -148,15 +150,13 @@ Existem programadores que estão diariamente pensando em formas de melhorar a pe
 
 e a cada nova versão das linguagens de programação,
 
-técnicas cada vez mais avançadas são construídas
-
-com o objetivo deixar mais rápida
+técnicas cada vez mais avançadas são construídas com o objetivo deixar mais rápida
 
 a execução dos softwares implementados utilizando essas tecnologias.
 
 Isso permite que hoje em dia se tenha um desempenho muuuito superior ao que era algumas décadas atrás.
 
-*** Ta bom vai.. conta mais ai.
+*** Ta bom vai.. conta mais ai. Mas além de Smalltalk, não existiam outras linguagens?!
 
 Então, vamo lá.
 
@@ -168,7 +168,7 @@ e este paradigma, aos poucos, foi ganhando cada vez mais força.
 
 Por exemplo, em 1983, quando eu tinha 1 aninho de idade...
 
-<< foto bebê >>
+[ foto bebê ]
 
 tivemos a criação do C++ e do Objective C, ambas derivadas da linguagem C.
 
@@ -222,11 +222,11 @@ mas o video ia ficar muito longo e cansativo.
 
 E eu acho que você já entendeu qual era o contexto da época né.
 
-Mas o que queria também deixar claro
+O que queria também deixar claro
 
-é que orientação a objetos vem mostrando que veio pra ficar.
+é que orientação a objetos vem mostrando que veio pra ficar...
 
-Mas isso não quer dizer que os demais paradigmas, como o procedural, o funcional e o lógico
+mas isso não quer dizer que os demais paradigmas, como o procedural, o funcional e o lógico
 
 estejam mortos, ta?
 
@@ -236,13 +236,13 @@ Só pra citar um exemplo, o kernel do sistema operacional Linux é todo feito em
 
 Se você tiver curiosidade, tem umas discussões até meio engraçadas em que o Linus Torvalds,
 
-que é o criador do Linux, explica os motivos dele odiar C++
+que é o criador do Linux, explica os motivos dele *odiar* C++
 
 e ser contra o uso de orientação a objetos nos sistemas em que ele trabalha.
 
-E além disso, o paradigma funcional, como eu já havia dito no video anterior
+E sobre o paradigma funcional, como eu já havia dito no video anterior
 
-tem ganhado bastaste espaço e pode ser uma boa alternativa.
+ele tem ganhado bastaste espaço e pode ser uma boa alternativa.
 
 Além do paradigma Lógico, que eu não vejo sendo muito usado no dia-a-dia,
 
