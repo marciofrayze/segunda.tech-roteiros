@@ -108,7 +108,7 @@ Toda a sintaxe e o ambiente de desenvolvimento utilizados pelo Smalltalk
 
 em nada lembrava as demais linguagens que a maioria dos programadores já estavam acostumados.
 
-Saca só como era o Smalltalk, em 1983.
+Saca só como já era o Smalltalk, em 1983.
 
 [ Imagem da IDE: https://maciaszek.net/wp-content/uploads/2006/08/Smalltalk-80.png ]
 
@@ -190,7 +190,7 @@ Desta forma a maioria dos programadores
 
 se sentiam a vontade pra explorar e experimentar esta nova linguagem.
 
-E pra completar Java era multi-plataforma e gratuita.
+E pra completar, Java era multi-plataforma e gratuita.
 
 Alias, a campanha de marketing deles insistia bastante no fato dela ser multi-plataforma.
 
@@ -208,9 +208,19 @@ E foi assim que a programação orientada a objetivos foi ganhando seu espaço
 
 e conquistando cada vez mais programadores...
 
-Em 2002 foi a vez da Microsoft.
+Na segunda metade da década de 90 Java tava com tanta força
 
-Junto com o lançamento do framework .NET ela nos apresentou também a linguagem C#,
+que até a Microsoft chegou a conseguir uma licença para fazer a sua própria versão: o Visual J++.
+
+Mas essa implementação da Microsoft desrespeitava os padrões da linguagem Java,
+
+gerando assim uma versão que era incompatível com o Java original.
+
+Isso acabou causando uma grande confusão, a Microsoft foi processada e
+
+acabou abandonando o projeto e mudando um pouco o foco.
+
+Em 2002 veio o lançamento do framework .NET onde a Microsoft nos apresentou a linguagem C#,
 
 que em diversos aspectos era... bastante similar ao Java.
 
@@ -220,7 +230,7 @@ em sua então muito popular linguagem Visual Basic, adicionando um melhor suport
 
 Bom, eu poderia ficar aqui listando todas as linguagens
 
-que foram criadas com algum suporte a orientação a objetos
+que foram criadas durante esses anos
 
 e todas as vantagens e desvantagens de cada uma delas,
 
@@ -262,7 +272,7 @@ Em muitas linguagens é possível misturar os paradigmas e tentar tirar o melhor
 
 *** Ok ok.. mas afinal de contas, por quê criaram a programação orientada a objetos?
 
-*** To achando esse negocio todo complicado demais cara...
+*** To achando esse negocio complicado demais cara...
 
 *** Qual era o objetivo dessa mudança toda?
 
