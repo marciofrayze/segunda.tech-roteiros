@@ -196,7 +196,7 @@ E pra completar, Java era multi-plataforma e gratuita.
 
 Alias, a campanha de marketing deles insistia bastante no fato dela ser multi-plataforma.
 
-O slogan deles era "Escreva uma vez, execute em qualquer lugar",
+O slogan era "Escreva uma vez, execute em qualquer lugar",
 
 se referindo ao fato de que você poderia por exemplo escrever um software no Windows
 
@@ -210,11 +210,11 @@ E foi assim que a programação orientada a objetivos foi ganhando seu espaço
 
 e conquistando cada vez mais programadores...
 
-Na segunda metade da década de 90 Java tava com tanta força
+Na segunda metade da década de 90, Java tava com tanta força
 
 que até a Microsoft chegou a conseguir uma licença para fazer a sua própria versão: o Visual J++.
 
-Mas essa implementação da Microsoft desrespeitava os padrões da linguagem Java,
+Mas essa implementação desrespeitava os padrões da linguagem Java,
 
 gerando assim uma versão que era incompatível com o Java original.
 
@@ -253,6 +253,8 @@ Tem muito software de qualidade que até hoje, por diversas razões, ainda são 
 Só pra citar um exemplo, o kernel do sistema operacional Linux é todo feito em C.
 
 Se você tiver curiosidade, tem umas discussões até meio engraçadas em que o Linus Torvalds,
+
+[ http://tecnologiaaberta.com.br/wp-content/uploads/2015/01/Linus_Torvalds_cropped.jpg ]
 
 que é o criador do Linux, explica os motivos dele *odiar* C++
 
