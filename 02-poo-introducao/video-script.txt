@@ -1,21 +1,8 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-Mas afinal de contas, pq a orientação a objetos foi criada?
+*** Vai Marcio, para de me enrolar cara. Diz ai.
+*** Afinal de contas, pq a orientação a objetos foi criada?
 
 Com a evolução da computação, os sistemas foram ficando cada vez maiores e mais complexos.
-
-...
 
 E ai meu amigo... ficava cada vez mais complicado organizar o código-fonte dos softwares.
 
@@ -23,27 +10,175 @@ Aos poucos as limitações da forma como os programadores estruturavam seus cód
 
 e em geral, era relativamente comum os sistemas começarem a crescer de forma insustentável,
 
-até acabarem se tornando muito dificeis de estender e dar manutenção.
+até se tornarem muito dificeis de estender e dar manutenção.
 
 Chegava um momento em que uma pequena alteração no código
 
 poderia ter impactos inesperados em diversas outras partes do sistema.
 
-E os programadores começaram a sentir falta de mecanismos que os ajudassem a evitar esses problemas.
+Então, podemos dizer que um dos principais problemas que precisava ser resolvido era
 
-Então acho que podemos dizer, pra definir de uma forma mais ampla,
+permitir um melhor isolamento entre as partes do sistema,
 
-que um dos principais objetivos da programação orientada a objetos
+[Permitir um melhor isolamento entre as partes do sistema]
 
-é permitir melhorar o isolamento entre as diversas partes do sistema.
+e com isso possibilitar que o programador consiga facilmente escrever códigos com menor acoplamento
 
-Com isso o programador consegue facilmente escrever códigos com menor acoplamento
-
-ou seja, com trexos de códigos mais independentes uns dos outros.
+ou seja, trexos de códigos mais independentes uns dos outros.
 
 Isso torna também o re-apreveitamento de partes do sistema mais simples e transparente.
 
+Bom, frente a esses problemas todos,
+
+os programadores começaram a buscar formas para organizar melhor seus códigos.
+
+Primeiro as próprias linguagens procedurais foram evoluindo e
+
+criando mecanismos e padrões para tentar evitar essas situações.
+
+E se usadas da forma correta, realmente já amenizavam bastante os problemas.
+
+Maaas como sempre na tecnologia, outras abordagens foram surgindo,
+
+e uma delas foi a orientação a objetos.
+
 << https://books.google.com.br/books?id=YJ-eh1fCE78C&pg=PA31&lpg=PA31&dq=%22the+objectives+of%22+object+oriented+programming+are&source=bl&ots=rgXh9lIrcr&sig=B7f_XoL_gsroCcW1LXxnd54I-HE&hl=pt-BR&sa=X&ved=0ahUKEwi3jJDRr5bNAhWPl5AKHd9JCtkQ6AEIUTAI#v=onepage&q=%22the%20objectives%20of%22%20object%20oriented%20programming%20are&f=false >>
+
+E as ideias inicias da programação orientada a objetos na verdade iam muito além disso.
+
+Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual:
+
+a idéia fundamental era tentar simular o mundo real dentro do computador.
+
+E pra isso, nada mais natural do que utilizar Objetos, afinal,
+
+nosso mundo é composto de objetos, certo?!
+
+E na abordagem proposta pela programação orientada a objetos
+
+o programador é responsável por moldar este mundo virtual,
+
+explicando para o computador como devem ser criados estes objetos e como devem interagir entre si.
+
+Os objetos "conversam" uns com os outros através do envio de mensagens,
+
+[https://pixabay.com/pt/falar-discuss%C3%A3o-microfone-lata-238488/]
+
+e é responsabilidade do programador especificar
+
+quais serão as mensagens que cada objeto pode receber,
+
+e também qual a ação que aquele objeto deve realizar ao receber uma determinada mensagem.
+
+Quando um objeto precisa se comunicar com outro,
+
+ele envia uma mensagem que já deve ser pré-definida para o objeto desejado e opcionalmente ainda é possível
+
+passar algumas informações para o objeto, que são os parâmetros da mensagem,
+
+dessa forma, dois objetos conseguem trocar informações entre si facilmente.
+
+Ficou confuso? Vamos a um exemplo um pouco mais prático:
+
+imagine que você está desenvolvendo um software para uma locadora de carros
+
+e esta locadora tem diversos clientes que são Locatários.
+
+Como estamos tentando modelar um sistema baseado no mundo real,
+
+nada mais obvio do que existirem objetos do tipo Carros e Locatários dentro do nosso programa.
+
+Esses objetos nada mais serão do que representações que "simulam" as características
+
+e ações no mundo virtual de como funciona o mundo real.
+
+Se que esse exemplo ainda está bem simples, mas não se preocupe,
+
+vamos apresentar exemplos mais detalhados mais para frente,
+
+mas antes precisamos especificar mais alguns conceitos.
+
+Os dois primeiros conceitos que precisamos estabelecer é:
+
+O que são Classes.
+
+Se o mundo virtual que estamos construindo é formado por Objetos,
+
+acho que é meio intuitivo pensar que o programador precisa estabelecer
+
+em algum lugar *como* são criados estes objetos, certo?!
+
+Voltando para aquele exemplo da locadora que citei agora pouco.
+
+A gente sabe que dentro do sistema vão existir Carros,
+
+e que eles podem ser alugados para Locatários.
+
+Embora isso seja óbvio pra gente, precisamos de alguma forma explicar isso para o computador.
+
+Na orientação a objetos, essa explicação é pelo programador,
+
+através da especificação de Classes.
+
+Cada classe é um conjunto de código que definem como determinados tipos objetos
+
+devem ser criados, quais são suas características, como eles devem se comportar e
+
+como eles devem interagir com demais objetos.
+
+Fazendo uma analogia meio tosca com o mundo real,
+
+imagine que... a gente conseguisse criar uma máquina que fosse capaz de construir carros sozinha.
+
+Você entraria com alguns parâmetros como por exemplo:
+- qual a cor do carro
+- qual a a potência do motor
+
+e em seguida essa máquina fosse capaz de construir um novo carro com as caracterísitcas que pedimos!
+
+Isso ser bem legal né?
+
+Mas essa máquina não é capaz de construir qualquer tipo de coisa.
+
+Embora seja capaz de ter pequenas variações de acordo com algus parâmetros pré-estabelecidos,
+
+Ela é especializada em construir carros.
+
+Conseguiu imaginar essa máquina? Bom, essa máquina é mais ou menos o conceito de Classes na
+
+programação orientada a objetos!
+
+E os produtos criados a partir dessa classe, ou seja, os carros, são os nosso Objetos.
+
+Ou seja, atraveś de uma única Classe, somos capazes de construir diversos Objetos similares.
+
+No mundo real ainda não chegamos esse ponto...
+
+Mas no virtual funciona mais ou menos dessa forma.
+
+Claro que no mundo virtual não precisamos dar todos os detalhes.
+
+Precisamos apenas especificar o mínimo necessário para que nosso sistema funcione.
+
+Por exemplo, voltando mais uma vez para o sistema de locação de carros.
+
+Assim como o exemplo que dei do carro, também precisaríamos criar uma Classe
+
+que representasse o Locatário.
+
+Neste caso fazer aquela assossiação da Máquina fica meio estranho né?
+
+Imaginar uma máquina que seja capaz de construir Locatários... hahaha
+
+Mas a representação no mundo virtual é mais ou menos essa mesmo.
+
+Vamos ter uma Classe que representa
+
+
+
+
+
+
 
 Não vou entrar em muitos detalhes agora, mas a gente vai conversar sobre tudo isso nos próximos vídeos, beleza?
 
@@ -225,4 +360,3 @@ Se você ficou confuso, não se preocupe,
 daqui a pouco a gente vai ver alguns exemplos e tudo vai ficar mais claro.
 
 Mas antes eu queria contar pra vocês um pouquinho sobre a história da POO.
-
