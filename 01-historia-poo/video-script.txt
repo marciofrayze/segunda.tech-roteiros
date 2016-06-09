@@ -16,7 +16,7 @@ Então, o tema desse segundo video vai ser esse: A História da Programação Or
 
 Bora começar?
 
-Bom, tudo começou lá na década de 70
+Bom, o inicio de tudo foi lá na década de 70
 
 quando uma das equipes da famosa Xerox PARC lançou uma nova linguagem de programação.
 
@@ -46,9 +46,9 @@ anota ai esses nomes e depois da uma pesquisada sobre eles na internet;
 
 com certeza vai achar muita coisa interessante...
 
-Tem inclusive aquele famosa história que conta que quando a Apple ainda tava começando
+Tem inclusive aquele famosa história de quando a Apple ainda tava começando e
 
-o Steve Jobs fez uma visita na Xerox Parc e acabou usando muita coisa que viu por lá como inspiração.
+o Steve Jobs fez uma visita na Xerox Parc e... acabou usando muita coisa que viu por lá como inspiração.
 
 Maaas voltando pra linguagem Smalltalk...
 
@@ -76,9 +76,9 @@ Smalltalk elevou essas ideias a um novo patamar.
 
 Mas pelo que andei pesquisando,
 
-as primeiras versões do Smalltalk tinham como objetivo ser uma ferramenta educacional
+as primeiras versões do Smalltalk tinham como objetivo ser uma ferramenta educacional e
 
-e só a partir de 81, quando Alan Kay saiu do projeto,
+só a partir de 81, quando Alan Kay saiu do projeto,
 
 é que o foco dela mudou para ser uma linguagem mais voltada para a industria.
 
@@ -122,15 +122,15 @@ o preço da licença para poder usar Smalltalk era... um pouco salgado...
 
 e a política de marketing deles também não era lá... muito eficiente.
 
-Hoje em dia a realidade é outra
+Hoje em dia a realidade é outra, né?
 
-e existem várias implementações dessa linguagem que são gratuitas e open-source
+Existem várias implementações dessa linguagem que são gratuitas e open-source
 
 mas elas só foram lançadas muito tempo depois, e ai... já era tarde.
 
 A gente tem que lembrar também que naquela época os hardwares eram bem mais limitados
 
-e a tecnologia por trás do Smalltalk, embora trouxessem diversas novidades e vantagens
+e as tecnologias por trás do Smalltalk, embora trouxessem diversas novidades e vantagens
 
 também tinham um alto custo em termos de performance.
 
@@ -146,7 +146,7 @@ Hoje em dia não só o hardware evoluiu,
 
 mas evoluíram também as técnicas de otimização utilizadas para implementar essas soluções.
 
-Existem programadores que estão diariamente pensando em formas de melhorar a performance
+Existem programadores que estão diariamente trabalhando em formas de melhorar a performance
 
 e a cada nova versão das linguagens de programação,
 
@@ -200,7 +200,9 @@ O slogan era "Escreva uma vez, execute em qualquer lugar",
 
 se referindo ao fato de que você poderia por exemplo escrever um software no Windows
 
-e depois executa-lo em um computador com sistema operacional da Apple sem precisa fazer nenhuma alteração.
+e depois executa-lo em um computador com sistema operacional da Apple
+
+sem precisa fazer nenhuma alteração.
 
 Tudo bem que cá entre nós, isso não funcionava muito bem não,
 
@@ -216,11 +218,11 @@ que até a Microsoft chegou a conseguir uma licença para fazer a sua própria v
 
 Mas essa implementação desrespeitava os padrões da linguagem Java,
 
-gerando assim uma versão que era incompatível com o Java original.
+sendo assim uma versão que era incompatível com o Java original.
 
 Isso acabou causando uma grande confusão, a Microsoft foi processada e
 
-acabou abandonando o projeto e mudando um pouco o foco.
+eventualmente acabou abandonando o projeto e mudando um pouco o foco.
 
 Em 2002 veio o lançamento do framework .NET onde a Microsoft nos apresentou a linguagem C#,
 
@@ -252,9 +254,9 @@ Tem muito software de qualidade que até hoje, por diversas razões, ainda são 
 
 Só pra citar um exemplo, o kernel do sistema operacional Linux é todo feito em C.
 
-Se você tiver curiosidade, tem umas discussões até meio engraçadas em que o Linus Torvalds,
-
 [ http://tecnologiaaberta.com.br/wp-content/uploads/2015/01/Linus_Torvalds_cropped.jpg ]
+
+Se você tiver curiosidade, tem umas discussões até meio engraçadas em que o Linus Torvalds,
 
 que é o criador do Linux, explica os motivos dele *odiar* C++
 
@@ -280,11 +282,11 @@ Em muitas linguagens é possível misturar os paradigmas e tentar tirar o melhor
 
 *** Qual era o objetivo dessa mudança toda?
 
-Bom... eu queria muito falar mais sobre isso com vocês,
+Bom... eu queria muito falar mais sobre isso com vocês hoje,
 
-maaas esse video já está ficando meio longo
+maaas esse video já está ficando muito longo
 
-e também a gente já ta fugindo um pouco do escopo...
+e a gente já ta fugindo um pouco do escopo...
 
 Então... no próximo video a gente conversa mais sobre isso, beleza?!
 
@@ -292,7 +294,7 @@ E é isso ai.
 
 Espero que vocês estejam gostando das video-aulas e.... até a próxima.
 
-Ah pessoal! Não esquece de se inscrever aqui canal, dar um like nesse video e me seguir lá no twitter, beleza?!
+Ah pessoal! Não esquece de se inscrever aqui no canal, dar um like nesse video e me seguir lá no twitter, beleza?!
 
 Até mais!
 
