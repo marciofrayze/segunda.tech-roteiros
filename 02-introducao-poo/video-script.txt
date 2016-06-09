@@ -2,13 +2,15 @@
 *** Vai Marcio, para de me enrolar cara. Diz ai.
 *** Afinal de contas, pq a orientação a objetos foi criada?
 
+Beleza, beleza, bora la!
+
 Com a evolução da computação, os sistemas foram ficando cada vez maiores e mais complexos.
 
 E ai meu amigo... ficava cada vez mais complicado organizar o código-fonte dos softwares.
 
-Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo
+Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e
 
-e em geral, era relativamente comum os sistemas começarem a crescer de forma insustentável,
+em geral, era relativamente comum os sistemas começarem a crescer de forma insustentável,
 
 até se tornarem muito dificeis de estender e dar manutenção.
 
@@ -20,13 +22,13 @@ Então, podemos dizer que um dos principais problemas que precisava ser resolvid
 
 permitir um melhor isolamento entre as partes do sistema,
 
-[Permitir um melhor isolamento entre as partes do sistema]
+[Melhor isolamento entre as partes do sistema]
 
 e com isso possibilitar que o programador consiga facilmente escrever códigos com menor acoplamento
 
 ou seja, trexos de códigos mais independentes uns dos outros.
 
-Isso torna também o re-apreveitamento de partes do sistema mais simples e transparente.
+Isso tornaria também o re-apreveitamento de partes do sistema mais simples e transparente.
 
 Bom, frente a esses problemas todos,
 
@@ -44,7 +46,7 @@ e uma delas foi a orientação a objetos.
 
 << https://books.google.com.br/books?id=YJ-eh1fCE78C&pg=PA31&lpg=PA31&dq=%22the+objectives+of%22+object+oriented+programming+are&source=bl&ots=rgXh9lIrcr&sig=B7f_XoL_gsroCcW1LXxnd54I-HE&hl=pt-BR&sa=X&ved=0ahUKEwi3jJDRr5bNAhWPl5AKHd9JCtkQ6AEIUTAI#v=onepage&q=%22the%20objectives%20of%22%20object%20oriented%20programming%20are&f=false >>
 
-E as ideias inicias da programação orientada a objetos na verdade iam muito além disso.
+Mas ideias inicias da programação orientada a objetos na verdade iam *muito* além disso.
 
 Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual:
 
@@ -56,49 +58,73 @@ nosso mundo é composto de objetos, certo?!
 
 E na abordagem proposta pela programação orientada a objetos
 
-o programador é responsável por moldar este mundo virtual,
+o programador deve por moldar este mundo virtual,
 
 explicando para o computador como devem ser criados estes objetos e como devem interagir entre si.
 
-Os objetos "conversam" uns com os outros através do envio de mensagens,
+Para isso, os objetos "conversam" uns com os outros através do envio de mensagens e
 
 [https://pixabay.com/pt/falar-discuss%C3%A3o-microfone-lata-238488/]
 
-e é responsabilidade do programador especificar
+é responsabilidade do programador especificar
 
 quais serão as mensagens que cada objeto pode receber,
 
 e também qual a ação que aquele objeto deve realizar ao receber uma determinada mensagem.
 
-Quando um objeto precisa se comunicar com outro,
+Então, quando um objeto precisa se comunicar com outro,
 
-ele envia uma mensagem que já deve ser pré-definida para o objeto desejado e opcionalmente ainda é possível
+ele envia uma mensagem para o objeto desejado e opcionalmente ainda é possível
 
-passar algumas informações para o objeto, que são os parâmetros da mensagem,
+passar algumas informações para o objeto, que são os parâmetros da mensagem.
 
-dessa forma, dois objetos conseguem trocar informações entre si facilmente.
+Uma vez enviada uma mensagem, o objeto que a recebeu executa todas as ações correspondentes
+
+e em seguida retorna o resultado dessa execução para o objeto que
+
+iniciou a comunicação.
+
+Dessa forma, dois objetos conseguem trocar informações entre si facilmente.
 
 Ficou confuso? Vamos a um exemplo um pouco mais prático:
 
-imagine que você está desenvolvendo um software para uma locadora de carros
+Imagine que você está desenvolvendo um software para uma locadora de carros.
 
-e esta locadora tem diversos clientes que são Locatários.
+Se você tivesse que explicar como funciona uma Locadora, quais objetos
+
+você imagina que seriam necessários para modelar esta necessidade?
+
+Em um primeiro momento eu consigo imaginar 3 tipos de objetos.
+
+A propria Locadora de carros, afinal, é ela quem vai alugar os carros, certo?
+
+Outro tipo de objeto que eu imagino que seja necessário é... o Carro.
+
+Se não existir carro, não vamos ter nada pra alugar, né?
+
+Bom, eu consigo imaginar pelo menos mais um objeto...
+
+Qual você acha que seria?
+
+*** Sei lá cara... tenho uma Locadora... tenho os carros da locadora... bom...
+
+*** já tenho tudo... acho que só falta alguém pra alugar os carros.
+
+Exato... ta faltando o Locatário, ou seja, uma representação da pessoa que vai alugar os carros.
 
 Como estamos tentando modelar um sistema baseado no mundo real,
 
-nada mais obvio do que existirem objetos do tipo Carros e Locatários dentro do nosso programa.
+Esses objetos nada mais são do que representações que, de certa forma, simulam as características
 
-Esses objetos nada mais serão do que representações que "simulam" as características
+e ações no mundo virtual de como funcionam no mundo real.
 
-e ações no mundo virtual de como funciona o mundo real.
+Sei que esse exemplo ainda está bem simples, mas relaxa,
 
-Se que esse exemplo ainda está bem simples, mas não se preocupe,
+vamos apresentar exemplos mais detalhados daqui a pouco,
 
-vamos apresentar exemplos mais detalhados mais para frente,
+mas antes precisamos especificar alguns conceitos
 
-mas antes precisamos especificar mais alguns conceitos.
-
-Os dois primeiros conceitos que precisamos estabelecer é:
+E o primeiro conceito que precisamos estabelecer é:
 
 O que são Classes.
 
@@ -116,11 +142,11 @@ e que eles podem ser alugados para Locatários.
 
 Embora isso seja óbvio pra gente, precisamos de alguma forma explicar isso para o computador.
 
-Na orientação a objetos, essa explicação é pelo programador,
+Na orientação a objetos, essa explicação é feita pelo programador
 
 através da especificação de Classes.
 
-Cada classe é um conjunto de código que definem como determinados tipos objetos
+Cada classe é um conjunto de código que definem por exmemplo como determinados tipos objetos
 
 devem ser criados, quais são suas características, como eles devem se comportar e
 
