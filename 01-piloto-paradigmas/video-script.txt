@@ -1,5 +1,5 @@
-Começando a Terminar - #00
-Introdução a Programação Orientada a Objetos - Parte 1 (episódio Piloto)
+Começando a Terminar - #01
+Introdução a Programação Orientada a Objetos - Parte 1 - Paradigmas de Programação (episódio Piloto)
 
 E ai pessoal!
 

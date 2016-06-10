@@ -1,3 +1,5 @@
+Começando a Terminar - #03
+Introdução a Programação Orientada a Objetos - Parte 3 - Classes
 
 E ai pessoal!
 
@@ -7,9 +9,11 @@ Bom pessoal, no primeiro video a gente definiu o que são paradigmas de programa
 
 no segundo eu contei pra vocês um pouquinho da história da programação orientada a objetos
 
-e agora, neste terceiro video, vamos conversar sobre os motivos que levaram
+e agora, neste terceiro video, vamos conversar sobre 2 temas:
 
-a criação deste paradigma e também vamos começar a falar sobre alguns conceitos básicos
+- os motivos que levaram a criação deste paradigma
+
+- e também vamos começar a falar sobre alguns conceitos básicos
 
 da programação orientada a objetos.
 
@@ -22,17 +26,23 @@ Beleza, beleza, bora la!
 
 Com a evolução da computação, os sistemas foram ficando maiores e mais complexos.
 
-E ai meu amigo... ficava cada vez mais complicado organizar o código-fonte dos softwares.
+E ai meu amigo... ficava cada vez mais dificil organizar o código-fonte dos softwares.
 
 Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e
 
-em geral, era relativamente comum os sistemas crescerem de forma insustentável,
+em geral, era relativamente comum os sistemas crescerem de forma insustentável.
 
-até se tornarem muito difíceis de estender e dar manutenção.
+Os programas comeavam bem, iam crescendo, ai aparecia uma gambiarra aqui, uma ali,
 
-Chegava um momento em que uma pequena alteração no código
+uma alteração aqui gerava um bug em outra parte do sistemas...
 
-poderia ter impactos inesperados em diversas outras partes do sistema.
+até que chegava um momento que os desenvolvedores começavam a literalmente sofrer
+
+para conseguir estender e dar manutenção nos sistemas maiores.
+
+Nessas situações, qaulquer pequena alteração no código
+
+pode ter impactos inesperados em diversas outras partes do sistema.
 
 Então, podemos dizer que um dos principais problemas que precisava ser resolvido era
 
@@ -50,19 +60,19 @@ Bom, frente a esses problemas todos,
 
 os programadores começaram a buscar formas para organizar melhor seus códigos.
 
-Primeiro as próprias linguagens procedurais foram evoluindo e
+Primeiro as próprias linguagens procedurais foram evoluindo,
 
 criando mecanismos e padrões para tentar evitar essas situações.
 
 E se usadas da forma correta, realmente já amenizavam bastante os problemas.
 
-Maaas como sempre na tecnologia, outras abordagens foram surgindo,
+Maaas como sempre, outras abordagens mais radicais foram surgindo,
 
 e uma delas foi a orientação a objetos.
 
 << https://books.google.com.br/books?id=YJ-eh1fCE78C&pg=PA31&lpg=PA31&dq=%22the+objectives+of%22+object+oriented+programming+are&source=bl&ots=rgXh9lIrcr&sig=B7f_XoL_gsroCcW1LXxnd54I-HE&hl=pt-BR&sa=X&ved=0ahUKEwi3jJDRr5bNAhWPl5AKHd9JCtkQ6AEIUTAI#v=onepage&q=%22the%20objectives%20of%22%20object%20oriented%20programming%20are&f=false >>
 
-Mas as ideias inicias da programação orientada a objetos na verdade iam *muito* além disso.
+Na verdade, as ideias inicias da programação orientada a objetos iam *muito* além disso.
 
 Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual:
 
@@ -74,13 +84,15 @@ nosso mundo é composto de objetos, certo?!
 
 E na abordagem proposta pela programação orientada a objetos
 
-o programador deve por moldar este mundo virtual,
+o programador fica responsável por moldar este mundo virtual,
 
-explicando para o computador como devem ser criados estes objetos e como devem interagir entre si.
+explicando para o computador como devem ser criados os objetos e como devem se comportar.
 
-Para isso, os objetos "conversam" uns com os outros através do envio de mensagens e
+Para que os objetos consigam interagir entre si, eles "conversam" uns com os outros através do envio de mensagens e
 
 [https://pixabay.com/pt/falar-discuss%C3%A3o-microfone-lata-238488/]
+
+[Envio de mensagens]
 
 é responsabilidade do programador especificar
 
