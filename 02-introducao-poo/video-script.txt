@@ -1,18 +1,34 @@
 
-*** Vai Marcio, para de me enrolar cara. Diz ai.
+E ai pessoal!
+
+Meu nome é Marcio e você está assistindo ao terceiro episódio deste novo canal no youtube.
+
+Bom pessoal, no primeiro video a gente definiu o que são paradigmas de programação,
+
+no segundo eu contei pra vocês um pouquinho da história da programação orientada a objetos
+
+e agora, neste terceiro video, vamos conversar sobre os motivos que levaram
+
+a criação deste paradigma e também vamos começar a falar sobre alguns conceitos básicos
+
+da programação orientada a objetos.
+
+Então... Bora começar?!
+
+*** Finalmente né cara?! Então diz ai.
 *** Afinal de contas, pq a orientação a objetos foi criada?
 
 Beleza, beleza, bora la!
 
-Com a evolução da computação, os sistemas foram ficando cada vez maiores e mais complexos.
+Com a evolução da computação, os sistemas foram ficando maiores e mais complexos.
 
 E ai meu amigo... ficava cada vez mais complicado organizar o código-fonte dos softwares.
 
 Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e
 
-em geral, era relativamente comum os sistemas começarem a crescer de forma insustentável,
+em geral, era relativamente comum os sistemas crescerem de forma insustentável,
 
-até se tornarem muito dificeis de estender e dar manutenção.
+até se tornarem muito difíceis de estender e dar manutenção.
 
 Chegava um momento em que uma pequena alteração no código
 
@@ -24,11 +40,11 @@ permitir um melhor isolamento entre as partes do sistema,
 
 [Melhor isolamento entre as partes do sistema]
 
-e com isso possibilitar que o programador consiga facilmente escrever códigos com menor acoplamento
+e com isso possibilitar que o programador conseguisse facilmente escrever códigos com menor acoplamento
 
-ou seja, trexos de códigos mais independentes uns dos outros.
+ou seja, trechos de códigos mais independentes uns dos outros.
 
-Isso tornaria também o re-apreveitamento de partes do sistema mais simples e transparente.
+Isso tornaria também o re-aproveitamento de partes do sistema mais simples e transparente.
 
 Bom, frente a esses problemas todos,
 
@@ -46,7 +62,7 @@ e uma delas foi a orientação a objetos.
 
 << https://books.google.com.br/books?id=YJ-eh1fCE78C&pg=PA31&lpg=PA31&dq=%22the+objectives+of%22+object+oriented+programming+are&source=bl&ots=rgXh9lIrcr&sig=B7f_XoL_gsroCcW1LXxnd54I-HE&hl=pt-BR&sa=X&ved=0ahUKEwi3jJDRr5bNAhWPl5AKHd9JCtkQ6AEIUTAI#v=onepage&q=%22the%20objectives%20of%22%20object%20oriented%20programming%20are&f=false >>
 
-Mas ideias inicias da programação orientada a objetos na verdade iam *muito* além disso.
+Mas as ideias inicias da programação orientada a objetos na verdade iam *muito* além disso.
 
 Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual:
 
@@ -70,7 +86,7 @@ Para isso, os objetos "conversam" uns com os outros através do envio de mensage
 
 quais serão as mensagens que cada objeto pode receber,
 
-e também qual a ação que aquele objeto deve realizar ao receber uma determinada mensagem.
+e também qual a ação que aqueles objetos devem realizar ao receber uma determinada mensagem.
 
 Então, quando um objeto precisa se comunicar com outro,
 
@@ -86,21 +102,21 @@ iniciou a comunicação.
 
 Dessa forma, dois objetos conseguem trocar informações entre si facilmente.
 
-Ficou confuso? Vamos a um exemplo um pouco mais prático:
+Ficou meio confuso? Vamos a um exemplo um pouco mais prático:
 
 Imagine que você está desenvolvendo um software para uma locadora de carros.
 
-Se você tivesse que explicar como funciona uma Locadora, quais objetos
+Se você tivesse que explicar para o computador como funciona uma Locadora, quais objetos
 
 você imagina que seriam necessários para modelar esta necessidade?
 
 Em um primeiro momento eu consigo imaginar 3 tipos de objetos.
 
-A propria Locadora de carros, afinal, é ela quem vai alugar os carros, certo?
+A própria Locadora de carros, afinal, é ela quem vai alugar os carros, certo?
 
-Outro tipo de objeto que eu imagino que seja necessário é... o Carro.
+Outro tipo de objeto que eu imagino que seja necessário é... o Carros.
 
-Se não existir carro, não vamos ter nada pra alugar, né?
+Se não existirem carros, não vamos ter nada pra alugar, né?
 
 Bom, eu consigo imaginar pelo menos mais um objeto...
 
@@ -108,19 +124,19 @@ Qual você acha que seria?
 
 *** Sei lá cara... tenho uma Locadora... tenho os carros da locadora... bom...
 
-*** já tenho tudo... acho que só falta alguém pra alugar os carros.
+*** já tenho tudo... acho que só falta... tipo... alguém pra alugar os carros.
 
-Exato... ta faltando o Locatário, ou seja, uma representação da pessoa que vai alugar os carros.
+Exato!... está faltando o Locatário, ou melhor, uma representação da pessoa que vai alugar os carros.
 
 Como estamos tentando modelar um sistema baseado no mundo real,
 
 Esses objetos nada mais são do que representações que, de certa forma, simulam as características
 
-e ações no mundo virtual de como funcionam no mundo real.
+e ações no mundo virtual de como funciona o mundo real.
 
-Sei que esse exemplo ainda está bem simples, mas relaxa,
+Sei que esse exemplo ainda ta bem simples, mas relaxa,
 
-vamos apresentar exemplos mais detalhados daqui a pouco,
+vamos apresentar outros exemplos daqui a pouco,
 
 mas antes precisamos especificar alguns conceitos
 
@@ -134,7 +150,7 @@ acho que é meio intuitivo pensar que o programador precisa estabelecer
 
 em algum lugar *como* são criados estes objetos, certo?!
 
-Voltando para aquele exemplo da locadora que citei agora pouco.
+Voltando para o exemplo da locadora que citei agora pouco.
 
 A gente sabe que dentro do sistema vão existir Carros,
 
@@ -142,15 +158,19 @@ e que eles podem ser alugados para Locatários.
 
 Embora isso seja óbvio pra gente, precisamos de alguma forma explicar isso para o computador.
 
-Na orientação a objetos, essa explicação é feita pelo programador
+Na orientação a objetos, essas explicações são feitas pelo programador
 
 através da especificação de Classes.
 
-Cada classe é um conjunto de código que definem por exmemplo como determinados tipos objetos
+Cada classe é um conjunto de código que define, entre outras coisas:
 
-devem ser criados, quais são suas características, como eles devem se comportar e
+- como determinados tipos objetos devem ser criados
 
-como eles devem interagir com demais objetos.
+- quais são suas características
+
+- como eles devem se comportar e
+
+- como eles devem interagir com demais objetos.
 
 Fazendo uma analogia meio tosca com o mundo real,
 
@@ -160,13 +180,13 @@ Você entraria com alguns parâmetros como por exemplo:
 - qual a cor do carro
 - qual a a potência do motor
 
-e em seguida essa máquina fosse capaz de construir um novo carro com as caracterísitcas que pedimos!
+e em seguida essa máquina fosse capaz de construir um novo carro com as características que pedimos!
 
 Isso ser bem legal né?
 
 Mas essa máquina não é capaz de construir qualquer tipo de coisa.
 
-Embora seja capaz de ter pequenas variações de acordo com algus parâmetros pré-estabelecidos,
+Embora seja capaz de ter pequenas variações de acordo com alguns parâmetros pré-estabelecidos,
 
 Ela é especializada em construir carros.
 
@@ -176,7 +196,7 @@ programação orientada a objetos!
 
 E os produtos criados a partir dessa classe, ou seja, os carros, são os nosso Objetos.
 
-Ou seja, atraveś de uma única Classe, somos capazes de construir diversos Objetos similares.
+Ou seja, através de uma única Classe, somos capazes de construir diversos Objetos similares.
 
 No mundo real ainda não chegamos esse ponto...
 
@@ -192,7 +212,7 @@ Assim como o exemplo que dei do carro, também precisaríamos criar uma Classe
 
 que representasse o Locatário.
 
-Neste caso fazer aquela assossiação da Máquina fica meio estranho né?
+Neste caso fazer aquela associação da Máquina fica meio estranho né?
 
 Imaginar uma máquina que seja capaz de construir Locatários... hahaha
 
@@ -208,7 +228,7 @@ Vamos ter uma Classe que representa
 
 Não vou entrar em muitos detalhes agora, mas a gente vai conversar sobre tudo isso nos próximos vídeos, beleza?
 
-*** Mas pera ai, hoje em dia ninguêm mais programa de forma procedural né?!
+*** Mas pera ai, hoje em dia ninguém mais programa de forma procedural né?!
 
 Então... não é bem assim.
 
@@ -220,7 +240,7 @@ E existem situações onde a programações orientada a objetos pode nem fazer m
 
 Bom, pra você ter uma ideia,
 
-existe um indice que sai periodicamente mostrando quais são as linguagens mais utilizadas.
+existe um índice que sai periodicamente mostrando quais são as linguagens mais utilizadas.
 
 Vamo da uma olhada?
 
