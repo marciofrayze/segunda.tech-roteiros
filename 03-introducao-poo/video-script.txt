@@ -32,7 +32,7 @@ Aos poucos as limitações da forma como os programadores estruturavam seus cód
 
 em geral, era relativamente comum os sistemas crescerem de forma insustentável.
 
-Os programas comeavam bem, iam crescendo, ai aparecia uma gambiarra aqui, uma ali,
+Os programas começavam bem, iam crescendo, ai aparecia uma gambiarra aqui, uma ali,
 
 uma alteração aqui gerava um bug em outra parte do sistemas...
 
@@ -40,7 +40,7 @@ até que chegava um momento que os desenvolvedores começavam a literalmente sof
 
 para conseguir estender e dar manutenção nos sistemas maiores.
 
-Nessas situações, qaulquer pequena alteração no código
+Nessas situações, qualquer pequena alteração no código
 
 pode ter impactos inesperados em diversas outras partes do sistema.
 
@@ -50,7 +50,7 @@ permitir um melhor isolamento entre as partes do sistema,
 
 [Melhor isolamento entre as partes do sistema]
 
-e com isso possibilitar que o programador conseguisse facilmente escrever códigos com menor acoplamento
+e com isso possibilitar que o programador conseguisse facilmente escrever códigos com menor acoplamento,
 
 ou seja, trechos de códigos mais independentes uns dos outros.
 
@@ -74,29 +74,27 @@ e uma delas foi a orientação a objetos.
 
 Na verdade, as ideias inicias da programação orientada a objetos iam *muito* além disso.
 
-Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual:
+Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual,
 
-a idéia fundamental era tentar simular o mundo real dentro do computador.
+ou seja, a idéia fundamental era tentar simular o mundo real dentro do computador.
 
-E pra isso, nada mais natural do que utilizar Objetos, afinal,
+E pra isso, nada mais natural do que utilizar... Objetos, afinal,
 
 nosso mundo é composto de objetos, certo?!
 
-E na abordagem proposta pela programação orientada a objetos
+Na abordagem proposta pela programação orientada a objetos
 
 o programador fica responsável por moldar este mundo virtual,
 
-explicando para o computador como devem ser criados os objetos e como devem se comportar.
-
-Para que os objetos consigam interagir entre si, eles "conversam" uns com os outros através do envio de mensagens e
+explicando para o computador como os objetos devem ser criados como eles devem se comportar.
 
 [https://pixabay.com/pt/falar-discuss%C3%A3o-microfone-lata-238488/]
 
 [Envio de mensagens]
 
-é responsabilidade do programador especificar
+E para que os objetos consigam interagir entre si, eles "conversam" uns com os outros através do envio de mensagens e
 
-quais serão as mensagens que cada objeto pode receber,
+é responsabilidade do programador especificar quais serão as mensagens que cada objeto pode receber,
 
 e também qual a ação que aqueles objetos devem realizar ao receber uma determinada mensagem.
 
@@ -104,7 +102,7 @@ Então, quando um objeto precisa se comunicar com outro,
 
 ele envia uma mensagem para o objeto desejado e opcionalmente ainda é possível
 
-passar algumas informações para o objeto, que são os parâmetros da mensagem.
+passar algumas informações junto com a mensagem, que são os parâmetros.
 
 Uma vez enviada uma mensagem, o objeto que a recebeu executa todas as ações correspondentes
 
@@ -114,7 +112,9 @@ iniciou a comunicação.
 
 Dessa forma, dois objetos conseguem trocar informações entre si facilmente.
 
-Ficou meio confuso? Vamos a um exemplo um pouco mais prático:
+*** Cara... na boa, já to viajando aqui...
+
+Vamos a um exemplo um pouco mais prático, que fica mais fácil de entender.
 
 Imagine que você está desenvolvendo um software para uma locadora de carros.
 
@@ -126,7 +126,7 @@ Em um primeiro momento eu consigo imaginar 3 tipos de objetos.
 
 A própria Locadora de carros, afinal, é ela quem vai alugar os carros, certo?
 
-Outro tipo de objeto que eu imagino que seja necessário é... o Carros.
+Outro tipo de objeto que eu imagino que sejam necessários são... os Carros.
 
 Se não existirem carros, não vamos ter nada pra alugar, né?
 
@@ -138,23 +138,64 @@ Qual você acha que seria?
 
 *** já tenho tudo... acho que só falta... tipo... alguém pra alugar os carros.
 
-Exato!... está faltando o Locatário, ou melhor, uma representação da pessoa que vai alugar os carros.
+Exato!... está faltando o Locatário, que representa da pessoa que vai alugar os carros.
 
-Como estamos tentando modelar um sistema baseado no mundo real,
+Então, logo de cara eu já consigo enxergar esses 3 tipos de objetos que vão representar
 
-Esses objetos nada mais são do que representações que, de certa forma, simulam as características
+entidades do mundo real no meu sistema de aluguel de carros, que seriam:
 
-e ações no mundo virtual de como funciona o mundo real.
+- A Locadora
 
-Sei que esse exemplo ainda ta bem simples, mas relaxa,
+- O Carro
 
-vamos apresentar outros exemplos daqui a pouco,
+- E o Locatário
 
-mas antes precisamos especificar alguns conceitos
+Como já disse pra vocês, nesse nosso mundo virtual, a forma de comunicação
 
-E o primeiro conceito que precisamos estabelecer é:
+entre os objetos se passa através de troca de mensagens.
+
+Com esses 3 tipos de objetos que mostrei pra vocês,
+
+como será que eles conversariam?
+
+Bom, imagino que o Locatário iria enviar uma mensagem para a Locadora,
+
+solicitando o aluguel de um carro.
+
+Se tiver algum carro disponível, a locadora irá disponibilizar este carro
+
+para o Locatário.
+
+Simples, né? E acho que representa bem como funciona no mundo real, certo?
+
+*** Ta, falando assim fica fácil né... mas ainda não entendi direito como vou implementar isso na prática...
+
+Sei que esse exemplo ainda ta bem simples, e a representação um pouco abstrata demais,
+
+e vou apresentar pra vocês outros exemplos mais interessantes mais pra frente.
+
+Esse exemplo foi só pra você entender que na orientação a objetos,
+
+o ideal é sempre tentar fazer a represetação da forma mais natural e próxima da nossa realidade, beleza?
+
+*** Ok... Mas como eu crio esses objetos ai?
+
+A gente chega lá. Maaas pra isso precisamos conversar sobre alguns outros conceitos.
+
+E o primeiro deles que precisamos definir é:
 
 O que são Classes.
+
+*** Nossa, finalmente hein.
+
+Hahaha é. Demorou um pouco né? Mas agora a gente já tem a base pra conversar sobre isso.
+
+Maaaasss... isso vai ficar.. para o próximo video, blz?!
+
+
+
+
+
 
 Se o mundo virtual que estamos construindo é formado por Objetos,
 
