@@ -1,0 +1,212 @@
+Começando a Terminar - #04
+Introdução a Programação Orientada a Objetos - Parte 4 - Classes
+
+E ai pessoal!
+
+Meu nome é Marcio e você está assistindo ao quarto episódio deste novo canal no youtube.
+
+Hoje a gente vai começar a falar de alguns conceitos um pouco mais complicados e
+
+o conteúdo vai começar a ficar um pouco mais difícil de acompanhar...
+
+Então... presta bastante atenção ai por que o tema desta video-aula será: O que são Classes?
+
+Bora começar?!
+
+No video anterior a gente começou a conversar sobre alguns conceitos básicos e
+
+eu contei pra vocês que na programação orientada a objetos o programador fica
+
+responsável por criar uma espécie de mundo virtual... que de certa forma tenta
+
+modelar e descrever uma representação do problema que ele quer resolver.
+
+Se o mundo virtual que estamos construindo é formado por Objetos,
+
+acho que é meio intuitivo pensar que o programador precisa estabelecer
+
+em algum lugar *como* serão criados estes objetos, certo?!
+
+Bom, como você já deve ter imaginado, para isso usamos as Classes.
+
+*** Ta... mas afinal, o que é uma classe?
+
+Fazendo uma analogia meio... tosca com o mundo real...
+
+Imagine que você quer construir uma casa, qual a primeira coisa que você faz?
+
+É a planta da sua casa né? Que nada mais é do que um documento onde você
+
+especifica detalhadamente como sua casa será construída.
+
+E a planta da sua casa é só um conjunto de especificações, e nada impede que ela seja re-aproveitada, né?
+
+A partir de uma mesma planta, podemos construir 1, 2, 3 ou 1000 casas similares.
+
+O conceito de Classes na orientação a objetos é... parecido.
+
+Trata-se de um conjunto de especificações que definem as características dos objetos
+
+do nosso programa.
+
+Sem definir uma classe, não é possível criar objetos.
+
+E precisamos definir uma Classe pra cada tipo de objeto que vão existir em nosso sistema.
+
+Mas assim como a planta da casa, as Classes também podem ser re-aproveitadas, ou seja,
+
+a partir da definição de uma única Classe podemos criar diversos Objetos similares.
+
+Acho que a forma mais fácil de visualizar isso é pensando em... um jogo de video-game.
+
+Imagine que você quer desenvolver um jogo similar ao Mario Bros,
+
+mas aquela versão bem antiga do Nintendinho.
+
+Da uma olhada em uma imagem dele:
+
+https://pixel-drama.com/2015/09/13/os-30-anos-de-super-mario-bros/
+
+Se fossemos implementar uma versão deste jogo utilizando orientação a objetos,
+
+que tipo de objetos você consegue identificar nessa imagem?
+
+*** pow... sei lá... tem o Mario, tem o cogumelo, o inimigo... seria isso?!
+
+Isso aí. Além deles, também temos os blocos,
+
+sendo que alguns tem o ponto de interrogação...
+
+Tem também os blocos que formam o chão onde o Mario está pisando...
+
+E tem ainda alguns outros objetos que formam o cenário do jogo,
+
+como as nuvens e os arbustos... entre outros.
+
+Se eu fosse implementar este jogo usando orientação a objetos,
+
+provavelmente iria criar Classes com nomes como:
+
+- Jogador
+- Inimigo
+- Bloco
+- Cogumelo
+- Nuvem
+
+E por ai vai... Então, teríamos, por exemplo,
+
+que cada bloco que aparece na imagem, seria uma instância de um Objeto criado a partir da classe Bloco.
+
+E o jogo se passa através de interação entre esses diversos objetos criados pelo programador.
+
+Este exemplo é interessante porque nós conseguimos facilmente visualizar os objetos, né?
+
+Mas... nem sempre isso é verdade.
+
+Muitas vezes os Objetos que temos que criar são entidades bem mais abstratas,
+
+mas ainda assim são definidas através de Classes.
+
+Por exemplo, se estivéssemos desenvolvendo um software para controlar todo o sistema de um banco.
+
+Teríamos que especificar em algum lugar deste sistema o conceito de... Correntista, por exemplo,
+
+que nada mais é do que a representação das pessoas que possuem contas correntes neste banco, certo?
+
+Mas... o que são contas correntes?
+
+Bom, eu vou ter que definir também esse conceito dentro do meu sistema.
+
+E como estamos utilizando o paradigma orientado a objetos,
+
+a conta corrente também será especificada através de uma Classe.
+
+Deu pra começar a entender?
+
+*** Ta cara... então... cada Classe é como se fosse uma especificação de um determinado...
+
+*** tipo de objeto?
+
+Isso ai.
+
+*** Ta... então os Objetos são criados através das classes... Mas... da onde vem as classes?
+
+*** Como o programador especifica uma classe?
+
+Então... nessa série de vídeos, pelo menos por enquanto, eu não queria entrar muito em detalhes de implementação em
+
+uma determinada linguagem específica.
+
+Antes de mais nada, meu objetivo é te ajudar a entender o *conceito* de orientação a objetos.
+
+Mas... pra nossa sorte, a forma de implementação... não costuma variar muuito de uma linguagem
+
+pra outra.
+
+Quando for escrever o código de uma Classe você vai ter que se preocupar com
+
+2 partes principais: Os Atributos e os Métodos de sua nova Classe.
+
+(...)
+
+Quando o assunto é orientação a objetos, você vai ouvir falar muito nesses termos:
+
+- Objeto
+- Classe
+- Método
+- Atributo
+
+Eu recomendo fortemente que enquanto você não entender bem o que representa cada uma
+
+dessas coisas, não tente se aprofundar em coisas mais complicadas.
+
+Estude e entenda bem esses conceitos antes de mais nada, beleza?
+
+
+
+
+
+
+
+
+
+
+
+Voltando para o exemplo da locadora que citei no video anterior.
+
+A gente sabe que dentro do sistema vão existir Carros,
+
+e que eles podem ser alugados para Locatários.
+
+Embora isso seja óbvio pra gente, precisamos de alguma forma explicar isso pro computador.
+
+Na orientação a objetos, essas explicações são feitas pelo programador
+
+através da especificação de Classes.
+
+Cada classe é um conjunto de código que define, entre outras coisas:
+
+- como determinados tipos objetos são criados
+
+- quais são suas características
+
+- como eles devem se comportar e
+
+- como eles devem interagir com demais objetos.
+
+Fazendo uma analogia meio tosca com o mundo real...
+
+O que você precisa para conseguir
+
+
+
+
+
+
+E é ai que entram as Classes.
+
+A gente pode definir o conceito de Classe como sendo uma abstração que define
+
+um tipo de Objeto.
+
+ e o que objetos deste determinado tipo tem dentro deles (seus atributos) e também define que tipo de ações esse tipo de objeto é capaz de realizar (métodos).

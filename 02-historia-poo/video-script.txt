@@ -47,7 +47,7 @@ anota ai esses nomes e depois da uma pesquisada sobre eles na internet;
 
 com certeza vai achar muita coisa interessante...
 
-Tem inclusive aquele famosa história de quando a Apple ainda tava começando e
+Tem inclusive aquele famosa história de quando a Apple ainda tava começando,
 
 o Steve Jobs fez uma visita na Xerox Parc e... acabou usando muita coisa que viu por lá como inspiração.
 
@@ -57,9 +57,9 @@ junto com ela podemos dizer que também foi concebido o termo "Programação Ori
 
 É difícil dizer com precisão em que momento este paradigma foi criado
 
-mas a gente sabe que parte dos conceitos na verdade já eram aplicados
+mas a gente sabe que parte dos conceitos na verdade já eram aplicados em
 
-em outras linguagens que vieram antes do Smalltalk.
+outras linguagens que vieram antes do Smalltalk.
 
 Provavelmente a primeira mesmo a utilizar algumas dessas idéias foi a Simula 67,
 
@@ -77,11 +77,11 @@ Smalltalk elevou essas ideias a um novo patamar.
 
 Mas pelo que andei pesquisando,
 
-as primeiras versões do Smalltalk tinham como objetivo ser uma ferramenta educacional e
+as primeiras versões do Smalltalk tinham como objetivo ser uma ferramenta... educacional e
 
 só a partir de 81, quando Alan Kay saiu do projeto,
 
-é que o foco dela mudou para ser uma linguagem mais voltada para a industria.
+é que o foco dela mudou para ser uma linguagem mais voltada pra industria.
 
 Lá pro final da década de oitenta e durante o década de noventa
 
@@ -133,7 +133,7 @@ A gente tem que lembrar também que naquela época os hardwares eram bem mais li
 
 e as tecnologias por trás do Smalltalk, embora trouxessem diversas novidades e vantagens
 
-também tinham um alto custo em termos de performance.
+também tinham um alto custo em termos de... performance.
 
 Ou seja, no começo, softwares construídos em Smalltalk costumavam ter um desempenho... um pouco ruim.
 
@@ -151,21 +151,19 @@ Existem programadores que estão diariamente trabalhando em formas de melhorar a
 
 e a cada nova versão das linguagens de programação,
 
-técnicas cada vez mais avançadas são construídas com o objetivo deixar mais rápida
-
-a execução dos softwares implementados utilizando essas tecnologias.
+técnicas cada vez mais avançadas são construídas.
 
 Isso permite que hoje em dia se tenha um desempenho muuuito superior ao que era algumas décadas atrás.
 
-*** Ta bom vai.. conta mais ai. Não existiam outras linguagens orientadas a objetos?!
+*** Ta bom vai.. conta mais ai. Não existiam outras linguagens orientadas a objetos, não?!
 
 Então, vamo lá.
 
 Paralelamente a tudo isso, com o tempo, várias linguagens procedurais pré-existentes
 
-começaram a incluir alguns conceitos da programação orientada a objetos
+começaram a incluir alguns conceitos da programação orientada a objetos e
 
-e este paradigma, aos poucos, foi ganhando cada vez mais força.
+este paradigma, aos poucos, foi ganhando cada vez mais força.
 
 Por exemplo, em 1983, quando eu tinha 1 aninho de idade...
 
@@ -187,37 +185,37 @@ até que em 95 nasceu o Java.
 
 Acho que todo mundo já ouviu falar nessa linguagem, né?
 
-Bom, a sintaxe do Java foi inspirada principalmente no C e Objetive-C,
+Bom, a sintaxe do Java foi inspirada principalmente no C e no Objetive-C,
 
-Desta forma a maioria dos programadores
+Dessa forma a maioria dos programadores
 
 se sentiam a vontade pra explorar e experimentar esta nova linguagem.
 
-E pra completar, Java era multi-plataforma e gratuita.
+E pra completar, Java era gratuita e multi-plataforma.
 
-Alias, a campanha de marketing deles insistia bastante no fato dela ser multi-plataforma.
+Alias, a campanha de marketing deles na época insistia bastante no fato dela ser multi-plataforma.
 
 O slogan era "Escreva uma vez, execute em qualquer lugar",
 
 se referindo ao fato de que você poderia por exemplo escrever um software no Windows
 
-e depois executa-lo em um computador com sistema operacional da Apple
+e depois executa-lo em um computador com sistema operacional da Apple,
 
 sem precisa fazer nenhuma alteração.
 
 Tudo bem que cá entre nós, isso não funcionava muito bem não,
 
-mas não da pra negar que era uma ótima campanha de marketing.
+mas não da pra negar que era uma ótima campanha de marketing, né?
 
-E foi assim que a programação orientada a objetivos foi ganhando seu espaço
+E foi assim que a programação orientada a objetivos foi ganhando seu espaço e
 
-e conquistando cada vez mais programadores...
+conquistando cada vez mais programadores...
 
 Na segunda metade da década de 90, Java tava com tanta força
 
 que até a Microsoft chegou a conseguir uma licença para fazer a sua própria versão: o Visual J++.
 
-Mas essa implementação desrespeitava os padrões da linguagem Java,
+Mas essa implementação... desrespeitava os padrões da linguagem Java,
 
 sendo assim uma versão que era incompatível com o Java original.
 
@@ -229,9 +227,11 @@ Em 2002 veio o lançamento do framework .NET onde a Microsoft nos apresentou a l
 
 que em diversos aspectos era... bastante similar ao Java.
 
-Mas além do C#, com o .NET a Microsoft também apostou em uma reformulação geral de
+Mas além do C#, com o .NET a Microsoft também apostou em uma reformulação geral do
 
-em sua então muito popular linguagem Visual Basic, adicionando um melhor suporte a orientação a objetos.
+Visual Basic, que era uma linguagem muito popular linguagem na época.
+
+E essa nova versão do Visual Basic... adivinha só? Adicionava um melhor suporte a orientação a objetos.
 
 Bom, eu poderia ficar aqui listando todas as linguagens
 
@@ -241,7 +241,7 @@ e todas as vantagens e desvantagens de cada uma delas,
 
 mas o video ia ficar muito longo e cansativo.
 
-E eu acho que você já entendeu qual era o contexto da época né.
+E eu acho que você já entendeu qual era o contexto da época, né?
 
 O que queria também deixar claro pra vocês
 
