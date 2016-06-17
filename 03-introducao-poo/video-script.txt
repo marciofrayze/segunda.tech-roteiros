@@ -3,7 +3,7 @@ Introdução a Programação Orientada a Objetos - Parte 3 - Conceitos básicos
 
 E ai pessoal!
 
-Meu nome é Marcio e você está assistindo ao terceiro episódio deste novo canal no youtube.
+Meu nome é Marcio e você está assistindo ao terceiro episódio deste novo canal na internet.
 
 No primeiro video a gente definiu o que são paradigmas de programação,
 
@@ -21,7 +21,7 @@ Então... Bora começar?!
 
 Com a evolução da computação, os sistemas foram ficando maiores e mais complexos.
 
-E ai meu amigo... ficava cada vez mais difícil organizar o código-fonte dos softwares.
+E ai... ficava cada vez mais difícil organizar o código-fonte dos softwares.
 
 Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e
 
@@ -31,7 +31,7 @@ Os programas começavam bem, iam crescendo, ai aparecia um bug aqui, outro ali,
 
 até que chegava um momento que os desenvolvedores começavam a literalmente sofrer
 
-para conseguir estender e dar manutenção nesses sistemas maiores.
+para conseguir estender e dar manutenção nos sistemas maiores.
 
 Em situações como essa, qualquer pequena alteração no código
 
@@ -49,15 +49,17 @@ ou seja, trechos de códigos mais independentes uns dos outros.
 
 Isso tornaria também mais simples o *re-aproveitamento de partes do sistema*.
 
-Bom, pra tentar enfrentar esses problemas,
+Ao desenvolver qualquer software, é sempre uma boa prática tentar atingir estes objetivos.
+
+Bom, e pra tentar fazer isso,
 
 os programadores começaram a buscar formas para organizar melhor seus códigos.
 
 Primeiro as próprias linguagens procedurais foram evoluindo,
 
-criando mecanismos e padrões para tentar evitar essas situações.
+criando mecanismos e padrões para tentar contornar essas situações.
 
-E se usadas da forma correta, realmente já amenizavam bastante os problemas.
+E essas formas, se usadas da forma correta, realmente já amenizavam bastante os problemas.
 
 Maaas como sempre, outras abordagens mais radicais foram surgindo,
 
@@ -65,7 +67,11 @@ e uma delas foi a orientação a objetos.
 
 << https://books.google.com.br/books?id=YJ-eh1fCE78C&pg=PA31&lpg=PA31&dq=%22the+objectives+of%22+object+oriented+programming+are&source=bl&ots=rgXh9lIrcr&sig=B7f_XoL_gsroCcW1LXxnd54I-HE&hl=pt-BR&sa=X&ved=0ahUKEwi3jJDRr5bNAhWPl5AKHd9JCtkQ6AEIUTAI#v=onepage&q=%22the%20objectives%20of%22%20object%20oriented%20programming%20are&f=false >>
 
-Na verdade, as ideias inicias da programação orientada a objetos iam *muito* além disso.
+Então, podemos dizer que um dos principais objetivos da criação do paradigma orientado a objetos
+
+era tentar resolver esses problemas que citei.
+
+Mas na verdade, as ideias inicias da programação orientada a objetos iam *muito* além disso.
 
 Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual,
 
@@ -77,7 +83,7 @@ nosso mundo é composto por objetos, certo?!
 
 Na abordagem proposta por este paradigma
 
-o programador fica responsável por moldar este mundo virtual,
+o programador fica responsável por.. moldar este mundo virtual,
 
 especificando para o computador como os objetos devem ser criados e como eles devem se comportar.
 
@@ -87,13 +93,13 @@ especificando para o computador como os objetos devem ser criados e como eles de
 
 E para que os objetos consigam interagir entre si, eles "conversam" uns com os outros através do envio de mensagens e
 
-é responsabilidade do programador especificar quais serão as mensagens que cada objeto pode receber,
+o programador precisa então especificar quais serão as mensagens que cada objeto pode receber,
 
-e também qual a *ação* que eles devem realizar ao receber uma determinada mensagem.
+e também qual a *ação* que cada objeto deve realizar ao receber uma determinada mensagem.
 
 Então, quando um objeto precisa se comunicar com outro,
 
-ele envia uma mensagem ao destinatário e, opcionalmente, ainda é possível
+ele envia uma mensagem ao destinatário e, opcionalmente, ainda é possível...
 
 passar algumas informações junto com a mensagem, que são os parâmetros.
 
@@ -113,9 +119,23 @@ Vamos a um exemplo um pouquinho mais prático, que fica mais fácil de entender,
 
 Imagine que você está desenvolvendo um software... pra uma locadora de carros.
 
-Se você tivesse que explicar para o computador como funciona uma Locadora, quais objetos
+Bom, você precisa partir do pressuposto que o computador...
 
-você imagina que seriam necessários para modelar esta necessidade?
+não conhece nada a respeito do nosso mundo real e
+
+você vai ter que explicar pra ele como funciona uma Locadora.
+
+Mas o computador não precisa de *todos* os detalhes.
+
+A gente pode omitir os detalhes que não são relevantes e então
+
+criar um modelo que representa o funcionamento de uma Locadora no nosso mundo real
+
+mas de uma forma mais simplificada, só com o que é realmente essecial.
+
+Então.. quais objetos você imagina que seriam necessários para modelar
+
+dentro do nosso sistema pra que a gente consiga simular a nossa Locadora?
 
 Em um primeiro momento eu consigo imaginar 3 tipos de objetos.
 
