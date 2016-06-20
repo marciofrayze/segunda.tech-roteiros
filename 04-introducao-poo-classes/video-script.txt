@@ -3,11 +3,11 @@ Introdução a Programação Orientada a Objetos - Parte 4 - Classes
 
 E ai pessoal!
 
-Meu nome é Marcio e você está assistindo ao quarto episódio deste novo canal no youtube.
+Meu nome é Marcio e você está assistindo ao quarto episódio deste novo canal na internet.
 
 Hoje a gente vai começar a falar de alguns conceitos um pouco mais complicados e
 
-o conteúdo vai começar a ficar um pouco mais difícil de acompanhar...
+o conteúdo vai ficar um pouquinho mais difícil de acompanhar...
 
 Então... presta bastante atenção ai por que o tema desta video-aula será: O que são Classes?
 
@@ -15,7 +15,7 @@ Bora começar?!
 
 No video anterior a gente começou a conversar sobre alguns conceitos básicos e
 
-eu contei pra vocês que na programação orientada a objetos o programador fica
+eu contei pra vocês que no paradigma orientado a objetos o programador fica
 
 responsável por criar uma espécie de mundo virtual... que de certa forma tenta
 
@@ -23,7 +23,7 @@ modelar e descrever uma representação do problema que ele quer resolver.
 
 Se o mundo virtual que estamos construindo é formado por Objetos,
 
-acho que é meio intuitivo pensar que o programador precisa estabelecer
+é meio intuitivo pensar que o programador precisa estabelecer
 
 em algum lugar *como* serão criados estes objetos, certo?!
 
@@ -33,15 +33,15 @@ Bom, como você já deve ter imaginado, para isso usamos as Classes.
 
 Fazendo uma analogia meio... tosca com o mundo real...
 
-Imagine que você quer construir uma casa, qual a primeira coisa que você faz?
+Imagine que você quisesse construir uma casa, qual seria a primeira coisa que você faria?
 
-É a planta da sua casa né? Que nada mais é do que um documento onde você
+A planta da sua casa né? Que nada mais é do que um documento onde você
 
 especifica detalhadamente como sua casa será construída.
 
 E a planta da sua casa é só um conjunto de especificações, e nada impede que ela seja re-aproveitada, né?
 
-A partir de uma mesma planta, podemos construir 1, 2, 3 ou 1000 casas similares.
+A partir de uma planta, podemos construir 1, 2, 3 ou 1000 casas similares.
 
 O conceito de Classes na orientação a objetos é... parecido.
 
@@ -77,11 +77,9 @@ Isso aí. Além deles, também temos os blocos,
 
 sendo que alguns tem o ponto de interrogação...
 
-Tem também os blocos que formam o chão onde o Mario está pisando...
-
 E tem ainda alguns outros objetos que formam o cenário do jogo,
 
-como as nuvens e os arbustos... entre outros.
+como as nuvens, os arbustos... entre outros.
 
 Se eu fosse implementar este jogo usando orientação a objetos,
 
@@ -99,15 +97,15 @@ que cada bloco que aparece na imagem, seria uma instância de um Objeto criado a
 
 E o jogo se passa através de interação entre esses diversos objetos criados pelo programador.
 
-Este exemplo é interessante porque nós conseguimos facilmente visualizar os objetos, né?
+Este exemplo é interessante porque nós conseguimos visualizar facilmente os objetos, né?
 
 Mas... nem sempre isso é verdade.
 
-Muitas vezes os Objetos que temos que criar são entidades bem mais abstratas,
+Muitas vezes os Objetos que temos que criar são entidades *bem* mais abstratas,
 
 mas ainda assim são definidas através de Classes.
 
-Por exemplo, se estivéssemos desenvolvendo um software para controlar todo o sistema de um banco.
+Por exemplo, se estivéssemos desenvolvendo um software pra controlar todo o sistema de um banco.
 
 Teríamos que especificar em algum lugar deste sistema o conceito de... Correntista, por exemplo,
 
@@ -121,6 +119,8 @@ E como estamos utilizando o paradigma orientado a objetos,
 
 a conta corrente também será especificada através de uma Classe.
 
+E por ai vai.
+
 Deu pra começar a entender?
 
 *** Ta cara... então... cada Classe é como se fosse uma especificação de um determinado...
@@ -131,11 +131,11 @@ Isso ai.
 
 *** Ta... então os Objetos são criados através das classes... Mas... da onde vem as classes?
 
-*** Como o programador especifica uma classe?
+*** Como o programador... especifica uma classe?
 
-Então... nessa série de vídeos, pelo menos por enquanto, eu não queria entrar muito em detalhes de implementação em
+Então... nessa série de vídeos, pelo menos por enquanto, eu não queria entrar muito em detalhes de
 
-uma determinada linguagem específica.
+implementação, ou seja, não vou ficar aqui mostrando códigos de programação pra você.
 
 Antes de mais nada, meu objetivo é te ajudar a entender o *conceito* de orientação a objetos.
 
@@ -143,11 +143,63 @@ Mas... pra nossa sorte, a forma de implementação... não costuma variar muuito
 
 pra outra.
 
-Quando for escrever o código de uma Classe você vai ter que se preocupar com
+Quando você for escrever o código de uma Classe vai sempre ter que se preocupar com
 
-2 partes principais: Os Atributos e os Métodos de sua nova Classe.
+duas partes principais: Os Atributos e os Métodos de sua nova Classe.
 
-(...)
+Os atributos definem as propriedades ou características dos objetos.
+
+Já os métodos, descrevem as *ações* que objetos criados a partir dessa classe podem realizar.
+
+Pra ficar um pouco mais fácil de entender esses conceitos, a gente pode fazer uma analogia com a biologia.
+
+Imagine que você precisa descrever por exemplo o que é um... Cachorro.
+
+Quais seriam os atributos e os métodos de um Cachorro.
+
+Bom, existe uma infinidade de características que poderíamos citar. Por exemplo:
+
+Os cachorros normalmente tem um Nome.
+
+Eles tem uma data de nascimento.
+
+Tem uma cor de pêlo, cor dos olhos, tamanho, peso,
+
+entre muitas outras características, certo?
+
+Bom, tudo isso que citei se encaixaria como sendo Atributos da minha classe Cachorro.
+
+Note que nenhuma dessas coisas que citei representam ações.
+
+Elas apenas descrevem as propriedades que existem em todos os objetos da nossa classe Cachorro.
+
+Mas ainda está faltando mais alguma coisa pra gente terminar de modelar a nossa
+
+representação.
+
+Está faltando a gente especificar quais são as Ações que nossos cachorros vão poder executar,
+
+que seriam os métodos da nossa classe Cachorro.
+
+Como os métodos representam ações, é comum a gente utilizar o tempo verbal no infinitivo.
+
+Então, alguns exemplos de ações ou métodos seriam:
+
+- Sentar, Comer, Correr, Latir, Morder, Fazer xixi,
+
+entre muitas outras ações que poderíamos descrever que um cachorro é capaz de fazer.
+
+
+
+
+
+
+
+
+
+
+Note que uma Classe não tem vida, é só um conceito. Mas os Objetos (animais, serem humanos, pássaros, etc) possuem vida. O seu cachorro rex é um Objeto (ou instância) da classe Cachorro. A classe Cachorro não pode latir, não pode fazer xixi no poste, ela apenas especifica e define o que é um cachorro. Mas Objetos do tipo Cachorro, estes sim podem latir, enterrar ossos, ter um nome próprio, etc.
+
 
 Quando o assunto é orientação a objetos, você vai ouvir falar muito nesses termos:
 

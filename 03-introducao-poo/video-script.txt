@@ -49,17 +49,17 @@ ou seja, trechos de códigos mais independentes uns dos outros.
 
 Isso tornaria também mais simples o *re-aproveitamento de partes do sistema*.
 
-Ao desenvolver qualquer software, é sempre uma boa prática tentar atingir estes objetivos.
+E ao desenvolver qualquer software, é sempre uma boa prática tentar atingir estes objetivos.
 
 Bom, e pra tentar fazer isso,
 
-os programadores começaram a buscar formas para organizar melhor seus códigos.
+os programadores começaram a buscar... formas para organizar melhor seus códigos.
 
 Primeiro as próprias linguagens procedurais foram evoluindo,
 
 criando mecanismos e padrões para tentar contornar essas situações.
 
-E essas formas, se usadas da forma correta, realmente já amenizavam bastante os problemas.
+E essas formas, se usadas corretamente, realmente já amenizam bastante os problemas.
 
 Maaas como sempre, outras abordagens mais radicais foram surgindo,
 
@@ -67,15 +67,25 @@ e uma delas foi a orientação a objetos.
 
 << https://books.google.com.br/books?id=YJ-eh1fCE78C&pg=PA31&lpg=PA31&dq=%22the+objectives+of%22+object+oriented+programming+are&source=bl&ots=rgXh9lIrcr&sig=B7f_XoL_gsroCcW1LXxnd54I-HE&hl=pt-BR&sa=X&ved=0ahUKEwi3jJDRr5bNAhWPl5AKHd9JCtkQ6AEIUTAI#v=onepage&q=%22the%20objectives%20of%22%20object%20oriented%20programming%20are&f=false >>
 
-Então, podemos dizer que um dos principais objetivos da criação do paradigma orientado a objetos
+Então, podemos dizer que um dos principais objetivos da criação deste paradigma
 
-era tentar resolver esses problemas que citei.
+era tentar resolver esses problemas que citei. Ou seja,
+
+era mais uma forma de tentar melhorar o isolamento, diminuir o acoplamento e
+
+facilitar o re-aproveitamento de partes do código
+
+- Melhor isolamento
+
+- Diminuir acoplamento
+
+- Re-aproveitar de código
 
 Mas na verdade, as ideias inicias da programação orientada a objetos iam *muito* além disso.
 
 Ela foi criada com o objetivo de tentar aproximar o mundo real do mundo virtual,
 
-ou seja, a idéia fundamental era tentar simular o mundo real dentro do computador.
+ou seja, a idéia fundamental era tentar simular o mundo real dentro dos nossos sistemas.
 
 E pra isso, nada mais natural do que utilizar... Objetos, afinal,
 
@@ -83,9 +93,9 @@ nosso mundo é composto por objetos, certo?!
 
 Na abordagem proposta por este paradigma
 
-o programador fica responsável por.. moldar este mundo virtual,
+o programador fica responsável por.. moldar esse mundo virtual,
 
-especificando para o computador como os objetos devem ser criados e como eles devem se comportar.
+especificando pro computador como os objetos devem ser criados e como eles devem se comportar.
 
 [https://pixabay.com/pt/falar-discuss%C3%A3o-microfone-lata-238488/]
 
@@ -101,11 +111,11 @@ Então, quando um objeto precisa se comunicar com outro,
 
 ele envia uma mensagem ao destinatário e, opcionalmente, ainda é possível...
 
-passar algumas informações junto com a mensagem, que são os parâmetros.
+passar algumas informações adicionais, que são os parâmetros.
 
 Uma vez enviada uma mensagem, o objeto que a recebeu executa todas as ações correspondentes
 
-e em seguida retorna o resultado dessa execução para o objeto que
+e em seguida retorna o resultado dessa execução pro objeto que
 
 iniciou a comunicação.
 
@@ -121,21 +131,35 @@ Imagine que você está desenvolvendo um software... pra uma locadora de carros.
 
 Bom, você precisa partir do pressuposto que o computador...
 
-não conhece nada a respeito do nosso mundo real e
+não conhece nada a respeito do nosso mundo real... e
 
 você vai ter que explicar pra ele como funciona uma Locadora.
 
-Mas o computador não precisa de *todos* os detalhes.
+Mas o nosso software não precisa de *todos* os detalhes, né?
 
-A gente pode omitir os detalhes que não são relevantes e então
+A gente pode omitir as informações que não são relevantes. Dessa forma, podemos
 
-criar um modelo que representa o funcionamento de uma Locadora no nosso mundo real
+criar um *modelo* que... *representa* o funcionamento de uma Locadora do nosso mundo real
 
-mas de uma forma mais simplificada, só com o que é realmente essecial.
+mas de uma forma mais... simplificada, só com o que é realmente essencial.
 
-Então.. quais objetos você imagina que seriam necessários para modelar
+Então, nos precisamos representar... algo similar a isso aqui:
 
-dentro do nosso sistema pra que a gente consiga simular a nossa Locadora?
+- Oi, tudo bom? Eu gostaria de alugar um carro.
+
+- Olá. Aguarde um instante por favor, vou verificar se temos algum disponível.
+
+- Ok... estou aguardando. (assoviando)
+
+- Encontrei este aqui.
+
+- Ah, era exatamente o que eu queria! Obrigado!
+
+Bom, depois dessa minha super atuação representando o problema,
+
+quais objetos você imagina que seriam necessários pra modelar
+
+dentro do nosso sistema uma simulação como essa da nossa Locadora?
 
 Em um primeiro momento eu consigo imaginar 3 tipos de objetos.
 
@@ -145,15 +169,11 @@ Outro tipo de objeto que eu imagino que sejam necessários são... os Carros.
 
 Se não existirem carros, não vamos ter nada pra alugar, né?
 
-Bom, eu consigo imaginar pelo menos mais um objeto...
+Bom, ainda está faltando pelo menos mais um objeto...
 
-Qual você acha que seria?
+*** A pessoa que vai alugar o carro...
 
-*** Sei lá cara... tenho uma Locadora... tenho os carros da locadora... bom...
-
-*** já tenho tudo... acho que só falta... tipo... alguém pra alugar os carros.
-
-Exato!... está faltando o Locatário, que representa a pessoa que vai alugar os carros.
+Exato. O Locatário.
 
 Então, logo de cara eu já consigo enxergar esses 3 tipos de objetos que vão representar
 
@@ -171,9 +191,11 @@ entre os objetos se passa através de troca de mensagens.
 
 Com esses 3 tipos de objetos que mostrei pra vocês,
 
-como será que eles conversariam?
+como será que eles conversariam dentro do nosso sistema?
 
-Bom, eu imagino que o Locatário iria enviar uma mensagem para a Locadora,
+Bom, eu imagino que vá ser muito similar a representação que fiz anteriormente:
+
+O Locatário iria enviar uma mensagem para a Locadora,
 
 solicitando o aluguel de um carro.
 
@@ -201,7 +223,9 @@ e vou apresentar pra vocês outros exemplos mais interessantes mais pra frente.
 
 Esse primeiro exemplo foi só pra vocês entenderem que na orientação a objetos,
 
-o ideal é sempre tentar fazer a representação da forma mais natural e próxima da nossa realidade, beleza?
+o ideal é sempre tentar fazer a representação da forma mais natural e
+
+próxima da nossa realidade possível, beleza?
 
 *** Ok... Mas como eu crio esses objetos ai?!
 
@@ -216,16 +240,6 @@ O que são Classes.
 Hahaha é. Demorou um pouco né? Mas agora a gente já tem uma boa base pra conversar sobre isso.
 
 Maaaasss... isso vai ter que ficar.. para o próximo video, tudo bem?!
-
-Talvez você ainda esteja um pouco confuso,
-
-com várias dúvidas e deve estar curioso pra entender como tudo isso funciona, né?
-
-Mas tenho certeza que assistindo os próximos videos as
-
-coisas vão ficar cada vez mais claras pra você.
-
-Então... a gente se vê no próximo video.
 
 E caso ainda não esteja seguindo o canal, não esquece de se inscrever ai,
 
