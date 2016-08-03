@@ -93,7 +93,7 @@ nosso mundo é composto por objetos, certo?!
 
 Na abordagem proposta por este paradigma
 
-o programador fica responsável por.. moldar esse mundo virtual,
+o programador fica responsável por... moldar esse mundo virtual,
 
 especificando pro computador como os objetos devem ser criados e como eles devem se comportar.
 
@@ -107,7 +107,9 @@ o programador precisa então especificar quais serão as mensagens que cada obje
 
 e também qual a *ação* que cada objeto deve realizar ao receber uma determinada mensagem.
 
-Então, quando um objeto precisa se comunicar com outro,
+Então, de uma forma bem resumida, você pode imaginar que na programação orientada a objetos
+
+temos vários objeto dentro da nossa aplicação e para que um objeto se comunique com outro,
 
 ele envia uma mensagem ao destinatário e, opcionalmente, ainda é possível...
 
@@ -147,7 +149,7 @@ Então, nos precisamos representar... algo similar a isso aqui:
 
 - Oi, tudo bom? Eu gostaria de alugar um carro.
 
-- Olá. Aguarde um instante por favor, vou verificar se temos algum disponível.
+- Olá. Tudo bem. Aguarde um instante por favor, vou verificar se temos algum disponível.
 
 - Ok... estou aguardando. (assoviando)
 
@@ -163,11 +165,15 @@ dentro do nosso sistema uma simulação como essa da nossa Locadora?
 
 Em um primeiro momento eu consigo imaginar 3 tipos de objetos.
 
-A própria Locadora de carros, afinal, é ela quem vai alugar os carros, certo?
+Preciso de algo que represente o Carro que vai ser alugado,
 
-Outro tipo de objeto que eu imagino que sejam necessários são... os Carros.
+já que se não existirem carros, não vamos ter nada pra alugar, né?
 
-Se não existirem carros, não vamos ter nada pra alugar, né?
+<< Mostrar o carrinho >>
+
+Também preciso de um objeto que represente a própria Locadora de carros,
+
+afinal, é ela quem vai alugar os carros, certo?
 
 Bom, ainda está faltando pelo menos mais um objeto...
 
@@ -205,13 +211,13 @@ Ao receber essa mensagem, a Locadora vai verificar se possui algum veiculo dispo
 
 e se tiver, irá disponibilizar este carro para o Locatário.
 
-Toda vez que um objeto envia uma mensagem ele pode receber algum retorno de volta.
+Como já disso, toda vez que um objeto envia uma mensagem ele pode receber algum retorno de volta.
 
 Neste nosso caso, o retorno da mensagem "alugarCarro" poderia ser um Objeto que representa... o carro alugado.
 
 Acho que esta seria uma representação adequada de como mais ou menos funciona no mundo real, certo?
 
-Claro que existem diversas outras formas de representar este mesmo problema.
+Claro que existem diversas outras formas de modelar este mesmo problema.
 
 Esta foi apenas a forma como EU imaginei, mas pode ser que você encontre outras maneiras.
 
@@ -223,11 +229,11 @@ e vou apresentar pra vocês outros exemplos mais interessantes mais pra frente.
 
 Esse primeiro exemplo foi só pra vocês entenderem que na orientação a objetos,
 
-o ideal é sempre tentar fazer a representação da forma mais natural e
+o ideal é sempre tentar elaborar a representação da forma mais natural e
 
 próxima da nossa realidade possível, beleza?
 
-*** Ok... Mas como eu crio esses objetos ai?!
+*** Ok... Mas como é que eu crio esses objetos ai?!
 
 A gente chega lá. Maaas pra isso precisamos conversar sobre alguns outros conceitos.
 
@@ -241,7 +247,9 @@ Hahaha é. Demorou um pouco né? Mas agora a gente já tem uma boa base pra conv
 
 Maaaasss... isso vai ter que ficar.. para o próximo video, tudo bem?!
 
-E caso ainda não esteja seguindo o canal, não esquece de se inscrever ai,
+Então é isso ai.
+
+Bom, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai,
 
 dar um like nesse video e de me seguir lá no twitter, beleza?!
 

@@ -41,7 +41,7 @@ especifica detalhadamente como sua casa será construída.
 
 E a planta da sua casa é só um conjunto de especificações, e nada impede que ela seja re-aproveitada, né?
 
-A partir de uma planta, podemos construir 1, 2, 3 ou 1000 casas similares.
+A partir de uma planta, podemos construir 1, 2, 3 ou... 1000 casas similares.
 
 O conceito de Classes na orientação a objetos é... parecido.
 
@@ -66,6 +66,7 @@ mas aquela versão bem antiga do Nintendinho.
 Da uma olhada em uma imagem dele:
 
 https://pixel-drama.com/2015/09/13/os-30-anos-de-super-mario-bros/
+https://pixeldramadotcom.files.wordpress.com/2015/09/mario1-1.jpg
 
 Se fossemos implementar uma versão deste jogo utilizando orientação a objetos,
 
@@ -104,6 +105,8 @@ Mas... nem sempre isso é verdade.
 Muitas vezes os Objetos que temos que criar são entidades *bem* mais abstratas,
 
 mas ainda assim são definidas através de Classes.
+
+http://images.freeimages.com/images/previews/fff/piggy-bank-1238584.jpg
 
 Por exemplo, se estivéssemos desenvolvendo um software pra controlar todo o sistema de um banco.
 
