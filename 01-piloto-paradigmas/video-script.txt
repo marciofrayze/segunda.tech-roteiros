@@ -5,7 +5,7 @@ E ai pessoal!
 
 Meu nome é Marcio e você está assistindo ao episódio piloto deste
 
-novo canal no youtube.
+novo canal na internet.
 
 Neste primeiro video nos vamos conversar um pouco sobre os conceitos básicos por
 
@@ -41,7 +41,7 @@ E tudo isso é muito importante, né?
 
 Mas sem ter uma boa base teórica sobre o assunto,
 
-seu estudo se torna pouco produtivo e até um pouco desestimulante as vezes.
+o estudo desses termas se tornam pouco produtivo e até um pouco desestimulante as vezes.
 
 Então meu objetivo com essa série de videos é tentar suprir esta deficiência.
 
@@ -115,7 +115,7 @@ diferente da utilizada para se desenvolver um site na internet por exemplo.
 
 E hoje em dia podemos dizer que existem 5 principais paradigmas de programação:
 
-Procedural, Orientado a Objetos, Funcional, Imperativo e o Lógico.
+Procedural, Imperativo, Orientado a Objetos, Funcional e o Lógico.
 
 A gente vai abordar apenas um deles, mas é importante saber que uma linguagem
 
@@ -142,7 +142,7 @@ E exemplos de linguagens considerada estritamente orientada a objetos seriam:
 
 Smalltalk, NewtonScript, Self, IO, entre outras.
 
-Pow Marcio, mas eu achava que Java e C# fossem orientadas a objetos!
+*** Pow Marcio, mas eu achava que Java e C# fossem orientadas a objetos!
 
 É, a gente pode dizer que as linguagens como Java e C# são predominantementes
 

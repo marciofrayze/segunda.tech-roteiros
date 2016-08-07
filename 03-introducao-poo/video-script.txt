@@ -53,7 +53,7 @@ E ao desenvolver qualquer software, é sempre uma boa prática tentar atingir es
 
 Bom, e pra tentar fazer isso,
 
-os programadores começaram a buscar... formas para organizar melhor seus códigos.
+os programadores começaram a buscar... formas de organizar melhor seus códigos.
 
 Primeiro as próprias linguagens procedurais foram evoluindo,
 
@@ -107,7 +107,7 @@ o programador precisa então especificar quais serão as mensagens que cada obje
 
 e também qual a *ação* que cada objeto deve realizar ao receber uma determinada mensagem.
 
-Então, de uma forma bem resumida, você pode imaginar que na programação orientada a objetos
+Então, de uma forma bem resumida, você pode imaginar que neste paradigma
 
 temos vários objeto dentro da nossa aplicação e para que um objeto se comunique com outro,
 
@@ -155,9 +155,9 @@ Então, nos precisamos representar... algo similar a isso aqui:
 
 - Encontrei este aqui.
 
-- Ah, era exatamente o que eu queria! Obrigado!
+- Ah, era exatamente o que eu queria! Muito obrigado!
 
-Bom, depois dessa minha super atuação representando o problema,
+Bom, depois dessa minha *suuuper* atuação representando o problema,
 
 quais objetos você imagina que seriam necessários pra modelar
 
@@ -177,7 +177,7 @@ afinal, é ela quem vai alugar os carros, certo?
 
 Bom, ainda está faltando pelo menos mais um objeto...
 
-*** A pessoa que vai alugar o carro...
+*** Humm a pessoa que vai alugar o carro...
 
 Exato. O Locatário.
 
@@ -199,7 +199,7 @@ Com esses 3 tipos de objetos que mostrei pra vocês,
 
 como será que eles conversariam dentro do nosso sistema?
 
-Bom, eu imagino que vá ser muito similar a representação que fiz anteriormente:
+Bom, eu imagino que vá ser algo muito similar a representação que fiz anteriormente:
 
 O Locatário iria enviar uma mensagem para a Locadora,
 

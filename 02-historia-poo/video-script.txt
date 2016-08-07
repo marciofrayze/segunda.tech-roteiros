@@ -3,7 +3,7 @@ Introdução a Programação Orientada a Objetos - Parte 2 - História
 
 E ai pessoal!
 
-Meu nome é Marcio e você está assistindo ao segundo episódio deste novo canal no youtube.
+Meu nome é Marcio e você está assistindo ao segundo episódio deste novo canal na internet.
 
 Sei que você deve estar morrendo de vontade de partir logo pra temas mais avançados, né?
 
@@ -49,7 +49,7 @@ com certeza vai achar muita coisa interessante...
 
 Tem inclusive aquele famosa história de quando a Apple ainda tava começando,
 
-o Steve Jobs fez uma visita na Xerox Parc e... acabou usando muita coisa que viu por lá como inspiração.
+e o Steve Jobs fez duas visitas na Xerox Parc e... acabou usando muita coisa que viu por lá como inspiração.
 
 Maaas voltando pra linguagem Smalltalk...
 
@@ -85,7 +85,7 @@ só a partir de 81, quando Alan Kay saiu do projeto,
 
 Lá pro final da década de oitenta e durante o década de noventa
 
-Smalltalk atééé que chegou a se tornar uma linguagem relativamente popular.
+Smalltalk atééé chegou a se tornar uma linguagem relativamente popular.
 
 Mas devido a diversos fatores, ela acabou perdendo espaço pra outras linguagens,
 
@@ -229,7 +229,7 @@ que em diversos aspectos era... bastante similar ao Java.
 
 Mas além do C#, com o .NET a Microsoft também apostou em uma reformulação geral do
 
-Visual Basic, que era uma linguagem muito popular linguagem na época.
+Visual Basic, que era uma linguagem muito popular na época.
 
 E essa nova versão do Visual Basic... adivinha só? Adicionava um melhor suporte a orientação a objetos.
 
