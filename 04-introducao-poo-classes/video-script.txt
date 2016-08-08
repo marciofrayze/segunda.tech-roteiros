@@ -51,7 +51,7 @@ do nosso programa.
 
 Sem definir uma classe, não é possível criar objetos.
 
-E precisamos definir uma Classe pra cada tipo de objeto que vão existir em nosso sistema.
+E precisamos definir uma Classe pra cada um dos tipos de objetos que vão existir em nosso sistema.
 
 Mas assim como a planta da casa, as Classes também podem ser re-aproveitadas, ou seja,
 
@@ -59,28 +59,27 @@ a partir da definição de uma única Classe podemos criar diversos Objetos simi
 
 Acho que a forma mais fácil de visualizar isso é pensando em... um jogo de video-game.
 
-Imagine que você quer desenvolver um jogo similar ao Mario Bros,
+Imagine que você quer desenvolver um jogo similar ao Alex Kid.
 
-mas aquela versão bem antiga do Nintendinho.
+Pra quem não conhece, esse é um jogo de um video game
+
+lançado na década de 80 chamado Master System.
 
 Da uma olhada em uma imagem dele:
 
-https://pixel-drama.com/2015/09/13/os-30-anos-de-super-mario-bros/
-https://pixeldramadotcom.files.wordpress.com/2015/09/mario1-1.jpg
+http://199.101.98.242/media/images/88877-Alex_Kidd_in_Miracle_World_(USA,_Europe)-4.png
 
 Se fossemos implementar uma versão deste jogo utilizando orientação a objetos,
 
 que tipo de objetos você consegue identificar nessa imagem?
 
-*** pow... sei lá... tem o Mario, tem o cogumelo, o inimigo... seria isso?!
+*** pow... sei lá... tem o Jogador, tem a ave que parece ser um inimigo,
 
-Isso aí. Além deles, também temos os blocos,
+tem os blocos.... seria isso?!
 
-sendo que alguns tem o ponto de interrogação...
+Isso aí. Além deles, também temos o chão onde o jogador está pisando,
 
-E tem ainda alguns outros objetos que formam o cenário do jogo,
-
-como as nuvens, os arbustos... entre outros.
+E tem ainda algumas nuvems, que ajudam a compor o cenário.
 
 Se eu fosse implementar este jogo usando orientação a objetos,
 
@@ -89,18 +88,21 @@ provavelmente iria criar Classes com nomes como:
 - Jogador
 - Inimigo
 - Bloco
-- Cogumelo
 - Nuvem
 
 E por ai vai... Então, teríamos, por exemplo,
 
 que cada bloco que aparece na imagem, seria uma instância de um Objeto criado a partir da classe Bloco.
 
-E o jogo se passa através de interação entre esses diversos objetos criados pelo programador.
+E o jogo se passaria através de interação entre esses diversos objetos.
+
+Onde o Objeto Jogador poderia ser mover, poderia interagir e quebrar os objetos do tipo Bloco,
+
+e claro, iria morrer caso encostasse em um objeto do tipo Inimigo.
 
 Este exemplo é interessante porque nós conseguimos visualizar facilmente os objetos, né?
 
-Mas... nem sempre isso é verdade.
+Mas... nem sempre é assim.
 
 Muitas vezes os Objetos que temos que criar são entidades *bem* mais abstratas,
 
@@ -120,7 +122,7 @@ Bom, eu vou ter que definir também esse conceito dentro do meu sistema.
 
 E como estamos utilizando o paradigma orientado a objetos,
 
-a conta corrente também será especificada através de uma Classe.
+a conta corrente também seria especificada através de uma Classe.
 
 E por ai vai.
 
@@ -139,6 +141,8 @@ Isso ai.
 Então... nessa série de vídeos, pelo menos por enquanto, eu não queria entrar muito em detalhes de
 
 implementação, ou seja, não vou ficar aqui mostrando códigos de programação pra você.
+
+Pelo menos não por enquanto.
 
 Antes de mais nada, meu objetivo é te ajudar a entender o *conceito* de orientação a objetos.
 
@@ -176,32 +180,68 @@ Note que nenhuma dessas coisas que citei representam ações.
 
 Elas apenas descrevem as propriedades que existem em todos os objetos da nossa classe Cachorro.
 
-Mas ainda está faltando mais alguma coisa pra gente terminar de modelar a nossa
+Mas ainda está faltando mais uma coisa pra gente terminar de modelar a nossa
 
 representação.
 
-Está faltando a gente especificar quais são as Ações que nossos cachorros vão poder executar,
+Está faltando especificar quais são as Ações que nossos cachorros vão poder executar,
 
 que seriam os métodos da nossa classe Cachorro.
 
-Como os métodos representam ações, é comum a gente utilizar o tempo verbal no infinitivo.
+Como representam ações, ao dar um nome pra um método,
 
-Então, alguns exemplos de ações ou métodos seriam:
+é comum a gente utilizar o tempo verbal no infinitivo.
+
+Então, alguns exemplos de ações ou métodos da nossa classe Cachorro poderiam ser:
 
 - Sentar, Comer, Correr, Latir, Morder, Fazer xixi,
 
 entre muitas outras ações que poderíamos descrever que um cachorro é capaz de fazer.
 
+Bom, tem algumas coisas bem importantes que precisam ficar muito claras pra você.
+
+Note que uma Classe nada mais é que um conjunto de especificações.
+
+Na nossa classe Cachorro especificamos por exemplo o método Latir.
+
+Mas quem late, não é a classe, mas sim os objetos criados a partir desta classe.
+
+É muito importante entender isso. Se ficar em dúvida, lembre-se do exemplo que dei
+
+sobre a planta da casa. A planta especifica por exemplo onde vai ficar o chuveiro.
+
+Mas apenas com a planta, você não consegue ligar o chuveiro ou dar a descarga da privada, certo?
+
+Pra poder fazer essas coisas, antes você precisa construir a casa.
+
+Voltando pro nosso exemplo, tendo apenas a classe Cachorro, não é possível executar nenhuma ação.
+
+Nós temos todas as especificações definidas, mas ainda não é possível latir, não é possivel sentar,
+
+não é possível nem mesmo dar um nome pro nosso cachorro...
+
+Pra poder fazer essas coisas, antes precisamos criar um Objeto a partir desta classe.
+
+Ai sim, com o objeto criado, podemos dar um nome pro nosso cachorro,
+
+ele finalmente vai poder latir, sentar, comer, morder... etc.
+
+Beleza?
 
 
 
 
 
 
+Então novamente:
+
+- Uma classe definem quais são os atributos ou caracterísicas e também quais são os
+
+métodos ou ações.
+
+- Já os objetos são criados a partir das classes e podem
 
 
-
-Note que uma Classe não tem vida, é só um conceito. Mas os Objetos (animais, serem humanos, pássaros, etc) possuem vida. O seu cachorro rex é um Objeto (ou instância) da classe Cachorro. A classe Cachorro não pode latir, não pode fazer xixi no poste, ela apenas especifica e define o que é um cachorro. Mas Objetos do tipo Cachorro, estes sim podem latir, enterrar ossos, ter um nome próprio, etc.
 
 
 Quando o assunto é orientação a objetos, você vai ouvir falar muito nesses termos:
