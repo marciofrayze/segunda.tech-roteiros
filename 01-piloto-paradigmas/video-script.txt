@@ -7,7 +7,7 @@ Meu nome é Marcio e você está assistindo ao episódio piloto deste
 
 novo canal na internet.
 
-Neste primeiro video nos vamos conversar um pouco sobre os conceitos básicos por
+Nesta primeira série de videos nos vamos conversar um pouco sobre os conceitos básicos por
 
 trás da Programação Orientada a Objetos.
 
@@ -43,7 +43,7 @@ Mas sem ter uma boa base teórica sobre o assunto,
 
 o estudo desses termas se tornam pouco produtivo e até um pouco desestimulante as vezes.
 
-Então meu objetivo com essa série de videos é tentar suprir esta deficiência.
+Então meu objetivo com essa série de videos é tentar suprir essa deficiência.
 
 Bom, pra uma boa compreensão você não precisa ter muito conhecimentos prévios
 
@@ -55,9 +55,9 @@ Se você já desenvolveu algum software em qualquer linguagem de programação
 
 então já deve ter o conhecimento necessário para acompanhar sem problemas.
 
-Mas na verdade neste primeiro video a gente ainda não vai conversar sobre
+Mas na verdade neste video a gente ainda não vai conversar sobre
 
-programação orientada a objetos, vamos abordar um tema anterior.
+programação orientada a objetos, primeiro vamos abordar um tema anterior.
 
 Hoje eu vou falar sobre O que é um Paradigma de Programação.
 
@@ -87,9 +87,9 @@ paradigma ou uma determinada forma de abstração e representação do problema
 
 pode trazer vantagens ou desvantagens.
 
-A Programação Orientada a Objetos é um dos diversos paradigmas de programação
+A Programação Orientada a Objetos é um dos diversos paradigmas de programação existentes,
 
-existentes, ou seja, é uma das formas de encarar e organizar nossas ideias para
+ou seja, é uma das formas de encarar e organizar nossas ideias para
 
 abordar o problema que a gente quer resolver.
 
@@ -136,7 +136,7 @@ Ela permite que você misture programação orientada a objetos, funcional e imp
 
 Outros exemplos de linguagens multiparadigmas são:
 
-Java, C#, Swift, C++, Visual Basic, hum.. Common Lisp e muitas outras.
+Java, C#, Swift, C++, Visual Basic, Common Lisp e muitas outras.
 
 E exemplos de linguagens considerada estritamente orientada a objetos seriam:
 

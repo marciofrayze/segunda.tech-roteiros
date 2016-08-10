@@ -65,7 +65,7 @@ Provavelmente a primeira mesmo a utilizar algumas dessas idéias foi a Simula 67
 
 uma linguagem criada pelo Centro Norueguês de Computação, em Oslo, no ano de 1967.
 
-*** mano, 1967?! Mas esse negocio é velho pra caramba então!
+*** (espanto) mano, 1967?! Mas esse negocio é velho pra caramba então!
 
 Pois é. Este paradigma de programação já é bastante antigo né
 
@@ -195,7 +195,7 @@ E pra completar, Java era gratuita e multi-plataforma.
 
 Alias, a campanha de marketing deles na época insistia bastante no fato dela ser multi-plataforma.
 
-O slogan era "Escreva uma vez, execute em qualquer lugar",
+O slogan oficial era "Escreva uma vez, execute em qualquer lugar",
 
 se referindo ao fato de que você poderia por exemplo escrever um software no Windows
 
@@ -219,7 +219,7 @@ Mas essa implementação... desrespeitava os padrões da linguagem Java,
 
 sendo assim uma versão que era incompatível com o Java original.
 
-Isso acabou causando uma grande confusão, a Microsoft foi processada e
+Isso acabou causando uma grande confusão na época, a Microsoft foi processada e
 
 eventualmente acabou abandonando o projeto e mudando um pouco o foco.
 

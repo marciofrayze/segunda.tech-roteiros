@@ -75,15 +75,15 @@ que tipo de objetos você consegue identificar nessa imagem?
 
 *** pow... sei lá... tem o Jogador, tem a ave que parece ser um inimigo,
 
-tem os blocos.... seria isso?!
+*** tem os blocos.... seria isso?!
 
 Isso aí. Além deles, também temos o chão onde o jogador está pisando,
 
-E tem ainda algumas nuvems, que ajudam a compor o cenário.
+E tem ainda algumas nuvems, que ajudam a compor o cenário, né?
 
 Se eu fosse implementar este jogo usando orientação a objetos,
 
-provavelmente iria criar Classes com nomes como:
+provavelmente eu iria criar Classes com nomes como:
 
 - Jogador
 - Inimigo
@@ -92,13 +92,15 @@ provavelmente iria criar Classes com nomes como:
 
 E por ai vai... Então, teríamos, por exemplo,
 
-que cada bloco que aparece na imagem, seria uma instância de um Objeto criado a partir da classe Bloco.
+que cada bloco que aparece na imagem, seria um Objeto criado a partir da classe Bloco.
 
-E o jogo se passaria através de interação entre esses diversos objetos.
+Teria também alguns objetos da classe Nuvem, alguns outros do tipo Inimigo e *um* objeto do tipo Jogador.
 
-Onde o Objeto Jogador poderia ser mover, poderia interagir e quebrar os objetos do tipo Bloco,
+E o jogo se passaria através de interação entre esses diversos objetos,
 
-e claro, iria morrer caso encostasse em um objeto do tipo Inimigo.
+onde o Objeto Jogador poderia ser mover, pular, poderia quebrar os objetos do tipo Bloco,
+
+e claro, iria morrer caso encostasse em um objeto do tipo Inimigo... e por ai vai.
 
 Este exemplo é interessante porque nós conseguimos visualizar facilmente os objetos, né?
 
@@ -110,7 +112,7 @@ mas ainda assim são definidas através de Classes.
 
 http://images.freeimages.com/images/previews/fff/piggy-bank-1238584.jpg
 
-Por exemplo, se estivéssemos desenvolvendo um software pra controlar todo o sistema de um banco.
+Se ao invés de um jogo estivéssemos desenvolvendo um software pra controlar todo o sistema de um banco.
 
 Teríamos que especificar em algum lugar deste sistema o conceito de... Correntista, por exemplo,
 
@@ -162,7 +164,7 @@ Pra ficar um pouco mais fácil de entender esses conceitos, a gente pode fazer u
 
 Imagine que você precisa descrever por exemplo o que é um... Cachorro.
 
-Quais seriam os atributos e os métodos de um Cachorro.
+Quais seriam os atributos e os métodos da classe Cachorro.
 
 Bom, existe uma infinidade de características que poderíamos citar. Por exemplo:
 
@@ -174,17 +176,19 @@ Tem uma cor de pêlo, cor dos olhos, tamanho, peso,
 
 entre muitas outras características, certo?
 
-Bom, tudo isso que citei se encaixaria como sendo Atributos da minha classe Cachorro.
+Bom, tudo isso que citei se encaixaria como sendo *Atributos* da minha classe Cachorro.
 
 Note que nenhuma dessas coisas que citei representam ações.
 
-Elas apenas descrevem as propriedades que existem em todos os objetos da nossa classe Cachorro.
+Elas apenas descrevem as *propriedades* que existem em todos os objetos da nossa classe Cachorro.
+
+Beleza?
 
 Mas ainda está faltando mais uma coisa pra gente terminar de modelar a nossa
 
 representação.
 
-Está faltando especificar quais são as Ações que nossos cachorros vão poder executar,
+Está faltando especificar quais são as *Ações* que nossos cachorros vão poder executar,
 
 que seriam os métodos da nossa classe Cachorro.
 
@@ -197,6 +201,8 @@ Então, alguns exemplos de ações ou métodos da nossa classe Cachorro poderiam
 - Sentar, Comer, Correr, Latir, Morder, Fazer xixi,
 
 entre muitas outras ações que poderíamos descrever que um cachorro é capaz de fazer.
+
+Beleza?
 
 Bom, tem algumas coisas bem importantes que precisam ficar muito claras pra você.
 
@@ -212,11 +218,11 @@ sobre a planta da casa. A planta especifica por exemplo onde vai ficar o chuveir
 
 Mas apenas com a planta, você não consegue ligar o chuveiro ou dar a descarga da privada, certo?
 
-Pra poder fazer essas coisas, antes você precisa construir a casa.
+Pra poder fazer essas coisas, antes você precisa... construir a casa.
 
-Voltando pro nosso exemplo, tendo apenas a classe Cachorro, não é possível executar nenhuma ação.
+Voltando pro nosso exemplo, tendo apenas a classe Cachorro, não é possível executar... nenhuma ação.
 
-Nós temos todas as especificações definidas, mas ainda não é possível latir, não é possivel sentar,
+Nós temos todas as *especificações* definidas, mas ainda não é possível latir, não é possivel sentar,
 
 não é possível nem mesmo dar um nome pro nosso cachorro...
 
@@ -226,7 +232,34 @@ Ai sim, com o objeto criado, podemos dar um nome pro nosso cachorro,
 
 ele finalmente vai poder latir, sentar, comer, morder... etc.
 
-Beleza?
+É muito importante que esses conceitos fiquem bem claro pra você,
+
+porque isso vai ser a base fundamental pra todo o resto que está por vir, ok?
+
+Bom, a gente ainda vai conversar bastante sobre esses conceitos,
+
+mas eu espero que agora você já consiga entender pelo menos o básico sobre
+
+o que é uma Classe, o que é um Objeto, O que é um atributo e o que é um método.
+
+Então por enquanto é isso ai.
+
+E como sempre, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai,
+
+dar um like nesse video e de me seguir lá no twitter, beleza?!
+
+Até mais!
+
+*** Os objetos são criados a partir das classes...
+
+*** E os atributos representam as características do objeto...
+
+*** E os métodos as ações... ou é o contrário?!
+
+
+
+
+
 
 
 
