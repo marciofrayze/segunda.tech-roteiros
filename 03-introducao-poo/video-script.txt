@@ -89,7 +89,7 @@ ou seja, a idéia fundamental era tentar simular o mundo real dentro dos nossos 
 
 E pra isso, nada mais natural do que utilizar... Objetos, afinal,
 
-nosso mundo é composto por objetos, certo?!
+nosso mundo é composto... por objetos, certo?!
 
 Na abordagem proposta por este paradigma
 
@@ -127,7 +127,7 @@ Dessa forma, dois objetos conseguem facilmente trocar informações entre si.
 
 Tudo bem.
 
-Vamos a um exemplo um pouquinho mais prático, que fica mais fácil de entender, beleza?
+Vamos a um exemplo um pouquinho mais prático que fica mais fácil de entender, beleza?
 
 Imagine que você está desenvolvendo um software... pra uma locadora de carros.
 
@@ -145,7 +145,7 @@ criar um *modelo* que... *representa* o funcionamento de uma Locadora do nosso m
 
 mas de uma forma mais... simplificada, só com o que é realmente essencial.
 
-Então, nos precisamos representar... algo similar a isso aqui:
+Então, nos precisamos representar... algo similar a isso aqui ó:
 
 - Oi, tudo bom? Eu gostaria de alugar um carro.
 
@@ -175,19 +175,15 @@ Também preciso de um objeto que represente a própria Locadora de carros,
 
 afinal, é ela quem vai alugar os carros, certo?
 
-Bom, ainda está faltando pelo menos mais um objeto...
-
-*** Humm a pessoa que vai alugar o carro...
-
-Exato. O Locatário.
+Bom, eu preciso também de um... Locatário. Que representa a pessoa que irá alugar o veiculo.
 
 Então, logo de cara eu já consigo enxergar esses 3 tipos de objetos que vão representar
 
 entidades do mundo real no meu sistema de aluguel de carros, que seriam então:
 
-- A Locadora
-
 - O Carro
+
+- A Locadora
 
 - E o Locatário
 
@@ -207,11 +203,11 @@ solicitando o aluguel de um carro.
 
 O título dessa mensagem poderia ser algo como... "alugarCarro".
 
-Ao receber essa mensagem, a Locadora vai verificar se possui algum veiculo disponível,
+E ao receber essa mensagem, a Locadora vai verificar se possui algum veiculo disponível,
 
 e se tiver, irá disponibilizar este carro para o Locatário.
 
-Como já disso, toda vez que um objeto envia uma mensagem ele pode receber algum retorno de volta.
+Como eu já disse, toda vez que um objeto envia uma mensagem ele pode receber algum *retorno* de volta.
 
 Neste nosso caso, o retorno da mensagem "alugarCarro" poderia ser um Objeto que representa... o carro alugado.
 
@@ -249,7 +245,7 @@ Maaaasss... isso vai ter que ficar.. para o próximo video, tudo bem?!
 
 Então é isso ai.
 
-Bom, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai,
+Bom pessoal, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai,
 
 dar um like nesse video e de me seguir lá no twitter, beleza?!
 
