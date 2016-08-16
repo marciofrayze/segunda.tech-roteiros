@@ -79,7 +79,7 @@ pseudo-código pra servir como exemplo. Mas é bem fácil traduzi-lo
 
 para sua linguagem de programação preferida, ok?
 
-*** Por Marcio, mas ai não vale né cara. De que adianta saber só a teoria?
+*** Pow Marcio, mas ai não vale né cara. De que adianta saber só a teoria?
 
 *** Quero saber como faço isso na prática né.
 
@@ -117,9 +117,9 @@ Só assistir os meus vídeos provavelmente não vai ser suficiente pra você sai
 
 mas com certeza o conhecimento que você está adquirindo aqui vai ter ajudar bastante na hora
 
-de estudar sua linguagem de programação orientada a objetos preferida.
+de estudar sua linguagem de programação orientada a objetos preferida, beleza?
 
-Bom, então voltando pra nossa classe Cachorro.
+Bom, então voltando pra nossa classe Cachorro...
 
 Acho que as ideias estão começando a clarear um pouco pra você, né?
 
@@ -131,6 +131,31 @@ Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementaç
 
 essa nossa classe Cachorro. Incluindo os atributos e os métodos e o nosso construtor.
 
-Pra isso, vou mostrar pra vocês alguns pseudo-códigos, blz?
+Pra isso, vou mostrar pra vocês alguns pseudo-códigos.
+
+Mas presta atenção pq agora vai ficar um pouco mais complicado, blz?
 
 Então... vamo la!
+
+Classe Cachorro {
+
+  var nome : String
+  var dataNascimento : String
+  var corPelo : String
+
+  construtor(novoNome : String, novaDataNascimento : String, novaCorPelo : String) {
+    nome := novoNome
+    dataNascimento := novaDataNascimento
+    corPelo := nomeCorPelo
+  }
+
+  imprimirInformacoes() {
+    imprimir "Nome: " + nome
+    imprimir "dataNascimento: " + dataNascimento
+    imprimir "corPelo: " + corPelo
+  }
+
+}
+
+var cachorro := new Cachorro("Rex", "05/04/2014", "preto")
+cachorro.imprimirInformacoes()
