@@ -222,7 +222,7 @@ Pra poder fazer essas coisas, antes você precisa... construir a casa.
 
 Voltando pro nosso exemplo, tendo apenas a classe Cachorro, não é possível executar... nenhuma ação.
 
-Nós temos todas as *especificações* definidas, mas ainda não é possível latir, não é possivel sentar,
+Nós temos todas as *especificações* definidas, mas ainda não é possível latir, não é possível sentar,
 
 não é possível nem mesmo dar um nome pro nosso cachorro...
 
@@ -252,7 +252,7 @@ Até mais!
 
 *** Os objetos são criados a partir das classes...
 
-*** E os atributos representam as características do objeto...
+*** E os atributos representam as características...
 
 *** E os métodos as ações... ou é o contrário?!
 
