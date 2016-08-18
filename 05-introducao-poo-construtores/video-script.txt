@@ -85,15 +85,15 @@ para sua linguagem de programação preferida, ok?
 
 Bom. Esse mesmo exemplo, em Java seria:
 
-Cachorro cachorro = new Cachorro("Rex", "05/04/2014", "preto");
+Cachorro rex = new Cachorro("Rex", "05/04/2014", "preto");
 
 Em Ruby seria:
 
-cachorro = Cachorro.new("Rex", "05/04/2014", "preto")
+rex = Cachorro.new("Rex", "05/04/2014", "preto")
 
 Já na linguagem Python seria:
 
-cachorro = Cachorro("Rex", "05/04/2014", "preto")
+rex = Cachorro("Rex", "05/04/2014", "preto")
 
 E por ai vai.
 
@@ -140,10 +140,10 @@ Então... vamo la!
 Classe Cachorro {
 
   var nome : String
-  var dataNascimento : String
+  var dataNascimento : Data
   var corPelo : String
 
-  construtor(novoNome : String, novaDataNascimento : String, novaCorPelo : String) {
+  construtor(novoNome : String, novaDataNascimento : Data, novaCorPelo : String) {
     nome := novoNome
     dataNascimento := novaDataNascimento
     corPelo := nomeCorPelo
@@ -151,11 +151,44 @@ Classe Cachorro {
 
   imprimirInformacoes() {
     imprimir "Nome: " + nome
-    imprimir "dataNascimento: " + dataNascimento
-    imprimir "corPelo: " + corPelo
+    imprimir "Data de Nascimento: " + dataNascimento
+    imprimir "Cor predominante do pelo: " + corPelo
   }
 
 }
 
-var cachorro := new Cachorro("Rex", "05/04/2014", "preto")
-cachorro.imprimirInformacoes()
+var rex := novo Cachorro("Rex", "05/04/2014", "preto")
+var costelinha := novo Cachorro("Costelinha", "05/04/2013", "cinza")
+
+rex.imprimirInformacoes()
+costelinha.imprimirInformacoes()
+
+Primeiro vamos definir o nome da Classe. Neste nosso caso, Cachorro.
+
+Agora vamos listar os atributos da nossa classe. Lembrando que este exemplo é
+
+só um pseudo-código, então você vai ter que adaptar para a linguagem que desejar
+
+utilizar.
+
+Vamos primeiro declarar primeiro o atributo nome. Algumas linguagens exigem que você
+
+informe o tipo da variável. Neste caso, vou declarar o nome como sendo uma String.
+
+E vou fazer a mesma coisa para mais 2 atributos, a data de nascimento e a cor
+
+predominante do pelo. Para a data de nascimento, coloquei o tipo Data.
+
+Normalmente as linguagens já vão ter algum tipo que represente datas. Para cor do
+
+pelo, escolhi o tipo String mesmo.
+
+E a ordem dos atributos não deve fazer diferença, blz?
+
+Bom pessoal, se você conseguiu acompanhar e entender tudo que falei nesse video...
+
+parabéns! Pq você já entendeu o básico da orientação a objetos, beleza?
+
+Se por acaso não tiver entendido, não desanima não. Assiste mais uma vez e fica a vontade
+
+pra deixar suas dúvidas ai nos comentários, ok?!
