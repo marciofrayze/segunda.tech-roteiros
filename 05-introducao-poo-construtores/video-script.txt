@@ -69,7 +69,15 @@ Dessa forma, um novo Objeto do tipo Cachorro poderia ser criado mais ou menos as
 
 var cachorro := new Cachorro("Rex", "05/04/2014", "preto")
 
-Onde o primeiro parâmetro seria o nome do cachorro, o segundo a sua data de nascimento
+Onde a expressão "var cachorro" apenas define o nome de uma variável onde vou armazenar a
+
+*referência* para o novo objeto que estou criando.
+
+A parte "new Cachorro" indica a nossa intenção de construir um novo objeto a partir da
+
+classe Cachorro, e o resto são os parâmetro que serão repassado para o construtor da classe.
+
+O primeiro parâmetro seria o nome do cachorro, o segundo a sua data de nascimento
 
 e o terceiro a cor predominante de seus pelos.
 
@@ -115,7 +123,7 @@ os conceitos por trás do paradigma de orientação a objetos.
 
 Só assistir os meus vídeos provavelmente não vai ser suficiente pra você sair programando por ai,
 
-mas com certeza o conhecimento que você está adquirindo aqui vai ter ajudar bastante na hora
+mas com certeza o conhecimento que você está adquirindo aqui vai te ajudar bastante na hora
 
 de estudar sua linguagem de programação orientada a objetos preferida, beleza?
 
@@ -125,15 +133,15 @@ Acho que as ideias estão começando a clarear um pouco pra você, né?
 
 *** Mano... mais ou menos né... Até entendi um pouco, mas ainda não faço ideia de como
 
-*** criar uma classe na prática...
+*** criar uma classe, na prática...
 
 Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementação de toda
 
 essa nossa classe Cachorro. Incluindo os atributos e os métodos e o nosso construtor.
 
-Pra isso, vou mostrar pra vocês alguns pseudo-códigos.
+Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
 
-Mas presta atenção pq agora vai ficar um pouco mais complicado, blz?
+Mas cara, presta atenção pq agora vai ficar um pouco mais complicado, blz?
 
 Então... vamo la!
 
@@ -173,19 +181,21 @@ utilizar.
 
 Vamos primeiro declarar primeiro o atributo nome. Algumas linguagens exigem que você
 
-informe o tipo da variável. Neste caso, vou declarar o nome como sendo uma String.
+informe o tipo da variável. Neste caso, vou declarar o nome como sendo uma String, ou seja,
 
-E vou fazer a mesma coisa para mais 2 atributos, a data de nascimento e a cor
+uma sequencia qualquer de caracteres.
+
+E vou fazer a mesma coisa para mais 2 atributos: a data de nascimento e a cor
 
 predominante do pelo. Para a data de nascimento, coloquei o tipo Data.
 
-Normalmente as linguagens já vão ter algum tipo que represente datas. Para cor do
+Normalmente as linguagens já vão ter algum tipo capaz de representar datas.
 
-pelo, escolhi o tipo String mesmo.
+Para cor do pelo, escolhi o tipo String mesmo.
 
-E a ordem dos atributos não deve fazer diferença, blz?
+Ah pessoal, a ordem dos atributos não deve fazer diferença, blz?
 
-Bom pessoal, se você conseguiu acompanhar e entender tudo que falei nesse video...
+Bom é isso aí, se você conseguiu acompanhar e entender tudo que falei nesse video...
 
 parabéns! Pq você já entendeu o básico da orientação a objetos, beleza?
 
