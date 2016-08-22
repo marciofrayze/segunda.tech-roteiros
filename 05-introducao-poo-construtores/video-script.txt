@@ -7,7 +7,7 @@ Meu nome é Marcio e você está assistindo ao quinto episódio deste novo canal
 
 Nos videos anteriores eu apresentei pra vocês alguns conceitos básicos da
 
-programação orientada a objetos, incluindo O que são Classes, Objetos, Atributos e Métodos, certo?
+programação orientada a objetos, incluindo O que são Objetos, Classes, Atributos e Métodos, certo?
 
 No video de hoje além desses temas, a gente ainda vai abordar um tópico novo.
 
@@ -17,7 +17,7 @@ Então... Bora começar?!
 
 Bom, como a gente já conversou antes, os Objetos são criados a partir das Classes,
 
-sendo que as classes contém um conjunto de especificações descrevendo as características ou
+sendo que as classes contém um conjunto de especificações que descrevem as características ou
 
 atributos e também as ações ou métodos da Classe.
 
@@ -33,19 +33,19 @@ Então o construtor nada mais é um conjunto de código, muito similar aos méto
 
 A grande diferença é que o construtor sempre vai ser executado automaticamente
 
-quando um novo objeto for criado. Na prática, em geral o código do construtor é
+quando um novo objeto for criado.
 
-muito simular a de um método qualquer, com a diferença que tem um nome pré definido,
+Na prática, em geral o código do construtor é muito simular a de um método qualquer,
 
-que varia de linguagem pra linguagem. Em Java por exemplo, o construtor deve
+com a diferença que tem um nome pré definido, que varia de linguagem pra linguagem.
 
-obrigatoriamente ter o mesmo nome da Classe.
+Em Java por exemplo, o construtor deve obrigatoriamente ter o mesmo nome da Classe.
 
 Já na linguagem de programação Ruby, o construtor deve se chamar initialize.
 
 Então, cada linguagem tem o seu padrão, mas em geral o comportamento é o mesmo:
 
-Nada mais é do que o primeiro trecho de código executado automaticamente assim que
+Nada mais é do que o primeiro trecho de código a ser executado automaticamente assim que
 
 um novo Objeto é criado.
 
@@ -67,13 +67,13 @@ construtor.
 
 Dessa forma, um novo Objeto do tipo Cachorro poderia ser criado mais ou menos assim:
 
-var cachorro := new Cachorro("Rex", "05/04/2014", "preto")
+var cachorro := novo Cachorro("Rex", "05/04/2014", "preto")
 
 Onde a expressão "var cachorro" apenas define o nome de uma variável onde vou armazenar a
 
 *referência* para o novo objeto que estou criando.
 
-A parte "new Cachorro" indica a nossa intenção de construir um novo objeto a partir da
+A parte "novo Cachorro" indica a nossa intenção de construir um novo objeto a partir da
 
 classe Cachorro, e o resto são os parâmetro que serão repassado para o construtor da classe.
 
@@ -81,7 +81,7 @@ O primeiro parâmetro seria o nome do cachorro, o segundo a sua data de nascimen
 
 e o terceiro a cor predominante de seus pelos.
 
-Este código que te mostrei não pertence a nenhuma linguagem específica, é só um
+Bom, este código que te mostrei não pertence a nenhuma linguagem específica, é só um
 
 pseudo-código pra servir como exemplo. Mas é bem fácil traduzi-lo
 
@@ -91,7 +91,7 @@ para sua linguagem de programação preferida, ok?
 
 *** Quero saber como faço isso na prática né.
 
-Bom. Esse mesmo exemplo, em Java seria:
+Beleza. Esse mesmo exemplo, em Java seria:
 
 Cachorro rex = new Cachorro("Rex", "05/04/2014", "preto");
 
@@ -137,11 +137,11 @@ Acho que as ideias estão começando a clarear um pouco pra você, né?
 
 Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementação de toda
 
-essa nossa classe Cachorro. Incluindo os atributos e os métodos e o nosso construtor.
+essa nossa classe Cachorro. Incluindo os atributos um método e o nosso construtor.
 
 Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
 
-Mas cara, presta atenção pq agora vai ficar um pouco mais complicado, blz?
+E pessoal, presta atenção pq agora vai ficar um pouco mais complicado, blz?
 
 Então... vamo la!
 
@@ -175,11 +175,11 @@ Primeiro vamos definir o nome da Classe. Neste nosso caso, Cachorro.
 
 Agora vamos listar os atributos da nossa classe. Lembrando que este exemplo é
 
-só um pseudo-código, então você vai ter que adaptar para a linguagem que desejar
+só um pseudo-código, então você vai ter que adaptar pra a linguagem que desejar
 
 utilizar.
 
-Vamos primeiro declarar primeiro o atributo nome. Algumas linguagens exigem que você
+Vamos primeiro declarar o atributo nome. Algumas linguagens exigem que você
 
 informe o tipo da variável. Neste caso, vou declarar o nome como sendo uma String, ou seja,
 
@@ -187,11 +187,11 @@ uma sequencia qualquer de caracteres.
 
 E vou fazer a mesma coisa para mais 2 atributos: a data de nascimento e a cor
 
-predominante do pelo. Para a data de nascimento, coloquei o tipo Data.
+predominante do pelo. Pra a data de nascimento, coloquei o tipo Data.
 
 Normalmente as linguagens já vão ter algum tipo capaz de representar datas.
 
-Para cor do pelo, escolhi o tipo String mesmo.
+Pra cor predominante do pelo, escolhi o tipo String mesmo.
 
 Ah pessoal, a ordem dos atributos não deve fazer diferença, blz?
 
