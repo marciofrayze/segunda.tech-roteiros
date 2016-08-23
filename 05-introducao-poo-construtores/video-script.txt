@@ -49,9 +49,17 @@ Nada mais é do que o primeiro trecho de código a ser executado automaticamente
 
 um novo Objeto é criado.
 
-E o construtor, assim como os métodos, também pode receber parâmetros.
+O construtor, assim como os métodos, também pode receber parâmetros.
 
-Então, lembra daquele exemplo que eu falei no video anterior, onde a gente
+Mas uma grande diferença entre o construtor e os demais métodos é que nos métodos a gente pode
+
+definir o retorno como sendo qualquer coisa que a gente quiser, ou mesmo definir que
+
+o método não vai retornar nada. Já o Construtor sempre retorna uma referência para
+
+o novo objeto que foi criado.
+
+Bom, lembra daquele exemplo que eu falei no video anterior, onde a gente
 
 definiu a Classe Cachorro?
 
@@ -59,7 +67,7 @@ Eu tinha sugerido alguns possíveis atributos e métodos pra esse Classe, né?
 
 Como por exemplo os atributos nome, data de nascimento, cor do pelo, etc.
 
-Bom, se eu fosse criar um construtor pra essa classe, eu provavelmente iria
+Então, se eu fosse criar um construtor pra essa classe, eu provavelmente iria
 
 permitir que fossem passados os valores desses atributos como parâmetros no meu
 
@@ -81,9 +89,9 @@ O primeiro parâmetro seria o nome do cachorro, o segundo a sua data de nascimen
 
 e o terceiro a cor predominante de seus pelos.
 
-Bom, este código que te mostrei não pertence a nenhuma linguagem específica, é só um
+Bom, este código que te mostrei não pertence a nenhuma linguagem específica, né?
 
-pseudo-código pra servir como exemplo. Mas é bem fácil traduzi-lo
+É só um pseudo-código pra servir como exemplo. Mas é bem fácil traduzi-lo
 
 para sua linguagem de programação preferida, ok?
 
@@ -141,7 +149,7 @@ essa nossa classe Cachorro. Incluindo os atributos um método e o nosso construt
 
 Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
 
-E pessoal, presta atenção pq agora vai ficar um pouco mais complicado, blz?
+Mas pessoal, presta atenção pq agora vai ficar um pouco mais complicado, blz?
 
 Então... vamo la!
 
@@ -157,10 +165,8 @@ Classe Cachorro {
     corPelo := nomeCorPelo
   }
 
-  imprimirInformacoes() {
-    imprimir "Nome: " + nome
-    imprimir "Data de Nascimento: " + dataNascimento
-    imprimir "Cor predominante do pelo: " + corPelo
+  falar() {
+    imprimir("au au meu nome é " + nome + " au auu")
   }
 
 }
@@ -168,8 +174,8 @@ Classe Cachorro {
 var rex := novo Cachorro("Rex", "05/04/2014", "preto")
 var costelinha := novo Cachorro("Costelinha", "05/04/2013", "cinza")
 
-rex.imprimirInformacoes()
-costelinha.imprimirInformacoes()
+rex.falar()
+costelinha.falar()
 
 Primeiro vamos definir o nome da Classe. Neste nosso caso, Cachorro.
 
@@ -195,6 +201,52 @@ Pra cor predominante do pelo, escolhi o tipo String mesmo.
 
 Ah pessoal, a ordem dos atributos não deve fazer diferença, blz?
 
+Pra completar a nossa classe eu vou definir um método.
+
+Você lembra que os métodos representam as ações que nossos objetos vão poder realizar, certo?!
+
+Nesse exemplo, vou criar um método chamado "falar", e ele não vai receber nenhum parâmetro.
+
+Dentro deste método, vou executar um pseudo-código que eu chamei de "imprimir".
+
+Imagine que isso é uma forma de imprimir algum dado no console ou na tela, ok?
+
+E como eu já falei antes, isso é só um pseudo-código. Cada linguagem de programação vai ter
+
+uma forma diferente de implementar algo parecido com isso.
+
+E neste exemplo eu quero simular o latido de um cachorro.
+
+Mas esse nosso cachorro é mais esperto que o normal, e vai ser capaz de latir o próprio nome.
+
+Pra isso, eu vou acessar o atributo *nome*.
+
+E... é isso ai. A primeira versão da nossa classe Cachorro... ta pronta!
+
+Mas por enquanto a gente só especificou a classe né? Ou seja, fizemos o equivalente
+
+a planejar a nossa planta da nossa casa, mas não construimos efetivamente nada ainda,
+
+temos apenas as especificações.
+
+Então... vamos construir alguns cachorros?
+
+Como eu já tinha mostrado anterioremente, em pseudo código, seria algo como:
+
+var rex := novo Cachorro("Rex", "05/04/2014", "preto")
+var costelinha := novo Cachorro("Costelinha", "05/04/2013", "cinza")
+
+Com isso temos referencias para 2 cachorros, o Rex e o Costelinha.
+
+Se quisermos fazer eles falarem, então executariamos o método falar de seus respectivos
+
+objetos. Algo tomo:
+
+rex.falar()
+costelinha.falar()
+
+*** Hum.. beleza. Acho que to começando a entender esse negocio...
+
 Bom é isso aí, se você conseguiu acompanhar e entender tudo que falei nesse video...
 
 parabéns! Pq você já entendeu o básico da orientação a objetos, beleza?
@@ -202,3 +254,7 @@ parabéns! Pq você já entendeu o básico da orientação a objetos, beleza?
 Se por acaso não tiver entendido, não desanima não. Assiste mais uma vez e fica a vontade
 
 pra deixar suas dúvidas ai nos comentários, ok?!
+
+Então... até a próxima!
+
+*** Ta... vou tenta implementa essa mesma classe aqui... vamo vê se eu consigo!
