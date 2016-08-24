@@ -19,7 +19,7 @@ Bom, como a gente já conversou antes, os Objetos são criados a partir das Clas
 
 sendo que as classes contém um conjunto de especificações que descrevem as características ou
 
-atributos e também as ações ou métodos da Classe.
+atributos. E dentro das classes temos também os métodos, que descrevem as ações.
 
 Mas além dessas definições, a gente também precisa explicitar no nosso código
 
@@ -49,7 +49,7 @@ Nada mais é do que o primeiro trecho de código a ser executado automaticamente
 
 um novo Objeto é criado.
 
-O construtor, assim como os métodos, também pode receber parâmetros.
+E o construtor, assim como os métodos, também pode receber parâmetros.
 
 Mas uma grande diferença entre o construtor e os demais métodos é que nos métodos a gente pode
 
@@ -67,7 +67,7 @@ Eu tinha sugerido alguns possíveis atributos e métodos pra esse Classe, né?
 
 Como por exemplo os atributos nome, data de nascimento, cor do pelo, etc.
 
-Então, se eu fosse criar um construtor pra essa classe, eu provavelmente iria
+Então... se eu fosse criar um construtor pra essa classe, eu provavelmente iria
 
 permitir que fossem passados os valores desses atributos como parâmetros no meu
 
@@ -77,7 +77,7 @@ Dessa forma, um novo Objeto do tipo Cachorro poderia ser criado mais ou menos as
 
 var cachorro := novo Cachorro("Rex", "05/04/2014", "preto")
 
-Onde a expressão "var cachorro" apenas define o nome de uma variável onde vou armazenar a
+Onde a expressão "var cachorro" apenas define o nome de uma variável em que vou armazenar a
 
 *referência* para o novo objeto que estou criando.
 
@@ -145,7 +145,7 @@ Acho que as ideias estão começando a clarear um pouco pra você, né?
 
 Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementação de toda
 
-essa nossa classe Cachorro. Incluindo os atributos um método e o nosso construtor.
+essa nossa classe Cachorro. Incluindo os atributos, um método e o nosso construtor.
 
 Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
 
@@ -183,7 +183,7 @@ Agora vamos listar os atributos da nossa classe. Lembrando que este exemplo é
 
 só um pseudo-código, então você vai ter que adaptar pra a linguagem que desejar
 
-utilizar.
+utilizar, ok?
 
 Vamos primeiro declarar o atributo nome. Algumas linguagens exigem que você
 
@@ -193,17 +193,21 @@ uma sequencia qualquer de caracteres.
 
 E vou fazer a mesma coisa para mais 2 atributos: a data de nascimento e a cor
 
-predominante do pelo. Pra a data de nascimento, coloquei o tipo Data.
+predominante do pelo. Pra data de nascimento, coloquei o tipo Data.
 
-Normalmente as linguagens já vão ter algum tipo capaz de representar datas.
+Normalmente as linguagens já vão ter algum tipo capaz de representar datas,
+
+normalmente uma classe chamada Date ou algo assim.
 
 Pra cor predominante do pelo, escolhi o tipo String mesmo.
+
+E pra esse exemplo vamos usar só esses três atributos.
 
 Ah pessoal, a ordem dos atributos não deve fazer diferença, blz?
 
 Pra completar a nossa classe eu vou definir um método.
 
-Você lembra que os métodos representam as ações que nossos objetos vão poder realizar, certo?!
+E você lembra que os métodos representam as ações que nossos objetos vão poder realizar, certo?!
 
 Nesse exemplo, vou criar um método chamado "falar", e ele não vai receber nenhum parâmetro.
 
@@ -219,28 +223,30 @@ E neste exemplo eu quero simular o latido de um cachorro.
 
 Mas esse nosso cachorro é mais esperto que o normal, e vai ser capaz de latir o próprio nome.
 
-Pra isso, eu vou acessar o atributo *nome*.
+Pra isso, eu vou acessar o atributo *nome* e concatenar ela em uma String que representa o latido
+
+do cachorro.
 
 E... é isso ai. A primeira versão da nossa classe Cachorro... ta pronta!
 
 Mas por enquanto a gente só especificou a classe né? Ou seja, fizemos o equivalente
 
-a planejar a nossa planta da nossa casa, mas não construimos efetivamente nada ainda,
+a elaborar planta da nossa casa, mas não construimos efetivamente nada ainda.
 
-temos apenas as especificações.
+Temos apenas as especificações.
 
-Então... vamos construir alguns cachorros?
+Então... vamo construir alguns cachorros?
 
-Como eu já tinha mostrado anterioremente, em pseudo código, seria algo como:
+Como eu já tinha mostrado antes, em pseudo código, seria algo como:
 
 var rex := novo Cachorro("Rex", "05/04/2014", "preto")
 var costelinha := novo Cachorro("Costelinha", "05/04/2013", "cinza")
 
 Com isso temos referencias para 2 cachorros, o Rex e o Costelinha.
 
-Se quisermos fazer eles falarem, então executariamos o método falar de seus respectivos
+Mas.. e se quisermos fazer eles falarem?
 
-objetos. Algo tomo:
+Pra isso executaríamos o método falar de seus respectivos objetos. Algo como:
 
 rex.falar()
 costelinha.falar()
@@ -257,4 +263,4 @@ pra deixar suas dúvidas ai nos comentários, ok?!
 
 Então... até a próxima!
 
-*** Ta... vou tenta implementa essa mesma classe aqui... vamo vê se eu consigo!
+*** Ta... pow, acho que vo tenta implementa essa mesma classe aqui em Java... vamo vê se eu consigo!

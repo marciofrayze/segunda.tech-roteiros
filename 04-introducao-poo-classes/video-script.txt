@@ -29,7 +29,7 @@ em algum lugar *como* serão criados estes objetos, certo?!
 
 Bom, como você já deve ter imaginado, para isso usamos as Classes.
 
-*** Ta... mas afinal, o que é uma classe?
+*** Ta cara... mas afinal, o que é uma classe?
 
 Fazendo uma analogia meio... tosca com o mundo real...
 
@@ -92,7 +92,7 @@ provavelmente eu iria criar Classes com nomes como:
 
 E por ai vai... Então, teríamos, por exemplo,
 
-que cada bloco que aparece na imagem, seria um Objeto criado a partir da classe Bloco.
+que cada bloco que aparece na imagem, seria um *Objeto* criado a partir da classe Bloco.
 
 Teria também alguns objetos da classe Nuvem, alguns outros do tipo Inimigo e *um* objeto do tipo Jogador.
 
