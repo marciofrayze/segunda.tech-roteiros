@@ -29,13 +29,13 @@ Pra isso temos que codificar um *Construtor* na nossa classe. É a partir dele q
 
 nosso software vai saber como criar um objeto através de uma classe.
 
-Então o construtor nada mais é um conjunto de código, muito similar aos métodos.
+Então o construtor nada mais é um trecho de código, muito similar aos métodos.
 
 A grande diferença é que o construtor sempre vai ser executado automaticamente
 
 quando um novo objeto for criado.
 
-Na prática, em geral o código do construtor é muito simular a de um método qualquer,
+Na prática, em geral o código do construtor é muito similar a de um método qualquer,
 
 com a diferença que tem um nome pré definido, que varia de linguagem pra linguagem.
 
@@ -65,7 +65,7 @@ definiu a Classe Cachorro?
 
 Eu tinha sugerido alguns possíveis atributos e métodos pra esse Classe, né?
 
-Como por exemplo os atributos nome, data de nascimento, cor do pelo, etc.
+Como por exemplo os atributos nome, data de nascimento, a cor do pelo, etc.
 
 Então... se eu fosse criar um construtor pra essa classe, eu provavelmente iria
 
