@@ -15,7 +15,7 @@ A gente vai conversar um pouco sobre O que são e pra que servem os Construtores
 
 Então... Bora começar?!
 
-Bom, como a gente já conversou antes, os Objetos são criados a partir das Classes,
+Bom, como eu já falei antes pra vocês, os Objetos são criados a partir das Classes,
 
 sendo que as classes contém um conjunto de especificações que descrevem as características ou
 
@@ -127,7 +127,7 @@ Prefiro fazer assim pq tem gente que quer aprender Java, outros C#, outros Ruby,
 
 E meu objetivo aqui não ensinar uma linguagem de programação, mas sim, explicar
 
-os conceitos por trás do paradigma de orientação a objetos.
+os *conceitos* por trás do paradigma de orientação a objetos.
 
 Só assistir os meus vídeos provavelmente não vai ser suficiente pra você sair programando por ai,
 
@@ -195,7 +195,7 @@ E vou fazer a mesma coisa para mais 2 atributos: a data de nascimento e a cor
 
 predominante do pelo. Pra data de nascimento, coloquei o tipo Data.
 
-Normalmente as linguagens já vão ter algum tipo capaz de representar datas,
+Normalmente as linguagens já vão ter alguma forma capaz de representar datas,
 
 normalmente uma classe chamada Date ou algo assim.
 
@@ -205,11 +205,11 @@ E pra esse exemplo vamos usar só esses três atributos.
 
 Ah pessoal, a ordem dos atributos não deve fazer diferença, blz?
 
-Pra completar a nossa classe eu vou definir um método.
+Bom, pra completar a nossa classe eu vou definir *um* método.
 
-E você lembra que os métodos representam as ações que nossos objetos vão poder realizar, certo?!
+E você lembra que os métodos representam as *ações* que nossos objetos vão poder realizar, certo?!
 
-Nesse exemplo, vou criar um método chamado "falar", e ele não vai receber nenhum parâmetro.
+Nesse exemplo, vou criar um método chamado... "falar", e ele não vai receber nenhum parâmetro.
 
 Dentro deste método, vou executar um pseudo-código que eu chamei de "imprimir".
 
@@ -223,15 +223,19 @@ E neste exemplo eu quero simular o latido de um cachorro.
 
 Mas esse nosso cachorro é mais esperto que o normal, e vai ser capaz de latir o próprio nome.
 
-Pra isso, eu vou acessar o atributo *nome* e concatenar ela em uma String que representa o latido
+Pra isso, eu vou acessar o atributo *nome* e concatenar ele em uma String que representa o latido
 
 do cachorro.
+
+Desta forma, ao executar este método, será impresso na tela algo como "au au meu nome é Rex au auu".
+
+Mas claro que esta mensagem irá variar de acordo com o nome do cachorro.
 
 E... é isso ai. A primeira versão da nossa classe Cachorro... ta pronta!
 
 Mas por enquanto a gente só especificou a classe né? Ou seja, fizemos o equivalente
 
-a elaborar planta da nossa casa, mas não construimos efetivamente nada ainda.
+a elaborar *planta* da nossa casa, mas não construimos nada efetivamente ainda.
 
 Temos apenas as especificações.
 
@@ -249,6 +253,9 @@ Mas.. e se quisermos fazer eles falarem?
 Pra isso executaríamos o método falar de seus respectivos objetos. Algo como:
 
 rex.falar()
+
+e
+
 costelinha.falar()
 
 *** Hum.. beleza. Acho que to começando a entender esse negocio...
@@ -257,9 +264,11 @@ Bom é isso aí, se você conseguiu acompanhar e entender tudo que falei nesse v
 
 parabéns! Pq você já entendeu o básico da orientação a objetos, beleza?
 
-Se por acaso não tiver entendido, não desanima não. Assiste mais uma vez e fica a vontade
+Se por acaso não tiver entendido, não desanima não, pq este tema é um pouco complicado mesmo.
 
-pra deixar suas dúvidas ai nos comentários, ok?!
+Assiste mais uma vez as partes que ficou com dúvidas e fica a vontade
+
+pra fazer perguntas ai nos comentários, ok?!
 
 Então... até a próxima!
 
