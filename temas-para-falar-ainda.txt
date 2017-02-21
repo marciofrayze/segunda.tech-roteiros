@@ -1,0 +1,6 @@
+
+
+- Nomes (classes, metodos e atributos)
+
+- Encapsulamento
+
