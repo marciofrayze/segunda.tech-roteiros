@@ -1,0 +1,26 @@
+Começando a Terminar - #06
+Introdução a Programação Orientada a Objetos - Parte 6 - Mais sobre Classes, Métodos e Construtores
+
+E ai pessoal!
+
+Meu nome é Marcio e você está assistindo ao sexto episódio deste novo canal na internet.
+
+No video anterior eu apresentei pra vocês o que é e pra que servem os Construtores.
+
+E antes disso, a gente já tinha conversado sobre os conceitos do que são Objetos, 
+
+Classes, Atributos e Métodos, certo?
+
+No vídeo de hoje eu não vou introduzir nenhum conceito novo, ta?
+
+Achei melhor eu mostrar mais um exemplo, dessa vez de uma forma um pouco mais aprofundada,
+
+pra que a gente possa conversar um pouco mais e assim esses conceitos fiquem mais 
+ 
+claros pra todo mundo, beleza?
+
+Então... Bora começar?!
+
+----
+
+No video de hoje a gente vai implementar 
