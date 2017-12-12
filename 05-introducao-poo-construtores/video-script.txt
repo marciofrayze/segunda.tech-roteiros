@@ -111,6 +111,7 @@ costelinha.falar()
 *** Hum.. beleza. Acho que to começando a entender esse negocio...
 
 Bom é isso aí, se você conseguiu acompanhar e entender tudo que falei nesse video... parabéns! Pq você já entendeu o básico da orientação a objetos, beleza? Se por acaso não tiver entendido, não desanima não, pq este tema é um pouco complicado mesmo. Assiste mais uma vez as partes que ficou com dúvidas e fica a vontade pra fazer perguntas ai nos comentários, ok?!
+E nos próximos vídeos a gente vai começar a entrar em alguns tópicos um pouco mais avançados.
 Então... até a próxima!
 
 *** Ta... pow, acho que vo tenta implementa essa mesma classe aqui em Java... vamo vê se eu consigo!
