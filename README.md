@@ -1,4 +1,6 @@
-# Começando a Terminar
+# segunda.tech
 
-*Começando a Terminar* é um projeto para criação de um canal educacional para o
-YouTube. Este repositório contém os textos e materiais em geral dos vídeos.
+*segunda.tech* é um projeto para criação de um canal educacional para o
+YouTube. Este repositório contém os roteiros e materiais em geral dos vídeos.
+
+https://segunda.tech
