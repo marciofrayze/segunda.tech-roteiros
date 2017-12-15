@@ -2,19 +2,17 @@ Começando a Terminar - #00
 Apresentação do Canal
 
 E ai pessoal!
+Meu nome é Marcio e você está assistindo ao vídeo de apresentação do canal segunda.tech.
+Este projeto foi criado com o objetivo de ser um local em que a gente possa conversar sobre tópicos relacionados à desenvolvimento de softwares e ciência da computação em geral.
 
-Meu nome é Marcio e você está assistindo ao video de apresentação do canal segunda.tech.
+Tudo começou em um dia que estava pensando na vida e fiquei imaginando como seria legal se conseguisse voltar no tempo e pudesse conversar... comigo mesmo.
+Que tipo de conselhos eu daria pra mim mesmo? Enquanto eu viajava pensando nesse assunto, um dos temas que eu pensei foi sobre computação. Como minha vida teria sido muito mais fácil se eu pudesse voltar só por alguns minutos e desse algumas dicas e conselhos.
 
-Este projeto foi criado com o objetivo de ser um local em que a gente possa conversar
+Pq durante esses anos todos estudando e trabalhando com desenvolvimento de softwares eu tive diversas dúvidas. Algumas coisas demorei dias para entender. Outras levaram meses. E... em alguns casos... até mesmo *anos* pra conseguir compreender direito.
+E vários desses temas não eram necessarimanete difíceis, muitas vezes foi necessário apenas um conceito bem explicado, um exemplo diferente... e de repente vem aquela sensação tipo..
 
-sobre tópicos relacionados à desenvolvimento de softwares e ciência da computação em geral.
+(segurando um livro qualquer)
+** AHHHH... pq ninguem me disse isso antes?! Agora todo resto faz sentido!
 
-Tudo começou um dia que estava pensando na vida e fiquei imaginando como seria legal se 
-
-conseguisse voltar no tempo e pudesse conversar... comigo mesmo. 
-
-Pq durante esses anos todos estudando e trabalhando com desenvolvimento de softwares
-
-eu tive diversas dúvidas. Algumas coisas demorei dias para entender. Outras coisas levaram meses.
-
-E... em alguns casos... até mesmo *anos* pra conseguir entender direito.
+Acho que todo mundo já sentiu isso alguma vez na vida né.
+Bom, o meu objetivo aqui é tentar criar mais uma fonte de informação pra que vocês tenham um outro ponto de vista dos principais temas que eu tive algum tipo de dificuldade durante a minha formação.
