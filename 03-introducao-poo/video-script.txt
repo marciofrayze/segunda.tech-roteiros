@@ -3,20 +3,18 @@ Introdução a Programação Orientada a Objetos - Parte 3 - Conceitos básicos
 
 E ai pessoal!
 Meu nome é Marcio e você está assistindo ao terceiro episódio deste novo canal na internet.
-No primeiro vídeo a gente definiu o que são paradigmas de programação, no segundo eu contei pra vocês um pouquinho da história da programação orientada a objetos e agora, neste terceiro vídeo, vamos conversar sobre 2 temas:
+No primeiro vídeo a gente definiu o que são paradigmas de programação, no segundo eu contei pra vocês um pouquinho da história da programação orientada a objetos e agora, neste terceiro vídeo desta série, vamos conversar sobre 2 temas:
 Primeiro, os motivos que levaram a criação deste paradigma e em seguida vamos começar a falar sobre alguns conceitos básicos da programação orientada a objetos.
 Então... Bora começar?!
 
-Com a evolução da computação, os sistemas foram ficando maiores e mais complexos. E ai... ficava cada vez mais difícil organizar o código-fonte dos softwares. Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e
-em geral, era relativamente comum os sistemas crescerem de forma... insustentável.
+Com a evolução da computação, os sistemas foram ficando maiores e mais complexos. E ai... ficava cada vez mais difícil organizar o código-fonte dos softwares. Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e muitas vezes os sistemas cresciam de forma... insustentável.
 
-Os programas começavam bem, iam crescendo, ai aparecia um bug aqui, outro ali, até que chegava um momento que os desenvolvedores começavam a literalmente sofrer para conseguir estender e dar manutenção nos sistemas maiores.
-Em situações como essa, qualquer pequena alteração no código  pode ter impactos inesperados em diversas outras partes do sistema.
+Os programas começavam bem, iam crescendo, aí aparecia um bug aqui, outro ali, até que chegava um momento que os desenvolvedores começavam a literalmente sofrer para conseguir estender e dar manutenção nos sistemas maiores.
+Em situações como essa, qualquer pequena alteração no código pode trazer impactos inesperados em diversas outras partes do sistema.
 
 [Melhor isolamento entre as partes do sistema]
 
-Então, podemos dizer que um dos principais problemas que precisava ser resolvido era
-permitir um *melhor isolamento* entre as partes do sistema, e com isso possibilitar que o programador conseguisse facilmente escrever códigos com *menor acoplamento*, ou seja, trechos de códigos mais independentes uns dos outros.
+Então, podemos dizer que um dos principais problemas que precisava ser resolvido era permitir um *melhor isolamento* entre as partes do sistema, e com isso possibilitar que o programador conseguisse facilmente escrever códigos com *menor acoplamento*, ou seja, trechos de códigos mais independentes uns dos outros.
 
 Isso tornaria também mais simples o *re-aproveitamento de partes do sistema*.
 E ao desenvolver qualquer software, é sempre uma boa prática tentar atingir estes objetivos.
@@ -43,7 +41,7 @@ Na abordagem proposta por este paradigma o programador fica responsável por... 
 [https://pixabay.com/pt/falar-discuss%C3%A3o-microfone-lata-238488/]
 [Envio de mensagens]
 
-E para que os objetos consigam interagir entre si, eles "conversam" uns com os outros através do envio de mensagens e o programador precisa então especificar quais serão as mensagens que cada objeto pode receber,  e também qual a *ação* que cada objeto deve realizar ao receber uma determinada mensagem.
+E para que os objetos consigam interagir entre si, eles "conversam" uns com os outros através do envio de mensagens e o programador precisa então especificar quais serão as mensagens que cada objeto pode receber e também qual a *ação* que cada objeto deve realizar ao receber uma determinada mensagem.
 
 Então, de uma forma bem resumida, você pode imaginar que neste paradigma temos vários objeto dentro da nossa aplicação e para que um objeto se comunique com outro, ele envia uma mensagem ao destinatário e, opcionalmente, ainda é possível... passar algumas informações adicionais, que são os parâmetros.
 
@@ -54,10 +52,7 @@ Uma vez enviada uma mensagem, o objeto que a recebeu executa todas as ações co
 Tudo bem. Vamos a um exemplo um pouquinho mais prático que fica mais fácil de entender, beleza?
 Imagine que você está desenvolvendo um software... pra uma locadora de carros.
 
-
-
-Bom, você precisa partir do pressuposto que o computador...
-não conhece nada a respeito do nosso mundo real... e você vai ter que explicar pra ele como funciona uma Locadora.
+Bom, você precisa partir do pressuposto que o computador... não conhece nada a respeito do nosso mundo real... e você vai ter que explicar pra ele como funciona uma Locadora.
 
 Mas o nosso software não precisa de *todos* os detalhes, né? A gente pode omitir as informações que não são relevantes. Dessa forma, podemos criar um *modelo* que... *representa* o funcionamento de uma Locadora do nosso mundo real mas de uma forma mais... simplificada, só com o que é realmente essencial.
 Então, nos precisamos representar... algo similar a isso aqui ó:
@@ -80,25 +75,23 @@ Então, logo de cara eu já consigo enxergar esses 3 tipos de objetos que vão r
 - A Locadora
 - E o Locatário
 
-Como já disse pra vocês, nesse nosso mundo virtual, a forma de comunicação entre os objetos se passa através de troca de mensagens.
+E como já disse, nesse nosso mundo virtual, a forma de comunicação entre os objetos se passa através de troca de mensagens.
 Com esses 3 tipos de objetos que mostrei pra vocês, como será que eles conversariam dentro do nosso sistema?
 
 Bom, eu imagino que vá ser algo muito similar a representação que fiz anteriormente:
 O Locatário iria enviar uma mensagem para a Locadora, solicitando o aluguel de um carro.
 O título dessa mensagem poderia ser algo como... "alugarCarro".
 
-E ao receber essa mensagem, a Locadora vai verificar se possui algum veiculo disponível, e se tiver, irá disponibilizar este carro para o Locatário.
-
-Como eu já disse, toda vez que um objeto envia uma mensagem ele pode receber algum *retorno* de volta.
+Ao receber essa mensagem, a Locadora vai verificar se possui algum veiculo disponível, e se tiver, irá disponibilizar este carro para o Locatário.
+E toda vez que um objeto envia uma mensagem ele pode receber algum *retorno* de volta.
 Neste nosso caso, o retorno da mensagem "alugarCarro" poderia ser um Objeto que representa... o carro alugado.
 
 Acho que esta seria uma representação adequada de como mais ou menos funciona no mundo real, certo?
-Claro que existem diversas outras formas de modelar este mesmo problema.
-Esta foi apenas a forma como EU imaginei, mas pode ser que você encontre outras maneiras.
+Claro que existem diversas outras formas de modelar este mesmo problema. Esta foi apenas a forma como EU imaginei, mas pode ser que você encontre outras maneiras.
 
 *** Ta, falando assim fica fácil né... mas ainda não entendi direito como vou implementar isso na prática...
 
-Sei que esse exemplo ainda ta bem simples, e a representação... um pouco abstrata demais, e vou apresentar pra vocês outros exemplos mais interessantes mais pra frente.
+Sei que esse exemplo ainda ta bem simples, e a representação... um pouco abstrata demais. Eu vou apresentar pra vocês outros exemplos mais interessantes mais pra frente.
 Esse primeiro exemplo foi só pra vocês entenderem que na orientação a objetos, o ideal é sempre tentar elaborar a representação da forma mais natural e próxima da nossa realidade possível, beleza?
 
 *** Ok... Mas como é que eu crio esses objetos ai?!
@@ -108,10 +101,11 @@ O que são Classes.
 
 *** Nossa, finalmente hein.
 
-Hahaha é. Demorou um pouco né? Mas agora a gente já tem uma boa base pra conversar sobre isso. Maaaasss... isso vai ter que ficar.. para o próximo video, tudo bem?!
+Hahaha é. Demorou um pouco né? E agora a gente já tem uma boa base pra conversar sobre isso. 
+Maaaasss... isso vai ter que ficar.. para o próximo video, tudo bem?!
 
 Então é isso ai.
-Bom pessoal, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai, dar um like nesse video e de me seguir lá no twitter, beleza?!
+Bom pessoal, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai, dar um like nesse video e de me seguir lá no twitter e no facebook, beleza?!
 Até mais!
 
 *** O Locatário envia uma mensagem pra Locadora.
