@@ -1,0 +1,312 @@
+0:00:00.650,0:00:06.690
+E ai pessoal! Meu nome é Marcio e você 
+está assistindo ao episódio piloto deste
+novo canal na internet.
+
+0:00:06.690,0:00:10.139
+Nesta primeira série de videos nós vamos 
+conversar um pouco sobre os conceitos
+
+0:00:10.139,0:00:14.070
+básicos por trás da 
+Programação Orientada a Objetos.
+
+
+0:00:14.070,0:00:20.039
+Este é um tema bastante extenso e eu 
+poderia passar dias falando sobre 
+cada detalhe mas o objetivo aqui
+
+0:00:20.039,0:00:23.789
+é dar um ponta pé inicial e introduzir
+os principais conceitos de uma forma
+
+0:00:23.789,0:00:28.260
+simples e clara. Para facilitar as coisas
+eu vou dividir o conteúdo em uma série 
+
+0:00:28.260,0:00:31.800
+de pequenos vídeos, ta?
+Depois de assistir a todos eles você
+
+0:00:31.800,0:00:35.100
+deve ter uma base sólida o suficiente
+para ser capaz de continuar seus estudos
+
+0:00:35.100,0:00:40.170
+com temas mais avançados
+através de outras fontes, beleza?
+
+0:00:40.170,0:00:43.649
+A principal motivação para criar este conteúdo
+foi o fato de não encontrar muito
+
+0:00:43.649,0:00:48.239
+material de boa qualidade e em português
+que servisse como uma porta de entrada
+
+0:00:48.239,0:00:52.020
+para este tema.
+Existem muitos artigos, muitos livros que
+
+0:00:52.020,0:00:56.280
+partem direto para tópicos como
+padrões de projetos, boas práticas de
+
+0:00:56.280,0:01:01.879
+programação, refatoração de código e
+tudo isso é muito importante né
+
+0:01:01.879,0:01:05.430
+mas sem ter uma boa base teórica sobre o
+assunto
+
+0:01:05.430,0:01:09.420
+o estudo destes temas se tornam pouco
+produtivos e até um pouco
+
+0:01:09.420,0:01:13.080
+desestimulante às vezes.
+Então meu objetivo com essa série de
+
+0:01:13.080,0:01:17.130
+vídeos é tentar suprir esta
+deficiência.
+
+0:01:17.130,0:01:19.979
+Bom, para uma boa compreensão você não precisa ter
+muitos conhecimentos prévios sobre o
+
+0:01:19.979,0:01:23.670
+tema mas é interessante que já tenha
+tido alguma experiência com algum tipo
+
+0:01:23.670,0:01:26.970
+de programação.
+Se você desenvolveu algum softwares em
+
+0:01:26.970,0:01:30.200
+qualquer linguagem de programação deve
+ter o conhecimento necessário para
+
+0:01:30.200,0:01:36.390
+acompanhar sem problemas. Mas na verdade
+neste vídeo a gente ainda não vai
+
+0:01:36.390,0:01:38.939
+conversar sobre programação orientada
+a objetos.
+
+0:01:38.939,0:01:44.009
+Primeiro vamos abordar um tema anterior.
+Hoje vou falar sobre o que é um
+
+0:01:44.009,0:01:49.200
+paradigma de programação. Porque antes
+de falar sobre programação orientada a
+
+0:01:49.200,0:01:51.299
+objetos é preciso entender o conceito de
+
+0:01:51.299,0:01:56.810
+paradigma de programação. Então,
+bora começar?!
+
+0:01:57.409,0:02:03.180
+Paradigmas de programação são formas ou
+modelos de como implementar softwares.
+
+0:02:03.180,0:02:07.649
+Você pode encarar o conceito de
+paradigma como sendo a abstração da
+
+0:02:07.649,0:02:12.940
+estrutura básica que direciona a forma
+de pensamento na atividade
+
+0:02:12.940,0:02:18.100
+desenvolvimento de software. 
+
+0:02:18.100,0:02:23.920
+Pera ai Marcio, já não to entendendo 
+mais nada do que você ta falando cara...
+
+0:02:23.920,0:02:28.960
+Calma. O que eu quero dizer é que um
+mesmo problema pode ser resolvido 
+utilizando diversas abordagens diferentes 
+
+0:02:28.960,0:02:33.940
+e dependendo da situação um 
+determinado paradigma uma determinada
+forma de abstração e representação
+
+0:02:33.940,0:02:37.750
+do problema pode trazer vantagens ou
+desvantagens.
+
+0:02:37.750,0:02:42.460
+A programação orientada a objetos é
+um dos diversos paradigmas programação
+
+0:02:42.460,0:02:47.980
+existentes ou seja é uma das formas de
+encarar e organizar nossas idéias para
+
+0:02:47.980,0:02:51.460
+abordar o problema é que a gente quer
+resolver.
+
+0:02:51.460,0:02:54.420
+Mas cara, quais são então os 
+paradigmas existentes?
+
+0:02:54.460,0:02:55.420
+Programação Orientada a objetos
+é o MELHOR deles, né?
+
+0:02:55.420,0:03:01.030
+Existem vários paradigmas.
+E Não. Programação Orientada
+
+0:03:01.030,0:03:05.500
+a Objetos não é nem melhor nem pior 
+que os demais. É importante ter 
+
+0:03:05.500,0:03:10.690
+em mente que não existe uma abordagem 
+que seja perfeita para todos 
+
+0:03:10.690,0:03:14.170
+os tipos de problemas.
+Desenvolver um software de inteligência
+
+0:03:14.170,0:03:17.530
+artificial para  previsão do
+tempo provavelmente vai
+
+0:03:17.530,0:03:21.520
+exigir uma abordagem completamente
+diferente da utilizada pra desenvolver
+
+0:03:21.520,0:03:24.930
+um site na internet por exemplo.
+
+0:03:26.430,0:03:30.040
+E hoje em dia podemos dizer que existem
+cinco principais paradigmas de
+
+0:03:30.040,0:03:36.450
+programação: procedural, imperativo
+orientada a objetos, funcional e o
+
+0:03:36.450,0:03:41.860
+lógico. A gente vai abordar apenas um
+deles mas é importante saber que uma
+
+0:03:41.860,0:03:45.640
+linguagem de programação não precisa
+necessariamente se restringir apenas um
+
+0:03:45.640,0:03:49.330
+desses paradigmas.
+Existem várias linguagens que permitem
+
+0:03:49.330,0:03:54.489
+que o programador misture dois ou até
+mesmo vários paradigmas livremente.
+
+0:03:54.489,0:03:58.950
+Este tipo de linguagem são chamadas de
+
+0:04:00.690,0:04:05.560
+Um exemplo é a linguagem escala.
+Ela permite que você misture programação
+
+0:04:05.560,0:04:09.940
+interativa, orientada a objetos e
+funcional.
+
+0:04:09.940,0:04:15.840
+Outros exemplos de linguagens multiparadigma 
+são: Java, C#, Swift, C++, Visual Basic, 
+
+0:04:15.840,0:04:22.380
+Common Lisp e muitas outras.
+
+0:04:22.380,0:04:26.260
+E exemplos de linguagens consideradas
+estritamente orientadas a objetos
+
+0:04:26.260,0:04:33.940
+seriam Smalltalk, NewtonScript, Self, 
+IO, entre outras.
+
+0:04:33.940,0:04:39.880
+Pow Marcio, mas eu achava que Java e C# 
+fossem orientadas a objetos!
+
+0:04:39.880,0:04:45.030
+É, a gente pode dizer que as linguagens 
+como Java e C# são predominantementes
+
+0:04:45.030,0:04:49.630
+orientadas a objetos já que na maior
+parte do tempo é esse paradigma que
+
+0:04:49.630,0:04:54.970
+você mais vai usar enquanto estiver
+programando nessas linguagens.
+
+0:04:54.970,0:04:58.390
+Mas cada vez mais as pessoas estão 
+começando a misturar os paradigmas
+
+0:04:58.390,0:05:02.770
+principalmente funcional.
+
+0:05:02.770,0:05:06.610
+Então é isso pessoal.
+Sei que esse é um tema bem abstrato mas
+
+0:05:06.770,0:05:07.610
+acho que agora você já tem pelo menos
+
+0:05:07.610,0:05:11.590
+uma noção do que é um paradigma de
+programação, né? E com isso chegamos ao
+
+0:05:11.590,0:05:15.820
+final desta primeira videoaula.
+Nos próximos vídeos vou definir o que é
+
+0:05:15.820,0:05:19.420
+a programação orientada a objetos,
+vou contar um pouco da história da onde
+
+0:05:19.420,0:05:22.780
+surgiu esta ideia e daqui a alguns
+vídeos a gente vai conversar sobre
+
+0:05:22.780,0:05:28.870
+tópicos como o que são classes,
+métodos, construtores, polimorfirmo
+
+0:05:28.870,0:05:34.540
+e muitos outros temas bacanas da
+programação orientada a objetos.
+
+0:05:34.540,0:05:37.540
+E se você curtiu seu primeiro episódio
+piloto e quer que eu continue fazendo
+
+0:05:37.540,0:05:45.389
+mais videoaulas, se inscreve aí no canal
+dá um like neste vídeo e... até a próxima!
+
+0:05:56.820,0:06:05.830
+Pow cara, esse negócio é muito louco!
+Vou aprender tudo as paradas aí de
+
+0:06:05.830,0:06:08.090
+de programação e tal. Da hora!
