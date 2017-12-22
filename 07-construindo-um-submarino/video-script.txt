@@ -1,0 +1,65 @@
+E se fossemos engenheiros?...
+
+E se a construção de um Submarino fosse como a de um Software?
+
+c = cliente
+d = desenvolvedor
+
+c: Boa tarde.
+d: Boa tarde, em que posso ajuda-lo?
+c: Estou precisando construir um Submarino customizado, vocês aqui conseguem fazer isso?
+d: Já construímos alguns sim. Você tem as especificações que precisa?
+c: Tenho sim, mas, olha... é coisa bem simples.. só precisamos de um submarino mesmo. Quanto tempo você demora pra me entregar?
+d: Bom, depende do que você precisa exatamente...
+c: É só assim.. um submarino mesmo, sabe? Quanto tempo demora?
+d: Então... o último submarino customizado que construímos demorou 6 meses. Mas como eu disse, preciso de mais informações pra saber o que você precisa exatamente...
+c: Ah não... 6 meses é muito tempo! Preciso disso pra daqui 1 mês no máximo.
+d: 1 mês!.. nesse tempo a gente conseguiria construir só um prototipo funcional pra você.
+c: Mas ele vai funcionar?
+d: Sim... mas vai ser bem limitado. Algo bem experimental mesmo. Um submarino bem pequeno, pra uma pessoa apenas. E talvez consiga submergir até uns 10 metros mais ou menos...
+c: Fechado então! Vou conversar com meu diretor e já te retorno.
+d: OK
+
+[1 dia depois pelo telefone]
+
+c: Bom dia Marcio! 
+d: Bom dia, tudo bom?
+c: Tudo ótimo! Conversei com o diretor aqui e ele topou!
+d: Ótimo, então vamos começar a correr com o projeto aqui.
+c: Só tem uma coisa... ele já confirmou uma apresentação pra daqui 2 semanas... em um evento que já estava marcado, então precisa estar pronto daqui 15 dias. Mas dá tempo né?
+d: Duas semanas?! Apresentação em evento, como assim cara?!
+c: É que ele achou que 1 mês era muito tempo e esse evento já estava marcado a uns 6 meses. Mas acho que da tempo né?
+d: Eu vou fazer o possível aqui, mas.. não garanto nada.
+
+[1 semana depois pessoalmente]
+
+c: Boa tarde Marcio. E então? Tudo pronto já?
+d: Já temos a base pronta sim. Semana que vem começamos os testes na água.
+c: Ótimo, ótimo. Durante apresentção o Diretor quer entrar no submarino junto com alguns reporteres e alguns clientes em potencial.
+d: Como assim!? Eu tinha te falado que só vai caber uma pessoa nesta versão do Submarino, lembra??
+c: Verdade né? Ah, mas é só apertar um pouco né. Não tem como você só deixar ele um pouco mais largo?
+d: Faltando uma semana? Não tem como a gente aumentar tanto a especificação agora...
+c: Bom, no dia lá a gente dá um jeito!
+d: Ok...
+
+[Faltando um dia para apresentação]
+
+c: Vimos a pré-apresentação e ficou muito bom! Parabéns!
+d: Ótimo. Desculpe pelas falhas mas ainda estamos terminando alguns ajustes.
+c: Tudo bem. Bom, então está tudo certo pra apresentação amanhã né?
+d: Sim sim. Pode ficar ficar tranquilo. Estamos apenas repassando alguns testes para ter certeza que não vamos ter problemas.
+c: Ok. Bom, o diretor mudou um pouco os planos da apresentação. Ele quer dar uma volta em torno do nosso prédio.
+d: Dar uma volta em torno do prédio? Como assim?
+c: É. Ele quer sobrevoar a região, pra que mais pessoas possam ver.
+d: Como assim? Não to entendendo direito.
+c: É... Ele pensou em sairmos do pier que tem alguns quilometros daqui, vir voando até aqui perto do prédio e depois voltar para o pier.
+d: Vir... voando??
+c: É! Foi uma ideia que ele teve para destacar mais nosso produto.
+d: Pera ai... calma... vamos devagar. A gente produziu um SUBMARINO...
+c: Sim, claro. Por isso vamos sair do pier.
+d: Isso. Vamos fazer igual a pré-apresentação que fizemos ontem, certo? Saímos do pier, submergimos uns 5 metros por alguns minutos e depois voltamos para superfície.
+c: Sim sim, isso. Só que depois de voltar pra superfície ele quer mostrar também que é possível voar por alguns quilometros.
+d: Cara, calma. A gente desenvolveu um SUBMARINO e não um AVIÃO...
+c: Claro, claro. Eu sei disso. Aviões são muito caros né... Nosso concorrente tem um... a gente chegou a pensar em fazer um avião, mas ia ficar MUITO caro... e além do mais eles gastam muito combustível! Por isso optamos por fazer um submarino. Pq aí além de poder voar a gente pode até submergir também né?
+d: Ah?! Submarinos. NÃO. VOAM!
+c: Como assim?! Claro que voam!
