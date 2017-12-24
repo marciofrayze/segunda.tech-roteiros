@@ -1,13 +1,12 @@
-Começando a Terminar - #03
 Introdução a Programação Orientada a Objetos - Parte 3 - Conceitos básicos
 
-E ai pessoal!
-Meu nome é Marcio e você está assistindo ao terceiro episódio deste novo canal na internet.
-No primeiro vídeo a gente definiu o que são paradigmas de programação, no segundo eu contei pra vocês um pouquinho da história da programação orientada a objetos e agora, neste terceiro vídeo desta série, vamos conversar sobre 2 temas:
+E aí pessoal!
+Meu nome é Marcio e você está assistindo a mais um vídeo deste novo canal na internet.
+Este é o terceiro episódio sobre orientação a objetos. No primeiro deles a gente definiu o que são paradigmas de programação, no segundo eu contei pra vocês um pouquinho da história da programação orientada a objetos e agora, neste terceiro vídeo desta série, vamos conversar sobre 2 temas:
 Primeiro, os motivos que levaram a criação deste paradigma e em seguida vamos começar a falar sobre alguns conceitos básicos da programação orientada a objetos.
 Então... Bora começar?!
 
-Com a evolução da computação, os sistemas foram ficando maiores e mais complexos. E ai... ficava cada vez mais difícil organizar o código-fonte dos softwares. Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e muitas vezes os sistemas cresciam de forma... insustentável.
+Com a evolução da computação, os sistemas foram ficando maiores e mais complexos. E aí... ficava cada vez mais difícil organizar o código-fonte dos softwares. Aos poucos as limitações da forma como os programadores estruturavam seus códigos foram aparecendo e muitas vezes os sistemas cresciam de forma... insustentável.
 
 Os programas começavam bem, iam crescendo, aí aparecia um bug aqui, outro ali, até que chegava um momento que os desenvolvedores começavam a literalmente sofrer para conseguir estender e dar manutenção nos sistemas maiores.
 Em situações como essa, qualquer pequena alteração no código pode trazer impactos inesperados em diversas outras partes do sistema.
