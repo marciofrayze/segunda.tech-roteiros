@@ -1,0 +1,18 @@
+Meu primeiro código!
+
+// Este programa calcula o IMC do usuário
+alert("Bem-vindo ao programa de calculo de IMC!")
+let nome = prompt("Qual seu nome?")
+let peso = prompt("Qual seu peso em quilos?")
+let altura = prompt("Qual sua altura em metros?")
+let imc = calcularValorArredondadoIMC(peso, altura)
+
+// Vamos exibir uma mensagem formatada como o seguinte exemplo:
+// Marcio, o valor do seu IMC é: 21
+alert(nome + ", o valor do seu IMC é: " + imc)
+
+function calcularValorArredondadoIMC(peso, altura) {
+    let imc = peso / (altura * altura)
+    let imcArredondado = Math.round(imc)
+    return imcArredondado
+}
