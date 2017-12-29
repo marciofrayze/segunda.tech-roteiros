@@ -16,3 +16,15 @@ function calcularValorArredondadoIMC(peso, altura) {
     let imcArredondado = Math.round(imc)
     return imcArredondado
 }
+
+Minha primeira função
+
+function valorEstaEntre(valor, menorNumero, maiorNumero) {
+    if (valor > menorNumero && valor < maiorNumero) {
+        return true
+    } else {
+        return false
+    }
+}
+
+alert(valorEstaEntre(3, 2, 4))
