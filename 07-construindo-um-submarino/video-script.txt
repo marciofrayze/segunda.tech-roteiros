@@ -1,6 +1,4 @@
-E se fossemos engenheiros?...
-
-E se a construção de um Submarino fosse como a de um Software?
+E se a construção de um submarino fosse como a de um software?
 
 c = cliente
 d = desenvolvedor
@@ -8,7 +6,7 @@ d = desenvolvedor
 c: Boa tarde.
 d: Boa tarde, em que posso ajuda-lo?
 c: Estou precisando construir um Submarino customizado, vocês aqui conseguem fazer isso?
-d: Já construímos alguns sim. Você tem as especificações que precisa?
+d: Já construímos alguns sim. Você tem as especificações do que precisa?
 c: Tenho sim, mas, olha... é coisa bem simples.. só precisamos de um submarino mesmo. Quanto tempo você demora pra me entregar?
 d: Bom, depende do que você precisa exatamente...
 c: É só assim.. um submarino mesmo, sabe? Quanto tempo demora?
@@ -36,8 +34,8 @@ d: Eu vou fazer o possível aqui, mas.. não garanto nada.
 c: Boa tarde Marcio. E então? Tudo pronto já?
 d: Já temos a base pronta sim. Semana que vem começamos os testes na água.
 c: Ótimo, ótimo. Durante apresentção o Diretor quer entrar no submarino junto com alguns reporteres e alguns clientes em potencial.
-d: Como assim!? Eu tinha te falado que só vai caber uma pessoa nesta versão do Submarino, lembra??
-c: Verdade né? Ah, mas é só apertar um pouco né. Não tem como você só deixar ele um pouco mais largo?
+d: Como assim!? Eu tinha te falado que só vai caber uma pessoa nesta versão do submarino, lembra??
+c: Verdade né? Ah, mas é só apertar um pouco né. E não tem como você só deixar ele um pouco mais largo?
 d: Faltando uma semana? Não tem como a gente aumentar tanto a especificação agora...
 c: Bom, no dia lá a gente dá um jeito!
 d: Ok...
@@ -60,6 +58,6 @@ c: Sim, claro. Por isso vamos sair do pier.
 d: Isso. Vamos fazer igual a pré-apresentação que fizemos ontem, certo? Saímos do pier, submergimos uns 5 metros por alguns minutos e depois voltamos para superfície.
 c: Sim sim, isso. Só que depois de voltar pra superfície ele quer mostrar também que é possível voar por alguns quilometros.
 d: Cara, calma. A gente desenvolveu um SUBMARINO e não um AVIÃO...
-c: Claro, claro. Eu sei disso. Aviões são muito caros né... Nosso concorrente tem um... a gente chegou a pensar em fazer um avião, mas ia ficar MUITO caro... e além do mais eles gastam muito combustível! Por isso optamos por fazer um submarino. Pq aí além de poder voar a gente pode até submergir também né?
+c: Claro. Eu sei disso. Aviões são muito caros né..... Nosso concorrente tem um... a gente chegou a pensar em fazer um avião, mas ia ficar MUITO caro... e além do mais eles gastam muito combustível! Por isso optamos por fazer um submarino. Porque aí além de poder voar a gente pode até submergir também né?
 d: Ah?! Submarinos. NÃO. VOAM!
 c: Como assim?! Claro que voam!
