@@ -1,23 +1,30 @@
-Começando a Terminar - #05
 Introdução a Programação Orientada a Objetos - Parte 5 - Construtores
 
 E ai pessoal!
-Meu nome é Marcio e você está assistindo ao quinto episódio deste novo canal na internet.
-Nos videos anteriores eu apresentei pra vocês alguns conceitos básicos da programação orientada a objetos, incluindo O que são Objetos, Classes, Atributos e Métodos, certo?
+Meu nome é Marcio e você está assistindo a mais um vídeo deste novo canal na internet.
+Este é o quinto episódio da série sobre programação orientada a objetos.
+Nos videos anteriores eu apresentei pra vocês alguns conceitos básicos deste paradigma, incluindo O que são Objetos, Classes, Atributos e Métodos, certo?
 No video de hoje além desses temas, a gente ainda vai abordar um tópico novo. Vamos conversar um pouco sobre O que são e pra que servem os Construtores.
 Então... Bora começar?!
 
-Bom, como eu já falei antes pra vocês, os Objetos são criados a partir das Classes, sendo que as classes contém um conjunto de especificações que descrevem as características ou atributos. E dentro das classes temos também os métodos, que descrevem as ações. Mas além dessas definições, a gente também precisa explicitar no nosso código exatamente *como*, dentro do nosso software, o computador deve criar nossos objetos.
+Bom, como eu já falei antes pra vocês, os Objetos são criados a partir das Classes, sendo que as classes contém um conjunto de especificações que descrevem as características ou atributos. E dentro das classes temos também os métodos, que descrevem as ações. 
 
-Pra isso temos que codificar um *Construtor* na nossa classe. É a partir dele que nosso software vai saber como criar um objeto através de uma classe. Então o construtor nada mais é um trecho de código, muito similar aos métodos. A grande diferença é que o construtor sempre vai ser executado automaticamente quando um novo objeto for criado.
+Mas além dessas definições, a gente também precisa descrever no nosso código exatamente *como*, dentro do nosso software, o computador deve criar nossos objetos.
+
+Pra isso temos que codificar um *Construtor* na nossa classe. É a partir dele que nosso software vai saber como criar um objeto através de uma classe. 
+
+Então o construtor nada mais é um trecho de código, muito similar aos métodos. A grande diferença é que o construtor sempre vai ser executado automaticamente quando um novo objeto for criado.
 
 E o contrutor já tem um nome pré definido, que varia de linguagem pra linguagem. Em Java por exemplo, o construtor deve obrigatoriamente ter o mesmo nome da Classe. Já na linguagem de programação Ruby, o construtor deve se chamar initialize.
+
 Então, cada linguagem tem o seu padrão, mas em geral o comportamento é o mesmo:
 Nada mais é do que o primeiro trecho de código a ser executado automaticamente assim que um novo Objeto é criado.
 
 E o construtor, assim como os métodos, também pode receber parâmetros. Mas uma grande diferença entre o construtor e os demais métodos é que nos métodos a gente pode definir o retorno como sendo qualquer coisa que a gente quiser, ou mesmo definir que o método não vai retornar nada. Já o Construtor sempre retorna uma referência para o novo objeto que foi criado.
 
-Bom, lembra daquele exemplo que eu falei no video anterior, onde a gente definiu a Classe Cachorro? Eu tinha sugerido alguns possíveis atributos e métodos pra esse Classe, né? Como por exemplo os atributos nome, data de nascimento, a cor do pelo, etc. Então... se eu fosse criar um construtor pra essa classe, eu provavelmente iria permitir que fossem passados os valores desses atributos como parâmetros no meu construtor.
+Bom, lembra daquele exemplo que eu falei no vídeo anterior, onde a gente definiu a Classe Cachorro? Eu tinha sugerido alguns possíveis atributos e métodos pra esse Classe, né? Como por exemplo os atributos nome, data de nascimento, a cor do pelo, etc. 
+
+Então... se eu fosse criar um construtor pra essa classe, eu provavelmente iria permitir que fossem passados os valores desses atributos como parâmetros no meu construtor.
 
 Dessa forma, um novo Objeto do tipo Cachorro poderia ser criado mais ou menos assim:
 var cachorro := novo Cachorro("Rex", "05/04/2014", "preto")
@@ -41,7 +48,9 @@ E por ai vai.
 
 O que eu quero mostrar com isso é que a sintaxe pode variar de uma linguagem de programação pra outra, mas em geral o principio é o mesmo. Por isso, sempre que possível aqui nos vídeos, eu vou tentar explicar os assuntos mostrando mais a parte conceitual. E você vai ter que saber como adaptar essas ideias pra sua linguagem de programação preferida, beleza?
 
-Prefiro fazer assim pq tem gente que quer aprender Java, outros C#, outros Ruby, Python... E meu objetivo aqui não ensinar uma linguagem de programação, mas sim, explicar os *conceitos* por trás do paradigma de orientação a objetos. Só assistir os meus vídeos provavelmente não vai ser suficiente pra você sair programando por ai, mas com certeza o conhecimento que você está adquirindo aqui vai te ajudar bastante na hora de estudar sua linguagem de programação orientada a objetos preferida, beleza?
+Prefiro fazer assim pq tem gente que quer aprender Java, outros C#, outros Ruby, Python... E meu objetivo aqui não é ensinar uma linguagem de programação, mas sim, explicar os *conceitos* por trás do paradigma de orientação a objetos. 
+
+Só assistir os meus vídeos provavelmente não vai ser suficiente pra você sair programando por ai, mas com certeza o conhecimento que você está adquirindo aqui vai te ajudar bastante na hora de estudar sua linguagem de programação orientada a objetos preferida, beleza?
 
 Bom, então voltando pra nossa classe Cachorro...
 Acho que as ideias estão começando a clarear um pouco pra você, né?
@@ -49,8 +58,10 @@ Acho que as ideias estão começando a clarear um pouco pra você, né?
 *** Mano... mais ou menos né... Até entendi um pouco, mas ainda não faço ideia de como
 *** criar uma classe, na prática...
 
-Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementação de toda essa nossa classe Cachorro. Incluindo os atributos, um método e o nosso construtor. Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
-Mas pessoal, presta atenção pq agora vai ficar um pouco mais complicado, blz?
+Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementação de toda essa nossa classe Cachorro. Incluindo os atributos, um método e o nosso construtor. 
+
+Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
+Mas pessoal, presta atenção porque agora vai ficar um pouco mais complicado, blz?
 Então... vamo la!
 
 Classe Cachorro {
