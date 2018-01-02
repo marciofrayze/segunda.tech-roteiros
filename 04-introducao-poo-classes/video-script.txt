@@ -2,9 +2,9 @@ Introdução a Programação Orientada a Objetos - Parte 4 - Classes
 
 E ai pessoal!
 Meu nome é Marcio e você está assistindo a mais um vídeo deste novo canal na internet.
-Este é o quarto episódio da série sobre Programação Orientada a Objetos.
+Este é o quarto episódio da série sobre programação orientada a objetos.
 Hoje a gente vai começar a falar de alguns conceitos um pouco mais complicados e o conteúdo vai ficar um pouquinho mais difícil de acompanhar...
-Então... presta bastante atenção aí porque o tema desta videoaula será: O que são Classes?
+Então... presta bastante atenção aí porque o tema desta videoaula é: O que são Classes?
 Bora começar?!
 
 No vídeo anterior a gente começou a conversar sobre alguns conceitos básicos e eu contei pra vocês que no paradigma orientado a objetos o programador fica responsável por criar uma espécie de mundo virtual... que de certa forma tenta modelar e descrever uma representação do problema que ele quer resolver.
