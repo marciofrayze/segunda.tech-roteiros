@@ -33,7 +33,7 @@ d: Eu vou fazer o possível aqui, mas.. não garanto nada.
 
 c: Boa tarde Marcio. E então? Tudo pronto já?
 d: Já temos a base pronta sim. Semana que vem começamos os testes na água.
-c: Ótimo, ótimo. Durante apresentção o Diretor quer entrar no submarino junto com alguns reporteres e alguns clientes em potencial.
+c: Ótimo, ótimo. Durante apresentação o Diretor quer entrar no submarino junto com alguns reporteres e alguns clientes em potencial.
 d: Como assim!? Eu tinha te falado que só vai caber uma pessoa nesta versão do submarino, lembra??
 c: Verdade né? Ah, mas é só apertar um pouco né. E não tem como você só deixar ele um pouco mais largo?
 d: Faltando uma semana? Não tem como a gente aumentar tanto a especificação agora...
@@ -45,7 +45,7 @@ d: Ok...
 c: Vimos a pré-apresentação e ficou muito bom! Parabéns!
 d: Ótimo. Desculpe pelas falhas mas ainda estamos terminando alguns ajustes.
 c: Tudo bem. Bom, então está tudo certo pra apresentação amanhã né?
-d: Sim sim. Pode ficar ficar tranquilo. Estamos apenas repassando alguns testes para ter certeza que não vamos ter problemas.
+d: Sim sim. Pode ficar tranquilo. Estamos apenas repassando alguns testes para ter certeza que não vamos ter problemas.
 c: Ok. Bom, o diretor mudou um pouco os planos da apresentação. Ele quer dar uma volta em torno do nosso prédio.
 d: Dar uma volta em torno do prédio? Como assim?
 c: É. Ele quer sobrevoar a região, pra que mais pessoas possam ver.
