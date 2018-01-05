@@ -6,8 +6,11 @@ Este é o sexto episódio da série sobre programação orientada a objetos.
 No vídeo anterior eu apresentei pra vocês o que é e pra que servem os Construtores.
 E antes disso, a gente já tinha conversado sobre o que são objetos, classes, atributos e métodos, certo?
 
-No vídeo de hoje eu não vou introduzir nenhum conceito novo.
-Achei melhor eu mostrar mais um exemplo, dessa vez de uma forma um pouco mais aprofundada, pra que a gente possa conversar um pouco mais que que assim esses conceitos fiquem mais claros pra todo mundo, beleza?
+Achei melhor mostrar mais um exemplo pra que a gente possa conversar um pouco mais que que assim os conceitos que a gente já viu até agora fiquem mais claros pra todo mundo.
+Mas no vídeo de hoje eu já vou começar também a introduzir o conceito de *agregação*, beleza?
 Então... Bora começar?!
 
-Hoje a gente vai modelar 
+Hoje a gente vai modelar uma livraria. Vai ser uma representação *bem* simplificada, só pra gente exercitar um pouco alguns conceitos, beleza?
+
+Bom, como funciona uma biblioteca no nosso mundo real? Quais são os agentes envolvidos?
+Uma biblioteca vai precisar ter uma coleção de livros, certo? E pelo menos um bibliotecário. E também alguma forma de cadastro de usuários da biblioteca.
