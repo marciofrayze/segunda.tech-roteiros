@@ -1,6 +1,6 @@
 Introdução a Programação Orientada a Objetos - Parte 4 - Classes
 
-E ai pessoal!
+E aí pessoal!
 Meu nome é Marcio e você está assistindo a mais um vídeo deste novo canal na internet.
 Este é o quarto episódio da série sobre programação orientada a objetos.
 Hoje a gente vai começar a falar de alguns conceitos um pouco mais complicados e o conteúdo vai ficar um pouquinho mais difícil de acompanhar...
@@ -53,13 +53,14 @@ E o jogo se passaria através da interação entre esses diversos objetos, onde 
 
 *** Ahhh entendi! Então é simples pow, um objeto é só uma representação de um item na tela né?
 
-NÃO, é um pouco mais complexo que isso. Este exemplo é interessante porque nós conseguimos visualizar facilmente os objetos.
-Mas... nem sempre é assim. MUITAS vezes os Objetos que temos que criar são entidades *bem* mais abstratas, mas ainda assim são definidas através de Classes.
+NÃO, é um pouco mais complexo que isso. 
+Este exemplo é interessante porque nós conseguimos visualizar facilmente os objetos.
+Mas... nem sempre é assim. MUITAS vezes os Objetos que temos que criar são entidades *bem* mais abstratas, que não tem nada a ver com a interface visual, mas ainda assim são definidas através de Classes.
 
 http://images.freeimages.com/images/previews/fff/piggy-bank-1238584.jpg
 
 Por exemplo, e se ao invés de um jogo estivéssemos desenvolvendo um software pra controlar todo o sistema de um banco.
-Teríamos que especificar em algum lugar deste sistema o conceito de... Correntista, por exemplo, que nada mais é do que a representação das pessoas que possuem contas correntes neste banco, certo?
+Teríamos que especificar em algum lugar deste sistema o conceito de... Correntista, por exemplo, que nada mais é do que a representação das pessoas que possuem contas corrente neste banco, certo?
 
 Mas... o que são contas correntes? Bom, eu vou ter que definir também esse conceito dentro do meu sistema. E como estamos utilizando o paradigma orientado a objetos, a conta corrente também seria especificada através de uma Classe.
 Deu pra começar a entender?
@@ -82,7 +83,7 @@ Os atributos definem as propriedades ou características dos objetos.
 Já os métodos, descrevem as *ações* que objetos criados a partir dessa classe podem realizar.
 
 Pra ficar um pouco mais fácil de entender esses conceitos, a gente pode fazer uma analogia com a biologia. Imagine que você precise descrever por exemplo o que é um... Cachorro.
-Quais seriam os atributos e os métodos da classe Cachorro.
+Quais seriam os atributos e os métodos da classe Cachorro?
 
 Bom, existe uma infinidade de características que poderíamos citar. Por exemplo:
 Os cachorros normalmente tem um Nome.
@@ -91,7 +92,7 @@ Tem uma cor de pêlo, cor dos olhos, tamanho, peso, entre muitas outras caracter
 
 Bom, tudo isso que citei se encaixaria como sendo *Atributos* da minha classe Cachorro.
 Note que nenhuma dessas coisas representam ações.
-Elas apenas descrevem as *propriedades* que existem em todos os objetos da nossa classe Cachorro. Beleza?
+Elas apenas descrevem as *propriedades* que existem em *todos* os objetos da nossa classe Cachorro. Beleza?
 
 Mas ainda está faltando mais uma coisa pra gente terminar de modelar a nossa representação. Está faltando especificar quais são as *Ações* que nossos cachorros vão poder executar, que seriam os métodos da nossa classe Cachorro.
 
@@ -117,7 +118,7 @@ Aí sim, com o objeto criado, podemos dar um nome pro nosso cachorro, ele finalm
 Bom, a gente ainda vai conversar bastante sobre esses conceitos, mas eu espero que agora você já consiga entender pelo menos o básico sobre o que é uma Classe, o que é um Objeto, o que é um atributo e o que é um método.
 Então por enquanto é isso ai.
 
-E como sempre, caso ainda não esteja seguindo o canal, não esquece de se inscrever ai, 
+E como sempre, caso ainda não esteja seguindo o canal, não esquece de se inscrever aí, 
 dar um like nesse vídeo e de me seguir lá no facebook e twitter, beleza?!
 Até mais!
 
