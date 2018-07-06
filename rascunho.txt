@@ -1,0 +1,7 @@
+Desenvolvimento web front-end: uma visão arquitetural.
+
+Nos últimos anos vimos uma verdadeira revolução no desenvolvimento front-end para web e no centro de tudo isso encontramos a linguagem de programação JavaScript.
+Evoluindo à passos largos, esta tecnologia ainda é a estrutura básica que permite a criação de sites cada vez mais complexos e interativos.
+Para chegar no cenário atual a comunidade de desenvolvedores web fez uma série de experiências explorando as mais diversas formas possíveis. Começamos com sistemas *action based* renderizando todo o conteúdo no *backend* e que com o auxilio de um pouco de código javascript era capaz de gerar páginas com algum conteúdo dinâmico até o desenvolvimento de frameworks com uma arquitetura extremamente complexa. No meio de tudo isso tivemos a criação de conceitos como DOM virtuais, web-components, single page applications, progressive web apps, etc.
+Hoje a arquitetura de uma aplicação front-end pode ser tão ou mais complexa que a utilizada no backend. Por esta razão, este é o primeiro de uma série de artigos onde vou abordar este tema sob uma ótica arquitetural.
+Neste primeiro artigo, vou falar um pouco sobre como funciona uma arquitetura *action-based*. Embora considerada por muitos como algo do passado é importante entendermos como ela funciona, quais são suas vantagens e seus pontos fracos.
