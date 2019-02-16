@@ -1,0 +1,62 @@
+Olá! Meu nome é Marcio e você está ouvindo  o episodio piloto deste novo podcast.
+
+Este é um projeto  que estou criando com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+
+
+Aqui pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
+
+Então, vão aparecer livros sobre programação, arquitetura de software, sobre agilidade e outros temas.
+
+
+A única regra é: cada episódio vou falar sobre um livro que li em um passado recente ou mais distante
+
+e que impactou minha carreira de alguma forma.
+
+
+Mas não vou fazer um resumo nem tentar explicar em detalhes os temas abordados na obra.
+
+Meu objeto principal aqui é estimular a leitura de bons livros.
+
+
+E nesse primeiro episódio escolhi falar sobre o livro JavaScript: The Good Parts.
+
+Cuja tradução para o portugues ganhou o nome de O Melhor Do JavaScript.
+
+Então, bora começar?
+
+
+O autor deste livro é ninguem menos que Douglas Crockford, uma grande referência dentro
+
+do universo do JavaScript.
+
+
+Ele foi criador do formato JSON, da ferramenta JSLint e faz parte do comitê do ECMAScript.
+
+
+Mas, mesmo sendo uma referência na área, Crockford admite que JavaScript não é uma linguagem perfeita.
+
+
+Longe disso, o autor aponta  em vários momentos características que ele considera que foram falhas de design
+
+queira se tornar um
+
+programador JavaScript profissional.
+
+
+Mas ele não é um livro para iniciantes que não sabem nada de JavaScript, ok?
+
+Se você ainda está dando seus primeiros passos, talvez outras
+
+fontes sejam mais produtivas. Aí depois você pode voltar e ler este livro.
+
+
+Então, é isso aí.
+
+Este foi o primeiro episódio deste podcast e espero que você tenha gostado.
+
+
+Se quiser, pode mandar sua opinião, criticas ou sugestões pra mim através
+
+do e-mail marcio@segunda.tech. Blz?
+
+Boa leitura pra você e, até o próximo livro!
