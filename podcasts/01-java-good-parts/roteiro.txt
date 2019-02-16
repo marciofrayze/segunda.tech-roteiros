@@ -36,14 +36,125 @@ Ele foi criador do formato JSON, da ferramenta JSLint e faz parte do comitê do 
 Mas, mesmo sendo uma referência na área, Crockford admite que JavaScript não é uma linguagem perfeita.
 
 
-Longe disso, o autor aponta  em vários momentos características que ele considera que foram falhas de design
-
-queira se tornar um
-
-programador JavaScript profissional.
+Longe disso, o autor aponta  em vários momentos características que ele considera que foram falhas de design.
 
 
-Mas ele não é um livro para iniciantes que não sabem nada de JavaScript, ok?
+E detalhando essas falhas, ele nos guia explicando como evitar aquelas que podem ser contornadas
+
+e como sobreviver, de uma forma um pouco mais saudável, com aquelas outras que infelizmente somos
+
+obrigados a conviver.
+
+
+Um outro ponto que achei bacana deste livro foram as explicações sobre o paradigma utilizado no JavaScript.
+
+Ao contrário da maioria das linguagens que estamos acostumados, ela utiliza o conceito de protótipos.
+
+
+E pra quem, como eu, estudou primeiro linguagens com uma orientação a objetos mais tradicional
+
+baseada em classes, como Java ou C#, entender a diferença entre a orientação a objetos utilizadas
+
+nessas linguagens e a utilizada no JavaScript é FUNDAMENTAL.
+
+
+E felizmente, o autor consegue fazer isso muito bem neste livro.
+
+
+Uma outra coisa interessante são os padrões apresentados no livro.
+
+JavaScript é uma linguagem extremamente flexível e isso trás um grande poder,
+
+mas também uma responsabilidade maior para o desenvolvedor na hora de organizar o seu código.
+
+
+A mesma coisa pode ser feita de diversas formas diferentes
+
+e um programador  inexperiênte pode ficar confuso com isso.
+
+
+Mas o autor explica os principais cenários que todo programador vai
+
+se deparar, e elabora exemplos bem didáticos de como estruturar melhor nossos
+
+sistemas para cada uma dessas situação.
+
+
+Ele aborda ainda outras características que podem ser confusas para os novatos
+
+como o fato das funções no JavaScript serem objetos.
+
+
+Fora tudo isso, até mesmo o capítulo sobre Arrays é super interessante!
+
+
+Quando li o título do capitulo: Arrays, pensei que seria mais do mesmo.
+
+Mas não, ele entre em detalhes sobre como funcionam os Arrays no JavaScript.
+
+
+E se você ainda não sabe, com certeza também deve ficar surpreso ao descobrir
+
+o que rola por baixo dos panos quando você cria um array nesta linguagem!
+
+
+E claro que não vou explicar aqui né, afinal, como falei lá no começo
+
+meu objetivo é justamente incentivar a leitura, e não fazer um resumo dos livros.
+
+
+Bom, mas nem tudo são flores.
+
+Este é um excelente livro, mas tem alguns pontos que preciso chamar atenção.
+
+
+O primeiro e provavelmente mais importante deles, é que ele foi lançado em 2008.
+
+E pra quem acompanha o universo JavaScript sabe que muita coisa nova rolou de lá pra cá.
+
+Mas calma, não desanima não. Ainda assim vale muito a pena ler este livro.
+
+
+Eu só estou chamando atenção pra este fato, pra que você saiba que existem algumas
+
+caracteristicas que estão um pouco ultrapassadas.
+
+
+A maior delas, talvez seja o uso do var para decaclaração das variáveis ao invés
+
+dos mais modernos let e const.
+
+
+Outra coisa é que você não vai encontrar no livro, por este mesmo motivo,
+
+a nova notação para criação de classes, nem as famosas arrow functions...
+
+
+Enfim, este livro não aborda nada do ES6, também conhecido como ECMAScript 2015.
+
+Que nada mais é do que a versão mais moderninha do JavaScript.
+
+Mas como eu disse, isso não tira a beleza do livro, tá?
+
+
+Bom, pra quem eu indicaria este livro?
+
+Pra basicamente qualquer pessoa que já é ou 
+
+queira se tornar JavaScript profissional.
+
+
+Indico fortemente também pra quem tem algum preconceito com a linguagem.
+
+Principalmente pra galera que vem do Java ou .NET.
+
+
+Este livro com certeza vai esclarecer alguns pontos bem importantes sobre o
+
+JavaScript e depois dele comecei a ver esta linguagem com outros olhos.
+
+
+Mas ele não é um livro para iniciantes, que não sabem nada de JavaScript, ok?
 
 Se você ainda está dando seus primeiros passos, talvez outras
 
