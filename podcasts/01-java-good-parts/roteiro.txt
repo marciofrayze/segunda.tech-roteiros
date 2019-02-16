@@ -139,9 +139,9 @@ Mas como eu disse, isso não tira a beleza do livro, tá?
 
 Bom, pra quem eu indicaria este livro?
 
-Pra basicamente qualquer pessoa que já é ou 
+Pra basicamente qualquer pessoa que já trabalha ou 
 
-queira se tornar JavaScript profissional.
+queira se tornar uma desenvolvedora JavaScript.
 
 
 Indico fortemente também pra quem tem algum preconceito com a linguagem.
