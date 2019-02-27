@@ -1,6 +1,6 @@
-Olá! Meu nome é Marcio e você está ouvindo  o episodio piloto deste novo podcast.
+Olá! Meu nome é Marcio e você está ouvindo o episodio piloto deste novo podcast.
 
-Este é um projeto  que estou criando com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+Este é um projeto que estou criando com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
 
 
 Aqui pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
@@ -36,7 +36,8 @@ Ele foi criador do formato JSON, da ferramenta JSLint e faz parte do comitê do 
 Mas, mesmo sendo uma referência na área, Crockford admite que JavaScript não é uma linguagem perfeita.
 
 
-Longe disso, o autor aponta  em vários momentos características que ele considera que foram falhas de design.
+Longe disso, o autor aponta  em vários momentos características que ele considera que foram falhas 
+de design.
 
 
 E detalhando essas falhas, ele nos guia explicando como evitar aquelas que podem ser contornadas
@@ -65,22 +66,22 @@ Uma outra coisa interessante são os padrões apresentados no livro.
 
 JavaScript é uma linguagem extremamente flexível e isso trás um grande poder,
 
-mas também uma responsabilidade maior para o desenvolvedor na hora de organizar o seu código.
+mas também uma responsabilidade maior na hora de organizar o nosso código.
 
 
-A mesma coisa pode ser feita de diversas formas diferentes
+A mesma coisa pode ser feita de diver sas formas diferentes
 
-e um programador  inexperiênte pode ficar confuso com isso.
+e uma pessoa inexperiênte pode ficar confusa com isso.
 
 
-Mas o autor explica os principais cenários que todo programador vai
+Mas o autor explica os principais cenários que todo mundo vai
 
 se deparar, e elabora exemplos bem didáticos de como estruturar melhor nossos
 
-sistemas para cada uma dessas situação.
+sistemas para cada uma dessas situaçoes.
 
 
-Ele aborda ainda outras características que podem ser confusas para os novatos
+Ele aborda ainda outras características que podem ser confusas para quem ta começando
 
 como o fato das funções no JavaScript serem objetos.
 
@@ -139,9 +140,9 @@ Mas como eu disse, isso não tira a beleza do livro, tá?
 
 Bom, pra quem eu indicaria este livro?
 
-Pra basicamente qualquer pessoa que já trabalha ou 
+Pra basicamente qualquer pessoa que já é ou 
 
-queira se tornar uma desenvolvedora JavaScript.
+queira se tornar uma desenvolvedora JavaScript profissional.
 
 
 Indico fortemente também pra quem tem algum preconceito com a linguagem.
