@@ -1,0 +1,152 @@
+Olá! Meu nome é Marcio e você está ouvindo o segundo episódio deste novo podcast.
+
+Este é um projeto que estou criando com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+
+Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
+
+
+Neste episódio escolhi falar sobre o Building Evolutionary Architectures.
+
+Então, bora começar?
+
+
+Uma das autoras desta obra é a Rebecca Parsons, que é CTO da ThoughtWorks. O livro também conta com 
+
+Neal Ford como autor além de Patrick Kua.
+
+
+Bom, já queria começar dizendo que este foi um dos melhores livros que li nos últimos tempos.
+
+Gostei muito da ideia proposta e vou tentar explicar um pouquinho aqui os motivos disso.
+
+
+Embora seja um livro curto, em torno de 160 página, trás algumas ideias muito interessantes
+
+e que me fizeram mudar a forma como planejo a arquitetura dos sistemas em que atuo.
+
+
+A principal novidade deste livro, na minha visão, foi a utilização de fitness functions
+
+aplicada à arquitetura de software.
+
+
+Este é um conceito que nasceu lá na Computação Evolucionária, que por sua vez foi inspirada na
+
+na evolução biológica.
+
+
+As funções de fitness são usadas na computação bio-inspirada para orientar simulações para 
+
+soluções de design ideais. 
+
+
+Através delas, o algoritmo é capaz de escolher as melhores soluções para atingir uma determinada meta.
+
+É muito utilizada em algoritmos genéticos, por exemplo.
+
+
+Talvez essa conversa esteja ficando meio abstrada demais né? rs 
+
+Mas... não se assusta não, este conceito é usado mais como uma metafora e o livro
+
+explica tudo isso com mais calma.
+
+
+Pra mim, esta comparação apresentada logo no começo foi super interessante, pois é justamente
+
+o tema que eu estudei durante meu mestrado, mas meu foco era na computação bio-inspirada mesmo.
+
+Mas enfim, voltando pro livro.
+
+
+A ideia das fitness functions aplicadas à arquitetura é criar formas para mensurar características 
+
+da arquitetura do sistema e usar estas métricas para nos guiar nas tomadas de decisão.
+
+
+Nenhuma arquitetura de software é perfeita, sempre precisamos tomar decisões que vão impactar
+
+de forma negativa alguma caracteristica do sistema. Seja segurança, performance, resiliencia,
+
+integridade dos dados, acoplamento, etc.
+
+
+Uma medida que aumenta a escalabilidade pode ter um impacto na performance, ou na segurança, 
+
+por exemplo. Neste tipo de cenário, qual caminho seguir?
+
+
+O uso de fitness functions vai nos ajudar justamente a presenvar na nossa arquitetura os objetivos
+
+que são prioritários para o sistema em questão. 
+
+E estes objetivos podem, claro, variar de acordo com o projeto e até mesmo ao longo da vida do produto. 
+
+
+E o conceito de mudanças graduais na arquitetura é um dos temas centrais.
+
+Através das fitness functions e de boas práticas de arquitetura apresentadas no livro, conseguimos
+
+atingir a meta de criamos arquiteturas que são passíveis de evoluir ao longo do tempo de forma mais
+
+sustentável.
+
+
+Assim, o livro abraça a ideia de que todo sistema vai ter em algum momento novos fatores desconhecidos,
+
+que precisarão ser atacados. Admitindo esta ideia, mostra como podemos construir arquiteturas que
+
+são mais resilitentes perante estas mudanças.
+
+
+Uma outra caracteristica que me chamou muita atenção foi o fato de exporem as ideias
+
+de uma forma bastante realista e pragmática. Principalmente quando abordam temas que estão um pouco
+
+mais na moda, como microserviços.
+
+
+Não é uma visão idealizada ou evangelizadora. Pelo contrário. Mostra muito bem as vantagens mas também
+
+as desvantagens de cada abordagem e indica um caminho bastante interessante de como criar um sistema
+
+que seja capaz de evoluir para se adaptar a qualquer cenário que venha a aparecer ao longo do projeto.
+
+
+Bom, além disso tudo, o livro ainda aborda temas como a criação de camadas anti corrupção,
+
+arquitetura baseada em serviços, serveless, como trabalhar como migração evolutiva de dados, 
+
+os principais modelos de arquitetura de software, entre vários outros tópicos interessantes.
+
+
+Mas claro, como o livro é curto, muito desses temas não são apresentados de forma detalhada.
+
+Acredito que o objetivo principal é mostrar como juntar tudo isso de maneira a criar 
+
+uma arquitetura evolutiva.
+
+
+Mas então, pra quem eu recomendaria este livro?
+
+Bom, como eu disse lá no começo, este é um excelente livro e acho que basicamente qualquer 
+
+pessoa ligada à programação deveria ler. 
+
+
+Mas não é um livro voltado para pessoas muito iniciantes... antes de ler, é importante que você 
+
+já saiba pelo menos de forma superficial conceitos como o que é integração contínua, 
+
+testes automatizados, microserviços, e boas práticas de programação em geral.
+
+
+Então, é isso aí.
+
+Este foi o segundo episódio deste podcast e espero que você tenha gostado.
+
+Se quiser, pode mandar sua opinião, criticas ou sugestões pra mim através
+
+do e-mail marcio@segunda.tech, blz?
+
+Boa leitura pra você e, até o próximo livro!
