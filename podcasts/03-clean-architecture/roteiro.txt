@@ -1,0 +1,146 @@
+Olá! Meu nome é Marcio e você está ouvindo o terceiro episódio deste
+
+podcast. Este é um projeto que criei com o objetivo de abrir espaço
+
+pra discutirmos sobre LIVROS. Então, vão aparecer livros sobre
+
+programação, arquitetura de software, sobre agilidade e outros temas.
+
+
+Neste episódio escolhi falar sobre o Clean Architecture.
+
+Então, bora começar?
+
+
+O autor desta obra é o Robert C. Martin, mais conhecido como
+
+Uncle Bob. 
+
+Ele ajudou a elaborar o manifesto ágil, é autor de diversos livros,
+
+oferece treinamentos online no site cleancoders.com e também atua
+
+como consultor.
+
+
+Sendo assim, é uma figura bastante conhecida e uma das referências
+
+quando o assunto é arquitetura de software e agilidade.
+
+E o tema deste livro, claro, é Arquitetura de Software.
+
+
+(...)
+
+
+Uma coisa que achei muito interessante é a forma como o autor encara
+
+coisas como bibliotecas e frameworks de terceiros.
+
+Durante todo o livro ele insiste em dizer que isso tudo são apenas
+
+detalhes e que não devem impactar a arquietetura do sistema.
+
+Ou seja, de forma bem resumida, a arquietura do sistema não deveria
+
+ser influenciada penas tecnologias escolhidas.
+
+
+Acho que todo desenvolvedor já deve ter passado por essa situação:
+
+Você está em um time e a primeira coisa que tentam definir no projeto
+
+são as tecnologias que serão usadas. Quais bibliotecas e framework,
+
+qual banco de dados, etc.
+
+
+E até certo ponto isso é bem natural. A gente tem uma tendência a
+
+pensar logo na implementação mais baixo nível. Queremos testar logo
+
+aquele novo framework que saiu, aquele banco de dados diferente  ou
+
+sistema de mensageria, etc.
+
+Mas isso é... praticamente irrelevante em termos arquiteturais e temos
+
+que ter maturidade suficiente para compreender isso e resistir a
+
+tentação de tentar definir este tipo de coisa logo no início do
+
+proejeto.
+
+
+Aquela velha ideia de "last responsible moment", onde deixamos
+
+as decisões e comprometimentos para o último momento responsável,
+
+quando já coletamos mais informações e temos mais experiências que
+
+fortalecem nossas tomadas de decisões.
+
+
+As vezes no início de um projeto pode ser que um banco relacional
+
+possa parecer a melhor alternativa, mas depois de algumar iterações
+
+o time percebe que foi uma decisão ruim e que o que eles precisam
+
+mesmo é que um banco não relacionado.
+
+
+Mas muito mais que isso, seguindo as ideias do livro, torna-se
+
+possível construir uma arquitetura muito mais desacoplada de
+
+bibliotecas, frameworks, integrações externas, etc.
+
+Fazendo com que o sistema torne-se muito mais fácil de manter e
+
+evoluir.
+
+
+(...)
+
+
+
+E pra quem eu recomendaria este livro?
+
+Esta é uma pergunta um pouco dificil de responder.
+
+Diria que a primeira parte, onde é apresentado os conceitos mais
+
+básicos sobre o que é e qual a importância de se estudar Arquitetura
+
+de Software, pode, e deve ser lida até mesmo por quem ainda é mais
+
+iniciante. Gostei bastante da visão e da forma como este assunto é
+
+apresentado.
+
+
+Já na segunda parte, introduzindo de fato a Clean Architecture,
+
+alguns conceitos que pra uma pessoa muito iniciante talvez
+
+seja um pouco mais complicado de entender.
+
+Mas ao mesmo tempo, pra alguém mais avançado, que já estudou por
+
+exemplo conceitos como Arquitetura Hexagonal e Domain Driven Design,
+
+talvez este livro não vá acrescentar tanta coisa. Mas, ainda assim,
+
+vale a pena a leitura.
+
+
+Então, é isso aí.
+
+Este foi o terceiro episódio deste podcast e espero que você tenha
+
+gostado. Se quiser, pode mandar sua opinião, criticas ou sugestões
+
+pra mim através do e-mail marcio@segunda.tech, blz?
+
+Boa leitura pra você e, até o próximo livro!
