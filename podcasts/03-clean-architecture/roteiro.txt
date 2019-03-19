@@ -26,10 +26,10 @@ Sendo assim, é uma figura bastante conhecida e uma das referências
 
 quando o assunto é arquitetura de software e agilidade.
 
-O tema deste livro, claro, é Arquitetura de Software.
+E o tema deste livro, claro, é Arquitetura de Software.
 
 
-E o subtitulo do livro: A Craftsman's Guide to Software Structure
+E o subtitulo: A Craftsman's Guide to Software Structure
 
 and Design, ou, Guia de um artesão para estrutura de software e
 
@@ -42,7 +42,7 @@ Architecture propriamente dita só é apresentada a partir do
 
 capitulo 22. Então, antes de entrar em assuntos um pouco mais
 
-avançados, o autor faz ums ótima introdução sobre o tema.
+avançados, o autor faz uma ótima introdução sobre o tema.
 
 
 Começa explicando o que é Arquitetura de Software e em seguida
@@ -61,7 +61,7 @@ as bibliotecas e frameworks de terceiros.
 
 Durante todo o livro ele insiste em dizer que tudo isso são apenas
 
-detalhes e que não devem impactar a arquietetura do sistema.
+detalhes, e que não devem impactar a arquietetura do sistema.
 
 Ou seja, de forma bem resumida, a arquitetura não deveria
 
@@ -110,8 +110,10 @@ possa parecer a melhor alternativa, mas depois de algumar iterações
 
 o time percebe que foi uma decisão ruim e que o que eles precisam
 
-mesmo é que um banco não relacionado. 
+mesmo é que um banco não relacional. 
 
+
+(...)
 
 Mas muito mais que isso, seguindo as ideias do livro, torna-se
 
@@ -162,7 +164,7 @@ talvez seja um pouco mais complicado de acompanhar e compreender
 
 planemante.
 
-Mas ao mesmo tempo, pra alguém já avançado, que já estudou, por
+Mas, ao mesmo tempo, pra alguém já avançado, que já estudou, por
 
 exemplo, conceitos como Arquitetura Hexagonal e Domain Driven Design,
 
@@ -173,7 +175,7 @@ vale a pena a leitura.
 
 Outro coisa que pode ser importante para alguns, é que durante o
 
-livro, o Uncle Bob conta várias histórias, sobre por exemplo
+livro o Uncle Bob conta várias histórias, sobre por exemplo
 
 como eram desenvolvimento software no passado e a evolução da
 
