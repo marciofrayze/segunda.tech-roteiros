@@ -6,7 +6,6 @@ pra discutirmos sobre LIVROS. Então, vão aparecer livros sobre
 
 programação, arquitetura de software, sobre agilidade e outros temas.
 
-
 Neste episódio escolhi falar sobre o Clean Architecture.
 
 Então, bora começar?
@@ -27,21 +26,44 @@ Sendo assim, é uma figura bastante conhecida e uma das referências
 
 quando o assunto é arquitetura de software e agilidade.
 
-E o tema deste livro, claro, é Arquitetura de Software.
+O tema deste livro, claro, é Arquitetura de Software.
+
+
+E o subtitulo do livro: A Craftsman's Guide to Software Structure
+
+and Design, ou, Guia de um artesão para estrutura de software e
+
+design, já diz bastante sobre qual é a proposta dele.
+
+
+A obra se desenvolve em 34 capitulos e os conceitos da Clean
+
+Architecture propriamente dita só é apresentada a partir do
+
+capitulo 22. Então, antes de entrar em assuntos um pouco mais
+
+avançados, o autor faz ums ótima introdução sobre o tema.
+
+
+Começa explicando o que é Arquitetura de Software e em seguida
+
+apresenta os principais principios de design, incluindo os fundamentos
+
+sobre SOLID,
 
 
 (...)
 
 
-Uma coisa que achei muito interessante é a forma como o autor encara
+Uma coisa que achei muito interessante é a forma como são abordadas
 
-coisas como bibliotecas e frameworks de terceiros.
+as bibliotecas e frameworks de terceiros.
 
-Durante todo o livro ele insiste em dizer que isso tudo são apenas
+Durante todo o livro ele insiste em dizer que tudo isso são apenas
 
 detalhes e que não devem impactar a arquietetura do sistema.
 
-Ou seja, de forma bem resumida, a arquietura do sistema não deveria
+Ou seja, de forma bem resumida, a arquitetura não deveria
 
 ser influenciada penas tecnologias escolhidas.
 
@@ -55,21 +77,22 @@ são as tecnologias que serão usadas. Quais bibliotecas e framework,
 qual banco de dados, etc.
 
 
-E até certo ponto isso é bem natural. A gente tem uma tendência a
+E até certo ponto isso é até compreensível. A gente tem uma tendência
 
-pensar logo na implementação mais baixo nível. Queremos testar logo
+a pensar logo na implementação mais baixo nível. Queremos testar
 
 aquele novo framework que saiu, aquele banco de dados diferente  ou
 
 sistema de mensageria, etc.
 
+
 Mas isso é... praticamente irrelevante em termos arquiteturais e temos
 
 que ter maturidade suficiente para compreender isso e resistir a
 
-tentação de tentar definir este tipo de coisa logo no início do
+tentação de tentar definir todas as tecnologias logo no início do
 
-proejeto.
+projeto.
 
 
 Aquela velha ideia de "last responsible moment", onde deixamos
@@ -87,7 +110,7 @@ possa parecer a melhor alternativa, mas depois de algumar iterações
 
 o time percebe que foi uma decisão ruim e que o que eles precisam
 
-mesmo é que um banco não relacionado.
+mesmo é que um banco não relacionado. 
 
 
 Mas muito mais que isso, seguindo as ideias do livro, torna-se
@@ -101,15 +124,26 @@ Fazendo com que o sistema torne-se muito mais fácil de manter e
 evoluir.
 
 
-(...)
+Não vou entrar em detalhes aqui sobre como funciona a Clean
 
+Architecture, pra descobrir isso você vai ter que ler o livro rs
+
+Mas posso dizer que os fundamentos dela são muito similares aos da
+
+Arquietura Hexagonal ou Onion Architecture.
+
+Sendo que as 3 fazem um uso bem interessante da invesão de
+
+dependência, permitindo a criação de códigos muito mais testáveis e
+
+desacoplados.
 
 
 E pra quem eu recomendaria este livro?
 
 Esta é uma pergunta um pouco dificil de responder.
 
-Diria que a primeira parte, onde é apresentado os conceitos mais
+Diria que a primeira metade, onde é apresentado os conceitos mais
 
 básicos sobre o que é e qual a importância de se estudar Arquitetura
 
@@ -120,19 +154,37 @@ iniciante. Gostei bastante da visão e da forma como este assunto é
 apresentado.
 
 
-Já na segunda parte, introduzindo de fato a Clean Architecture,
+Já na segunda metade, que introduz de fato a Clean Architecture,
 
-alguns conceitos que pra uma pessoa muito iniciante talvez
+são utilizados alguns conceitos que pra uma pessoa muito iniciante
 
-seja um pouco mais complicado de entender.
+talvez seja um pouco mais complicado de acompanhar e compreender
 
-Mas ao mesmo tempo, pra alguém mais avançado, que já estudou por
+planemante.
 
-exemplo conceitos como Arquitetura Hexagonal e Domain Driven Design,
+Mas ao mesmo tempo, pra alguém já avançado, que já estudou, por
+
+exemplo, conceitos como Arquitetura Hexagonal e Domain Driven Design,
 
 talvez este livro não vá acrescentar tanta coisa. Mas, ainda assim,
 
 vale a pena a leitura.
+
+
+Outro coisa que pode ser importante para alguns, é que durante o
+
+livro, o Uncle Bob conta várias histórias, sobre por exemplo
+
+como eram desenvolvimento software no passado e a evolução da
+
+ciência da computação em geral.
+
+
+Pra alguns leitores, isso pode ser super interessante, mas praqueles
+
+que preferem uma leitura mais pragmática e direta, talvez fiquem um
+
+pouco incomodados com esta abordagem.
 
 
 Então, é isso aí.
