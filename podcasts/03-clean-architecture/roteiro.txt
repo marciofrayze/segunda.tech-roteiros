@@ -29,27 +29,29 @@ quando o assunto é arquitetura de software e agilidade.
 E o tema deste livro, claro, é Arquitetura de Software.
 
 
-E o seu subtitulo: A Craftsman's Guide to Software Structure
+E o seu subtitulo: "A Craftsman's Guide to Software Structure and
 
-and Design, ou, Guia de um artesão para estrutura de software e
+Design", ou, Guia de um artesão para estrutura de software e design,
 
-design, já diz bastante sobre qual é a proposta dele.
+já diz bastante sobre qual é a proposta dele.
 
 
-A obra se desenvolve em 34 capitulos e os conceitos da Clean
+A obra se desenvolve em 34 capítulos e os conceitos da Clean
 
 Architecture propriamente dita só é apresentada a partir do
 
-capitulo 22. Então, antes de entrar em assuntos um pouco mais
+capitulo 22.
 
-avançados, o autor faz uma ótima introdução sobre o tema.
+Então, antes de entrar em assuntos um pouco mais avançados, o autor
+
+faz uma ótima introdução sobre o tema.
 
 
-Começa explicando o que é Arquitetura de Software e sua importancia
+Começa explicando o que é Arquitetura de Software e sua importância,
 
-e em seguida apresenta os principais principios de design, incluindo
+e em seguida apresenta os principais conceitos de design, desde
 
-os fundamentos sobre SOLID e screamming archichteture.
+os fundamentos sobre SOLID até screamming archichteture.
 
 
 E uma coisa que achei muito interessante é a forma como são abordadas
@@ -58,7 +60,7 @@ as bibliotecas e frameworks de terceiros.
 
 Durante todo o livro ele insiste em dizer que tudo isso são apenas
 
-detalhes, e que não devem impactar a arquietetura do sistema.
+detalhes, e que não devem impactar a arquitetura do sistema.
 
 Ou seja, de forma bem resumida, a arquitetura não deveria
 
@@ -71,7 +73,7 @@ Você está em um time e a primeira coisa que tentam definir no projeto
 
 são as tecnologias que serão usadas. Quais bibliotecas e frameworks,
 
-qual banco de dados, etc.
+qual banco de dados, onde será hospedado, etc.
 
 
 E até certo ponto isso é até compreensível. A gente tem uma tendência
@@ -92,24 +94,24 @@ tentação de tentar definir todas as tecnologias logo no início do
 projeto.
 
 
-Então ele aplica bem aquela velha ideia de "last responsible moment",
+Então, ele aplica bem aquela ideia de "last responsible moment", onde
 
-onde deixamos as decisões e comprometimentos para o último momento
+deixamos as decisões e comprometimentos para o último momento
 
 responsável, quando já coletamos mais informações e temos mais
 
 experiências que fortalecem nossas tomadas de decisões.
 
 
-As vezes no início de um projeto pode ser que um banco relacional
+Às vezes, no início de um projeto, pode ser que um banco relacional
 
 possa parecer a melhor alternativa, mas depois de algumas iterações
 
-o time percebe que o que eles precisam mesmo é que um banco não
+o time percebe que o que precisam mesmo é de um banco não relacional
 
-relacional ou, na melhor das hipóteses, chegam a conclusão que nem
+ou, na melhor das hipóteses, chegam a conclusão que nem precisam de
 
-precisam de um banco de dados!
+um banco de dados!
 
 Ou ainda, na pior das hipoteses, o projeto é cancelado, antes mesmo
 
@@ -176,18 +178,18 @@ vale a pena a leitura.
 
 Outro coisa que pode ser importante para alguns, é que durante o
 
-livro o Uncle Bob conta várias histórias, sobre por exemplo
+livro, o Uncle Bob conta várias histórias, sobre por exemplo
 
 como eram desenvolvimento software no passado e a evolução da
 
 ciência da computação em geral.
 
 
-Pra alguns leitores, isso pode ser super interessante, mas praqueles
+Pra alguns, isso pode ser super interessante, mas quem preferem uma
 
-que preferem uma leitura mais pragmática e direta, talvez fiquem um
+leitura mais pragmática e direta, talvez fique um pouco incomodada
 
-pouco incomodados com esta abordagem.
+com esta abordagem.
 
 
 Então, é isso aí.
