@@ -78,7 +78,7 @@ qual banco de dados, onde será hospedado, etc.
 
 E até certo ponto isso é até compreensível. A gente tem uma tendência
 
-a pensar logo na implementação mais baixo nível. Queremos testar
+em pensar logo na implementação mais baixo nível. Queremos testar
 
 aquele novo framework que saiu, aquele banco de dados diferente ou
 
