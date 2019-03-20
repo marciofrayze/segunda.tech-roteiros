@@ -29,7 +29,7 @@ quando o assunto é arquitetura de software e agilidade.
 E o tema deste livro, claro, é Arquitetura de Software.
 
 
-E o subtitulo: A Craftsman's Guide to Software Structure
+E o seu subtitulo: A Craftsman's Guide to Software Structure
 
 and Design, ou, Guia de um artesão para estrutura de software e
 
@@ -45,17 +45,14 @@ capitulo 22. Então, antes de entrar em assuntos um pouco mais
 avançados, o autor faz uma ótima introdução sobre o tema.
 
 
-Começa explicando o que é Arquitetura de Software e em seguida
+Começa explicando o que é Arquitetura de Software e sua importancia
 
-apresenta os principais principios de design, incluindo os fundamentos
+e em seguida apresenta os principais principios de design, incluindo
 
-sobre SOLID,
-
-
-(...)
+os fundamentos sobre SOLID e screamming archichteture.
 
 
-Uma coisa que achei muito interessante é a forma como são abordadas
+E uma coisa que achei muito interessante é a forma como são abordadas
 
 as bibliotecas e frameworks de terceiros.
 
@@ -65,14 +62,14 @@ detalhes, e que não devem impactar a arquietetura do sistema.
 
 Ou seja, de forma bem resumida, a arquitetura não deveria
 
-ser influenciada penas tecnologias escolhidas.
+ser influenciada pelas tecnologias escolhidas.
 
 
-Acho que todo desenvolvedor já deve ter passado por essa situação:
+E acho que todo desenvolvedor já deve ter passado por essa situação:
 
 Você está em um time e a primeira coisa que tentam definir no projeto
 
-são as tecnologias que serão usadas. Quais bibliotecas e framework,
+são as tecnologias que serão usadas. Quais bibliotecas e frameworks,
 
 qual banco de dados, etc.
 
@@ -81,7 +78,7 @@ E até certo ponto isso é até compreensível. A gente tem uma tendência
 
 a pensar logo na implementação mais baixo nível. Queremos testar
 
-aquele novo framework que saiu, aquele banco de dados diferente  ou
+aquele novo framework que saiu, aquele banco de dados diferente ou
 
 sistema de mensageria, etc.
 
@@ -95,40 +92,44 @@ tentação de tentar definir todas as tecnologias logo no início do
 projeto.
 
 
-Aquela velha ideia de "last responsible moment", onde deixamos
+Então ele aplica bem aquela velha ideia de "last responsible moment",
 
-as decisões e comprometimentos para o último momento responsável,
+onde deixamos as decisões e comprometimentos para o último momento
 
-quando já coletamos mais informações e temos mais experiências que
+responsável, quando já coletamos mais informações e temos mais
 
-fortalecem nossas tomadas de decisões.
+experiências que fortalecem nossas tomadas de decisões.
 
 
 As vezes no início de um projeto pode ser que um banco relacional
 
-possa parecer a melhor alternativa, mas depois de algumar iterações
+possa parecer a melhor alternativa, mas depois de algumas iterações
 
-o time percebe que foi uma decisão ruim e que o que eles precisam
+o time percebe que o que eles precisam mesmo é que um banco não
 
-mesmo é que um banco não relacional. 
+relacional ou, na melhor das hipóteses, chegam a conclusão que nem
 
+precisam de um banco de dados!
 
-(...)
+Ou ainda, na pior das hipoteses, o projeto é cancelado, antes mesmo
+
+de chegarem no momento em que esta decisão precisava de fato ser
+
+tomada.
+
 
 Mas muito mais que isso, seguindo as ideias do livro, torna-se
 
-possível construir uma arquitetura muito mais desacoplada de
+possível construir uma arquitetura desacoplada de bibliotecas,
 
-bibliotecas, frameworks, integrações externas, etc.
+frameworks, integrações externas, etc.
 
-Fazendo com que o sistema torne-se muito mais fácil de manter e
-
-evoluir.
+Fazendo com que o sistema torne-se mais fácil de manter e evoluir.
 
 
 Não vou entrar em detalhes aqui sobre como funciona a Clean
 
-Architecture, pra descobrir isso você vai ter que ler o livro rs
+Architecture. Pra descobrir isso você vai ter que ler o livro rs
 
 Mas posso dizer que os fundamentos dela são muito similares aos da
 
