@@ -1,0 +1,106 @@
+Olá! Meu nome é Marcio e você está ouvindo o quarto episódio deste podcast.
+
+Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+
+Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
+
+
+Neste episódio escolhi falar sobre o Functional Thinking.
+
+Então, bora começar?
+
+
+O autor desta obra é o Neal Ford, que é arquiteto de software na ThoughtWorks e
+
+autor de diversos livros. Ele inclusive foi um dos autores do livro Building Evolutionary Architectures,
+
+que foi tema do segundo episódio deste podcast.
+
+
+Bom, o Functional Thinking é um livro bem curto, com apenas 157 páginas.
+
+Mas logo no início ele explica que aprender um novo paradigma de programação pode ser
+
+bem difícil. E seu objetivo, que de certa forma já fica um pouco explicito no título,
+
+é focar em explicar o *paradigma* funcional, e não se focar na sintaxe das linguagens de
+
+programação.
+
+
+Mas isso não significa que você não vai encontrar bastante código ao longo
+
+do livro! Pelo contrário. Através de muitos exemplos em diferentes linguagens,
+
+o autor é capaz de explicar os conceitos básicos por trás da programação
+
+funcional.
+
+
+Em vários momentos ele vai demonstrar como seria uma solução
+
+mais "tradicional", resolvendo um problema utilizando um código procedural,
+
+para logo em seguida reescreve-lo utilizando-se do paradigma funcional. 
+
+Enquanto faz isso, também explica as vantagens desta abordagem.
+
+
+É comum ao longo do livro, por exemplo, mostrar uma solução utilizando um
+
+código Java mais antigo, para logo em seguida discurtir em cima de uma
+
+solução mais moderna, fazendo uso de recursos mais funcionais que
+
+apareceram na versão 8 do Java.
+
+
+Por falar em Java, todos os códigos do livro são feitos utilizando linguagens
+
+que rodam em cima da máquina virtual do Java, a famosa JVM.
+
+Você vai se deparar com códigos escritos em Scala, Groovy, Closure,
+
+além é claro do próprio Java.
+
+
+Closure é uma linguagem da familia LISP. Então, pras pessoas mais
+
+acostumadas com orientação a objetos, provavelmente os códigos escritos
+
+em Clojure vão parecer um pouco alienigenas no começo rs
+
+Todos aqueles parenteses em lugares estranhos e o fato dela ser uma linguagem
+
+primariamente funcional fazem com que ela seja bem difente das demais
+
+linguagens abordadas no livro.
+
+
+O autor faz uma breve explicação que nos permite compreender melhor
+
+a sintaxe. Mas confesso que as partes escritas nesta linguagem eu tinha que
+
+me esforçar um pouco mais pra conseguir acompanhar.
+
+
+Uma parte que me chamou atenção e me marcou bastante foi na verdade
+
+a citação de um twite do Micheal Feathers, onde ele diz:
+
+OO makes code understandable by encapsulating moving parts.
+
+FP makes code understandable by minimizing moving parts.
+
+Ou, em português:
+
+Orientação a Objetos torna o código compreensível encapsulando as partes móveis.
+
+Programação funcional torna o código comprrensível *minimizando* as partes móveis.
+
+
+Isso é algo que o Neal Ford tenta mostrar ao longo dos exemplos:
+
+como no paradigma funcional é possível delegar para a linguagem o controle
+
+que antes precisávamos controlar no código.
