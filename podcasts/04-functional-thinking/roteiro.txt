@@ -12,14 +12,16 @@ Então, bora começar?
 
 O autor desta obra é o Neal Ford, que é arquiteto de software na ThoughtWorks e
 
-autor de diversos livros. Ele inclusive foi um dos autores do livro Building Evolutionary Architectures,
+autor de diversos livros.
+
+Ele inclusive foi um dos autores do livro Building Evolutionary Architectures,
 
 que foi tema do segundo episódio deste podcast.
 
 
-Bom, o Functional Thinking é um livro bem curto, com apenas 157 páginas.
+Bom, o Functional Thinking é bem curto, com apenas 157 páginas.
 
-Mas logo no início ele explica que aprender um novo paradigma de programação pode ser
+Mas logo no início o autor explica que aprender um novo paradigma de programação pode ser
 
 bem difícil. E seu objetivo, que de certa forma já fica um pouco explicito no título,
 
@@ -41,7 +43,7 @@ Em vários momentos ele vai demonstrar como seria uma solução
 
 mais "tradicional", resolvendo um problema utilizando um código procedural,
 
-para logo em seguida reescreve-lo utilizando-se do paradigma funcional. 
+para logo em seguida reescreve-lo utilizando o paradigma funcional. 
 
 Enquanto faz isso, também explica as vantagens desta abordagem.
 
@@ -61,32 +63,30 @@ que rodam em cima da máquina virtual do Java, a famosa JVM.
 
 Você vai se deparar com códigos escritos em Scala, Groovy, Closure,
 
-além é claro do próprio Java.
+além do próprio Java.
 
 
 Closure é uma linguagem da familia LISP. Então, pras pessoas mais
 
 acostumadas com orientação a objetos, provavelmente os códigos escritos
 
-em Clojure vão parecer um pouco alienigenas no começo rs
+nesta linguagem vão parecer um pouco alienigenas no começo rs
 
-Todos aqueles parenteses em lugares estranhos e o fato dela ser uma linguagem
+Todos aqueles parenteses em lugares estranhos e o fato dela ser
 
-primariamente funcional fazem com que ela seja bem difente das demais
-
-linguagens abordadas no livro.
+primariamente funcional fazem com que seja bem difente das demais.
 
 
-O autor faz uma breve explicação que nos permite compreender melhor
+Embora o autor faz uma breve explicação que nos permite compreender melhor
 
-a sintaxe. Mas confesso que as partes escritas nesta linguagem eu tinha que
+a sintaxe, confesso que as partes escritas nesta linguagem eu tinha que
 
 me esforçar um pouco mais pra conseguir acompanhar.
 
 
 Uma parte que me chamou atenção e me marcou bastante foi na verdade
 
-a citação de um twite do Micheal Feathers, onde ele diz:
+a citação de um twit do Micheal Feathers, em que ele diz:
 
 OO makes code understandable by encapsulating moving parts.
 
@@ -96,11 +96,11 @@ Ou, em português:
 
 Orientação a Objetos torna o código compreensível encapsulando as partes móveis.
 
-Programação funcional torna o código comprrensível *minimizando* as partes móveis.
+Programação funcional torna o código comprensível *minimizando as partes móveis*.
 
 
-Isso é algo que o Neal Ford tenta mostrar ao longo dos exemplos:
+E isso é algo que o Neal Ford tenta mostrar ao longo dos exemplos:
 
-como no paradigma funcional é possível delegar para a linguagem o controle
+que no paradigma funcional é possível delegar para a linguagem o controle
 
 que antes precisávamos controlar no código.
