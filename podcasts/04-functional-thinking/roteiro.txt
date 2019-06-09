@@ -19,7 +19,7 @@ Ele inclusive foi um dos autores do livro Building Evolutionary Architectures,
 que foi tema do segundo episódio deste podcast.
 
 
-Bom, o Functional Thinking é bem curto, com apenas 157 páginas.
+Bom, o Functional Thinking é bem curto, apenas 157 páginas.
 
 Mas logo no início o autor explica que aprender um novo paradigma de programação pode ser
 
@@ -27,7 +27,7 @@ bem difícil. E seu objetivo, que de certa forma já fica um pouco explicito no 
 
 é focar em explicar o *paradigma* funcional, e não se focar na sintaxe das linguagens de
 
-programação.
+programação. ****
 
 
 Mas isso não significa que você não vai encontrar bastante código ao longo
@@ -39,7 +39,7 @@ o autor é capaz de explicar os conceitos básicos por trás da programação
 funcional.
 
 
-Em vários momentos ele vai demonstrar como seria uma solução
+Em vários momentos vai demonstrar como seria uma solução
 
 mais "tradicional", resolvendo um problema utilizando um código procedural,
 
@@ -57,50 +57,155 @@ solução mais moderna, fazendo uso de recursos mais funcionais que
 apareceram na versão 8 do Java.
 
 
-Por falar em Java, todos os códigos do livro são feitos utilizando linguagens
+Por falar em Java, todos os códigos do livro são escritos utilizando linguagens
 
 que rodam em cima da máquina virtual do Java, a famosa JVM.
 
-Você vai se deparar com códigos escritos em Scala, Groovy, Closure,
+Você vai se deparar com códigos implementados em Scala, Groovy, Closure,
 
 além do próprio Java.
 
 
-Closure é uma linguagem da familia LISP. Então, pras pessoas mais
+Pras pessoas mais acostumadas com orientação a objetos,
 
-acostumadas com orientação a objetos, provavelmente os códigos escritos
+provavelmente os códigos escritos em Closure vão parecer um pouco
 
-nesta linguagem vão parecer um pouco alienigenas no começo rs
+alienigenas no começo rs
 
 Todos aqueles parenteses em lugares estranhos e o fato dela ser
 
-primariamente funcional fazem com que seja bem difente das demais.
+uma linguagem da familia LISP e primariamente funcional fazem com
+
+que seja bem difente das demais.
 
 
-Embora o autor faz uma breve explicação que nos permite compreender melhor
+Embora o autor faça uma breve explicação que nos permite compreender melhor
 
-a sintaxe, confesso que as partes escritas nesta linguagem eu tinha que
+a sintaxe, confesso que tinha que me esforçar um pouco mais pra
 
-me esforçar um pouco mais pra conseguir acompanhar.
+conseguir acompanhar os exemplos escritos nesta linguagem.
 
 
-Uma parte que me chamou atenção e me marcou bastante foi na verdade
+Uma parte que me chamou atenção e me marcou bastante foi
 
-a citação de um twit do Micheal Feathers, em que ele diz:
+a citação de um twiit do Micheal Feathers.
 
-OO makes code understandable by encapsulating moving parts.
+Traduzindo o texto para o português, ele disse algo como:
 
-FP makes code understandable by minimizing moving parts.
 
-Ou, em português:
+Orientação a Objetos torna o código compreensível ao encapsular as partes móveis.
 
-Orientação a Objetos torna o código compreensível encapsulando as partes móveis.
+Programação funcional torna o código comprensível *minimizando as partes móveis*.
+
+
+Vou repetir pq acho que este twiit consegue capturar muito bem
+
+a essencia da programação funcional:
+
+
+Orientação a Objetos torna o código compreensível ao encapsular as partes móveis.
 
 Programação funcional torna o código comprensível *minimizando as partes móveis*.
 
 
 E isso é algo que o Neal Ford tenta mostrar ao longo dos exemplos:
 
-que no paradigma funcional é possível delegar para a linguagem o controle
+que no paradigma funcional é possível delegar para o tempo de execução
 
-que antes precisávamos controlar no código.
+coisas que antes precisávamos controlar no código, principalmente o
+
+do estado da nossa aplicação.
+
+
+Que são basicamente aquelas variáveis de controle, atributos de instancias, etc.
+
+O seu código deixa de ser imperativo e passa a ser muito mais declarativo.
+
+
+E ao delegar esta responsabilidade, nossos programas ficam mais simples,
+
+mais fáceis de testar e re-utilizar e também com menor potencial de falhas.
+
+
+Bom, mas afinal, como tudo isso é possível?
+
+..Pra entender você vai ter que ler o livro rs
+
+Através dele você vai compreender como utilizar conceitos como
+
+filter, map e reduce, por exemplo, que são conceitos centrais ao longo do livro.
+
+
+Mas o autir vai bem mais longe que isso, abordando temas como
+
+memoization, arquitetura de software funcionais,  imutabilidade,
+
+as classes optional e either, lazy evaluation, currying, tratamentos de erros,
+
+e muitos outros conceitos interessantes.
+
+
+Mas... para os leitores mais avançados, eu preciso fazer um alerta...
+
+Embora sejam discutidos vários aspectos bacanas da programação funcional,
+
+algumas coisas ficaram fora do livro.
+
+O autor não entra em temas como: o que são Functors, Monoids e nem chega
+
+a citar o famoso Monad.
+
+
+Ele parece ter optado por um caminho um pouco mais pragmatico,
+
+deixando de fora algumas definições conceituais mais avançadas.
+
+
+Então, pra quem indicaria este livro?
+
+Bom, praticamente todas as linguagens orientadas a objetos hoje em dia
+
+estão adotando cada vez mais características das linguagens funcionais.
+
+Isso fica muito claro principalemnte em linguagens como Java e C#.
+
+
+E muita vezes as pessoas que já estavam acostumadas com o
+
+paradigma orientado a objetos acabam sofrendo um pouco para conseguir
+
+internalizar os fundamentos da programação funcional.
+
+
+Fazendo com que não seja incomum encontrarmos pessoas
+
+desenvolvedoras que evitam esta nova abordagem, mantendo seu código
+
+ainda mais imperativo e não se beneficiando das vantagens de uma
+
+abordagem mais funcional.
+
+
+Se você se identifica com esta descrição e sempre fica com um
+
+friozinho na barriga toda vez que encontra um filter ou map em um
+
+código que precisa dar manutenção, este livro é perfeito para você.
+
+
+Acredito que este talvez seja o perfil ideal: pessoas que já dominam
+
+orientação a objetos e que não se sentem ainda a vontade com o
+
+paradigma funcional.
+
+
+Então, é isso aí.
+
+Este foi o quarto episódio deste podcast e espero que você tenha
+
+gostado. Se quiser, pode mandar sua opinião, criticas ou sugestões
+
+pra mim através do e-mail marcio@segunda.tech, blz?
+
+Boa leitura pra você e, até o próximo livro!
