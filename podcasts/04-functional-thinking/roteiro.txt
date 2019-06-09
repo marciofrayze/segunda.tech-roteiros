@@ -27,7 +27,7 @@ bem difícil. E seu objetivo, que de certa forma já fica um pouco explicito no 
 
 é focar em explicar o *paradigma* funcional, e não se focar na sintaxe das linguagens de
 
-programação. ****
+programação.
 
 
 Mas isso não significa que você não vai encontrar bastante código ao longo
@@ -138,7 +138,7 @@ filter, map e reduce, por exemplo, que são conceitos centrais ao longo do livro
 
 Mas o autir vai bem mais longe que isso, abordando temas como
 
-memoization, arquitetura de software funcionais,  imutabilidade,
+memoization, streams, arquitetura de software funcionais,  imutabilidade,
 
 as classes optional e either, lazy evaluation, currying, tratamentos de erros,
 
@@ -161,7 +161,32 @@ Ele parece ter optado por um caminho um pouco mais pragmatico,
 deixando de fora algumas definições conceituais mais avançadas.
 
 
-Então, pra quem indicaria este livro?
+Outro ponto que talvez eu possa citar como negativo é que como o livro
+
+foi lançado em 2014, o Java 8 ainda era novidade.
+
+Por isso, o autor cita em vários momentos exemplos utilizando
+
+a biblioteca Functional Java.
+
+
+Esta é uma bilioteca que inclui várias novas classes ao Java,
+
+permitindo programar de uma maneira mais funcional mesmo em
+
+versões antigas desta linguagem.
+
+
+Mas a última versão estável desta biblioteca foi lançada em
+
+julho de 2015 e portanto não é algo que eu recomende utilizar hoje em dia.
+
+As últimas versões do Java já internalizaram muitos conceitos da
+
+programação funcional e esta biblioteca acabou se tornando obsoleta.
+
+
+E então, pra quem indicaria este livro?
 
 Bom, praticamente todas as linguagens orientadas a objetos hoje em dia
 
