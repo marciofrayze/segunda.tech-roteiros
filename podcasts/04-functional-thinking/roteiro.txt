@@ -1,8 +1,12 @@
 Olá! Meu nome é Marcio e você está ouvindo o quarto episódio deste podcast.
 
-Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+Este é um projeto que criei com o objetivo de abrir espaço
 
-Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
+pra discutirmos sobre LIVROS.
+
+Aqui, pretendo falar um pouquinho sobre os livros
+
+que de alguma forma influenciaram minha carreira.
 
 
 Neste episódio escolhi falar sobre o Functional Thinking.
@@ -10,85 +14,101 @@ Neste episódio escolhi falar sobre o Functional Thinking.
 Então, bora começar?
 
 
-O autor desta obra é o Neal Ford, que é arquiteto de software na ThoughtWorks e
+O autor desta obra é o Neal Ford, que é arquiteto de software
 
-autor de diversos livros.
+na ThoughtWorks e autor de diversos livros.
 
-Ele inclusive foi um dos autores do livro Building Evolutionary Architectures,
+Ele foi inclusive um dos autores do livro
+
+Building Evolutionary Architectures,
 
 que foi tema do segundo episódio deste podcast.
 
 
-Bom, o Functional Thinking é bem curto, apenas 157 páginas.
+Bom, o Functional Thinking é bem curto, tem apenas 157 páginas.
 
-Mas logo no início o autor explica que aprender um novo paradigma de programação pode ser
+Mas logo no início o autor explica que aprender um
 
-bem difícil. E seu objetivo, que de certa forma já fica um pouco explicito no título,
+novo paradigma de programação pode ser bem difícil.
 
-é focar em explicar o *paradigma* funcional, e não se focar na sintaxe das linguagens de
+E seu objetivo, que de certa forma já fica um pouco explicito no título,
 
-programação.
+é focar em explicar o *paradigma* funcional,
 
-
-Mas isso não significa que você não vai encontrar bastante código ao longo
-
-do livro! Pelo contrário. Através de muitos exemplos em diferentes linguagens,
-
-o autor é capaz de explicar os conceitos básicos por trás da programação
-
-funcional.
+e não se focar na sintaxe das linguagens de programação.
 
 
-Em vários momentos vai demonstrar como seria uma solução
+Mas isso não significa que você não vai encontrar
 
-mais "tradicional", resolvendo um problema utilizando um código procedural,
+bastante código ao longo do livro! Pelo contrário.
 
-para logo em seguida reescreve-lo utilizando o paradigma funcional. 
+Através de muitos exemplos em diferentes linguagens,
+
+o autor é capaz de explicar os conceitos básicos
+
+por trás da programação funcional.
+
+
+Em vários momentos vai demonstrar como seria
+
+uma solução mais... "tradicional", solucionando os problemas
+
+através de um código mais imperativo, para logo em seguida
+
+reescreve-lo utilizando o paradigma funcional. 
 
 Enquanto faz isso, também explica as vantagens desta abordagem.
 
 
-É comum ao longo do livro, por exemplo, mostrar uma solução utilizando um
+É comum ao longo do livro, por exemplo, mostrar
 
-código Java mais antigo, para logo em seguida discurtir em cima de uma
+uma solução utilizando um código Java mais antigo,
 
-solução mais moderna, fazendo uso de recursos mais funcionais que
+para logo em seguida discurtir em cima de uma solução
 
-apareceram na versão 8 do Java.
+mais funcional, fazendo uso de recursos que apareceram
+
+na versão 8 do Java.
 
 
-Por falar em Java, todos os códigos do livro são escritos utilizando linguagens
+Por falar em Java, todos os códigos do livro são escritos
 
-que rodam em cima da máquina virtual do Java, a famosa JVM.
+utilizando linguagens que rodam em cima da máquina
 
-Você vai se deparar com códigos implementados em Scala, Groovy, Closure,
+virtual do Java, a famosa JVM.
 
-além do próprio Java.
+Você vai se deparar com códigos implementados em
+
+Scala, Groovy, Closure, além do próprio Java.
 
 
 Pras pessoas mais acostumadas com orientação a objetos,
 
-provavelmente os códigos escritos em Closure vão parecer um pouco
+provavelmente os códigos escritos em Closure vão
 
-alienigenas no começo rs
+parecer um pouco alienigenas no começo rs
 
-Todos aqueles parenteses em lugares estranhos e o fato dela ser
+Todos aqueles parenteses em lugares estranhos e
 
-uma linguagem da familia LISP e primariamente funcional fazem com
+o fato dela ser uma linguagem da familia LISP
 
-que seja bem difente das demais.
+e primariamente funcional
 
-
-Embora o autor faça uma breve explicação que nos permite compreender melhor
-
-a sintaxe, confesso que tinha que me esforçar um pouco mais pra
-
-conseguir acompanhar os exemplos escritos nesta linguagem.
+fazem com que seja bem difente das demais.
 
 
-Uma parte que me chamou atenção e me marcou bastante foi
+Embora o autor faça uma breve explicação
 
-a citação de um twiit do Micheal Feathers.
+que nos permite compreender melhor a sintaxe,
+
+confesso que tinha que me esforçar um pouco mais
+
+pra conseguir acompanhar os exemplos escritos nesta linguagem.
+
+
+Uma parte que me chamou atenção e me marcou bastante
+
+foi a citação de um twiit do Micheal Feathers.
 
 Traduzindo o texto para o português, ele disse algo como:
 
@@ -110,21 +130,29 @@ Programação funcional torna o código comprensível *minimizando as partes mó
 
 E isso é algo que o Neal Ford tenta mostrar ao longo dos exemplos:
 
-que no paradigma funcional é possível delegar para o tempo de execução
+que no paradigma funcional é possível delegar
 
-coisas que antes precisávamos controlar no código, principalmente o
+para o tempo de execução coisas que antes precisávamos
 
-do estado da nossa aplicação.
+controlar no código,
 
-
-Que são basicamente aquelas variáveis de controle, atributos de instancias, etc.
-
-O seu código deixa de ser imperativo e passa a ser muito mais declarativo.
+principalmente o do estado da nossa aplicação.
 
 
-E ao delegar esta responsabilidade, nossos programas ficam mais simples,
+Que são basicamente aquelas variáveis de controle,
 
-mais fáceis de testar e re-utilizar e também com menor potencial de falhas.
+atributos de instancias, etc.
+
+O seu código deixa de ser imperativo e passa a ser
+
+muito mais declarativo.
+
+
+E ao delegar esta responsabilidade, nossos programas
+
+ficam mais simples, mais fáceis de testar e re-utilizar
+
+e também com menor potencial de falhas.
 
 
 Bom, mas afinal, como tudo isso é possível?
@@ -133,41 +161,51 @@ Bom, mas afinal, como tudo isso é possível?
 
 Através dele você vai compreender como utilizar conceitos como
 
-filter, map e reduce, por exemplo, que são conceitos centrais ao longo do livro.
+filter, map e reduce, por exemplo,
+
+que são conceitos centrais ao longo do livro.
 
 
-Mas o autir vai bem mais longe que isso, abordando temas como
+Mas o autor vai bem mais longe que isso,
 
-memoization, streams, arquitetura de software funcionais,  imutabilidade,
+abordando temas como memoization, streams,
 
-as classes optional e either, lazy evaluation, currying, tratamentos de erros,
+arquitetura de software funcionais,  imutabilidade,
+
+as classes optional e either, lazy evaluation, currying,
+
+tratamentos de erros,
 
 e muitos outros conceitos interessantes.
 
 
 Mas... para os leitores mais avançados, eu preciso fazer um alerta...
 
-Embora sejam discutidos vários aspectos bacanas da programação funcional,
+Embora sejam discutidos vários aspectos bacanas da
 
-algumas coisas ficaram fora do livro.
+programação funcional, algumas coisas ficaram fora do livro.
 
-O autor não entra em temas como: o que são Functors, Monoids e nem chega
+O autor não entra em temas como:
 
-a citar o famoso Monad.
-
-
-Ele parece ter optado por um caminho um pouco mais pragmatico,
-
-deixando de fora algumas definições conceituais mais avançadas.
+o que são Functors, Monoids e nem chega a citar o famoso Monad.
 
 
-Outro ponto que talvez eu possa citar como negativo é que como o livro
+Ele parece ter optado por um caminho um pouco
 
-foi lançado em 2014, o Java 8 ainda era novidade.
+mais pragmatico, deixando de fora algumas
 
-Por isso, o autor cita em vários momentos exemplos utilizando
+definições conceituais mais avançadas.
 
-a biblioteca Functional Java.
+
+Outro ponto que talvez eu possa citar
+
+como negativo é que como o livro foi lançado
+
+em 2014, o Java 8 ainda era novidade.
+
+Por isso, o autor cita em vários momentos 
+
+exemplos utilizando a biblioteca Functional Java.
 
 
 Esta é uma bilioteca que inclui várias novas classes ao Java,
