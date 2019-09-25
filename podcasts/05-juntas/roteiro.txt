@@ -21,14 +21,16 @@ O livro começa contando um pouquinho sobre a história de cada autora,
 
 e logo no inicio já aborda temas como privilégio, saúde mental, mudanças de
 
-carreira, teoria contrutivista e outros temas que... poderiam ser considerados
+carreira, teoria contrutivista, gênero e outros temas importantes que não costumam
 
-tabus.
+ser muito discutidos na área de desenvolvimento de software.
 
 
-Um dos temas principais, claro, é sobre os benefícios e também os problemas
+Mas um dos temas principais do livro é, claro, sobre os benefícios e também 
 
-que enfrentaram quando decidiram trabalhar com este modelo de parceria.
+os problemas que enfrentaram quando decidiram trabalhar com este modelo 
+
+de parceria.
 
 Explicam como são feitas as tomadas de decisões, como conseguem se manter
 
@@ -37,11 +39,66 @@ informadas sobre tudo que está acontecendo, como resolver as inevitáveis
 divergencias de visões, etc.
 
 
+Como as autoras fazem parte da ThoughtWorks, acabam falando
+
+bastante sobre a cultura desta empresa. Por exemplo, um dos capitulos,
+
+cujo título é Time, vai abordar temas sobre como crescer a partir da
+
+experimentação e como tentam identificar líderes com o perfil necessário,
+
+entre outros assuntos.
+
+
+Ja o capitulo (...) vai falar sobre (...)
+
+
+A versão impressa do livro é muito bonita, colorida e com detalhes que deixam
+
+a leitura ainda mais agradável.
+
+E o texto não se prende demais em nenhum tema, tendo capitulos curtos e bem
+
+fáceis de ler. Alias é possível ler a obra inteira em poucas horas.
+
+
 Mas outro tema importante que percorre todo o livro é uma 
 
-
-
 Integralidade
+
+
+Um outro detalhe que gostaria de destacar encontra-se na última página,
+
+que contém um pequeno texto dizendo o seguinte, abre aspas:
+
+Todos os direitos autorias desta obra são repassados para o Olabi, uma
+
+organização social com foco em trazer diversidade para o campo das inovações,
+
+que se define como "um espaço, um conjunto de ferramentas e um sistema
+
+para democratizar a produção de tecnologia em busca de um mundo mais justo".
+
+Um dos seus projetos principais é o Pretalab, ação que mostra a urgência de
+
+incluirmos mais mulheres negras na tecnologia." Fecha aspas.
+
+
+Acho que isso denife um pouco o perfil e visão de mundo das autoras.
+
+E então... quem deveria ler este livro? Bom, se você é ou tem vontade de
+
+se tornar lider um dia, acho que vale a leitura. E se você não tem esse
+
+perfil... acho que também deveria ler este livro rs como disse anteriormente,
+
+é uma leitura de poucas horas e acho que vale fazer esse investimento
+
+pra conhecer um pouquinho da visão bacana dessas duas autoras e, quem sabe,
+
+juntas, conseguimos aos poucos melhorar cada vez mais a área de desenvolvimento
+
+de software.
 
 
 
