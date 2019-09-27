@@ -9,7 +9,7 @@ E você deve fazer isso o tempo todo" - Angela Davis, filósofa, ativista e Pant
 <música de entrada do podcast>
 
 
-Olá! Meu nome é Marcio e você está ouvindo o quinto episódio deste novo podcast.
+Olá! Meu nome é Marcio e você está ouvindo o quinto episódio deste podcast.
 
 Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
 
@@ -32,7 +32,7 @@ O livro começa contando um pouquinho sobre a história de cada autora
 
 e logo no inicio já aborda temas como privilégio, saúde mental, mudanças de
 
-carreira, teoria contrutivista, gênero e outros temas importantes que não costumam
+carreira, teoria contrutivista, gênero e outros assuntos importantes que não costumam
 
 ser abordados na área de desenvolvimento de software.
 
@@ -54,7 +54,7 @@ E como as autoras fazem parte da ThoughtWorks, acabam falando
 
 bastante sobre a cultura desta empresa. Por exemplo, em um dos capitulos,
 
-cujo título é Time, elas vão abordar temas sobre crescimento a partir da
+cujo título é Time, elas vão falar sobre crescimento a partir da
 
 experimentação e como tentam identificar líderes com o perfil necessário,
 
@@ -78,7 +78,7 @@ E a versão impressa é muito bonita, colorida e com detalhes que deixam
 a leitura ainda mais agradável.
 
 
-Um outro detalhe que gostaria de destacar encontra-se na última página,
+Um outro ponto que gostaria de destacar encontra-se na última página,
 
 que contém um pequeno texto dizendo o seguinte, abre aspas:
 
