@@ -34,10 +34,10 @@ e logo no inicio já aborda temas como privilégio, saúde mental, mudanças de
 
 carreira, teoria contrutivista, gênero e outros assuntos importantes que não costumam
 
-ser abordados na área de desenvolvimento de software.
+ser discutidos na área de desenvolvimento de software.
 
 
-Mas um dos temas centrais do livro é, claro, discutir sobre os benefícios e também
+Mas um dos temas centrais do livro é, claro, falar sobre os benefícios e também
 
 os problemas que enfrentaram quando decidiram trabalhar com este modelo
 
@@ -54,14 +54,14 @@ E como as autoras fazem parte da ThoughtWorks, acabam falando
 
 bastante sobre a cultura desta empresa. Por exemplo, em um dos capitulos,
 
-cujo título é Time, elas vão falar sobre crescimento a partir da
+cujo título é "Time", elas vão falar sobre crescimento a partir da
 
 experimentação e como tentam identificar líderes com o perfil necessário,
 
 entre outros assuntos.
 
 
-Já no capitulo Ambiente diverso é ambiente de inclusão, vão abordar outro tema
+Já no capitulo "Ambiente diverso é ambiente de inclusão", vão abordar outro tema
 
 super importante e ainda pouco discutido: a falta de diversidade na área
 
@@ -76,11 +76,11 @@ enfrentar esses problemas.
 
 Mas de todo o livro, talvez a parte que tenha me chamado mais atenção foi
 
-o conceito de Integralidade, apresentado no capitulo A humanidade das coisas.
+o conceito de Integralidade, apresentado no capitulo "A humanidade das coisas".
 
-A integralidade é a ideia de que uma pessoa existe inteira, onde quer que vá.
+A Integralidade é a ideia de que uma pessoa existe inteira, onde quer que vá.
 
-Assim, as visõs de mundo das pessoas são trazidas para discussões no ambiente de
+Assim, as visões de mundo das pessoas são trazidas para discussões no ambiente de
 
 trabalho. Não existe a separação entre identidade e trabalho.
 
@@ -96,7 +96,7 @@ Em geral o livro não se prende demais em nenhum tema, tendo capitulos curtos e 
 
 tranquilos de ler. Alias é possível ler a obra inteira em poucas horas.
 
-E a versão impressa é muito bonita, colorida e com detalhes que deixam
+E a versão impressa é muito bonita, colorida e com detalhes visuais que deixam
 
 a leitura ainda mais agradável.
 
@@ -123,7 +123,7 @@ Acho que isso define um pouco o perfil e visão de mundo das autoras.
 
 E então... quem deveria ler este livro? Bom, se você é ou tem vontade de
 
-se tornar lider um dia, acho que vale a leitura. E se você não tem esse
+se tornar líder um dia, acho que vale a leitura. E se você não tem esse
 
 perfil... acho que também deveria ler rs como disse anteriormente,
 
@@ -131,7 +131,7 @@ perfil... acho que também deveria ler rs como disse anteriormente,
 
 pra conhecer um pouquinho da visão bacana dessas duas autoras e, quem sabe,
 
-juntas, vamos conseguir aos poucos melhorar cada vez mais a área de desenvolvimento
+juntas, conseguir aos poucos melhorar cada vez mais a área de desenvolvimento
 
 de software.
 
