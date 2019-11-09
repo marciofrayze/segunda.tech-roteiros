@@ -2,7 +2,7 @@
 
 "Você deve agiar como se fosse possível transformar o mundo.
 
-E você deve fazer isso o tempo todo" - Angela Davis, filósofa, ativista e Pantera Negra.
+E você deve fazer isso o tempo todo" - Angela Davis, filosofa, ativista e Pantera Negra.
 
 É assim que começa o livro que vamos discutir hoje.
 
@@ -32,7 +32,7 @@ O livro começa contando um pouquinho sobre a história de cada autora
 
 e logo no inicio já aborda temas como privilégio, saúde mental, mudanças de
 
-carreira, teoria contrutivista, gênero e outros assuntos importantes que não costumam
+carreira, teoria construtivista, gênero e outros assuntos importantes que não costumam
 
 ser discutidos na área de desenvolvimento de software.
 
@@ -47,14 +47,14 @@ Explicam como são feitas as tomadas de decisões, como conseguem se manter
 
 informadas sobre tudo que está acontecendo, formas para resolver as inevitáveis
 
-divergencias de visões, etc.
+divergências de visões, etc.
 
 
 E como as autoras fazem parte da ThoughtWorks, acabam falando
 
-bastante sobre a cultura desta empresa. Por exemplo, em um dos capitulos,
+bastante sobre a cultura desta empresa. Por exemplo, em um dos capítulos,
 
-cujo título é "Time", elas vão falar sobre crescimento a partir da
+cujo título é "Time", falam sobre crescimento a partir da
 
 experimentação e como tentam identificar líderes com o perfil necessário,
 
@@ -65,7 +65,7 @@ Já no capitulo "Ambiente diverso é ambiente de inclusão", vão abordar outro 
 
 super importante e ainda pouco discutido: a falta de diversidade na área
 
-de desenvolvimento de software. Vão falar mais um pouco sobre privilégio,
+de desenvolvimento de software. Discorrem mais um pouco sobre privilégio,
 
 machismo, racismo e preconceito contra LGBT e pessoas com deficiências.
 
@@ -78,6 +78,7 @@ Mas de todo o livro, talvez a parte que tenha me chamado mais atenção foi
 
 o conceito de Integralidade, apresentado no capitulo "A humanidade das coisas".
 
+
 A Integralidade é a ideia de que uma pessoa existe inteira, onde quer que vá.
 
 Assim, as visões de mundo das pessoas são trazidas para discussões no ambiente de
@@ -87,38 +88,18 @@ trabalho. Não existe a separação entre identidade e trabalho.
 
 Claro que existem restrições: afinal todas devem buscar construir um ambiente
 
-juste e inclusivo. Mas as pessoas não deveriam usar uma mascara, mas trazer
+justo e inclusivo. Mas as pessoas não deveriam usar uma mascara e sim trazer
 
 o seu verdadeiro eu também na empresa e no trabalho.
 
 
-Em geral o livro não se prende demais em nenhum tema, tendo capitulos curtos e bem
+Em geral o livro não se estende demais em nenhum tema, tendo capítulos curtos e bem
 
 tranquilos de ler. Alias é possível ler a obra inteira em poucas horas.
 
 E a versão impressa é muito bonita, colorida e com detalhes visuais que deixam
 
-a leitura ainda mais agradável.
-
-
-Um outro ponto que gostaria de destacar encontra-se na última página,
-
-que contém um pequeno texto dizendo o seguinte, abre aspas:
-
-"Todos os direitos autorais desta obra são repassados para o Olabi, uma
-
-organização social com foco em trazer diversidade para o campo das inovações,
-
-que se define como "um espaço, um conjunto de ferramentas e um sistema
-
-para democratizar a produção de tecnologia em busca de um mundo mais justo".
-
-Um dos seus projetos principais é o Pretalab, ação que mostra a urgência de
-
-incluirmos mais mulheres negras na tecnologia." Fecha aspas.
-
-
-Acho que isso define um pouco o perfil e visão de mundo das autoras.
+a experiência ainda mais agradável.
 
 
 E então... quem deveria ler este livro? Bom, se você é ou tem vontade de
@@ -129,7 +110,7 @@ perfil... acho que também deveria ler rs como disse anteriormente,
 
 é uma leitura de poucas horas e vale fazer esse investimento
 
-pra conhecer um pouquinho da visão bacana dessas duas autoras e, quem sabe,
+pra conhecer um pouquinho da visão bacana dessas duas autoras e quem sabe,
 
 juntas, conseguir aos poucos melhorar cada vez mais a área de desenvolvimento
 
