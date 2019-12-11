@@ -1,27 +1,32 @@
 Introdução a Programação Orientada a Objetos - Parte 4 - Classes
 
 E aí pessoal!
-Meu nome é Marcio e você está assistindo a mais um vídeo 
-deste novo canal na internet.
+Meu nome é Marcio e você está assistindo 
+a mais um vídeo deste novo canal na internet.
 Este é o quarto episódio da série sobre 
 programação orientada a objetos.
-Hoje a gente vai começar a falar de alguns conceitos 
-um pouco mais complicados e o conteúdo vai ficar 
+Hoje a gente vai começar a falar 
+de alguns conceitos um pouco 
+mais complicados e o conteúdo vai ficar 
 um pouquinho mais difícil de acompanhar...
 Então... presta bastante atenção aí porque 
 o tema desta videoaula é: O que são Classes?
 Bora começar?!
 
-No vídeo anterior a gente começou a conversar sobre 
-alguns conceitos básicos e eu contei pra vocês que 
-no paradigma orientado a objetos a pessoa desenvolvedora
-fica responsável por criar uma espécie de mundo virtual... 
-que de certa forma tenta modelar e descrever uma 
-representação do problema que ele quer resolver.
+No vídeo anterior a gente começou 
+a conversar sobre alguns conceitos 
+básicos e eu contei pra vocês que 
+no paradigma orientado a objetos 
+a pessoa desenvolvedora fica responsável 
+por criar uma espécie de mundo virtual... 
+que de certa forma tenta modelar e 
+descrever uma representação do problema 
+que ele quer resolver.
 
-Se o mundo virtual que estamos construindo é formado 
-por Objetos, é meio intuitivo pensar que precisamos 
-estabelecer em algum lugar *como* serão criados 
+Se o mundo virtual que estamos construindo 
+é formado por Objetos, é meio 
+intuitivo pensar que precisamos estabelecer 
+em algum lugar *como* serão criados 
 estes objetos, certo?!
 Bom, como você já deve ter imaginado,
 para isso usamos as Classes.
@@ -30,26 +35,35 @@ para isso usamos as Classes.
 
 Fazendo uma analogia meio... 
 tosca com o mundo real... 
-Imagine que você quisesse construir uma casa, 
-qual seria a primeira coisa que você faria? 
+Imagine que você quisesse construir 
+uma casa, qual seria a primeira 
+coisa que você faria? 
 A planta da sua casa né? 
-Que nada mais é do que um documento onde 
-você especifica detalhadamente como 
+Que nada mais é do que um 
+documento onde você especifica 
+detalhadamente como 
 sua casa será construída.
 
-E a planta da sua casa é só um conjunto 
-de especificações, e nada impede que ela 
+E a planta da sua casa é 
+só um conjunto de especificações, 
+e nada impede que ela 
 seja reaproveitada, certo? 
-A partir de *uma* planta, podemos construir 
-1, 2, 3 ou... 1000 casas similares. 
+A partir de *uma* planta, 
+podemos construir 1, 2, 3 
+ou... 1000 casas similares. 
 
-O conceito de Classes na orientação a objetos é... parecido. 
-Trata-se de um conjunto de especificações 
-que definem as características dos objetos do nosso programa.
+O conceito de Classes na orientação 
+a objetos é... parecido. 
+Trata-se de um conjunto 
+de especificações que definem 
+as características dos objetos 
+do nosso programa.
 
-Sem definir uma classe, não é possível criar objetos. 
-E precisamos definir uma Classe pra cada um dos 
-tipos de objetos que vão existir em nosso sistema.
+Sem definir uma classe, 
+não é possível criar objetos. 
+E precisamos definir uma Classe 
+pra cada um dos tipos de objetos 
+que vão existir em nosso sistema.
 
 Mas assim como a planta da casa, 
 as Classes também podem ser reaproveitadas, 
@@ -57,31 +71,40 @@ ou seja, a partir da definição de uma
 única Classe podemos criar 
 diversos Objetos similares.
 
-Acho que a forma mais fácil de visualizar isso 
+Acho que a forma mais fácil 
+de visualizar isso 
 é pensando em... um jogo de videogame. 
-Imagine que você quer desenvolver um jogo similar ao Alex Kid. 
+Imagine que você quer desenvolver 
+um jogo similar ao Alex Kid. 
 
-Pra quem não conhece, esse é um jogo de um videogame 
-lançado láaa na década de 80 chamado Master System.
+Pra quem não conhece, 
+esse é um jogo de um videogame 
+lançado láaa na década de 80 
+chamado Master System.
 Da uma olhada em uma imagem dele:
 
 http://199.101.98.242/media/images/88877-Alex_Kidd_in_Miracle_World_(USA,_Europe)-4.png
 
-Se fossemos implementar uma versão deste jogo 
+Se fossemos implementar uma 
+versão deste jogo 
 utilizando orientação a objetos, 
-que tipo de objetos você consegue identificar nessa imagem?
+que tipo de objetos 
+você consegue identificar 
+nessa imagem?
 
 *** pow... sei lá... tem o Jogador, tem umas aves que parecem ser um inimigos,
 *** tem os blocos.... seria isso?!
 
-Isso aí. Além deles, também temos o chão 
+Isso aí. Além deles, 
+também temos o chão 
 onde o jogador está pisando, 
 e tem ainda algumas nuvens, 
 que ajudam a compor o cenário.
 
 Se eu fosse implementar este jogo 
 usando orientação a objetos, 
-provavelmente eu iria criar Classes com nomes como:
+provavelmente eu iria criar 
+Classes com nomes como:
 - Jogador
 - Inimigo
 - Bloco
@@ -90,25 +113,32 @@ E por ai vai...
 
 Então, teríamos, por exemplo, 
 que cada bloco que aparece na imagem, 
-seria um *Objeto* criado a partir da classe Bloco.
-Teria também alguns objetos da classe Nuvem, 
+seria um *Objeto* criado 
+a partir da classe Bloco.
+Teria também alguns objetos 
+da classe Nuvem, 
 alguns outros do tipo Inimigo 
 e *um* objeto do tipo Jogador.
 
-E o jogo se passaria através da interação entre 
-esses diversos objetos, onde a instância do 
-Objeto Jogador poderia se mover, pular, 
-poderia quebrar os objetos do tipo Bloco, e 
-claro, iria morrer caso encostasse em 
-um objeto do tipo Inimigo... e por ai vai.
+E o jogo se passaria através da 
+interação entre esses diversos 
+objetos, onde a instância do 
+Objeto Jogador poderia se mover, 
+pular, poderia quebrar os 
+objetos do tipo Bloco, e 
+claro, iria morrer caso 
+encostasse em um objeto do 
+tipo Inimigo... e por ai vai.
 
 *** Ahhh entendi! Então é simples pow, 
-um objeto é só uma representação 
-de um item na tela né?
+*** um objeto é só uma representação 
+*** de um item na tela né?
 
-NÃO, é um pouco mais complexo que isso. 
-Este exemplo é interessante porque nós 
-conseguimos visualizar facilmente os objetos.
+NÃO, é um pouco mais complexo 
+que isso. Este exemplo 
+é interessante porque nós 
+conseguimos visualizar 
+facilmente os objetos.
 Mas... nem sempre é assim. 
 MUITAS vezes os Objetos que temos que criar são 
 entidades *bem* mais abstratas, 
