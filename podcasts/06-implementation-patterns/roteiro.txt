@@ -1,0 +1,176 @@
+Olá! Meu nome é Marcio e você está ouvindo o sexto episódio deste podcast.
+
+Este é um projeto que criei com o objetivo de abrir espaço
+
+pra discutirmos sobre LIVROS.
+
+Aqui, pretendo falar um pouquinho sobre os livros
+
+que de alguma forma influenciaram minha carreira.
+
+Neste episódio escolhi falar sobre o Implementation Patterns
+
+cuja tradução para o português ganhou o título
+
+Padrões de Implementação: Um Catálogo de
+
+Padrões Indispensável para o Dia a Dia do Programador
+
+Então, bora começar?
+
+O autor desta obra é Kent Beck,
+
+que é um dos assinantes originais do Manifesto Ágil,
+
+autor da série de livros sobre Programação Extrema, 
+
+e figura importante no Desenvolvimento de Software
+
+guiado por Testes.
+
+Ele é também autor dos livros Test-Driven Development e
+
+Extreme Programming Explanined, que com certeza também vão
+
+estar presentes em episódios futuros deste podcast.
+
+Mas o foco deste episódio é o livro Implementation Patterns.
+
+E este livro é, de acordo com o próprio autor, sobre responsabilidade.
+
+Para se ter sucesso comercial, você não precisa necessariamente escrever um
+
+codigo bonito ou de qualidade. Existem muitos programas de qualidade duvidosa
+
+gerando muito dinheiro por ai.
+
+Mas este livro é para pessoas que querem conseguir colocar 
+
+frequentemente um software em produção de forma segura,
+
+e com a capacidade de mudar a direção do produto com confiança para
+
+atender as necessidades dos clientes e, consequentemnte, estar um passo a frente da
+
+concorrencia.
+
+E, talvez ainda mais importante que isso tudo, ter mais prazer no que faz.
+
+Afinal, a vida é
+
+muito curta para escrever códigos que não temos orgulho de ter escrito.
+
+Então, quem é o publico alvo deste livro?
+
+Bom, o foco são pessoas que já são capazes de desenvolver um software.
+
+Ou seja, não é pra quem está começando a escrever suas primeiras linhas de código.
+
+Um dos principais objetivos do livro é ajuda-lo a ser capaz de comunicar
+
+suas intencoes atraves de codigo.
+
+Programas dificilmente são desenvolvidos por apenas uma pessoa.
+
+Portanto precisamos saber nos comunicar bem atraves de nossos códigos.
+
+Afinal, este é um dos principais meios de nos expressarmos.
+
+
+Ao longo do livro, Kent Beck fala sobre 77.
+
+padrões para enfrentar as tarefas cotidianas de uma pessoa desenvolvedora
+
+e tambem escrever códigos mais legíveis.
+
+
+Seguindo as ideias deste livro, você será capaz de escrever códigos com maior
+
+manutenibilidade e trabalhar em time de forma mais eficiênte.
+
+Logo no comeco do livro o autor cita a importancia da comunicacao com outras
+
+pessoas e destaca 3 valores em particular: comunicação, simplificade e
+
+flexibilidade.
+
+Ele apresenta e discute rapidamente este três valores,
+
+para Logo em seguida discutir sobre uma lista de princípios que vão
+
+guiar todos os padrões apresetandos ao longo do livro.
+
+Um destes princípios, por exemplo, é o Expressões Declarativas,
+
+onde vai explicar os motivos de preferir expressar
+
+suas intenções da forma mais declarativa possível,
+
+evitando códigos procedurais.
+
+Mas não pense que o livro se limita a dar uma lista de dicas de programação,
+
+muito pelo contrário!
+
+No capitulo 4, vai falar, por exemplo, sobre os perigos de
+
+implementar códigos muito genéricos de forma prematua.
+
+É um capitulo com apenas 2 páginas, mas que pode
+
+evitar MUITA dor de cabeça e muito tempo e dinheiro disperdiçados.
+
+Kent Beck consegue explicar este tipo de tema de forma muito simples,
+
+clara, objetiva e bastante convincente.
+
+
+A partir do capitulo 5, que começa na página 25 do livro,
+
+começamos a encontrar os 77 padrões.
+
+Alguns deles são: classes, interfaces abstratas, versionamento de interfaces, 
+
+o famoso value object, parametros opcionais, lazy initialization, clausula de guarda,
+
+exceptions, checked exceptions e propagação de exceptions,
+
+complete constructor, factory method, query method, safe copy, iterable, collections,
+
+<falar q estao divididos em 4 grupos>
+
+Para alguns padrões o texto é bem curto e direto. Outros,
+
+como no caso das coleções e suas possíveis implementações,
+
+o autor aprodunda um pouco mais o tema, explicando em mais detalhes.
+
+
+Já no ultimo capitulo, Envolving Frameworks, Kent Beck vai falar
+
+um pouco mais sobre este padrões, mas desta vez focando na construção
+
+de frameworks ao invés de aplicaçòes.
+
+
+E no meio da descrição dos padrões encontramos dicas valiosas.
+
+No capitulo 9, por exemplo, o autor faz uma breve descricão sobre como
+
+costuma tratar problemas de performance, dando dicas sobre como
+
+e quando tratar este tipo de problema.
+
+
+E então, pra quem indicaria este livro?
+
+
+Então, é isso aí.
+
+Este foi o sexto episódio deste podcast e espero que você tenha
+
+gostado. Se quiser, pode mandar sua opinião, criticas ou sugestões
+
+pra mim através do e-mail marcio@segunda.tech, blz?
+
+Boa leitura pra você e, até o próximo livro!
