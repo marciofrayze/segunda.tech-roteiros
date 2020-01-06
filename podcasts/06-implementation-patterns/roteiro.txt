@@ -40,7 +40,9 @@ estar presentes em episódios futuros deste podcast.
 
 Mas o foco de hoje é o Implementation Patterns.
 
-E este livro é, de acordo com o próprio autor, sobre *responsabilidade*.
+E o tema este livro é, de acordo com o próprio autor,
+
+desenvolver softwares com *responsabilidade*.
 
 
 Para se ter sucesso comercial, você não precisa necessariamente escrever um
@@ -69,7 +71,7 @@ E, talvez até ainda mais importante que isso tudo,
 
 este livro é pra quem quer ter mais prazer no que faz.
 
-Afinal, a vida é muito curta para escrever códigos que não
+Afinal, a vida é muito curta para escrevermos códigos que não
 
 temos orgulho de ter desenvolvido.
 
@@ -83,11 +85,12 @@ Ou seja, não é pra quem está começando a escrever
 suas primeiras linhas de código.
 
 
-E programas dificilmente são desenvolvidos por apenas uma pessoa.
+E em geral programas não são desenvolvidos por apenas uma pessoa.
 
 Portanto precisamos saber nos comunicar bem através de nossos códigos.
 
 Afinal, este é um dos nossos principais meios para nos expressarmos.
+
 
 E este é um dos objetivos centrais deste livro:
 
@@ -98,7 +101,7 @@ Ao longo do livro, Kent Beck fala sobre 77 padrões para
 
 tarefas que toda pessoa desenvolvedora enfrentará no dia a dia.
 
-Outro ponto de destaque que o autor tenta enfatizar é sobre
+E outro ponto de destaque que o autor tenta enfatizar é sobre
 
 como escrever programas mais legíveis.
 
@@ -110,7 +113,7 @@ manutenibilidade e trabalhar em time de forma mais eficiênte.
 
 Logo no começo o autor destaca 3 valores que considera fundamentais:
 
-comunicação, simplificade e flexibilidade.
+comunicação, simplicidade e flexibilidade.
 
 
 Ele apresenta e discute rapidamente estes *valores*,
@@ -281,3 +284,6 @@ Tempo gasto na produção deste podcast:
 1:40h na criação do texto inicial
 ~2:20h texto inicial revisado
 ~2:50h revisao 2
+~3:40h podcast gravado
+~4:20h podcast editado
+~4:50h podcast disponibilizado em todas as plataformas (yt, soundcloud e pagina web)
