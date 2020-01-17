@@ -1,0 +1,987 @@
+Olá! Meu nome é Marcio e o assunto de hoje
+
+é Integração Contínua. Ou, mais precisamente, sobre
+
+como começar a fazer Integração Contínua de forma efetiva.
+
+
+O conteúdo deste vídeo é baseado em uma apresentação
+
+que eu fiz lá na trilha de Programação Extrema na
+
+The Developers Conference de 2019, que rolou aqui em São Paulo.
+
+Então, bora começar?
+
+
+Eu me formei em ciência da computação em 2005,
+
+e terminei meu mestrado em 2009,
+
+mas nunca tirei nenhuma certificação. Nem de Scrum Master,
+
+AWS, Azure, PMI e nem nenhuma outra.
+
+
+Mas HOJE, eu vou tentar tirar aqui, junto com você,
+
+a minha PRIMEIRA certificação. E ela vai ser de
+
+Integração Contínua.
+
+
+E pra tirar esta certificação, é MUITO fácil.
+
+Basta responder 3 perguntinhas propostas pelo Jez Humble.
+
+Pra quem não sabe, Jez Humble é
+
+uma figura bastante importante no universo de
+
+integração contínua e entrega contínua,
+
+sendo um dos autores do livro Continous Delivery,
+
+ou, na versão em português, Entrega Contínua:
+
+Como Entregar Software de Forma Rápida e Confiável,
+
+que ele escreveu junto com o David Farley.
+
+
+E a primeira pergunta que precisamos responder é:
+
+Todos do time fazem commit e push para um repositório
+
+compartilhado centralizado pelo menos uma vez ao dia?
+
+
+E destaque aqui para PELO MENOS uma vez ao dia,
+
+porque o ideal é realmente várias vezes ao dia.
+
+Ou seja, para responder SIM para esta pergunta,
+
+TODAS as pessoas desenvolvedores do seu time
+
+precisam fazer commit e push para um repositório
+
+central e compartilhado.
+
+
+Então ninguém do seu time pode ficar segurando muita
+
+alteração. PELO MENOS uma vez por dia, TODO MUNDO precisa
+
+commitar, fazer o merge com o código das demais
+
+pessoas e fazer o push para um repositório centralizado
+
+e compratilhado.
+
+
+E aí? O seu time passa nesta primeira pergunta do teste?
+
+Bom, se a sua resposta for SIM, ótimo. Faltam só mais
+
+2 perguntas para você tirar seu certificado de
+
+integração contínua.
+
+
+E a segunda pergunta do teste é:
+
+Ao realizar um push, o projeto é compilado e
+
+testado de forma automatizada?
+
+
+Ou seja, você tem uma pipeline de implantação automatizada?
+
+Algo como Jenkins, GitlabCI, Azure pipeline, GoCD, ...
+
+que compile seu projeto e execute os testes de unidade,
+
+integração e ponta a ponta?
+
+
+Ah! E aqui tem um detalhe importante:
+
+A cobertura de testes é de fato significativa?
+
+Eu não quero entrar muito a fundo nesta questão que não
+
+é bem o foco, mas você PRECISA ter testes automatizados
+
+eficientes, com alta cobertura, que não sejam frágeis, etc.
+
+
+Vou deixar na descrição o link para um post do Martin Fowler
+
+onde ele fala um pouco sobre isso.
+
+Mas de forma resumida e simplificada,
+
+estamos falando aqui de acima de 80% de cobertura de testes, beleza?
+
+
+E ai? Seu time passa neste segundo quesito?
+
+Se a resposta for sim, você está quase lá! Falta só mais uma
+
+pergunta...
+
+
+E ela é:
+
+Em caso de falhas, volta a ficar verde em menos de 10 minutos?
+
+Ou seja, se alguém do time fizer um push com um código que
+
+quebre a build, como por exemplo, uma falha que impossibilite
+
+a compilação do projeto ou quebrar um teste de regressão...
+
+
+Seu time é capaz de corrigir o problema, seja fazendo rollback
+
+do último commit ou corrigindo de fato a falha que foi incorporada,
+
+em menos de 10 minutos?
+
+
+Ah! E não vale colocar skip test hein haha tem que corrigir de verdade rs
+
+
+Sim?? Bom, se a resposta for sim para essas 3 perguntas, então
+
+PARABÉNS! Você acaba de tirar sua certificação em integração contínua!
+
+Claro que é só uma certificação de mentirinha né rs
+
+Mas se você consegue atingir essas 3 metas que descrevi,
+
+então você pode afirmar que está sim praticando integração contínua.
+
+
+E caso tenha respondido não para alguma delas,
+
+fica tranquilo que o objetivo deste vídeo é justamente
+
+explicar como começar a mudar seu projeto e seu time
+
+para conseguir atingir estes objetivos, beleza?
+
+
+Mas antes, vamos dar um passo pra trás e tentar definir
+
+O QUE É integração contínua.
+
+
+E, a definição de integração contínua é bastante simples.
+
+É a PRÁTICA de INTEGRAR e TESTAR o código frequentemente,
+
+ou seja, não mais tardar do que algumas horas.
+
+
+E uma observação MUITO importante:
+
+Integração Contínua é uma PRÁTICA, não uma FERRAMENTA.
+
+MUITA gente confunde isso e já vários times
+
+afirmando que faziam integração contínua pelo simples
+
+fato de estarem utilizando alguma ferramenta de pipeline
+
+de entrega automatizada, como Jenkins por exemplo.
+
+
+Utilizar essas ferramentas é bastante recomendado,
+
+mas é só uma das coisas. E o mais importante é
+
+a mudança CULTURAL.
+
+
+De nada adianta ter uma pipeline toda automatizada
+
+se os membros do seu time fizerem push apenas uma vez
+
+por semana. E pior ainda se este push for em um branch
+
+separado, e não no branch principal, centralizado e
+
+compartilhado por todos.
+
+
+Se você está em um time que faz isso, vocês
+
+não estão praticamente Integração Continua.
+
+E isso não é nenhum crime, ok?
+
+Existem várias formas de organizar seu projeto e
+
+eu vou falar mais um pouquinho sobre isso mais pra frente.
+
+
+Mas mesmo a integração contínua pode ser aplicada de
+
+diversas maneiras, que podemos dividir em duas categorias principais:
+
+Integração assíncrona e integração síncrona.
+
+
+Na integração assíncrona,
+
+a pessoa ou dupla desenvolvedora trabalha durante um breve
+
+período de tempo, de preferência não mais do que algumas horas e
+
+assim que tiver uma nova pequena funcionalidade ou correção pronta,
+
+faz o commit e push para o repositório central compartilhado.
+
+
+Feito isso, o sistema de pipeline de implantação
+
+automatizada vai entrar em ação
+
+e vai começar a compilar o projeto, executar os testes de
+
+unidade, integrados e ponta a ponta e, se tudo der certo
+
+provavelmente fazer um deploy em um ambiente de testes.
+
+
+Mas, enquanto a build está sendo executada, a pessoa ou dupla
+
+desenvolvedora já começa a fazer outra atividade.
+
+Ela puxa outra tarefa e já começa a implementar
+
+outra funcionalidade do sistema.
+
+
+Caso durante o processo de execução da pipeline ocorra alguma falha,
+
+seja de compilação ou execucão dos testes automatizados,
+
+a dupla recebe algum tipo de notificação avisando que ocorreu uma falha.
+
+
+Esta notificação pode ser através de um e-mail, mensagem no chat,
+
+ou, se estiver em um time com pessoas mais criativas, pode até
+
+fazer uma luz diferentes acender no ambiente ou qualquer coisa
+
+mais divertida que alguém queira implementar com um raspberry pi ou
+
+um arduino.
+
+
+Enfim, qualquer coisa que chame atenção do time todo o mais rápido possível.
+
+Afinal, lembre-se do item 3 lá do teste. Caso aconteça algum problema
+
+com o branch central compartilhado, o time precisa ser capaz de
+
+resolver o problema em menos de 10 minutos.
+
+
+Mas, este modelo que descrevi, assíncrono, não é o ideal.
+
+A forma mais recomendada é que
+
+seja utilizado um modelo mais síncrono.
+
+
+E este modelo, assim como no anterior,
+
+tudo começa com a pessoa ou dupla desenvolvedora
+
+trabalhando por algum tempo
+
+até terminar uma pequena tarefa, não extrapolando mais do que
+
+algumas horas, faz o commit, merge e push para o
+
+repositório central compartilhado.
+
+
+Feito isso o sistema de pipeline de implantação automatizada começa
+
+a fazer o seu trabalho, compilando e executando os testes, etc.
+
+E a grande diferença neste modelo, é que a pessoa ou dupla
+
+precisa esperar que todo este processo termine
+
+antes de começar uma nova tarefa.
+
+
+Este é um excelente momento para que você discuta a solução
+
+com a sua dupla, caso trabalhe com programação pareada,
+
+servindo como uma mini retrospectiva do que foi feito.
+
+O que foi bom, o que aprenderam ou pontos que podem
+
+ser melhorados, etc.
+
+
+Ou, se preferir, pode ser um momento para fazer um breve
+
+intervalo antes de começar uma nova tarefa.
+
+O Kent Beck recomenda em seu livro Extreme Programming Explained,
+
+que o tempo de execução da build não extrapole 10 minutos.
+
+Caso demore mais que isso, ele sugere que o time otimize
+
+o processo até que fique menor que 10 minutos.
+
+
+Então, se o seu time seguir esta regra, significa que você
+
+vai ter que gastar aproximadamente 10 minutos para acompanhar
+
+o processo em execução e, caso
+
+aconteça alguma falha, estará preparada para
+
+corrigir o problema o mais rápido possível.
+
+
+Quando todo processo de build, compilação e
+
+testes de unidade, integrados e ponta a ponta
+
+tiverem sido executados com sucesso, você
+
+poderá pegar a próxima tarefa para trabalhar.
+
+E o ciclo então se repete indefinidamente.
+
+
+Mas antes de seguir para o próximo tema,
+
+eu queria frisar a importância da
+
+questão da frequencia de integração.
+
+
+O James Shore, que é autor do livro
+
+The art of agile development
+
+ou, em português, A arte do desenvolvimento ágil
+
+nos diz que:
+
+
+Muitas equipes têm uma regra que você tem que INTEGRAR
+
+antes de ir para casa no final do dia.
+
+Se você não pode integrar, eles dizem,
+
+algo deu ERRADO e você deve JOGAR FORA o seu código
+
+e começar de novo no dia seguinte.
+
+
+Esta regra parece dura, mas na verdade é uma regra muito boa.
+
+Com o desenvolvimento guiado por testes,
+
+se você não pode integrar dentro de alguns minutos,
+
+você provavelmente está preso.
+
+
+Pra quem está mais longe do desenvolvimento ágil
+
+e do TDD e Programação Extrema,
+
+talvez esta dica pareça um pouco extremista.
+
+Mas, no universo da integração contínua,
+
+esta é a forma recomendada de atuar neste tipo
+
+de situação.
+
+
+Mas talvez você esteja se perguntando:
+
+E as Feature Branchs?
+
+Como ficam neste cenário?
+
+
+Bom, a resposta é:
+
+EVITE feature branchs.
+
+Tem um texto bacana do Martin Fowler onde ele diz:
+
+Quando você isola as feature branches, há um risco de
+
+um conflito desagradável crescendo sem que você perceba.
+
+Então o isolamento é uma ILUSÃO, e será quebrado DOLOROSAMENTE
+
+mais cedo ou mais tarde.
+
+
+Atenção ai para as palavras ILUSÃO e DOLOROSAMENTE.
+
+Acho que ele sintetizou muito bem o problema de
+
+se utilizar feature branchs.
+
+
+Mas calma, isso não quer dizer que você não possa
+
+NUNCA criar uma feature branch. Você pode. Mas
+
+deve ser algo evitado ao máximo e deve durar
+
+o menor intervalo de tempo possível. Preferencialmente,
+
+menos de um dia.
+
+
+Talvez alguns de vocês também estejam se
+
+questionando sobre o uso de pull requests.
+
+Será que em um projeto que utiliza integração contínua,
+
+é possível trabalhar com pull requests?
+
+
+Bom, algum tempo atrás o pessoal do github fez um post
+
+falando sobre integração contínua, e na imagem que
+
+compartilharam tinha justamente um pull request.
+
+
+E o Nat Pryce respondeu este twit.
+
+E pra quem não sabe, o Nat Pryce é uma figura bastante conhecida
+
+na comunidade de desenvolvimento de software,
+
+em especial entre os fãs de TDD e programação extrema.
+
+Ele é inclusive um dos autores do livro
+
+Growing Object-Oriented Software, Guided by Tests,
+
+cuja versão em portugues ganhou o título
+
+Desenvolvimento de software orientando a objetos,
+
+guiado por testes.
+
+
+E a resposta dele, não foi lá muito amigavel rs
+
+Traduzindo para o português, ele disse algo como:
+
+Fazer ‘integração’ contínua com solicitações de pull.
+
+Ffs! Solicitações de pull significa que a integração
+
+NÃO É CONTÍNUA. Eu esperaria que a GitHub fizesse melhor
+
+do que isso.
+
+
+Bom, então... pelo menos na visão do Nat Pryce acho que ficou
+
+bem claro que NÃO. Pull requests não são muito recomendados
+
+quando estamos trabalhando com integração contínua rs
+
+Mas, claro, assim como as feature branchs, não significa
+
+que os pull requests estão proibidos. Existem situações
+
+onde eles podem ser muito úteis. Mas,
+
+devem ser evitados ao máximo.
+
+
+Bom, agora a gente já sabe um pouco melhor o que é
+
+e principalmente o que NÃO é integração contínua.
+
+Mas, como podemos COMEÇAR a PRATICAR integração continua
+
+de forma efetiva?
+
+
+Aqui eu vou dar 4 dicas pra você.
+
+E a primeira dela é:
+
+Geração de build automatizada.
+
+
+Já falamos um pouco sobre isso ao longo do vídeo,
+
+e a primeira coisa que costumo fazer em todo
+
+projeto que participo é, caso não tenham ainda,
+
+criar uma pipeline de implantação automatizada.
+
+
+O principal objetivo disso é nos certificarmos
+
+que o código versionado no branch central e compartilhado
+
+está minimamente estável. Ou seja, está compilando corretamente,
+
+e os testes automatizados estão passando.
+
+
+Como falei antes, integração contínua é muito mais uma questão
+
+cultural e de PRÁTICAS do que de FERRAMENTAS. MAS, hoje em dia
+
+existem ferramentas que são muito úteis e devem ser utilizadas.
+
+Em geral eu gosto de usar o GitLab CI ou o Jenkins mesmo.
+
+Mas existe uma infinidade de outras possibilidades e cada
+
+projeto e cada time deve encontrar aquela que melhor atende
+
+suas necessidades.
+
+
+O segundo passo que costumo fazer em todo projeto é
+
+me certificar que uma mesma build pode ser utilizada
+
+em todos os ambiente.
+
+
+Infelizmente ainda não é incomum encontrar times que
+
+geram builds específicas por ambiente.
+
+Encontro projetos onde uma build, usualmente
+
+isolada em um branch, serve para atender o ambiente de desenvolvimento,
+
+outra para ambiente de testes, outra para homologação e uma última
+
+para produção.
+
+
+E sempre que o time precisa publicar algo em um ambiente,
+
+uma nova build é gerada.
+
+Essa é uma prática muito ruim, pois
+
+faz com que essencialmente o produto que vai
+
+chegar efetivamente em produção basicamente não tenha
+
+sido testado! Já que é uma build diferente da que é
+
+executada nos demais ambientes.
+
+
+A forma correta de lidar com esta situação é utilizar
+
+uma abordagem de PROMOÇÃO de builds. Assim, uma build
+
+é gerada através da pipeline de implantação,
+
+que irá compilar, testar e gerar um pacote desta versão,
+
+que é então implantada no ambiente de desenvolvimento.
+
+
+ESTA MESMA BUILD é posteriormente
+
+promovida para o ambiente de testes
+
+validação, homologação, ... até chegar no ambiente de produção.
+
+
+Todo este processo é automatizado, mas não é necessáriamente
+
+disparado automaticamente.
+
+É comum termos alguns pontos da pipeline que exigem
+
+uma interação humana. Em geral, um clique em um
+
+botão para continuar o processo.
+
+
+Por exemplo, para que uma build entre em produção
+
+alguém do time precisa antes clicar em um botão
+
+para que a pipeline prossiga até o final.
+
+
+Mas para que seja possível trabalar com o conceito
+
+de promoção de builds, precisamos externalizar algumas
+
+variaveis do sistema, como, por exemplo, strings de conexão com
+
+banco.
+
+
+É necessário que de alguma forma o ambiente de desenvolvimento se
+
+conecte com o banco de dados de desenvolvimento e o ambiente de produção com
+
+o banco de produção.
+
+O mesmo precisa ser feito para todas as integração com sistemas
+
+externos, filas de mensageria, e tudo mais.
+
+
+Resolver isso costuma ser relativamente simples:
+
+Normalmente basta externalizar estas configurações
+
+para variáveis de ambiente e injeta-las na aplicação
+
+de alguma forma.
+
+
+Hoje em dia, com tecnologias como conteiners,
+
+isso costuma ser bem trivial de fazer.
+
+
+A terceira dica que gostaria de dar aqui
+
+é sobre versionamento de APIs.
+
+
+Infelizmente ainda encontro times que NÃO versionam
+
+corretmanete suas APIs.
+
+E a forma de fazer isso depende muito do tipo de sistema
+
+que está sendo desenvolvimento.
+
+
+Mas, vamos imaginar que você está implementando um backend
+
+para uma página web ou backend para uma aplicação móvel.
+
+Para estes cenários, costumo ver duas possíveis abordagens
+
+sendo adotadas:
+
+
+A primeira, e mais simples, é versionar a sua rota.
+
+Vamos supor que você tem um serviço para fazer autenticação
+
+no seu sistema.
+
+Você poderia inicialmente ter uma rota com endereço /api/v1/autenticar
+
+
+E se um dia houver alguma quebra de contrato com este serviço,
+
+você pode implementar, paralelamente, um outro serviço na rota
+
+/api/v2/autenticar, por exemplo.
+
+
+Assim, ambos os serviços podem conviver juntos, no mesmo
+
+código fonte e no mesmo branch central compartilhado.
+
+
+Eventualmente, quando a v2 estiver testada, valida e estável,
+
+o serviço v1 será descontinuado e seu código
+
+fonte excluído. Mas até lá, ambas as versões podem conviver
+
+harmoniozamente no mesmo branch, sem a necessidade de utilizar
+
+uma feature branch.
+
+
+Para este tipo de cenário, pode ser interessante criar um
+
+release toggle, para evitar que o serviço v2 fique
+
+exposto em produção antes do tempo.
+
+
+Caso você não saiba o que é um release toggle ou um
+
+feature toggle, eu vou deixar um link ai na descrição
+
+pra um artigo que escrevi sobre esse tema.
+
+Se você ainda não conhece esse recurso, recomendo fortemente
+
+que leia o artigo, beleza?
+
+
+Outra forma possível neste tipo de cenário é
+
+versionar o serviço através do cabeçalho da
+
+requisição HTTP.
+
+Normalmente, quando adotada esta abordagem,
+
+o cliente que irá fazer a requisicão
+
+inclui a versão deseja junto com header Accept.
+
+
+Assim, o backend sabe qual versão daquele serviço
+
+deve ser executada.
+
+
+E por último, mas não menos importante, minha quarta dica é
+
+FAÇA TESTES AUTOMATIZADOS.
+
+Se possível, pratique TDD.
+
+Melhor ainda se puder trabalhar com programação pareada
+
+ou mob programming.
+
+
+TDD e programação pareada ou mob programming combinam
+
+MUITO com as práticas de integração contínua.
+
+E pode ser uma ótima maneira de evitar os pull requests
+
+também, já que muitas vezes eles são utilizados
+
+justamente para revisão de código e, se você estiver
+
+codificando com outras pessoas, a revisão já estará sendo feita
+
+em tempo real.
+
+
+Bom, é provavel que alguns de vocês prefiram
+
+utilizar outras formas de fazer o controle
+
+de versionamento.
+
+
+Como já deve ter ficado claro agora,
+
+integração contínua não é uma prática
+
+tão simples assim de aplicar.
+
+É necessário ter uma equipe muito engajado,
+
+disciplinada e capacitado para que dê certo.
+
+
+Alguns times gostam e querem utilizar
+
+features branchs, pull requests, ... enfim
+
+por algum motivo, não querem fazer integração contínua.
+
+
+E como já havia dito anteriormente,
+
+isso não é nenhum crime, ok?
+
+E se este for o cenário do seu time,
+
+recomendo que pesquise e pratique
+
+outras formas de controlar o seu
+
+código fonte.
+
+
+Uma alternativa bastante popular é o GIT FLOW
+
+ou um dos seus derivados, como Github Flow e o
+
+Gitlab Flow.
+
+Vou deixar alguns links na descrição, caso tenha
+
+interesse em explorar estas outras possibilidades.
+
+
+Mas, particularmente, prefiro muito mais trabalhar com
+
+integração contínua mesmo...
+
+
+E... é isso aí. Isso era tudo que eu tinha para
+
+falar hoje com vocês sobre este assunto.
+
+Mas antes de terminar, queria só mencionar
+
+alguns livros bacanas, que serviram de inspiração
+
+para esta apresentação e que recomendo fortemente
+
+para quem quiser praticamente integração contínua de verdade.
+
+
+Primeiro tem os 3 livros que já citei anteriormente
+
+durante a apresentação, que são o
+
+Continuous Delivery, o Growing object-oriented software
+
+guided by tests e o The art of agile development.
+
+
+O primeiro, Continuous Delivery, vai te dar um panorama
+
+geral sobre este assunto.
+
+Já o Growing objetct-oriented software guided by tests
+
+vai trazer uma visão MUITO bacana sobre desenvolvimento
+
+de software guiado por testes e, como já falei ao longo
+
+desta apresentação, os testes automatizados são
+
+FUNDAMENTAIS para que seja possível praticar
+
+integração contínua.
+
+
+E o terceiro, the art of agile development, vai
+
+te dar uma ideia mais geral sobre desenvolvimento
+
+ágil, que também tem tudo a ver com a prática de
+
+integração contínua.
+
+
+Além deles, recomendo FORTEMENTE a leitura do
+
+Extreme Programming Explained, do Kent Beck.
+
+Nele você vai entender os fundamentos da
+
+Programação Extrema, o que com certeza
+
+vai te ajudar MUITO a conseguir praticar
+
+integração contínua de forma efetiva.
+
+
+Por último, gostaria de citar o livro
+
+Building Evolutionary Architectures,
+
+do Neil Ford, Rebeca Parsons e Patrick Kua.
+
+
+Para conseguir praticar integração contínua,
+
+seu time também precisa ter ótimos
+
+conhecimentos sobre como implementar uma
+
+boa arquitetura de software.
+
+E este livro pode ser UMA das fontes para te ajudar
+
+com isso.
+
+
+Eu cheguei a gravar um episódio em meu podcast
+
+falando sobre esta obra, e vou deixar o link também
+
+na descrição.
+
+
+Então, é isso aí.
+
+Este foi mais um vídeo aqui para o canal e dessa vez usei um
+
+formato um pouco diferente e espero que você tenha
+
+gostado. Se quiser, pode mandar sua opinião, críticas ou sugestões
+
+pra mim através do e-mail marcio@segunda.tech.
+
+
+E se você gostou do conteúdo deste vídeo,
+
+talvez se interesse também em ouvir meu podcast, ler meus artigos
+
+e assistir os outros vídeos.
+
+Sempre deixo tudo disponível lá no meu site: segunda.tech.
+
+Então, se quiser, entra lá pra conferir, beleza?
+
+Bons estudos pra você e, até o próximo vídeo!
+
+
+Tempo gasto na produção deste video (ignorando criacao dos slides):
+
+Primeira "sprint": 54min
+
+Segunda "sprint": 51min (faltam 2 slides pra terminar o texto inicial)
+
+Terceiro "sprint": 27min (falta 1 slide)
+
+Quarto "sprint": 60min (extendendo conteúdo, incluindo arte do desenvolvimento agil)
+
+Quinta "sprint": 45min (extendendo ainda mais)
+
+Sexto "sprint": 30min (revisando e adicionando slides)
+
+Setimo "sprint": 35min (adicionando referencias e gitflow)
+
+Oitavo "sprint": 17min (revisão do texto)
+
+Nono "sprint": 1:20h de gravação (metade do texto)
+
+Decimo "sprint": 1h de gravação
+
+Decimo primeiro "sprint": 30m de edição de audio
+
+Decimo segundo "sprint": 45min edicao audio
+
+Decimo terceiro "sprint": vária horas para editar video devido a bugs no final cut pro...
