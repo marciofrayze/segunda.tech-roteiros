@@ -1,0 +1,238 @@
+Olá! Meu nome é Marcio e você está ouvindo o sétimo episódio deste podcast.
+
+Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+
+Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
+
+
+E este é um episódio muito especial, pois escolhi falar de um dos meus livros preferidos:
+
+O Test-Driven Development by Example, ou, em sua versão em português,
+
+TDD: Desenvolvimento guiado por testes.
+
+
+Antes deste livro que a gente vai conversar hoje, os conceitos de TDD
+
+já existiam e estavam começando a ser disseminados. Mas esta obra
+
+foi certamente um marco fundamental para divulgação e ampla adoção desta
+
+forma de desenvolver software.
+
+
+É inegável a influência que o TDD exerceu em toda comunidade de
+
+desenvolvimento de software.
+
+Mas, embora muita gente conheça a expressão e tenha uma vaga noção do que
+
+se trata, a quantidade de times que adotam esta forma de trabalho DE VERDADE,
+
+como ela foi originalmente concebida,
+
+ainda é, infelizmente, relativamente baixa.
+
+
+E o motivo deste livro ser tão especial pra mim é que entender e ser capaz
+
+de desenvolver software guiado por testes foi um dos marcos mais significativos
+
+na minha carreira.
+
+E foi esta obra, em conjunto com o livro Growing object oriented software guided by tests,
+
+que me permitiram finalmente enchergar a beleza do TDD.
+
+E desde então... a forma como eu programo nunca mais foi a mesma.
+
+Então... bora começar?
+
+
+Esta obra foi escrita pelo Kent Beck, que é um dos assinantes originais do manifesto ágil,
+
+criador da Programação Extrema, que foi uma das primeiras meodologias de desenvolvimento ágil,
+
+criada lá em meados da década de noventa e que continua sendo muito relevante
+
+até hoje.
+
+Ele é também um dos pioneiros no conceito de Design Patterns e...
+
+é provavelmente um dos principais disseminadores da programação guiada por
+
+testes, ou, TDD.
+
+
+E neste livro que vou aprensentar hoje, Kent Beck
+
+começa nos apresentando o principal objetivo do
+
+desenvolvimento guiado por testes automatizados:
+
+escrever códigos que LIMPOS que funcionam.
+
+
+Para isso, segue um ciclo muito bem definido e bastante simples:
+
+1- Escrevemos novos códigos apenas quando tivermos um teste falhando.
+
+e 2- Elimine duplicidade do código.
+
+
+Então, pelo menos na teoria, fazer TDD é simples assim, basta
+
+seguir o fluxo de 3 etapas:
+
+Na primeira, normalmente chamada de Red,
+
+você escreve um teste que necessariamente vai falhar ao ser executado.
+
+
+Na segunda etapa, chamada de Green,
+
+você escreve um código para fazer com que o teste passe.
+
+Mas não deve escrever NEMHUMA linha de código a mais do que o essencial para que
+
+o teste fique verde.
+
+
+Por último, você, você refatora o código, ou, como o Kent Beck fala neste livro,
+
+remove as duplicidades do código.
+
+Seguindo estas regras bem simples você já estará praticando TDD.
+
+
+E para te explicar como fazer tudo isso,
+
+o livro descreve alguns exemplos.
+
+No inicio, o exemplo relativamente simples:
+
+como construir uma representaçao para dinheiro,
+
+representando multiplos tipos de moedas,
+
+podendo ser convertidas, somadas, multiplicadas, etc.
+
+
+Este exemplo se estende por vários capitulos,
+
+até a página 87.
+
+Mas cada capitulo tem umas 3 páginas
+
+e é bem gostoso de acompanhar todo raciocício
+
+e ver a arquitetura sendo criada passo a passo
+
+e como o TDD contribui para tudo isso.
+
+
+Ah, o todo código apresentado até este momento do livro
+
+é escrito em Java.
+
+Mas linguagem em si não é o foco né, então mesmo que você
+
+não programe em Java, vai conseguir acompanhar o exemplo
+
+sem problemas, desde que, claro, já saiba o básico
+
+sobre orientação a objetos: o que é uma classe,
+
+método, atributo, etc. Nada muito avançado.
+
+
+E nos capitulos seguintes ele muda o foco
+
+para explicar o padrão xUnit. Para isso,
+
+ele CRIA um framework de testes, usando TDD.
+
+É rs.. é isso mesmo! Ele usa TDD para criar
+
+um framework de testes.
+
+
+E nesta parte do livro
+
+o Kent Beck optou para escrever os códigos em Python.
+
+Mas, mais uma vez, a linguagem em si não é muito relevante.
+
+O importante aqui é entender o fluxo para desenvolver um software
+
+guiado por testes automatizados.
+
+
+Esta parte se estende até a página 120,
+
+quando começa a terceira parte do livro:
+
+Padrões para desenvolvimento de software guiado por testes,
+
+onde ele apresenta algumas dicas bacanas sobre TDD,
+
+refatoração de código e outras sobre padrões de projeto.
+
+
+Um dos trechos que gosto muito deste livro é sobre como o TDD
+
+consegue transformar medo em tédio.
+
+Antes de praticar TDD, eu sempre tinha MEDO de alterar qualquer coisa
+
+nos projetos. Constantemente pensava:
+
+Será que essa mudança vai quebrar alguma outra coisa? Será que essa mudança
+
+é REALMENTE segura de ser feita?
+
+E com uma boa cobertura de testes automatizados este medo é praticamente
+
+eliminado, afinal, basta executar os testes para nos certificarmos se
+
+a alteração que estamos fazendo vai ter algum efeito colateral negativo
+
+em alguma outra parte do sistema.
+
+E essa, é uma das coisas que mais gosto do TDD: com essa prática,
+
+me sinto menos estressado, mais relaxado e a consequencia disso é que
+
+sou mais produtivo e.. mais feliz!
+
+
+E então... quem deveria ler este livro? Bom, se você é ou tem vontade de
+
+se tornar líder um dia, acho que vale a leitura. E se você não tem esse
+
+perfil... acho que também deveria ler rs como disse anteriormente,
+
+é uma leitura de poucas horas e vale fazer esse investimento
+
+pra conhecer um pouquinho da visão bacana dessas duas autoras e quem sabe,
+
+juntas, conseguir aos poucos melhorar cada vez mais a área de desenvolvimento
+
+de software.
+
+
+E, é isso aí.
+
+Este foi o quinto episódio deste podcast e espero que você tenha gostado.
+
+Se quiser, pode mandar sua opinião, criticas ou sugestões pra mim através
+
+do e-mail marcio@segunda.tech, blz?
+
+Boa leitura pra você e... até o próximo livro!
+
+---
+
+30min - Inicio do texto.
+
+40min - mais texto (chegando na parte 3 do livro)
