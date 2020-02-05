@@ -42,9 +42,9 @@ na minha carreira.
 
 E foi esta obra, em conjunto com o livro Growing object oriented software guided by tests,
 
-que me permitiram finalmente enchergar a beleza do TDD.
+que me permitiram finalmente enxergar a beleza do TDD.
 
-E desde então... a forma como eu programo nunca mais foi a mesma.
+E... a forma como eu programo nunca mais foi a mesma.
 
 Então... bora começar?
 
