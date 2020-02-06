@@ -51,7 +51,7 @@ Então... bora começar?
 
 Esta obra foi escrita pelo Kent Beck, que é um dos assinantes originais do manifesto ágil,
 
-criador da Programação Extrema, que foi uma das primeiras meodologias de desenvolvimento ágil,
+criador da Programação Extrema - que foi uma das primeiras meodologias de desenvolvimento ágil,
 
 criada lá em meados da década de noventa e que continua sendo muito relevante
 
@@ -70,7 +70,7 @@ começa nos apresentando o principal objetivo do
 
 desenvolvimento guiado por testes automatizados:
 
-escrever códigos que LIMPOS que funcionam.
+escrever códigos que LIMPO que funcionam.
 
 
 Para isso, segue um ciclo muito bem definido e bastante simples:
@@ -98,7 +98,7 @@ Mas não deve escrever NEMHUMA linha de código a mais do que o essencial para q
 o teste fique verde.
 
 
-Por último, você, você refatora o código, ou, como o Kent Beck fala neste livro,
+Por último, você, refatora o código, ou, como o Kent Beck fala neste livro,
 
 remove as duplicidades do código.
 
@@ -109,7 +109,7 @@ E para te explicar como fazer tudo isso,
 
 o livro descreve alguns exemplos.
 
-No inicio, o exemplo relativamente simples:
+No inicio, um exemplo relativamente simples:
 
 como construir uma representaçao para dinheiro,
 
@@ -163,7 +163,7 @@ o Kent Beck optou para escrever os códigos em Python.
 
 Mas, mais uma vez, a linguagem em si não é muito relevante.
 
-O importante aqui é entender o fluxo para desenvolver um software
+O importante aqui é entender todo o fluxo necessário para desenvolver um software
 
 guiado por testes automatizados.
 
@@ -193,7 +193,7 @@ Será que essa mudança vai quebrar alguma outra coisa? Será que essa mudança
 
 E com uma boa cobertura de testes automatizados este medo é praticamente
 
-eliminado, afinal, basta executar os testes para nos certificarmos se
+eliminado, afinal, basta executar os testes para verificarmos se
 
 a alteração que estamos fazendo vai ter algum efeito colateral negativo
 
@@ -203,7 +203,77 @@ E essa, é uma das coisas que mais gosto do TDD: com essa prática,
 
 me sinto menos estressado, mais relaxado e a consequencia disso é que
 
-sou mais produtivo e.. mais feliz!
+sou mais produtivo e.. muito mais feliz!
+
+
+Entre os capitulos 25 e 29 o autor apresenta uma serie de padrões
+
+de como implementar TDD, demonstrando varios exemplos.
+
+São capitulos bem interessantes que vão tirar muitas dúvidas e te
+
+ajudar a ser mais produtivo.
+
+
+Já no capitulo 30, Kent Beck apresenta alguns padrões de projeto.
+
+São explicações curtas, mas muito importantes, onde ele vai
+
+explorar padrões como o value object, null object, composite, factory method, entre outros.
+
+
+Ele não gasta muito tempo em cada um deles, em torno de uma página apenas.
+
+Mas pra quem nunca teve contato com estes padrões, pode ser uma forma
+
+interessante de introduzi-los. Mas recomendo que os estude também através
+
+de outras fontes, beleza?
+
+
+Bom, de qualquer forma, este é um capitulo muito bacana pois mostra a importancia
+
+de se termos uma boa arquitetura de software.
+
+Quanto maior for seu conhecimento sobre este assunto, mais facilidade você vai ter
+
+para escrever códigos testáveis e consequentemente, mais fácil vai ser praticar TDD.
+
+
+Em seguida temos um capitulo dedicado a refatoração de código, já que este é
+
+um dos passos fundamentais do TDD. E mais uma vez, é um capitulo curto,
+
+com apenas 10 páginas. O conteúdo é excelente, mas claro, não aborda
+
+todos os detalhes deste assunto. Então, de novo, é uma ótima forma de
+
+introduzir o assunto, mas recomendo que estude também outras fontes.
+
+Como por exemplo a segunda edição do livro Refactoring, do Marting Fowler,
+
+onde este tema é explicado de uma forma mais aprofundada.
+
+
+E no último capitulo, Mastering TDD, o Kent Beck vai falar sobre
+
+como o TDD se relaciona com a Programação Extrema e suas práticas,
+
+como por exemplo programação pareada, integração contínua e design simples,
+
+entre outros.
+
+Também explica melhor pra quem a pratica de TDD é recomendada, pq ela funciona,
+
+além de tirar algumas dúvidas recorrentes, como:
+
+Quão grande deve ser o escopo do seu teste? O que você NÃO precisa testar?
+
+Quando podemos remover um teste? Quantos testes precisamos escrever?
+
+É possível aplicar TDD em sistemas muito grandes?
+
+Essas e outras perguntas são respondidas neste último capitulo.
 
 
 E então... quem deveria ler este livro? Bom, se você é ou tem vontade de
@@ -236,3 +306,5 @@ Boa leitura pra você e... até o próximo livro!
 30min - Inicio do texto.
 
 40min - mais texto (chegando na parte 3 do livro)
+
+40min - mais texto (falta so o fechamento "quem deve ser este livro?")
