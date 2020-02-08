@@ -5,7 +5,7 @@ Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sob
 Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
 
 
-E este é um episódio muito especial, pois escolhi falar de um dos meus livros preferidos:
+E este é um episódio muito especial, pois escolhi falar de um dos meus livros favoritos:
 
 O Test-Driven Development by Example, ou, em sua versão em português,
 
@@ -70,7 +70,7 @@ começa nos apresentando o principal objetivo do
 
 desenvolvimento guiado por testes automatizados:
 
-escrever códigos que LIMPO que funcionam.
+escrever códigos LIMPO que funcionam.
 
 
 Para isso, segue um ciclo muito bem definido e bastante simples:
@@ -159,7 +159,7 @@ um framework de testes.
 
 E nesta parte do livro
 
-o Kent Beck optou para escrever os códigos em Python.
+o Kent Beck optou por escrever os códigos em Python.
 
 Mas, mais uma vez, a linguagem em si não é muito relevante.
 
@@ -168,7 +168,7 @@ O importante aqui é entender todo o fluxo necessário para desenvolver um softw
 guiado por testes automatizados.
 
 
-Esta parte se estende até a página 120,
+Esta etapa se estende até a página 120,
 
 quando começa a terceira parte do livro:
 
@@ -276,24 +276,14 @@ Quando podemos remover um teste? Quantos testes precisamos escrever?
 Essas e outras perguntas são respondidas neste último capitulo.
 
 
-E então... quem deveria ler este livro? Bom, se você é ou tem vontade de
-
-se tornar líder um dia, acho que vale a leitura. E se você não tem esse
-
-perfil... acho que também deveria ler rs como disse anteriormente,
-
-é uma leitura de poucas horas e vale fazer esse investimento
-
-pra conhecer um pouquinho da visão bacana dessas duas autoras e quem sabe,
-
-juntas, conseguir aos poucos melhorar cada vez mais a área de desenvolvimento
+E então... quem deveria ler este livro? ...
 
 de software.
 
 
 E, é isso aí.
 
-Este foi o quinto episódio deste podcast e espero que você tenha gostado.
+Este foi o sétimo episódio deste podcast e espero que você tenha gostado.
 
 Se quiser, pode mandar sua opinião, criticas ou sugestões pra mim através
 
@@ -308,3 +298,5 @@ Boa leitura pra você e... até o próximo livro!
 40min - mais texto (chegando na parte 3 do livro)
 
 40min - mais texto (falta so o fechamento "quem deve ser este livro?")
+
+11min - revisando texto
