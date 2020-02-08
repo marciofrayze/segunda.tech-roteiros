@@ -40,16 +40,14 @@ de desenvolver software guiado por testes foi um dos marcos mais significativos
 
 na minha carreira.
 
-E foi esta obra, em conjunto com o livro Growing object oriented software guided by tests,
-
-que me permitiram finalmente enxergar a beleza do TDD.
+E esta foi umas das principais obras que me permitiram finalmente enxergar a beleza do TDD.
 
 E... a forma como eu programo nunca mais foi a mesma.
 
 Então... bora começar?
 
 
-Esta obra foi escrita pelo Kent Beck, que é um dos assinantes originais do manifesto ágil,
+Este livroa foi escrito pelo Kent Beck, que é um dos assinantes originais do manifesto ágil,
 
 criador da Programação Extrema - que foi uma das primeiras meodologias de desenvolvimento ágil,
 
