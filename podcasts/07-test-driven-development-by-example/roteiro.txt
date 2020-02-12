@@ -1,4 +1,4 @@
-Olá! Meu nome é Marcio e você está ouvindo o sétimo episódio deste podcast.
+Olá! Meu nome é Marcio e você está ouvindo o sétimo episódio deste podcast
 
 Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
 
@@ -62,45 +62,49 @@ Ele é também um dos pioneiros no conceito de Design Patterns e...
 testes, ou, TDD.
 
 
-E neste livro que vou aprensentar hoje, Kent Beck
+E neste livro que vou apresentar hoje, Kent Beck
 
-começa nos apresentando o principal objetivo do
+começa nos expondo o principal objetivo do
 
 desenvolvimento guiado por testes automatizados:
 
-escrever códigos LIMPO que funcionam.
+escrever códigos LIMPOS que funcionem.
 
 
-Para isso, segue um ciclo muito bem definido e bastante simples:
+Para isso, segue um processo muito bem definido que consiste em
 
-1- Escrevemos novos códigos apenas quando tivermos um teste falhando.
+basicamente 2 regras:
 
-e 2- Elimine duplicidade do código.
+A primeira é: escreva novos códigos apenas quando tivermos um teste falhando.
+
+E a segunda é: após ter escrito o código que faz o teste passar, elimine sua
+
+duplicidade. Ou, em outras palavras, refatore o código.
 
 
 Então, pelo menos na teoria, fazer TDD é simples assim, basta
 
-seguir o fluxo de 3 etapas:
+seguir o ciclo em 3 etapas:
 
-Na primeira, normalmente chamada de Red,
+Na primeira, chamada de Red,
 
-você escreve um teste que necessariamente vai falhar ao ser executado.
+você escreve um teste que NECESSARIAMENTE Vai falhar ao ser executado.
 
 
 Na segunda etapa, chamada de Green,
 
 você escreve um código para fazer com que o teste passe.
 
-Mas não deve escrever NEMHUMA linha de código a mais do que o essencial para que
+Mas não deve escrever NEMHUMA linha de código a mais do que o essencial para
 
-o teste fique verde.
+que o teste fique verde.
 
 
-Por último, você, refatora o código, ou, como o Kent Beck fala neste livro,
+Por último, você refatora o código, ou, como o Kent Beck fala neste livro,
 
 remove as duplicidades do código.
 
-Seguindo estas regras bem simples você já estará praticando TDD.
+Seguindo estas regras bem simples, você já estará praticando TDD.
 
 
 E para te explicar como fazer tudo isso,
@@ -111,9 +115,9 @@ No inicio, um exemplo relativamente simples:
 
 como construir uma representaçao para dinheiro,
 
-representando multiplos tipos de moedas,
+contendo multiplos tipos de moedas,
 
-podendo ser convertidas, somadas, multiplicadas, etc.
+que podem ser convertidas, somadas, multiplicadas, etc.
 
 
 Este exemplo se estende por vários capitulos,
@@ -122,9 +126,9 @@ até a página 87.
 
 Mas cada capitulo tem umas 3 páginas
 
-e é bem gostoso de acompanhar todo raciocício
+e é bem gostoso de acompanhar todo raciocício,
 
-e ver a arquitetura sendo criada passo a passo
+ver a arquitetura sendo criada passo a passo
 
 e como o TDD contribui para tudo isso.
 
@@ -144,7 +148,7 @@ sobre orientação a objetos: o que é uma classe,
 método, atributo, etc. Nada muito avançado.
 
 
-E nos capitulos seguintes ele muda o foco
+E nos capitulos seguintes o autor muda o foco
 
 para explicar o padrão xUnit. Para isso,
 
@@ -152,7 +156,7 @@ ele CRIA um framework de testes, usando TDD.
 
 É rs.. é isso mesmo! Ele usa TDD para criar
 
-um framework de testes.
+um framework de testes rs.
 
 
 E nesta parte do livro
@@ -161,9 +165,9 @@ o Kent Beck optou por escrever os códigos em Python.
 
 Mas, mais uma vez, a linguagem em si não é muito relevante.
 
-O importante aqui é entender todo o fluxo necessário para desenvolver um software
+O importante aqui é entender todo o fluxo necessário para 
 
-guiado por testes automatizados.
+desenvolver um software guiado por testes automatizados.
 
 
 Esta etapa se estende até a página 120,
@@ -174,12 +178,12 @@ Padrões para desenvolvimento de software guiado por testes,
 
 onde ele apresenta algumas dicas bacanas sobre TDD,
 
-refatoração de código e outras sobre padrões de projeto.
+refatoração de código e outras sobre padrões de projeto em geral.
 
 
 Um dos trechos que gosto muito deste livro é sobre como o TDD
 
-consegue transformar medo em tédio.
+consegue transformar MEDO em TÉDIO.
 
 Antes de praticar TDD, eu sempre tinha MEDO de alterar qualquer coisa
 
@@ -188,6 +192,7 @@ nos projetos. Constantemente pensava:
 Será que essa mudança vai quebrar alguma outra coisa? Será que essa mudança
 
 é REALMENTE segura de ser feita?
+
 
 E com uma boa cobertura de testes automatizados este medo é praticamente
 
@@ -208,9 +213,9 @@ Entre os capitulos 25 e 29 o autor apresenta uma serie de padrões
 
 de como implementar TDD, demonstrando varios exemplos.
 
-São capitulos bem interessantes que vão tirar muitas dúvidas e te
+São capitulos bem interessantes que vão tirar muitas dúvidas de quem
 
-ajudar a ser mais produtivo.
+esta nianso esta prática.
 
 
 Já no capitulo 30, Kent Beck apresenta alguns padrões de projeto.
@@ -231,11 +236,11 @@ de outras fontes, beleza?
 
 Bom, de qualquer forma, este é um capitulo muito bacana pois mostra a importancia
 
-de se termos uma boa arquitetura de software.
+de se ter uma boa arquitetura de software.
 
 Quanto maior for seu conhecimento sobre este assunto, mais facilidade você vai ter
 
-para escrever códigos testáveis e consequentemente, mais fácil vai ser praticar TDD.
+para escrever códigos testáveis e, consequentemente, mais fácil vai ser praticar TDD.
 
 
 Em seguida temos um capitulo dedicado a refatoração de código, já que este é
@@ -244,7 +249,7 @@ um dos passos fundamentais do TDD. E mais uma vez, é um capitulo curto,
 
 com apenas 10 páginas. O conteúdo é excelente, mas claro, não aborda
 
-todos os detalhes deste assunto. Então, de novo, é uma ótima forma de
+TODOS os detalhes deste assunto. Então, de novo, é uma ótima forma de
 
 introduzir o assunto, mas recomendo que estude também outras fontes.
 
@@ -274,9 +279,48 @@ Quando podemos remover um teste? Quantos testes precisamos escrever?
 Essas e outras perguntas são respondidas neste último capitulo.
 
 
-E então... quem deveria ler este livro? ...
+E então... quem deveria ler este livro? Bom, os requisitos mínimos
 
-de software.
+pra conseguir compreender esta obra é conhecer o básico de orientação a
+
+objetos. Você precisa saber o que é uma classe, uma interface, métodos,
+
+atributos, construtores... e se você já tem esse conhecimento, então deveria
+
+ler este livro.
+
+
+Algumas vezes vejo pessoas tratando TDD como se fosse um assunto muito avançado,
+
+destinado a pessoas desenvolvedoras mais experiêntes e... não é bem assim.
+
+Quanto mais cedo a pessoa conhece esta prática, mais fácil é internaliza-la
+
+no seu dia a dia.
+
+
+Pq desenvolvedoras mais experiêntes, mas que nunca praticaram TDD, já possuem
+
+uma série de vícios de programação, que vão precisar ser desfeitos.
+
+E a tendencia é que essas pessoas tenham mais
+
+resistencia em praticar TDD da forma como ela foi concebida.
+
+Muitas vezes querem pular etapas ou, mesmo sem querer, acabam voltando
+
+pro modelo que já estavam acostumadas, o que faz com que o
+
+processo de internatilização do ciclo do TDD seja mais demorado.
+
+
+Então, recomendo a leitura desta obra pra toda
+
+pessoa desenvolvedora que já saiba o básico de orientação a objetos.
+
+Este livro é super tranquilo de ler e é provavelmente a melhor forma de começar
+
+a estudar sobre este assunto.
 
 
 E, é isso aí.
@@ -298,3 +342,5 @@ Boa leitura pra você e... até o próximo livro!
 40min - mais texto (falta so o fechamento "quem deve ser este livro?")
 
 11min - revisando texto
+
+36min - escrevendo final e revisando texto
