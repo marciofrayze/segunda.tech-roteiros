@@ -47,7 +47,7 @@ E... a forma como eu programo nunca mais foi a mesma.
 Então... bora começar?
 
 
-Este livroa foi escrito pelo Kent Beck, que é um dos assinantes originais do manifesto ágil,
+Este livroa foi escrito pelo Kent Beck, que é um dos assinantes originais do manifesto ágil e
 
 criador da Programação Extrema - que foi uma das primeiras meodologias de desenvolvimento ágil,
 
@@ -68,7 +68,7 @@ começa nos expondo o principal objetivo do
 
 desenvolvimento guiado por testes automatizados:
 
-escrever códigos LIMPOS que funcionem.
+escrever códigos que são LIMPOS e que funcionam.
 
 
 Para isso, segue um processo muito bem definido que consiste em
@@ -84,14 +84,14 @@ duplicidade. Ou, em outras palavras, refatore o código.
 
 Então, pelo menos na teoria, fazer TDD é simples assim, basta
 
-seguir o ciclo em 3 etapas:
+seguir um ciclo de 3 etapas:
 
-Na primeira, chamada de Red,
+Na primeira, chamada de Vermelha,
 
 você escreve um teste que NECESSARIAMENTE Vai falhar ao ser executado.
 
 
-Na segunda etapa, chamada de Green,
+Na segunda etapa, chamada de Verde,
 
 você escreve um código para fazer com que o teste passe.
 
@@ -118,6 +118,13 @@ como construir uma representaçao para dinheiro,
 contendo multiplos tipos de moedas,
 
 que podem ser convertidas, somadas, multiplicadas, etc.
+
+
+É como se você representar dolares e reais em seu
+
+sistema e fosse capaz de converter dolar em real e vice versa,
+
+somar e multiplicar esses valores, etc.
 
 
 Este exemplo se estende por vários capitulos,
