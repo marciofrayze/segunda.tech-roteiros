@@ -1,11 +1,17 @@
 Olá! Meu nome é Marcio e você está ouvindo o sétimo episódio deste podcast
 
-Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos sobre LIVROS.
+Este é um projeto que criei com o objetivo de abrir espaço pra discutirmos
 
-Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma influenciaram minha carreira.
+sobre LIVROS.
+
+Aqui, pretendo falar um pouquinho sobre os livros que de alguma forma
+
+influenciaram minha carreira.
 
 
-E este é um episódio muito especial, pois escolhi falar de um dos meus livros favoritos:
+E este é um episódio muito especial, pois escolhi falar de um dos meus livros
+
+favoritos:
 
 O Test-Driven Development by Example, ou, em sua versão em português,
 
@@ -40,20 +46,22 @@ de desenvolver software guiado por testes foi um dos marcos mais significativos
 
 na minha carreira.
 
-E esta foi umas das principais obras que me permitiram finalmente enxergar a beleza do TDD.
+E esta foi umas das principais obras que me permitiram finalmente enxergar a
+
+beleza do TDD.
 
 E... a forma como eu programo nunca mais foi a mesma.
 
 Então... bora começar?
 
 
-Este livroa foi escrito pelo Kent Beck, que é um dos assinantes originais do manifesto ágil e
+Este livro foi escrito pelo Kent Beck, que é um dos assinantes originais do
 
-criador da Programação Extrema - que foi uma das primeiras meodologias de desenvolvimento ágil,
+manifesto ágil e criador da Programação Extrema - que foi uma das primeiras
 
-criada lá em meados da década de noventa e que continua sendo muito relevante
+meodologias de desenvolvimento ágil, criada lá em meados da década de noventa e
 
-até hoje.
+que continua sendo muito relevante até hoje.
 
 Ele é também um dos pioneiros no conceito de Design Patterns e...
 
@@ -120,7 +128,7 @@ contendo multiplos tipos de moedas,
 que podem ser convertidas, somadas, multiplicadas, etc.
 
 
-É como se você representar dolares e reais em seu
+É como se você quisesse representar dolares e reais em seu
 
 sistema e fosse capaz de converter dolar em real e vice versa,
 
@@ -137,12 +145,12 @@ e é bem gostoso de acompanhar todo raciocício,
 
 ver a arquitetura sendo criada passo a passo
 
-e como o TDD contribui para tudo isso.
+e como o TDD contribui pra tudo isso.
 
 
 Ah, o todo código apresentado até este momento do livro
 
-é escrito em Java.
+é escrito em JAVA.
 
 Mas linguagem em si não é o foco né, então mesmo que você
 
@@ -209,7 +217,9 @@ a alteração que estamos fazendo vai ter algum efeito colateral negativo
 
 em alguma outra parte do sistema.
 
-E essa, é uma das coisas que mais gosto do TDD: com essa prática,
+E essa, é uma das coisas que mais gosto do desenvolvimento guiado por testes:
+
+com essa prática,
 
 me sinto menos estressado, mais relaxado e a consequencia disso é que
 
@@ -222,14 +232,16 @@ de como implementar TDD, demonstrando varios exemplos.
 
 São capitulos bem interessantes que vão tirar muitas dúvidas de quem
 
-esta nianso esta prática.
+esta iniciando esta prática.
 
 
 Já no capitulo 30, Kent Beck apresenta alguns padrões de projeto.
 
 São explicações curtas, mas muito importantes, onde ele vai
 
-explorar padrões como o value object, null object, composite, factory method, entre outros.
+explorar padrões como o value object, null object, composite, 
+
+factory method, entre outros.
 
 
 Ele não gasta muito tempo em cada um deles, em torno de uma página apenas.
@@ -241,13 +253,15 @@ interessante de introduzi-los. Mas recomendo que os estude também através
 de outras fontes, beleza?
 
 
-Bom, de qualquer forma, este é um capitulo muito bacana pois mostra a importancia
+Bom, de qualquer forma, este é um capitulo muito bacana pois mostra a 
 
-de se ter uma boa arquitetura de software.
+importancia de se ter uma boa arquitetura de software.
 
-Quanto maior for seu conhecimento sobre este assunto, mais facilidade você vai ter
+Quanto maior for seu conhecimento sobre este assunto, mais facilidade você vai 
 
-para escrever códigos testáveis e, consequentemente, mais fácil vai ser praticar TDD.
+ter para escrever códigos testáveis e, consequentemente, mais fácil vai ser 
+
+praticar TDD.
 
 
 Em seguida temos um capitulo dedicado a refatoração de código, já que este é
@@ -273,13 +287,18 @@ como por exemplo programação pareada, integração contínua e design simples,
 
 entre outros.
 
+
 Também explica melhor pra quem a pratica de TDD é recomendada, pq ela funciona,
 
 além de tirar algumas dúvidas recorrentes, como:
 
-Quão grande deve ser o escopo do seu teste? O que você NÃO precisa testar?
+Quão grande deve ser o escopo do seu teste? 
 
-Quando podemos remover um teste? Quantos testes precisamos escrever?
+O que você NÃO precisa testar?
+
+Quando podemos remover um teste? 
+
+Quantos testes precisamos escrever?
 
 É possível aplicar TDD em sistemas muito grandes?
 
@@ -301,14 +320,14 @@ Algumas vezes vejo pessoas tratando TDD como se fosse um assunto muito avançado
 
 destinado a pessoas desenvolvedoras mais experiêntes e... não é bem assim.
 
-Quanto mais cedo a pessoa conhece esta prática, mais fácil é internaliza-la
+Quanto mais cedo conhecer esta prática, mais fácil é internaliza-la
 
 no seu dia a dia.
 
 
 Pq desenvolvedoras mais experiêntes, mas que nunca praticaram TDD, já possuem
 
-uma série de vícios de programação, que vão precisar ser desfeitos.
+uma série de vícios de programação que vão precisar ser desfeitos.
 
 E a tendencia é que essas pessoas tenham mais
 
@@ -318,7 +337,9 @@ Muitas vezes querem pular etapas ou, mesmo sem querer, acabam voltando
 
 pro modelo que já estavam acostumadas, o que faz com que o
 
-processo de internatilização do ciclo do TDD seja mais demorado.
+processo de internatilização do ciclo do desenvolvimento guiado por 
+
+testes seja mais demorado.
 
 
 Então, recomendo a leitura desta obra pra toda
@@ -352,4 +373,6 @@ Boa leitura pra você e... até o próximo livro!
 
 36min - escrevendo final e revisando texto
 
-37min - terminando e revisando codigo
+37min - terminando e revisando texto
+
+10min - revisao do texto
