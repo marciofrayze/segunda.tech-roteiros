@@ -351,3 +351,5 @@ Boa leitura pra você e... até o próximo livro!
 11min - revisando texto
 
 36min - escrevendo final e revisando texto
+
+37min - terminando e revisando codigo
