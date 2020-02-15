@@ -75,7 +75,7 @@ Para isso, segue um processo muito bem definido que consiste em
 
 basicamente 2 regras:
 
-A primeira é: escreva novos códigos apenas quando tivermos um teste falhando.
+A primeira é: escreva novos códigos apenas quando tiver um teste falhando.
 
 E a segunda é: após ter escrito o código que faz o teste passar, elimine sua
 
@@ -113,18 +113,18 @@ o livro descreve alguns exemplos.
 
 No inicio, um exemplo relativamente simples:
 
-como construir uma representaçao para dinheiro,
+ele mostra como construir uma representaçao para dinheiro,
 
 contendo multiplos tipos de moedas,
 
 que podem ser convertidas, somadas, multiplicadas, etc.
 
 
-É como se você representar dolares e reais em seu
+É como se você quisesse representar dolares e reais em seu
 
-sistema e fosse capaz de converter dolar em real e vice versa,
+sistema e que fosse possível converter de uma moeda para outra,
 
-somar e multiplicar esses valores, etc.
+ou somar e multiplicar esses valores, etc.
 
 
 Este exemplo se estende por vários capitulos,
@@ -172,7 +172,7 @@ o Kent Beck optou por escrever os códigos em Python.
 
 Mas, mais uma vez, a linguagem em si não é muito relevante.
 
-O importante aqui é entender todo o fluxo necessário para 
+O importante aqui é entender todo o fluxo necessário para
 
 desenvolver um software guiado por testes automatizados.
 
