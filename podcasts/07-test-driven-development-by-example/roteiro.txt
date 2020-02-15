@@ -239,7 +239,7 @@ Já no capitulo 30, Kent Beck apresenta alguns padrões de projeto.
 
 São explicações curtas, mas muito importantes, onde ele vai
 
-explorar padrões como o value object, null object, composite, 
+explorar padrões como o value object, null object, composite,
 
 factory method, entre outros.
 
@@ -253,13 +253,13 @@ interessante de introduzi-los. Mas recomendo que os estude também através
 de outras fontes, beleza?
 
 
-Bom, de qualquer forma, este é um capitulo muito bacana pois mostra a 
+Bom, de qualquer forma, este é um capitulo muito bacana pois mostra a
 
 importancia de se ter uma boa arquitetura de software.
 
-Quanto maior for seu conhecimento sobre este assunto, mais facilidade você vai 
+Quanto maior for seu conhecimento sobre este assunto, mais facilidade você vai
 
-ter para escrever códigos testáveis e, consequentemente, mais fácil vai ser 
+ter para escrever códigos testáveis e, consequentemente, mais fácil vai ser
 
 praticar TDD.
 
@@ -292,11 +292,11 @@ Também explica melhor pra quem a pratica de TDD é recomendada, pq ela funciona
 
 além de tirar algumas dúvidas recorrentes, como:
 
-Quão grande deve ser o escopo do seu teste? 
+Quão grande deve ser o escopo do seu teste?
 
 O que você NÃO precisa testar?
 
-Quando podemos remover um teste? 
+Quando podemos remover um teste?
 
 Quantos testes precisamos escrever?
 
@@ -337,7 +337,7 @@ Muitas vezes querem pular etapas ou, mesmo sem querer, acabam voltando
 
 pro modelo que já estavam acostumadas, o que faz com que o
 
-processo de internatilização do ciclo do desenvolvimento guiado por 
+processo de internatilização do ciclo do desenvolvimento guiado por
 
 testes seja mais demorado.
 
