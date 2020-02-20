@@ -20,7 +20,7 @@ TDD: Desenvolvimento guiado por testes.
 
 Antes deste livro que a gente vai conversar hoje, os conceitos de TDD
 
-já existiam e estavam começando a ser disseminados. Mas esta obra
+já existiam e estavam começando a ser disseminados, mas esta obra
 
 foi certamente um marco fundamental para divulgação e ampla adoção desta
 
@@ -270,7 +270,7 @@ um dos passos fundamentais do TDD. E mais uma vez, é um capitulo curto,
 
 com apenas 10 páginas. O conteúdo é excelente, mas claro, não aborda
 
-TODOS os detalhes deste assunto. Então, de novo, é uma ótima forma de
+TODOS os detalhes deste tema. Então, de novo, é uma ótima forma de
 
 introduzir o assunto, mas recomendo que estude também outras fontes.
 
@@ -341,14 +341,9 @@ processo de internatilização do ciclo do desenvolvimento guiado por
 
 testes seja mais demorado.
 
-
 Então, recomendo a leitura desta obra pra toda
 
 pessoa desenvolvedora que já saiba o básico de orientação a objetos.
-
-Este livro é super tranquilo de ler e é provavelmente a melhor forma de começar
-
-a estudar sobre este assunto.
 
 
 E, é isso aí.
@@ -374,5 +369,7 @@ Boa leitura pra você e... até o próximo livro!
 36min - escrevendo final e revisando texto
 
 37min - terminando e revisando texto
+
+10min - revisao do texto
 
 10min - revisao do texto
