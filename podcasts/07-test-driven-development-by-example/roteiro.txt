@@ -171,7 +171,7 @@ ele CRIA um framework de testes, usando TDD.
 
 É rs.. é isso mesmo! Ele usa TDD para criar
 
-um framework de testes rs.
+um framework de testes rs e eu achei essa ideia genial.
 
 
 E nesta parte do livro
@@ -285,7 +285,7 @@ como o TDD se relaciona com a Programação Extrema e suas práticas,
 
 como por exemplo programação pareada, integração contínua e design simples,
 
-entre outros.
+entre outras.
 
 
 Também explica melhor pra quem a pratica de TDD é recomendada, pq ela funciona,
@@ -332,6 +332,7 @@ uma série de vícios de programação que vão precisar ser desfeitos.
 E a tendencia é que essas pessoas tenham mais
 
 resistencia em praticar TDD da forma como ela foi concebida.
+
 
 Muitas vezes querem pular etapas ou, mesmo sem querer, acabam voltando
 
