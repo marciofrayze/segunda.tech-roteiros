@@ -2,12 +2,12 @@ Introdução a Programação Orientada a Objetos - Parte 4 - Classes
 
 E aí pessoal!
 Meu nome é Marcio e você está assistindo
-a mais um vídeo deste novo canal na internet.
-Este é o quarto episódio da série sobre
+a mais um vídeo deste canal na internet e
+este é o quarto episódio da série sobre
 programação orientada a objetos.
 Hoje a gente vai começar a falar
-de alguns conceitos um pouco
-mais complicados e o conteúdo vai ficar
+de alguns conceitos mais complicados e 
+o conteúdo vai ficar
 um pouquinho mais difícil de acompanhar...
 Então... presta bastante atenção aí porque
 o tema desta videoaula é: O que são Classes?
@@ -20,13 +20,13 @@ no paradigma orientado a objetos
 a pessoa desenvolvedora fica responsável
 por criar uma espécie de mundo virtual...
 que de certa forma tenta modelar e
-descrever uma representação do problema
-que ele quer resolver.
+descrever uma REPRESENTAÇÃO do problema
+que ela quer resolver.
 
 Se o mundo virtual que estamos construindo
 é formado por Objetos, é meio
 intuitivo pensar que precisamos estabelece
-em algum lugar *como* serão criados
+em algum lugar COMO serão criados
 estes objetos, certo?!
 Bom, como você já deve ter imaginado,
 para isso usamos as Classes.
@@ -36,13 +36,13 @@ para isso usamos as Classes.
 Fazendo uma analogia meio...
 tosca com o mundo real...
 Imagine que você quisesse construir
-uma casa, qual seria a primeira
+uma CASA, qual seria a primeira
 coisa que você faria?
 A planta da sua casa né?
 Que nada mais é do que um
 documento onde você especifica
 detalhadamente como
-sua casa será construída.
+ela será construída.
 
 E a planta da sua casa é
 só um conjunto de especificações,
@@ -103,7 +103,7 @@ que ajudam a compor o cenário.
 
 Se eu fosse implementar este jogo
 usando orientação a objetos,
-provavelmente eu iria criar
+provavelmente iria criar
 Classes com nomes como:
 - Jogador
 - Inimigo
@@ -118,7 +118,7 @@ a partir da classe Bloco.
 Teria também alguns objetos
 da classe Nuvem,
 alguns outros do tipo Inimigo
-e *um* objeto do tipo Jogador.
+e UM objeto do tipo Jogador.
 
 E o jogo se passaria através da
 interação entre esses diversos
@@ -135,13 +135,13 @@ tipo Inimigo... e por ai vai.
 *** de um item na tela né?
 
 NÃO, é um pouco mais complexo
-que isso. Este exemplo
+que isso. Este exemplo do jogo
 é interessante porque nós
 conseguimos visualizar
 facilmente os objetos.
 Mas... nem sempre é assim.
 MUITAS vezes os Objetos que temos que criar são
-entidades *bem* mais abstratas,
+entidades BEM mais abstratas,
 que não tem nada a ver com a interface visual,
 mas ainda assim são definidas através de Classes.
 
@@ -178,18 +178,18 @@ não vou ficar aqui mostrando códigos de programação pra você.
 Pelo menos não por enquanto.
 
 Antes de mais nada, meu objetivo é te ajudar a entender o
-*conceito* de orientação a objetos.
+CONCEITO de orientação a objetos.
 Mas... pra nossa sorte, a forma de implementação...
 não costuma variar muuito de uma linguagem pra outra.
 
 Quando você for escrever o código de uma Classe
 vai sempre ter que se preocupar
-com duas partes principais:
+com DUAS partes principais:
 Os Atributos e os Métodos de sua nova Classe.
 
 Os atributos definem as propriedades ou
 características dos objetos.
-Já os métodos, descrevem as *ações* que
+Já os métodos, descrevem as AÇÕES que
 objetos criados a partir dessa classe podem realizar.
 
 Pra ficar um pouco mais fácil de
@@ -209,18 +209,18 @@ tamanho, peso, entre muitas outras
 características, certo?
 
 Bom, tudo isso que citei
-se encaixaria como sendo *Atributos*
+se encaixaria como sendo ATRIBUTOS
 da minha classe Cachorro.
-Note que nenhuma dessas coisas representam ações.
-Elas apenas descrevem as *propriedades*
-que existem em *todos* os objetos
+Note que nenhuma dessas coisas representam AÇÕES.
+Elas apenas descrevem as PROPRIEDADES
+que existem em TODOS os objetos
 da nossa classe Cachorro. Beleza?
 
 Mas ainda está faltando mais uma coisa
 pra gente terminar de modelar a nossa representação.
-Está faltando especificar quais são as *Ações*
-que nossos cachorros vão poder executar,
-que seriam os métodos da nossa classe Cachorro.
+Está faltando especificar quais são as AÇÕES que
+nossos cachorros vão poder executar,
+que seriam os MÉTODOS da nossa classe Cachorro.
 
 Como representam ações, ao dar um nome
 pra um método, é comum a gente utilizar
@@ -239,7 +239,7 @@ que um conjunto de especificações.
 
 Na nossa classe Cachorro especificamos
 por exemplo o método Latir.
-Mas quem late, não é a classe,
+Mas quem late, NÃO É a classe,
 mas sim os objetos criados a partir
 desta classe. É muito importante
 entender isso. Se ficar em dúvida,
@@ -258,7 +258,7 @@ Voltando pro nosso exemplo,
 tendo apenas a classe Cachorro,
 não é possível executar...
 nenhuma ação.
-Nós temos todas as *especificações*
+Nós temos todas as ESPECIFICAÇÕES
 definidas, mas ainda não é
 possível latir,
 não é possível sentar,
@@ -266,7 +266,7 @@ não é possível nem mesmo dar
 um nome pro nosso cachorro...
 
 Pra poder fazer essas coisas,
-antes precisamos *criar um Objeto*
+antes precisamos CRIAR UM OBJETO
 a partir desta classe.
 Aí sim, com o objeto criado,
 podemos dar um nome pro nosso
@@ -274,7 +274,7 @@ cachorro, ele finalmente vai
 poder latir, sentar, comer, morder... etc.
 
 É muito importante que esses conceitos
-fiquem bem claro pra você,
+fiquem bem claros pra você,
 porque isso vai ser a base fundamental
 pra todo o resto que está por vir, ok?
 
@@ -286,8 +286,7 @@ sobre o que é uma Classe,
 o que é um Objeto,
 o que é um atributo e o que é um método.
 Então por enquanto é isso ai.
-
-Até o próximo vídeo!
+E até o próximo vídeo!
 
 *** Os objetos são criados a partir das classes...
 *** E os atributos representam as características...
