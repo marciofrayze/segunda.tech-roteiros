@@ -26,17 +26,16 @@ Mas além dessas definições, a gente também precisa
 descrever no nosso código exatamente COMO,
 dentro do nosso software, o computador deve criar
 nossos objetos.
-
-Pra isso temos que codificar um CONSTRUTOR na nossa classe.
-É a partir dele que nosso software vai saber como criar um objeto
+E para isso 
+temos que codificar um CONSTRUTOR na nossa classe.
+É a partir dele que nosso software vai saber
+como criar um objeto
 através de uma classe.
 
-Então o construtor nada mais é um trecho de código,
-de certa forma similar aos métodos.
-A grande diferença é que o construtor
-sempre vai ser executado automaticamente
-quando um novo objeto for criado.
-
+Então o construtor nada mais é um trecho de código.
+E este código sempre vai ser executado automaticamente
+quando um novo objeto for criado a partir
+da classe me questão.
 E o construtor já tem um nome pré definido,
 que varia de linguagem pra linguagem.
 Em Java por exemplo, o construtor deve obrigatoriamente
@@ -46,41 +45,47 @@ o construtor deve se chamar initialize.
 
 E o construtor, assim como os métodos,
 também pode receber parâmetros.
-Mas uma grande diferença entre o construtor e os demais métodos
-é que nos métodos a gente pode definir o retorno
-como sendo qualquer coisa que a gente quiser,
+Mas uma grande diferença entre o 
+construtor e os métodos
+é que nos métodos a gente pode definir o retorno como 
+sendo qualquer coisa que a gente quiser,
 ou mesmo definir que o método não vai retornar nada.
-Já o Construtor sempre retorna uma referência
+Já o Construtor vai sempre implicitamente
+retornar uma referência
 para um novo objeto que foi criado.
 
-Bom, lembra daquele exemplo que eu falei no vídeo anterior,
+** To entendo nada desse negócio aí...
+
+Calma, lembra daquele exemplo que eu falei no vídeo anterior,
 onde a gente definiu a classe Cachorro?
 Eu tinha sugerido alguns possíveis atributos e
-métodos pra esse Classe, né?
+métodos pra esse Classe.
 Como por exemplo os atributos nome, data de nascimento,
 a cor do pelo, etc.
-
 Então... se eu fosse criar um construtor pra essa classe,
 eu provavelmente iria permitir que
 fossem passados os valores desses atributos como
 parâmetros no meu construtor.
 Dessa forma, um novo objeto do tipo Cachorro poderia
 ser criado mais ou menos assim:
-var cachorro := novo Cachorro("Rex", "05/04/2020", "preto")
-Onde a expressão "var cachorro" apenas define o nomde de
-uma variável em que vou armazenar a
-REFERÊNCIA para o novo objeto que estou criando.
+var cachorro := Cachorro("Rex", "05/04/2020", "preto")
 
-A parte "novo Cachorro" indica a nossa intenção de
-construir um novo objeto a partir da classe Cachorro,
-e o resto são os parâmetro que serão repassado para
+"var cachorro" apenas define o nome de
+uma variável onde vou armazenar a
+REFERÊNCIA para o novo objeto que estou criando.
+Em seguida eu aciono o CONSTRUTOR da classe,
+indicando a nossa intenção de
+construir um novo objeto a partir da classe Cachorro.
+E o resto são os parâmetro que serão repassado para
 o construtor da classe.
 O primeiro parâmetro seria o nome do cachorro,
 o segundo a sua data de nascimento e o
 terceiro a cor predominante de seus pelos.
 
-Bom, este código que te mostrei não pertence a
-nenhuma linguagem específica.
+Com esta linha de código estariamos instânciando
+um novo objeto da classe Cachorro.
+Bom, este código não pertence a
+nenhuma linguagem de programação específica.
 É só um pseudo-código pra servir como exemplo.
 Mas é bem fácil traduzi-lo para sua linguagem de
 programação preferida, ok?
@@ -100,24 +105,22 @@ E por ai vai.
 O que eu quero mostrar com isso é que a sintaxe
 pode variar de uma linguagem de programação pra outra,
 mas em geral o princípio é o mesmo.
-Por isso, sempre que possível aqui nos vídeos,
+Por isso, sempre que possível,
 eu vou tentar explicar os assuntos mostrando mais a
 parte conceitual. 
 E você vai ter que saber como adaptar essas ideias pra
 sua linguagem de programação preferida, beleza?
 
 Prefiro fazer assim porque tem gente que quer aprender Java,
-outros C#, outros Ruby, Python... 
-E meu objetivo aqui não é ensinar uma linguagem 
+outros C# ou ainda Ruby, Python... 
+E meu objetivo aqui não é ensinar UMA linguagem 
 de programação, mas sim, explicar os CONCEITOS por trás
 do paradigma de orientação a objetos. 
-
 Só assistir os meus vídeos provavelmente não vai ser
 suficiente pra você sair programando por aí,
 mas com certeza o conhecimento que você está adquirindo aqui
 vai te ajudar bastante na hora de estudar sua linguagem de
-programação orientada a objetos preferida, beleza?
-
+programação orientada a objetos preferida.
 Bom, então voltando pra nossa classe Cachorro...
 Acho que as ideias estão começando a
 clarear um pouco pra você, né?
@@ -218,8 +221,8 @@ Temos apenas as especificações.
 Como eu já tinha mostrado antes, 
 para construir alguns cachorros, 
 em pseudo código, seria algo como:
-var rex := novo Cachorro("Rex", "05/04/2020", "preto")
-var costelinha := novo Cachorro("Costelinha", "07/03/2019", "cinza")
+var rex := Cachorro("Rex", "05/04/2020", "preto")
+var costelinha := Cachorro("Costelinha", "07/03/2019", "cinza")
 Com isso temos referencias para 2 cachorros, o Rex e o Costelinha.
 
 Mas.. e se quisermos fazer eles falarem? 
