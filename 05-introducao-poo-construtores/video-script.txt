@@ -9,7 +9,12 @@ Nos vídeos anteriores eu apresentei pra vocês
 alguns conceitos básicos deste paradigma,
 incluindo o que são objetos, classes,
 atributos e métodos, certo?
-No vídeo de hoje, além desses temas, a gente ainda vai abordar um tópico novo.  Vamos conversar um pouco sobre o que são e pra que servem os CONSTRUTORES.  Então... Bora começar?!
+No vídeo de hoje, além desses temas, 
+a gente ainda vai abordar um tópico novo.
+Vamos conversar um pouco sobre o que são e pra 
+que servem os CONSTRUTORES.  
+Então... Bora começar?!
+
 Bom, como eu já falei antes pra vocês,
 os objetos são criados a partir das classes,
 sendo que as classes contém um conjunto de especificações
@@ -27,7 +32,7 @@ Pra isso temos que codificar um CONSTRUTOR na nossa classe.
 através de uma classe.
 
 Então o construtor nada mais é um trecho de código,
-muito similar aos métodos.
+de certa forma similar aos métodos.
 A grande diferença é que o construtor
 sempre vai ser executado automaticamente
 quando um novo objeto for criado.
@@ -59,12 +64,11 @@ Então... se eu fosse criar um construtor pra essa classe,
 eu provavelmente iria permitir que
 fossem passados os valores desses atributos como
 parâmetros no meu construtor.
-
 Dessa forma, um novo objeto do tipo Cachorro poderia
 ser criado mais ou menos assim:
-var cachorro := novo Cachorro("Rex", "05/04/2014", "preto")
-Onde a expressão "var cachorro" apenas define
-o nome de uma variável em que vou armazenar a
+var cachorro := novo Cachorro("Rex", "05/04/2020", "preto")
+Onde a expressão "var cachorro" apenas define o nomde de
+uma variável em que vou armazenar a
 REFERÊNCIA para o novo objeto que estou criando.
 
 A parte "novo Cachorro" indica a nossa intenção de
@@ -81,31 +85,51 @@ nenhuma linguagem específica.
 Mas é bem fácil traduzi-lo para sua linguagem de
 programação preferida, ok?
 
-*** Pow Marcio, mas ai não vale né cara. De que adianta saber só a teoria?
+*** Pow Marcio, mas ai não vale né cara. 
+*** De que adianta saber só a teoria?
 *** Quero saber como faço isso na prática né.
 
 Beleza. Esse mesmo exemplo, em Java seria:
-Cachorro rex = new Cachorro("Rex", "10/01/2018", "preto");
+Cachorro rex = new Cachorro("Rex", "05/04/2020", "preto");
 Em Ruby seria:
-rex = Cachorro.new("Rex", "10/01/2018", "preto")
+rex = Cachorro.new("Rex", "05/04/2020", "preto")
 Já na linguagem Python seria:
-rex = Cachorro("Rex", "10/01/2018", "preto")
+rex = Cachorro("Rex", "05/04/2020" "preto")
 E por ai vai.
 
-O que eu quero mostrar com isso é que a sintaxe pode variar de uma linguagem de programação pra outra, mas em geral o princípio é o mesmo. Por isso, sempre que possível aqui nos vídeos, eu vou tentar explicar os assuntos mostrando mais a parte conceitual. E você vai ter que saber como adaptar essas ideias pra sua linguagem de programação preferida, beleza?
+O que eu quero mostrar com isso é que a sintaxe
+pode variar de uma linguagem de programação pra outra,
+mas em geral o princípio é o mesmo.
+Por isso, sempre que possível aqui nos vídeos,
+eu vou tentar explicar os assuntos mostrando mais a
+parte conceitual. 
+E você vai ter que saber como adaptar essas ideias pra
+sua linguagem de programação preferida, beleza?
 
-Prefiro fazer assim porque tem gente que quer aprender Java, outros C#, outros Ruby, Python... E meu objetivo aqui não é ensinar uma linguagem de programação, mas sim, explicar os *conceitos* por trás do paradigma de orientação a objetos. 
+Prefiro fazer assim porque tem gente que quer aprender Java,
+outros C#, outros Ruby, Python... 
+E meu objetivo aqui não é ensinar uma linguagem 
+de programação, mas sim, explicar os CONCEITOS por trás
+do paradigma de orientação a objetos. 
 
-Só assistir os meus vídeos provavelmente não vai ser suficiente pra você sair programando por aí, mas com certeza o conhecimento que você está adquirindo aqui vai te ajudar bastante na hora de estudar sua linguagem de programação orientada a objetos preferida, beleza?
+Só assistir os meus vídeos provavelmente não vai ser
+suficiente pra você sair programando por aí,
+mas com certeza o conhecimento que você está adquirindo aqui
+vai te ajudar bastante na hora de estudar sua linguagem de
+programação orientada a objetos preferida, beleza?
 
 Bom, então voltando pra nossa classe Cachorro...
-Acho que as ideias estão começando a clarear um pouco pra você, né?
+Acho que as ideias estão começando a
+clarear um pouco pra você, né?
 
-*** Mano... mais ou menos né... Até entendi um pouco, mas ainda não faço ideia de como
+*** Mano... mais ou menos né...
+*** Até entendi um pouco, mas ainda não faço ideia de como
 *** criar uma classe, na prática...
 
-Tudo bem. Eu pensei em mostrar pra você mais ou menos como seria a implementação de toda essa nossa classe Cachorro. Incluindo os atributos, um método e o nosso construtor. 
-
+Tudo bem. Eu pensei em mostrar pra você mais ou menos como
+seria a implementação de toda essa
+nossa classe Cachorro.
+Incluindo os atributos, um método e o nosso construtor. 
 Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
 Mas pessoal, presta atenção porque agora vai ficar um pouco mais complicado, blz?
 Então... vamo la!
@@ -134,44 +158,91 @@ var costelinha := novo Cachorro("Costelinha", "05/01/2018", "cinza")
 rex.falar()
 costelinha.falar()
 
-Primeiro vamos definir o nome da Classe. Neste nosso caso, Cachorro. Agora vamos listar os atributos da nossa classe. Lembrando que este exemplo é só um pseudo-código, então você vai ter que adaptar pra a linguagem que desejar utilizar, ok?
+Primeiro vamos definir o nome da Classe. 
+Neste nosso caso, Cachorro. 
+Agora vamos listar os atributos da nossa classe. 
+Lembrando que este exemplo é só um pseudo-código, 
+então você vai ter que adaptar pra a linguagem 
+que desejar utilizar, ok?
 
-Vamos primeiro declarar o atributo nome. Algumas linguagens exigem que você informe o tipo da variável. Neste caso, vou declarar o nome como sendo uma String, ou seja, uma sequencia qualquer de caracteres.
-E vou fazer a mesma coisa para mais 2 atributos: a data de nascimento e a cor predominante do pelo. 
+Vamos primeiro declarar o atributo nome. 
+Algumas linguagens exigem que você informe o tipo
+da variável. Pra simplificar um pouco este exemplo,
+vou declarar todos os tipos dos nossos atributos 
+como sendo Strings,
+ou seja, uma sequencia qualquer de caracteres.
+Em um sistema real, é interessante utilizar tipos mais
+específicos para cada atributo, mas este não
+é o foco do vídeo de hoje...
+Então vou usar todos como tipo String mesmo, ok?
 
-Pra data de nascimento, coloquei o tipo Data. Em geral as linguagens já vão ter alguma forma capaz de representar datas, normalmente uma classe chamada Date ou algo assim. Pra cor predominante do pelo, escolhi o tipo String mesmo.
+E pra esse exemplo vamos usar só esses três atributos: 
+nome, data de nascimento e cor do pelo.
+Ah pessoal, a ordem dos atributos é indiferente, blz?
+Então poderia colocar os atributos em qualquer ordem.
 
-E pra esse exemplo vamos usar só esses três atributos. Ah pessoal, a ordem dos atributos não deve fazer diferença, blz?
+Bom, pra completar a nossa classe eu vou definir
+UM método apenas. 
+E você lembra que os métodos representam as AÇÕES
+que nossos objetos vão poder realizar, certo?! 
+Nesse exemplo, vou criar um método chamado... "falar", 
+e ele não vai receber nenhum parâmetro.
 
-Bom, pra completar a nossa classe eu vou definir *um* método. E você lembra que os métodos representam as *ações* que nossos objetos vão poder realizar, certo?! Nesse exemplo, vou criar um método chamado... "falar", e ele não vai receber nenhum parâmetro.
+Dentro deste método, 
+vou executar um pseudo-código que eu chamei de 
+"imprimir". Imagine que isso é uma forma de imprimir 
+algum dado no console ou na tela, ok? 
+E como eu já falei antes, isso é só um pseudo-código. 
+Cada linguagem de programação vai ter uma 
+forma diferente de implementar algo parecido com isso.
 
-Dentro deste método, vou executar um pseudo-código que eu chamei de "imprimir". Imagine que isso é uma forma de imprimir algum dado no console ou na tela, ok? E como eu já falei antes, isso é só um pseudo-código. Cada linguagem de programação vai ter uma forma diferente de implementar algo parecido com isso.
+E neste exemplo eu quero simular... o latido de um cachorro. 
+Mas esse nosso cachorro é mais esperto que o normal,
+e vai ser capaz de latir o próprio nome. 
+Pra isso, eu vou acessar o atributo NOME e
+concatenar ele em uma String que representa o latido do cachorro.
 
-E neste exemplo eu quero simular... o latido de um cachorro. Mas esse nosso cachorro é mais esperto que o normal, e vai ser capaz de latir o próprio nome. Pra isso, eu vou acessar o atributo *nome* e concatenar ele em uma String que representa o latido do cachorro.
+Desta forma, ao executarmos este método, 
+será impresso na tela algo como 
+"au au meu nome é Rex au auu".
+E claro que esta mensagem irá variar
+de acordo com o nome do cachorro.
+E... é isso ai. 
+A primeira versão da nossa classe Cachorro... ta pronta!
 
-Desta forma, ao executar este método, será impresso na tela algo como "au au meu nome é Rex au auu".
-E claro que esta mensagem irá variar de acordo com o nome do cachorro.
-E... é isso ai. A primeira versão da nossa classe Cachorro... ta pronta!
+Mas por enquanto a gente só especificou a classe né? 
+Ou seja, fizemos o equivalente a elaborar PLANTA da nossa casa, 
+mas não construimos nada efetivamente ainda.
+Temos apenas as especificações.
 
-Mas por enquanto a gente só especificou a classe né? Ou seja, fizemos o equivalente a elaborar *planta* da nossa casa, mas não construimos nada efetivamente ainda. Temos apenas as especificações.
-
-Como eu já tinha mostrado antes, construir alguns cachorros, em pseudo código, seria algo como:
-var rex := novo Cachorro("Rex", "10/01/2018", "preto")
-var costelinha := novo Cachorro("Costelinha", "05/01/2018", "cinza")
+Como eu já tinha mostrado antes, 
+para construir alguns cachorros, 
+em pseudo código, seria algo como:
+var rex := novo Cachorro("Rex", "05/04/2020", "preto")
+var costelinha := novo Cachorro("Costelinha", "07/03/2019", "cinza")
 Com isso temos referencias para 2 cachorros, o Rex e o Costelinha.
 
-Mas.. e se quisermos fazer eles falarem? Pra isso executaríamos o método falar de seus respectivos objetos. Algo como:
+Mas.. e se quisermos fazer eles falarem? 
+Pra isso executaríamos o método falar de
+seus respectivos objetos. Algo como:
 rex.falar()
 e
 costelinha.falar()
 
-*** Hum.. beleza. Acho que to começando a entender esse negocio...
+*** Hum.. beleza. 
+*** Acho que to começando a entender esse negocio...
 
-Bom é isso aí, se você conseguiu acompanhar e entender tudo que falei nesse video... parabéns! Pq você já entendeu o básico da orientação a objetos, beleza? 
+Bom é isso aí, se você conseguiu acompanhar e
+entender tudo que falei nesse video... parabéns!
+Pq você já entendeu o básico da orientação a objetos, beleza? 
 
-Mas se por acaso não tiver entendido, não desanima não, porque este tema é um pouco complicado mesmo. 
-Assiste mais uma vez as partes que ficou com dúvidas e fica a vontade pra fazer perguntas ai nos comentários, ok?!
-E nos próximos vídeos a gente vai começar a entrar em alguns tópicos um pouco mais avançados.
+Mas se por acaso não tiver entendido, não desanima não,
+porque este tema é um pouco complicado mesmo. 
+Assiste mais uma vez as partes que ficou com dúvidas e
+fica a vontade pra fazer perguntas ai nos comentários, ok?!
+E nos próximos vídeos a gente vai começar a entrar em
+alguns tópicos um pouco mais avançados.
 Então... até a próxima!
 
-*** Ta... pow, acho que vo tenta implementa essa mesma classe aqui em Java... vamo vê se eu consigo!
+*** Ta... pow, acho que vo tenta implementa essa mesma
+*** classe aqui em Java... vamo vê se eu consigo!
