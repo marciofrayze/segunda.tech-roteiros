@@ -129,12 +129,16 @@ clarear um pouco pra você, né?
 *** Até entendi um pouco, mas ainda não faço ideia de como
 *** criar uma classe, na prática...
 
-Tudo bem. Eu pensei em mostrar pra você mais ou menos como
-seria a implementação de toda essa
+Tudo bem. Eu pensei em mostrar
+mais ou menos como seria a 
+implementação de toda essa
 nossa classe Cachorro.
-Incluindo os atributos, um método e o nosso construtor. 
-Pra isso, vou mostrar pra vocês mais alguns pseudo-códigos.
-Mas pessoal, presta atenção porque agora vai ficar um pouco mais complicado, blz?
+Incluindo os atributos, 
+um método e o nosso construtor. 
+Pra isso, vou mostrar pra vocês
+mais alguns pseudo-códigos.
+Mas pessoal, presta atenção porque
+agora vai ficar um pouco mais complicado.
 Então... vamo la!
 
 Classe Cachorro {
@@ -163,47 +167,60 @@ costelinha.falar()
 
 Primeiro vamos definir o nome da Classe. 
 Neste nosso caso, Cachorro. 
-Agora vamos listar os atributos da nossa classe. 
-Lembrando que este exemplo é só um pseudo-código, 
-então você vai ter que adaptar pra a linguagem 
-que desejar utilizar, ok?
+Agora vamos listar os atributos 
+da nossa classe. 
+Lembrando que este exemplo 
+é só um pseudo-código, 
+então você vai ter que adaptar pra
+a linguagem que desejar utilizar, ok?
 
 Vamos primeiro declarar o atributo nome. 
-Algumas linguagens exigem que você informe o tipo
-da variável. Pra simplificar um pouco este exemplo,
-vou declarar todos os tipos dos nossos atributos 
-como sendo Strings,
-ou seja, uma sequencia qualquer de caracteres.
-Em um sistema real, é interessante utilizar tipos mais
-específicos para cada atributo, mas este não
-é o foco do vídeo de hoje...
-Então vou usar todos como tipo String mesmo, ok?
+Algumas linguagens exigem que 
+você informe o tipo da variável. 
+Pra simplificar um pouco este exemplo,
+vou declarar todos os nossos atributos 
+como sendo do tipo String,
+ou seja, uma sequencia qualquer de
+caracteres. Em um sistema real, 
+é interessante utilizar tipos mais
+específicos para cada atributo, 
+mas este não é o foco do vídeo de hoje...
+Então vou usar todos como tipo String mesmo.
 
-E pra esse exemplo vamos usar só esses três atributos: 
-nome, data de nascimento e cor do pelo.
-Ah pessoal, a ordem dos atributos é indiferente, blz?
-Então poderia colocar os atributos em qualquer ordem.
+E pra esse exemplo vamos usar só
+esses três atributos: 
+nome, data de nascimento e
+cor do pelo.
+Ah pessoal, a ordem dos atributos é indiferente.
+Então poderia colocar os 3 atributos 
+em qualquer ordem.
 
-Bom, pra completar a nossa classe eu vou definir
-UM método apenas. 
+Bom, pra este exemplo ficar mais simples,
+eu vou definir apenas UM método. 
 E você lembra que os métodos representam as AÇÕES
 que nossos objetos vão poder realizar, certo?! 
-Nesse exemplo, vou criar um método chamado... "falar", 
-e ele não vai receber nenhum parâmetro.
+Nesse exemplo, vou criar um método chamado... 
+"falar". E ele não vai receber nenhum
+parâmetro de entrada.
 
 Dentro deste método, 
-vou executar um pseudo-código que eu chamei de 
-"imprimir". Imagine que isso é uma forma de imprimir 
-algum dado no console ou na tela, ok? 
-E como eu já falei antes, isso é só um pseudo-código. 
-Cada linguagem de programação vai ter uma 
-forma diferente de implementar algo parecido com isso.
-
-E neste exemplo eu quero simular... o latido de um cachorro. 
-Mas esse nosso cachorro é mais esperto que o normal,
+vou executar um pseudo-código que eu
+chamei de  "imprimir". 
+Imagine que isso é uma forma de 
+imprimir algum dado no console ou
+na tela. E como eu já falei antes, 
+isso é só um pseudo-código. 
+Cada linguagem de programação
+vai ter uma forma diferente de 
+implementar algo parecido com isso.
+E neste exemplo eu quero simular... 
+o latido de um cachorro. 
+Mas esse nosso cachorro é
+mais esperto que o normal,
 e vai ser capaz de latir o próprio nome. 
 Pra isso, eu vou acessar o atributo NOME e
-concatenar ele em uma String que representa o latido do cachorro.
+concatenar ele em uma String que 
+representa o latido do cachorro.
 
 Desta forma, ao executarmos este método, 
 será impresso na tela algo como 
@@ -211,19 +228,26 @@ será impresso na tela algo como
 E claro que esta mensagem irá variar
 de acordo com o nome do cachorro.
 E... é isso ai. 
-A primeira versão da nossa classe Cachorro... ta pronta!
-
-Mas por enquanto a gente só especificou a classe né? 
-Ou seja, fizemos o equivalente a elaborar PLANTA da nossa casa, 
-mas não construimos nada efetivamente ainda.
+A primeira versão da nossa classe 
+Cachorro... ta pronta!
+Mas por enquanto a gente só 
+especificou a classe né? 
+Ou seja, fizemos o equivalente a
+elaborar PLANTA da nossa casa, 
+mas não construimos 
+nada efetivamente ainda.
 Temos apenas as especificações.
 
 Como eu já tinha mostrado antes, 
-para construir alguns cachorros, 
+para criamos alguns cachorros, 
 em pseudo código, seria algo como:
-var rex := Cachorro("Rex", "05/04/2020", "preto")
-var costelinha := Cachorro("Costelinha", "07/03/2019", "cinza")
-Com isso temos referencias para 2 cachorros, o Rex e o Costelinha.
+var rex := 
+Cachorro("Rex", "05/04/2020", "preto")
+var costelinha := 
+Cachorro("Costelinha", "07/03/2019", "cinza")
+Com isso temos referencias 
+para 2 cachorros, 
+o Rex e o Costelinha.
 
 Mas.. e se quisermos fazer eles falarem? 
 Pra isso executaríamos o método falar de
@@ -233,19 +257,25 @@ e
 costelinha.falar()
 
 *** Hum.. beleza. 
-*** Acho que to começando a entender esse negocio...
+*** Acho que to começando a entender esse negócio...
 
-Bom é isso aí, se você conseguiu acompanhar e
-entender tudo que falei nesse video... parabéns!
-Pq você já entendeu o básico da orientação a objetos, beleza? 
+Bom é isso aí, se você conseguiu
+acompanhar e entender tudo que 
+falei nesse video... parabéns!
+Pq você já entendeu o básico
+da orientação a objetos, beleza? 
 
-Mas se por acaso não tiver entendido, não desanima não,
-porque este tema é um pouco complicado mesmo. 
-Assiste mais uma vez as partes que ficou com dúvidas e
-fica a vontade pra fazer perguntas ai nos comentários, ok?!
-E nos próximos vídeos a gente vai começar a entrar em
+Mas se por acaso não tiver entendido,
+não desanima não, 
+porque este tema é um pouco
+complicado mesmo. 
+Assiste mais uma vez as partes que
+ficou com dúvidas e fica a vontade
+pra fazer perguntas ai nos comentários.
+E nos próximos vídeos a gente
+vai começar a entrar em
 alguns tópicos um pouco mais avançados.
 Então... até a próxima!
 
-*** Ta... pow, acho que vo tenta implementa essa mesma
+*** pow... acho que vo tenta implementa essa mesma
 *** classe aqui em Java... vamo vê se eu consigo!
