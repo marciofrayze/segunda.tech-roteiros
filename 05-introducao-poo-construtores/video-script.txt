@@ -1,39 +1,85 @@
 Introdução a Programação Orientada a Objetos - Parte 5 - Construtores
 
 E ai pessoal!
-Meu nome é Marcio e você está assistindo a mais um vídeo deste novo canal na internet.
-Este é o quinto episódio da série sobre programação orientada a objetos.
-Nos vídeos anteriores eu apresentei pra vocês alguns conceitos básicos deste paradigma, incluindo o que são objetos, classes, atributos e métodos, certo?
-No vídeo de hoje, além desses temas, a gente ainda vai abordar um tópico novo. Vamos conversar um pouco sobre o que são e pra que servem os construtores.
-Então... Bora começar?!
+Meu nome é Marcio e você está assistindo a mais
+um vídeo deste novo canal na internet.
+Este é o quinto episódio da série sobre
+programação orientada a objetos.
+Nos vídeos anteriores eu apresentei pra vocês
+alguns conceitos básicos deste paradigma,
+incluindo o que são objetos, classes,
+atributos e métodos, certo?
+No vídeo de hoje, além desses temas, a gente ainda vai abordar um tópico novo.  Vamos conversar um pouco sobre o que são e pra que servem os CONSTRUTORES.  Então... Bora começar?!
+Bom, como eu já falei antes pra vocês,
+os objetos são criados a partir das classes,
+sendo que as classes contém um conjunto de especificações
+que descrevem as características ou atributos.
+E dentro das classes temos também os métodos,
+que descrevem as ações.
 
-Bom, como eu já falei antes pra vocês, os objetos são criados a partir das classes, sendo que as classes contém um conjunto de especificações que descrevem as características ou atributos. E dentro das classes temos também os métodos, que descrevem as ações. 
+Mas além dessas definições, a gente também precisa
+descrever no nosso código exatamente COMO,
+dentro do nosso software, o computador deve criar
+nossos objetos.
 
-Mas além dessas definições, a gente também precisa descrever no nosso código exatamente *como*, dentro do nosso software, o computador deve criar nossos objetos.
+Pra isso temos que codificar um CONSTRUTOR na nossa classe.
+É a partir dele que nosso software vai saber como criar um objeto
+através de uma classe.
 
-Pra isso temos que codificar um *Construtor* na nossa classe. É a partir dele que nosso software vai saber como criar um objeto através de uma classe. 
+Então o construtor nada mais é um trecho de código,
+muito similar aos métodos.
+A grande diferença é que o construtor
+sempre vai ser executado automaticamente
+quando um novo objeto for criado.
 
-Então o construtor nada mais é um trecho de código, muito similar aos métodos. A grande diferença é que o construtor sempre vai ser executado automaticamente quando um novo objeto for criado.
+E o construtor já tem um nome pré definido,
+que varia de linguagem pra linguagem.
+Em Java por exemplo, o construtor deve obrigatoriamente
+ter o mesmo nome da Classe.
+Já na linguagem de programação Ruby,
+o construtor deve se chamar initialize.
 
-E o construtor já tem um nome pré definido, que varia de linguagem pra linguagem. Em Java por exemplo, o construtor deve obrigatoriamente ter o mesmo nome da Classe. Já na linguagem de programação Ruby, o construtor deve se chamar initialize.
+E o construtor, assim como os métodos,
+também pode receber parâmetros.
+Mas uma grande diferença entre o construtor e os demais métodos
+é que nos métodos a gente pode definir o retorno
+como sendo qualquer coisa que a gente quiser,
+ou mesmo definir que o método não vai retornar nada.
+Já o Construtor sempre retorna uma referência
+para um novo objeto que foi criado.
 
-Então, cada linguagem tem o seu padrão, mas em geral o comportamento é o mesmo:
-Nada mais é do que o primeiro trecho de código a ser executado automaticamente assim que um novo objeto é criado.
+Bom, lembra daquele exemplo que eu falei no vídeo anterior,
+onde a gente definiu a classe Cachorro?
+Eu tinha sugerido alguns possíveis atributos e
+métodos pra esse Classe, né?
+Como por exemplo os atributos nome, data de nascimento,
+a cor do pelo, etc.
 
-E o construtor, assim como os métodos, também pode receber parâmetros. Mas uma grande diferença entre o construtor e os demais métodos é que nos métodos a gente pode definir o retorno como sendo qualquer coisa que a gente quiser, ou mesmo definir que o método não vai retornar nada. Já o Construtor sempre retorna uma referência para o novo objeto que foi criado.
+Então... se eu fosse criar um construtor pra essa classe,
+eu provavelmente iria permitir que
+fossem passados os valores desses atributos como
+parâmetros no meu construtor.
 
-Bom, lembra daquele exemplo que eu falei no vídeo anterior, onde a gente definiu a classe Cachorro? Eu tinha sugerido alguns possíveis atributos e métodos pra esse Classe, né? Como por exemplo os atributos nome, data de nascimento, a cor do pelo, etc. 
-
-Então... se eu fosse criar um construtor pra essa classe, eu provavelmente iria permitir que fossem passados os valores desses atributos como parâmetros no meu construtor.
-
-Dessa forma, um novo objeto do tipo Cachorro poderia ser criado mais ou menos assim:
+Dessa forma, um novo objeto do tipo Cachorro poderia
+ser criado mais ou menos assim:
 var cachorro := novo Cachorro("Rex", "05/04/2014", "preto")
-Onde a expressão "var cachorro" apenas define o nome de uma variável em que vou armazenar a *referência* para o novo objeto que estou criando.
+Onde a expressão "var cachorro" apenas define
+o nome de uma variável em que vou armazenar a
+REFERÊNCIA para o novo objeto que estou criando.
 
-A parte "novo Cachorro" indica a nossa intenção de construir um novo objeto a partir da classe Cachorro, e o resto são os parâmetro que serão repassado para o construtor da classe.
-O primeiro parâmetro seria o nome do cachorro, o segundo a sua data de nascimento e o terceiro a cor predominante de seus pelos.
+A parte "novo Cachorro" indica a nossa intenção de
+construir um novo objeto a partir da classe Cachorro,
+e o resto são os parâmetro que serão repassado para
+o construtor da classe.
+O primeiro parâmetro seria o nome do cachorro,
+o segundo a sua data de nascimento e o
+terceiro a cor predominante de seus pelos.
 
-Bom, este código que te mostrei não pertence a nenhuma linguagem específica, né? É só um pseudo-código pra servir como exemplo. Mas é bem fácil traduzi-lo para sua linguagem de programação preferida, ok?
+Bom, este código que te mostrei não pertence a
+nenhuma linguagem específica.
+É só um pseudo-código pra servir como exemplo.
+Mas é bem fácil traduzi-lo para sua linguagem de
+programação preferida, ok?
 
 *** Pow Marcio, mas ai não vale né cara. De que adianta saber só a teoria?
 *** Quero saber como faço isso na prática né.
