@@ -1,0 +1,85 @@
+Olá! Meu nome é Marcio e com este
+vídeo inauguro uma nova playlist aqui no canal.
+Este vai ser um espaço onde vou falar
+sobre o famoso editor de textos vim.
+
+Em cada vídeo vou mostrar alguma
+dica de uso deste editor.
+Algumas vão ser bem práticas,
+mostrando como realizar determinada
+tarefa.
+Outras vão ser um pouco mais
+filosoficas, explicando as ideias
+que fundamentam o uso deste editor.
+
+Desta forma, espero contribuir um pouco
+para que você consiga entender melhor
+como tirar o máximo de proveito deste
+editor de textos pouco compreendido,
+mas muito usado por aí.
+
+O público alvo são pessoas que já
+sabem utilizar o básico do básico do vim,
+que são capazes de entrar no modo de inserção usando
+a tecla i e voltar para o modo normal com esc,
+salvar o texto e sair do vim utilizando :wq
+e outros comandos básicos,
+mas que ainda não sabem muito mais que isso.
+
+Então, bora começar?
+
+No vídeo de hoje, resolvi apresentar o vimtutor.
+Esta é a melhor forma de se iniciar no universo
+do vim.
+O vimtutor é, como o nome já indica, um tutorial
+de como utilizar o vim.
+Se você tem o vim instalado, já deve ter o vimtutor
+instalado também.
+Ao executar o comando vimtutor em seu terminal,
+será aberto o vim sem nenhum plugin carregado,
+e um texto já traduzido para o o português deve
+ser carregado.
+
+O bacana do vimtutor é que ele não é um simples
+manual. Ele é uma espécie de manual interativo.
+A ideia é que você gasta em torno de 25 a 30
+minutos para ler o texto e pratique diversos
+comandos básicos do vim ao longo da leitura.
+
+Então, por exemplo, vai te ensinar a usar
+as teclas h, j, k e l para se mover no
+texto.
+Assim, para chegar até a lição 1.2, você
+já deve ter aprendido alguma coisa.
+E ele já dá uma primeira dica valiosa:
+as teclas de cursor, também conhecidas como
+setas do teclado, funcionam também,
+mas você deveria evita-las.
+No futuro vai ficar mais claro pq
+não é legal usar as setas do teclado para
+se mover no texto.
+A lição 1.2 vai ensinar a sair do vim.
+O famoso ESC :q exclamação e ENTER.
+
+Bom, eu não vou ficar aqui passando por todo
+o vimtutor.
+Meu objetivo era só apresenta-lo pra você
+e sugerir que você gaste uma meia horinha
+passando por todo este tutorial.
+
+E uma coisa que acho bem bacana dele
+é que não segue uma filosofia de
+te fazer decorar os comandos, mas
+sim fazer com que você os apredenda
+através do uso e repetição.
+Talvez até por isso mesmo, o ideal seria
+passar por esse tutorial mais de uma vez.
+
+Invista meia hora um dia,
+volte alguns dias depois,
+faça mais umas vez...
+E em pouco tempo você vai conseguir
+ser muito mais produtivo dentro deste editor.
+
+Então, por hoje é só e...
+até o próximo vídeo!
