@@ -1,0 +1,4 @@
+h - move cursor para esquerda
+j - move cursor para baixo
+k - move cursor para cima
+l - move cursor para direita

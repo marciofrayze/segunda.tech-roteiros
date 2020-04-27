@@ -1,0 +1,4 @@
+W  - move cursor para início da próxima PALAVRA
+B  - move cursor para início da PALAVRA anterior
+E  - move cursor para final da próxima PALAVRA
+gG - move cursor para final da PALAVRA anterior

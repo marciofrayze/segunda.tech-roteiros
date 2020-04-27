@@ -1,0 +1,13 @@
+Meu nome é Marcio Frayze David e sou autor do projeto *segunda.tech*.
+Desenvolvo softwares há mais de uma década. Desde 2009 trabalho como
+analista de sistemas no Serviço Federal de Processamento de Dados
+(SERPRO), onde ajudo diversas equipes a implementar soluções para clientes
+como a Receita Federal do Brasil e o Departamento Nacional de Trânsito
+(DENATRAN). Nesta empresa atuei em muitas soluções, incluindo o
+desenvolvimento do aplicativo Carteira Digital de Trânsito (CDT).
+Embora durante a maior parte do meu trabalho passe desenvolvendo
+softwares no *backend*, também desenvolvo *frontends* e aplicativos 
+móveis (para iOS e Android).
+
+Se por acaso eu digitar a palavra segunda.tech, e agora?
+
