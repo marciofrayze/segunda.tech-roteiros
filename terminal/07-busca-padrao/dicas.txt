@@ -1,0 +1,4 @@
+/{padrão} - Move cursor até primeira ocorrência
+n         - Move cursor para próxima ocorrência
+N         - Move cursor para ocorrência anterior
+

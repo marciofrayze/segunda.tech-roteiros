@@ -1,20 +1,21 @@
-%title: Efetuando busca na linha atual
+%title: Movendo cursor pela linha atual
 %author: segunda.tech
 %date: 2020-04-25
 
--> Movendo cursor na linha atual <-
-
--------------------------------------------------
-
--> Encontrando padrão no texto <-
+-> Encontrando caractere em uma linha <-
 
 -------------------------------------------------
 
 -> Resumo <-
 
-*/{padrão}* - Move cursor até primeira ocorrência
-*n*         - Move cursor para próxima ocorrência
-*N*         - Move cursor para ocorrência anterior
+*f{char}* - Move cursor até caractere {char} à direita (inclusivo)
+*t{char}* - Move cursor até caractere {char} à direita (exclusivo)
+*F{char}* - Move cursor até caractere {char} à esquerda (exclusivo)
+*T{char}* - Move cursor até caractere {char} à esquerda (exclusivo)
+*;*       - Repete comando f, t, F ou T
+*,*       - Repete comando f, t, F ou T no sentido oposto
+
+-> Não tente decorar. Aprenda pelo uso e repetição <-
 
 -------------------------------------------------
 

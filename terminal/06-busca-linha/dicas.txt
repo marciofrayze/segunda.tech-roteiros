@@ -1,8 +1,6 @@
-i - Entrar no modo de inserção
-I - Move para início e muda para inserção
-A - Move para fim e muda para inserção
-s - Remove caractere e muda para inserção
-S - Apaga linha atual e muda para inserção
-C - Apaga caracteres pra frente e muda para inserção
-o - Adiciona linha abaixo e muda para inserção
-O - Adiciona linha acima e mudar para inserção
+f{char} - Move cursor até caractere {char} à direita (inclusivo)
+t{char} - Move cursor até caractere {char} à direita (exclusivo)
+F{char} - Move cursor até caractere {char} à esquerda (exclusivo)
+T{char} - Move cursor até caractere {char} à esquerda (exclusivo)
+;       - Repete comando f, t, F ou T
+,       - Repete comando f, t, F ou T no sentido oposto

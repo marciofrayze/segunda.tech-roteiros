@@ -1,0 +1,7 @@
+
+Este texto é um texto que tem muitas repetições de texto.
+
+padrao1quaseigual aaaa padrao2quaseigual bbbb padrao3quaseigual
+padrao1quaseigual aaaa padrao2quaseigual bbbb padrao3quaseigual
+padrao1quaseigual aaaa padrao2quaseigual bbbb padrao3quaseigual
+

@@ -1,4 +1,4 @@
-%title: Navegação
+%title: Efetuando buscas por padrões
 %author: segunda.tech
 %date: 2020-04-25
 
@@ -6,16 +6,15 @@
 
 -------------------------------------------------
 
--> Como navegar de forma mais eficiente <-
+-> Encontrando padrão no texto <-
 
 -------------------------------------------------
 
 -> Resumo <-
 
-*w*  - move cursor para início da próxima palavra
-*b*  - move cursor para início da palavra anterior
-*e*  - move cursor para final da próxima palavra
-*ge* - move cursor para final da palavra anterior
+*/{padrão}* - Move cursor até primeira ocorrência
+*n*         - Move cursor para próxima ocorrência
+*N*         - Move cursor para ocorrência anterior
 
 -------------------------------------------------
 
