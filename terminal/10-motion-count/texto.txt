@@ -1,0 +1,3 @@
+Listei acima apenas algumas das diversas tecnologias que estudei ao longo da minha carreira, mas sempre priorizei os conceitos acima de tudo. Por isso, dou atenção especial aos estudos de paradigmas e boas práticas de programação.
+Durante muitos anos meu foco foi na programação orientada a objetos, mas nos últimos anos comecei a estudar bastante sobre o paradigma funcional.
+Além disso, tenho me interesso também por programação extrema e arquitetura de software. 
