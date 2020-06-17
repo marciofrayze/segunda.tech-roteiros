@@ -1,0 +1,109 @@
+import Playground exposing (..)
+
+----------------------
+------- AULA 1 -------
+----------------------
+-- O que vamos aprender?
+--    1- Como fazer comentários no código
+--    2- O que é um "import"?
+--    3- Desenhar uma esfera
+--    4- O que é o "main"?
+--    5- O que é o "picture"?
+--    6- O que é o "circle"?
+
+------- 1- Como fazer comentários no código
+-- Toda linha que começa com "--" é um comentário e 
+-- será ignorada pelo computador. 
+-- Serve apenas para DOCUMENTAR o nosso código. 
+-- Isso ajuda a gente a lembrar depois
+-- o que foi feito e também serve para nos
+-- COMUNICARMOS com outras pessoas (como estou
+-- fazendo agora com você!)
+
+------- 2- O que é um "import"?
+-- A primeira linha lá em cima que começa com 
+-- "import" (importar em inglês), serve para
+-- importar os códigos do Playground.
+-- Isso faz com que tenhamos a nossa
+-- disposição mais comandos, que vão permitir que 
+-- a gente faça desenhos, por exemplo. Todos os
+-- nossos programas nesse curso vão começar com esta
+-- linha.
+
+------- 3- Desenhar uma esfera.
+-- Hora de programar!
+-- Vamos desenhar um circulo na tela?
+-- Este código abaixo vai fazer exatamente isso.
+-- Pressione o botão "Compile" lá em cima da tela
+-- para executar seu primeiro programa! :)
+main =
+  picture
+    [ circle green 200 ]
+    
+-- Fácil né?! Mas o que está acontecendo?!
+
+------- 4- O que é o "main"?
+-- A palavra "main" em inglês significa principal.
+-- É através dela que indicamos para o computador
+-- onde começa nosso programa.
+-- Portanto, todos os nossos programas vão precisar
+-- ter essa linha: "main ="
+-- E todo o restante representa o que queremos que
+-- o computador faça pra gente.
+
+------- 4- O que é o "picture"?
+-- A palavra "picture" em inglês signifca desenho.
+-- É através dela que expressamos para o computador
+-- que queremos desenhar algo na tela.
+-- Em seguida criamos uma LISTA (representada pelos simbolos "[" e "]")
+-- de formas geométricas, que vão formar nosso desenho (picture).
+-- Neste exemplo nosso desenho é formado por apenas uma forma geoétrica:
+-- um circulo.
+
+------- 6- O que é o "circle"?
+-- A lista de formas geométricas pode ter circulos, retangulos, 
+-- hexagonos entre muitas outras formas.
+-- No nosso exemplo, utilizamos um circulo (circle em inglês).
+-- Para desenharmos um circulo precisamos informar 2 PARÂMETROS:
+-- O primeiro parâmetro representa sua cor. No nosso exemplo, 
+-- usamos a cor verde (green).
+-- O segundo parâmetro indica o tamanho do circulo. No nosso exemplo,
+-- 100.
+
+----------------------------------
+------- HORA DOS DESAFIOS! -------
+----------------------------------
+
+------- DESAFIO 1: Mudando tamanho do circulo.
+-- Altere o valor do tamanho do circulo para um número que quiser.
+-- Pode ser um valor pequeno como 1 ou 2, ou um número bem grande como
+-- 9999999.
+-- Em seguida clique em "Compile" e veja o resultado!
+
+------- DESAFIO 2: Mudando a cor do circulo.
+-- Altere o valor da cor do circulo para sua cor preferida.
+-- lembre-se que o nome das cores deve ser em inglês.
+-- Se tiver dificuldades com inglês, consulte a lista de cores
+-- disponíveis abaixo:
+
+-- Lista de cores:
+-- red, orange, yellow, green, blue, purple, brown, lightRed, 
+-- lightOrange, lightYellow, lightGreen, lightBlue, lightPurple,
+-- lightBrown, darkRed, darkOrange, darkYellow, darkGreen, darkBlue, 
+-- darkPurple, darkBrown, white, lightGrey, grey, darkGrey, 
+-- lightCharcoal, charcoal, darkCharcoal, black, lightGray, gray, 
+-- darkGray
+
+------- DESAFIO 3 (avançado): Crie 2 circulos, um dentro do outro.
+-- Nosso desenho (picture) atualmente tem apenas um circulo.
+-- Tente adicionar um segundo circulo de outra cor e um pouco
+-- menor que o primeiro.
+-- Dicas:
+--     - Lembre-se que os simbolos [ e ] indicam uma lista. Então o
+--       segundo circulo deve estar dentro desses simbolos.
+--     - Utilize uma virgula para indicar que quer criar um segundo
+--       circulo dentro da lista de formas geométricas.
+
+------- DESAFIO 4 (avançado): Crie 4 circulos, um dentro do outro.
+-- Bastante similar ao desafio anterior, mas desta vez devem ser 4
+-- circulos, um dentro do outro, com tamanhos e cores diferentes.
